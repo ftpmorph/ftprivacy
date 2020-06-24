@@ -37,3 +37,106 @@ pixel.facebook.net
 pixel.facebook.com
 scgraph.facebook.com
 onavo.com
+
+# Google ads and AdMob
+# Google broadly uses AdMob for in-app ads and their regular ad servers (e.g. Doubleclick) for in-browser mobile ads
+
+admob.com
+ads.admob.com
+adservice.google.co.uk
+ad.doubleclick.net
+ade.googlesyndication.com
+adclick.g.doublecklick.net
+analytics.google.com
+analytics.admob.com
+b.admob.com
+c.admob.com
+dart.l.doubleclick.net
+doubleclick.net
+e.admob.com
+fls.doubleclick.net
+geomobileservices-pa.googleapis.com
+googleadservices.com
+googleads.g.doubleclick.net
+googleads4.g.doubleclick.net
+googleadapis.l.google.com
+media.admob.com
+s0-2mdn-net.l.google.com
+securepubads.g.doubleclick.net
+semanticlocation-pa.googleapis.com
+ssl.google-analytics.com
+stats.g.doubleclick.net
+pagead.l.doubleclick.net
+pagead-googlehosted.l.google.com
+pagead2.googlesyndication.com
+pagead46.l.doubleclick.net
+partnerad.l.doubleclick.net
+partner.googleadservices.com
+pubads.g.doubleclick.net
+tpc.googlesyndication.com
+video-ad-stats.googlesyndication.com
+www.doubleclick.net
+www.googleadservices.com
+
+# Apple
+# iOS still phones home to tracking domains even with the relevant settings disabled
+# And iAds are, of course, still a thing
+
+bugreport.apple.com
+cf.iad.sdk.apple.com
+feedback.apple.com
+iadsdk.apple.com
+internalcheck.apple.com
+iphonesubmissions.apple.com
+iphonediags.apple.com
+metrics.apple.com
+metrics.icloud.com
+news.iadsdk.apple.com
+radarsubmissions.apple.com
+supportmetrics.apple.com
+
+# Snapchat
+
+adserver.snapads.com
+analytics.snapchat.com
+app-analytics.snapchat.com
+ase.adserver.snapads.com
+euc.adserver.snapads.com
+euw.adserver.snapads.com
+loc.sc-jpl.com
+loca.sc-jpl.com
+sc-analytics.appspot.com
+tr.snapchat.com
+
+# TikTok
+
+ads.tiktok.com
+analytics.tiktok.com
+gecko-va.tiktokv.com.edgesuite.net
+log.tiktok.com
+log.tiktokv.com
+log-va.tiktokv.com
+log-va.tiktokv.com.edgekey.net
+mon-va.tiktokv.com.edgesuite.net
+mon-va.tiktokv.com
+rtlog.tiktokv.com
+test-ads.tiktok.com
+xlog.tiktokv.com
+xlog-va.tiktokv.com
+
+# Netflix
+# Yes, even Netflix are at it
+
+customerevents.netflix.com
+ichnaea.netflix.com
+ichnaea-web.netflix.com
+
+# SwiftKey
+# This traffic was noticed frequently even though no account was made and all cloud sync options were disabled
+# Recommend not using this keyboard
+
+api.swiftkey.com
+bibo.api.swiftkey.com
+snippetdata.api.swiftkey.com
+telemetry.api.swiftkey.com
+tigger-citadel.touchtype-fluency.com
