@@ -1,0 +1,39 @@
+# WIP but I recommend adding this list to your Pi Hole and doing whatever the Github version of following me is so you know when I drop a new one.
+# Trust me I do this legit. Everything is from my own personal setup.
+# I'm sharing it with you because it straight up works on everything from smartphones to smart TVs.
+# Plus I want some clout.
+
+# As the name suggests this file is and will be focused on blocking ads, analytics, location guessing scripts, and other nasties from smartphones and smartphone apps. Also useful for tablets.
+# Will include entries for iOS and Android, as well as apps which are platform agnostic.
+
+# The aim with this list is to keep things working correctly while still reducing ads and trackers as much as possible.
+# Further "risky" lists that block more but could break things, or lists that are explicitly designed to block certain sites (looking your way Zuck), are coming soon.
+# But this is the safe list. Designed specifically so that you could, if you wanted, set it up for your grandma and it'd work fine without her having to know what "one of these new fangled Pie Holes" even is.
+
+# Credit: most of this list comes from scanning my own Pi Hole logs, some comes from other lists I see around the net.
+# Thank you to everyone else who makes these lists, contributes to the Pi Hole and similar project efforts, and ultimately makes all this possible.
+# But especially me because I'm brilliant ;)
+
+# Facebook - let's start with the obvious, shall we?
+# This will not block all of FB. I will soon have a separate blocklist if you wish to do that. This will follow the mission statement of keeping everything (except the ads that spy on you) working.
+# Includes services owned by FB such as Insta and WhatsApp.
+
+analytics.facebook.com
+connect.facebook.net
+connect.facebook.com
+crashlogs.whatsapp.net
+embed.fbsbx.com
+fbpigeon.com
+graph.fbpigeon.com
+graph.fbsbx.com
+graph.instagram.com
+graph.onavo.com
+huawei.facebook.com
+lithium.facebook.com
+lm.facebook.com
+l.facebook.com
+logger.instagram.com
+pixel.facebook.net
+pixel.facebook.com
+scgraph.facebook.com
+onavo.com
