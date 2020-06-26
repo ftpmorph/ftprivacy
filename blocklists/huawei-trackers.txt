@@ -1,0 +1,23 @@
+# Huawei smartphone DNS blocking list by ftpihole
+# Huawei Android phones do not seem to exchange much data in the background, but if you are paranoid, here is a list to block what they do connect with.
+
+# Huawei's own apps seem to still work fine with this list applied basted on my testing.
+# If you have a Huawei phone that still has Google services, no this list will not break them.
+
+# Designed for and tested on the Pi Hole but should work on all DNS based filters including Android apps such as AdAway, AdGuard, DNS66, etc...
+
+aiclean.us.cloud.360safe.com
+au.ff.avast.com
+configserver-dra.platform.hicloud.com
+grs.hicloud.com
+huawei.facebook.com
+metrics1.data.hicloud.com
+mvconf.cloud.360safe.com
+servicesupport.hicloud.com
+streamback.ff.avast.com
+
+# MediaTek services phoning home, not sure what for, but many Huawei phones use MediaTek especially cheap models
+
+lepodownload.mediatek.com
+mepodownload.mediatek.com
+mgepodownload.mediatek.com

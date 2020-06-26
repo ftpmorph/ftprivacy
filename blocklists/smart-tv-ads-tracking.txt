@@ -1,0 +1,52 @@
+# Smart TV DNS blocking lists by ftpihole
+
+# Designed for and tested on the Pi Hole but should work on all DNS based filters.
+# Everything here is from my own personal setup, fine tuned so apps still work but ads don't.
+
+# LG Smart TV (webOS)
+
+gb.ad.lgsmartad.com
+gb.info.lgsmartad.com
+gb.lgrecommends.lgappstv.com
+gb.lgtvsdp.com
+gb.rdx2.lgtvsdp.com
+
+# Panasonic Smart TV (Firefox OS)
+
+mhc-sec-eu.myhomescreen.tv
+
+# Sony Smart TV (Bravia)
+
+api-mf1.meta.ndmdhs.com
+bravia.dl.playstation.net
+social.biv.sony.tv
+www.sony.net
+
+# Various Smart TV brands
+
+# Netflix
+# Analytics, telemetry, spying on paying customers... whatever you wish to call it.
+
+customerevents.netflix.com
+ichnaea.netflix.com
+ichnaea-web.netflix.com
+
+# Samba.tv
+# To quote Wiki: "Samba TV tracks what appears on the users' TV by reading pixels and utilizing this data for personalized recommendations"
+# Blocking this seems like a good idea.
+
+samba.tv
+events.cid.samba.tv
+
+# These are the guys who helped with the switchover to digital TV in the UK. What's their software doing in your telly? No idea! At a guess, ads.
+
+img-ctv.digitaluk.co.uk
+
+# No idea on this one. Probably ads.
+
+secure-geolocation.premiumtv.co.uk
+
+# geohawk.co.uk now redirects to Mapway so definitely location related.
+
+geohawk.co.uk
+ud-prd.geohawk.co.uk

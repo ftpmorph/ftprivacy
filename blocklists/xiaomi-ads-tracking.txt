@@ -1,0 +1,78 @@
+# Xiaomi smartphone DNS blocking list by ftpihole
+# Xiaomi Android phones do a LOT of background data transmission constantly!
+
+# Important: these rules may break Xiaomi Account and Mi Cloud.
+# All other services such as Android updates, Play Store and Play Store apps, and other standard Android/Google functionality is tested to work fine.
+
+# Designed for and tested on the Pi Hole but should work on all DNS based filters including Android apps such as AdAway, AdGuard, DNS66, etc...
+
+abtest.mistat.xiaomi.com
+abtest.mistat.intl.xiaomi.com
+ad.mi.com
+ad.xiaomi.com
+ad1.xiaomi.com
+adinfo.ra1.xlmc.sec.miui.com
+analytics.ff.avast.sec.miui.com
+api.admob.xiaomi.com
+api.activity.browser.miui.com
+api.activity.browser.intl.miui.com
+api.hybrid.xiaomi.com
+api.hybrid.intl.xiaomi.com
+au.ff.avast.com
+au.ff.avast.sec.miui.com
+data.mistat.xiaomi.com
+data.mistat.intl.xiaomi.com
+feedback.intl.miui.com
+feedback.miui.com
+globalapi.ad.xiaomi.com
+imgg.traffic-media.co
+imgg.traffic-media.co.uk
+info.analysis.kp.sec.miui.com
+loc.map.baidu.com
+log.avlyun.sec.miui.com
+log.avlyun.sec.intl.miui.com
+logupdate.avlyun.sec.miui.com
+miuiboot.tracking.intl.miui.com
+miuiboot.tracking.miui.com
+native.feedback.miui.com
+o2o.api.xiaomi.com
+oth.eve.mdt.qq.com
+oth.str.mdt.qq.com
+pingma.qq.com
+sa.api.miui.com
+sa.api.intl.miui.com
+storeconfig.mistat.intl.xiaomi.com
+sdkconfig.ad.xiaomi.com
+sdkconfig.ad.intl.xiaomi.com
+tracking.rus.miui.com
+tracking.intl.miui.com
+tracking.miui.com
+www.abtest.mistat.xiaomi.com
+www.abtest.mistat.intl.xiaomi.com
+www.analytics.ff.avast.sec.miui.com
+www.api.activity.browser.intl.miui.com
+www.api.hybrid.intl.xiaomi.com
+www.api.hybrid.xiaomi.com
+www.data.mistat.xiaomi.com
+www.data.mistat.intl.xiaomi.com
+www.miuiboot.tracking.intl.miui.com
+www.miuiboot.tracking.miui.com
+www.native.feedback.miui.com
+www.storeconfig.mistat.intl.xiaomi.com
+www.storeconfig.mistat.xiaomi.com
+www.qq.com
+www.zeus.ad.intl.xiaomi.com
+www.zeus.ad.xiaomi.com
+qq.com
+zeus.ad.intl.xiaomi.com
+zeus.ad.xiaomi.com
+
+# Bonus "telemetry" came through a Xiaomi I own but seems to come from a Qualcomm service rather than Xiaomi
+
+tls.telemetry.swe.quicinc.com
+
+# Here are a few more from MediaTek, used by many Xiaomi phones
+
+lepodownload.mediatek.com
+mepodownload.mediatek.com
+mgepodownload.mediatek.com
