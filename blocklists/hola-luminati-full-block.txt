@@ -1,6 +1,6 @@
-# Hola "VPN" (Proxy) and Luminati malware/spyware DNS blocking lists by ftpihole
+# Hola "VPN" (Proxy) and Luminati malware/spyware DNS blocking lists by ftpihole - https://www.ftpihole.com/
 # Designed for and tested on the Pi Hole but should work on all DNS based filters including Android apps such as AdAway, AdGuard, DNS66, etc...
-# Blocks the service entirely as it is malware
+# Blocks the service entirely as I consider it malware, as do cybersecurity companies
 
 # Why is Hola so bad? Please read:
 # http://adios-hola.org/
