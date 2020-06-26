@@ -1,0 +1,60 @@
+# Hola "VPN" (Proxy) and Luminati malware/spyware DNS blocking lists by ftpihole
+# Designed for and tested on the Pi Hole but should work on all DNS based filters including Android apps such as AdAway, AdGuard, DNS66, etc...
+# Blocks the service entirely as it is malware
+
+# Why is Hola so bad? Please read:
+# http://adios-hola.org/
+# https://www.theregister.co.uk/2015/06/10/hola_gets_holes_poked_in_client_lulzsec/
+# https://torrentfreak.com/hola-vpn-sells-users-bandwidth-150528/
+# https://thebestvpn.com/reviews/hola-vpn/
+
+# Security companies alleging Hola is a botnet for users of Luminati, essentially the botnet control system:
+# https://archive.is/RKCGn
+# https://documents.trendmicro.com/assets/white_papers/wp-illuminating-holaVPN-and-the-danger-it-poses.pdf
+
+# TL;DR: Running Hola on your computer is like being a Tor exit node, your connection can be abused for all manner of illicit activity such as blackhats, carding, and DDoS and it would all come from your IP address
+
+client.hola.org
+hola.org
+http-test1.hola.org
+zagent1111.hola.org
+zagent1112.hola.org
+zagent1114.hola.org
+zagent1162.hola.org
+zagent1164.hola.org
+zagent1539.hola.org
+zagent184.hola.org
+zagent185.hola.org
+zagent186.hola.org
+zagent187.hola.org
+zagent188.hola.org
+zagent195.hola.org
+zagent2047.hola.org
+zagent41.hola.org
+zagent42.hola.org
+zagent550.hola.org
+zagent765.hola.org
+zagent867.hola.org
+zagent103.hola.org
+zagent1179.hola.org
+zagent1615.hola.org
+zagent1666.hola.org
+zagent2033.hola.org
+zagent365.hola.org
+zagent475.hola.org
+zagent747.hola.org
+zagent873.hola.org
+zagent1097.hola.org
+zagent1157.hola.org
+zagent134.hola.org
+zagent1625.hola.org
+zagent1999.hola.org
+zagent2044.hola.org
+zagent40.hola.org
+zagent709.hola.org
+zagent84.hola.org
+zs-lerr.hola.org
+zs-http-test.hola.org
+luminati.io
+www.hola.org
+www.luminati.io
