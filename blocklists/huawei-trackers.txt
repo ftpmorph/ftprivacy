@@ -1,6 +1,6 @@
-# Huawei smartphone DNS blocking list by ftpihole
-# Huawei Android phones do not seem to exchange much data in the background, but if you are paranoid, here is a list to block what they do connect with.
+# Huawei smartphone DNS blocking list by ftpihole - https://www.ftpihole.com/
 
+# Huawei Android phones do not seem to exchange much data in the background, but if you are paranoid, here is a list to block what they do connect with.
 # Huawei's own apps seem to still work fine with this list applied basted on my testing.
 # If you have a Huawei phone that still has Google services, no this list will not break them.
 

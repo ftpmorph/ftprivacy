@@ -1,4 +1,4 @@
-# WhatsApp DNS blocking lists by ftpihole
+# WhatsApp DNS blocking lists by ftpihole - https://www.ftpihole.com/
 
 # This list will BLOCK WHATSAPP ENTIRELY. 
 

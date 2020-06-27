@@ -1,4 +1,4 @@
-# Smart TV DNS blocking lists by ftpihole
+# Smart TV DNS blocking lists by ftpihole - https://www.ftpihole.com/
 
 # Designed for and tested on the Pi Hole but should work on all DNS based filters.
 # Everything here is from my own personal setup, fine tuned so apps still work but ads don't.

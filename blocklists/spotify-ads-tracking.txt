@@ -1,4 +1,4 @@
-# Spotify DNS blocking lists presented to you by ftpihole
+# Spotify DNS blocking lists presented to you by ftpihole - https://www.ftpihole.com/
 
 # Blocks ads and trackers
 # Should work on every device Spotify runs on (assuming it doesn't proxy the traffic)

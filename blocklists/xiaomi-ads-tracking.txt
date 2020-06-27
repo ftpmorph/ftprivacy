@@ -1,4 +1,5 @@
-# Xiaomi smartphone DNS blocking list by ftpihole
+# Xiaomi smartphone DNS blocking list by ftpihole - https://www.ftpihole.com/
+
 # Xiaomi Android phones do a LOT of background data transmission constantly!
 
 # Important: these rules may break Xiaomi Account and Mi Cloud.

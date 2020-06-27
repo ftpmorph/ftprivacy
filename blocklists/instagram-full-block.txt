@@ -1,4 +1,4 @@
-# Instagram DNS blocking lists by ftpihole
+# Instagram DNS blocking lists by ftpihole - https://www.ftpihole.com/
 
 # This list will BLOCK INSTAGRAM ENTIRELY. 
 

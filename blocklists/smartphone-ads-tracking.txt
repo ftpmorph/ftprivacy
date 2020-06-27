@@ -1,4 +1,4 @@
-# Smartphone DNS blocking lists by ftpihole
+# Smartphone DNS blocking lists by ftpihole - https://www.ftpihole.com/
 
 # Designed for and tested on the Pi Hole but should work on all DNS based filters including Android apps such as AdAway, AdGuard, DNS66, etc...
 

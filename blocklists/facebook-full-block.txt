@@ -1,4 +1,4 @@
-# Facebook DNS blocking lists by ftpihole
+# Facebook DNS blocking lists by ftpihole - https://www.ftpihole.com/
 
 # This list will BLOCK FACEBOOK ENTIRELY.
 # If you wish to use something a bit less extreme please check out my computer or smartphone lists.
