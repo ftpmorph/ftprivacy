@@ -1,6 +1,6 @@
 # Smartphone DNS blocking lists by ftpihole - https://www.ftpihole.com/
 
-# Designed for and tested on the Pi Hole but should work on all DNS based filters including Android apps such as AdAway, AdGuard, DNS66, etc...
+# Designed for and tested on the Pi Hole but should work on all DNS or HOSTS or list of domains based filters including Android apps such as AdAway, AdGuard, DNS66, etc...
 
 # As the name suggests this file is and will be focused on blocking ads, analytics, location guessing scripts, and other nasties from smartphones and smartphone apps. Also useful for tablets.
 # Will include entries for iOS and Android as well as apps which are platform agnostic.
@@ -15,7 +15,8 @@
 # But especially me because I'm brilliant ;)
 
 # Facebook - let's start with the obvious, shall we?
-# This will not block access to FB, only reduce "analytics." I have a separate blocklist if you wish to do that.
+# This will not block access to FB, I have a separate one for that.
+# This only reduces "analytics."
 # Includes services owned by FB such as Insta and WhatsApp.
 
 ads.facebook.com
@@ -855,6 +856,7 @@ bugsnag.com
 c.evidon.com
 c.gumgum.com
 campaigns.bugsnag.com
+campaign.luminati.io
 cas.criteo.com
 capture.trackjs.com
 connect.urbanairship.com
@@ -865,9 +867,14 @@ cdn.branch.io
 cdn.brandmetrics.com
 cdn.flurry.com
 cdn.gumgum.com
+cdn1.hola.org
+cdn2.hola.org
+cdn3.hola.org
+cdn4.hola.org
 cdn.jwplayer.com
 cdn.krxd.net
 cdn.localytics.com
+cdn.luminati.io
 cdn.measuread.com
 cdn.playbuzz.com
 cdn.rejoiner.com
@@ -875,6 +882,7 @@ cdn.switchadhub.com
 cdn.taboola.com
 cdp.cloud.unity3d.com
 cfg.flurry.com
+client.hola.org
 config.flurry.com
 config-canary.flurry.com
 cms.analytics.yahoo.com
@@ -906,6 +914,7 @@ demdex.net
 demo.emarsys.net
 device.marketingcloudapis.com
 db.adjust.io
+dns-test1.hola.org
 dpm.demdex.net
 dp.demdex.net
 dp.bidswitch.net
@@ -975,7 +984,10 @@ logs.locarta.co
 logx.optimizely.com
 log.outbrain.com
 logs1409.xiti.com
+luminati.io
 otify.bugsnag.com
+hola.org
+http-test1.hola.org
 hotjar.com
 hearst.emsecure.net
 hb.emxdgt.com
@@ -1028,6 +1040,7 @@ or-g2.gumgum.com
 openapi.qxwz.com
 omaze.com
 localytics.com
+luminati.io
 parse.ly
 parsely.com
 performance-analytics.rubiconproject.com
@@ -1185,6 +1198,7 @@ vaali-mcs.byteoversea.com
 vice-web-statics-cdn.vice.com
 va-geo.gumgum.com
 verizon.gumgum.com
+web.hola.org
 widget.intercom.io
 quantserve.com
 quantcount.com
@@ -1208,6 +1222,7 @@ view.adjust.com
 v.adsrvr.org
 zc.adswizz.com
 zina.flurry.com
+zserver.hola.org
 z.moatads.com
 
 # www domains
@@ -1215,6 +1230,8 @@ z.moatads.com
 www.bluekai.com
 www.flurry.com
 www.leanplum.com
+www.luminati.io
+www.hola.org
 www.hotjar.com
 www.npttech.com
 www.omaze.com
