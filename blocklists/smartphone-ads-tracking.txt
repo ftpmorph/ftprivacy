@@ -32,6 +32,8 @@ graph.fbsbx.com
 graph.instagram.com
 graph.onavo.com
 huawei.facebook.com
+iphone.facebook.com
+iphone.fb.me
 lithium.facebook.com
 lm.facebook.com
 l.facebook.com
@@ -39,6 +41,8 @@ logger.instagram.com
 tr.facebook.com
 pixel.facebook.net
 pixel.facebook.com
+pixel.messenger.com
+pixel.facebook.co
 scgraph.facebook.com
 onavo.com
 
@@ -149,6 +153,7 @@ w.admob.com
 wap.admob.com
 waps.admob.com
 wendy.admob.com
+whatbrowser.org
 x.admob.com
 y.admob.com
 z.admob.com
@@ -1117,6 +1122,16 @@ sessions.bugsnag.com
 service.toonblast.net
 sentry.io
 segment.io
+api.spot.im
+app-cdn.spot.im
+cent.spots.im
+images.spot.im
+launcher.spot.im
+open-api.spot.im
+recirculation.spot.im
+seo.spot.im
+www.spot.im
+spot.im
 st.adnow.com
 stage.adjust.io
 stackadapt.com

@@ -9,6 +9,8 @@
 
 # Designed for and tested on the Pi Hole but should work on all DNS based filters including Android apps such as AdAway, AdGuard, DNS66, etc...
 
+# Credit: as well as the usual sifting through my own Pi Hole logs, this list could not possibly exist without the work of others such as anudeepND's Facebook list and the ZuckerBlock project. Thank you to everyone else who contributed to the community.
+
 api.instagram.com
 a.ish.instagram.com
 autodiscover.instagram.com

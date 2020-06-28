@@ -8,15 +8,35 @@
 
 # Designed for and tested on the Pi Hole but should work on all DNS based filters including Android apps such as AdAway, AdGuard, DNS66, etc...
 
+# Credit: as well as the usual sifting through my own Pi Hole logs, this list could not possibly exist without the work of others such as anudeepND's Facebook list and the ZuckerBlock project. Thank you to everyone else who contributed to the community.
+
+01qr.accountkit.com
+02.accountkit.com
+0fgraph-0.accountkit.com
+0fgraph-8.accountkit.com
+0fgraph0-2.accountkit.com
+0fgraph0.accountkit.com
+0fgraph04.accountkit.com
+0fgraph1-0.accountkit.com
+0fgraph1-2.accountkit.com
+0fgraph1.accountkit.com
+0fgraph14.accountkit.com
+0fgraph2-0.accountkit.com
 0-edge-chat.facebook.com
 0.beta.facebook.com
 0.facebook.com
+022.fma.fb.me
+1ccountkit.com
+2ccountkit.com
 1-edge-chat.facebook.com
 2-edge-chat.facebook.com
 3-edge-chat.facebook.com
 4-edge-chat.facebook.com
 5-edge-chat.facebook.com
 6-edge-chat.facebook.com
+0apps.fbsbx.com
+24im.messenger.com
+a.fb.me
 a.ns.facebook.com
 a-graph.facebook.com
 a1qa.m.facebook.com
@@ -289,7 +309,16 @@ an.facebook.com
 api-read.facebook.com
 api.facebook.com
 apps.facebook.com
+applinks.org
 ar-ar.facebook.com
+ar-ar.he-il.id-id.fb.me
+ar-ar.en-gb.fb.me
+ar-ar.bs-ba.fb.me
+ar-ar.he-il.fb.me
+ar-ar.id-id.fb.me
+ar-ar.id-id.mobile.fb.me
+ar-ar.messenger.com
+ar.messenger.com
 ar-ar.fr-fr.es-es.prod.facebook.com
  ar-ar.vn-ni.connect.facebook.com
  ash1.fbcdn.net
@@ -367,21 +396,23 @@ cdg2.fbcdn.net
  connect.facebook.net
  connect.facebook.net.edgekey.net
  cs-cz.facebook.com
- csf.facebook.com
- ct-m-fbx.fbsbx.com
- d.facebook.com
- d.vvv.facebook.com
- da-dk.facebook.com
- danone.m.facebook.com
- davivienda.m.facebook.com
- de-de.facebook.com
- deloitte.m.facebook.com
- dev.vvv.facebook.com
- developers.facebook.com
- dixonscarphone.m.facebook.com
- dm.m.facebook.com
- dns.facebook.com
- ed.facebook.com
+csf.facebook.com
+ct-m-fbx.fbsbx.com
+d.facebook.com
+d.vvv.facebook.com
+da-dk.facebook.com
+danone.m.facebook.com
+davivienda.m.facebook.com
+de-de.facebook.com
+deloitte.m.facebook.com
+dev.vvv.facebook.com
+developers.facebook.com
+dixonscarphone.m.facebook.com
+dm.m.facebook.com
+dns.facebook.com
+dn.fbsbx.com
+dns03.thefacebook.com
+ed.facebook.com
  edge-atlas-proxyprotocol-shv-01-ash5.facebook.com
  edge-atlas-proxyprotocol-shv-03-ash5.facebook.com
  edge-atlas-proxyprotocol-shv-07-ash4.facebook.com
@@ -828,8 +859,32 @@ gob.m.facebook.com
 google.m.facebook.com
 govtech.m.facebook.com
 graph-video.facebook.com
+graph.accountkit.com
 graph.facebook.com
+graph.facebook.com.br
+graph.facebook.com.tw
+graph.facebook.us
 graph.fbpigeon.com
+graph.fb.me
+graph.fbsbx.com
+grdaph.fb.me
+greaph.fb.me
+greph.fb.me
+grfaph.fb.me
+griph.fb.me
+groph.fb.me
+groups.fb.com
+groups.messenger.com
+groups.oculus.com
+grpah.fb.me
+grph.fb.me
+grqaph.fb.me
+grqph.fb.me
+grraph.fb.me
+grsaph.fb.me
+grsph.fb.me
+grtaph.fb.me
+gruph.fb.me
  grupoboticario.m.facebook.com
  gu-in.facebook.com
  h-ct-m-fbx.fbsbx.com.online-metrix.net
@@ -838,87 +893,116 @@ graph.fbpigeon.com
  hclinfosystems.m.facebook.com
  he-il.facebook.com
  herningrideklub.netscontent-a-ams.xx.fbcdn.net
+high.facebook.com
+high.thefacebook.com
+highschool.facebook.com
+highschool.thefacebook.com
  hi-in.facebook.com
  hootsuite.m.facebook.com
  hphotos-sea1.fbcdn.net
- hr-hr.facebook.com
- hs.facebook.com
- hu-hu.facebook.com
- huawei.facebook.com
- hunu.m.facebook.com
- id-id.facebook.com
- iictt.m.facebook.com
- info.internet.org
- intern.facebook.com
- internet.org
- investor.fb.com
- inyour.facebook.com
- iphone.facebook.com
- is-is.facebook.com
- it-it.facebook.com
- it.facebook.com
- ja-jp.facebook.com
- ja-ks.facebook.com
- jetairways.m.facebook.com
- k.connect.facebook.com
- ka-ge.facebook.com
- ko-kr.connect.facebook.com
- ko-kr.facebook.com
- kyivstar.m.facebook.com
- l.facebook.com
- landmarkgroup.m.facebook.com
- latest.facebook.com
- leclerc.m.facebook.com
- lists.facebook.com
- lithium.facebook.com
- live.fb.com
- liverail.c10r.facebook.com
- lm.facebook.com
- lntecc.m.facebook.com
- lntinfotech.m.facebook.com
- login.facebook.com
- lookaside.facebook.com
- lv-lv.facebook.com
- m.facebook.com
- m.me
- mahindra.m.facebook.com
- mail.thefacebook.com
- mbasic.facebook.com
- meli.m.facebook.com
- messenger.com
- mia1.fbcdn.net
- microsoft.m.facebook.com
- mietra-de.m.facebook.com
- miroglio.m.facebook.com
- mm.m.facebook.com
- mobile.beta.facebook.com
- mobile.facebook.com
- moelven.m.facebook.com
- mqtt-ig-p4.facebook.com
- mqtt-mini.facebook.com
- mqtt-p4.facebook.com
- mqtt.c10r.facebook.com
- mqtt.facebook.com
- mqtt.vvv.facebook.com
- ms-my.facebook.com
- mtouch.facebook.com
- national.facebook.com
- nb-no.facebook.com
- ncontent.xx.fbcdn.net
- newsec.facebook.com
- newsroom.fb.com
- nic.facebook.com
- nike.m.facebook.com
- nl-nl.facebook.com
- nl.facebook.com
- nokia.m.facebook.com
- norcap.m.facebook.com
- noroestecom.m.facebook.com
+hr.messenger.com
+hraph.fb.me
+hr-hr.facebook.com
+hs.facebook.com
+hu-hu.facebook.com
+hu-hu.bs-ba.fb.me
+hu-hu.id-id.fb.me
+hu.messenger.com
+hk.messenger.com
+hs.facebook.com
+hs.i.org
+hsvip.thefacebook.com
+http-globe-com.0.i.org
+http-shaikhchat-wap--ka-com.0.i.org
+http.messenger.com
+httplookaside.fbsbx.com
+huawei.facebook.com
+hunu.m.facebook.com
+id.messenger.com
+id-id.messenger.com
+id-id.facebook.com
+id-id.fb.me
+id-id.id-id.fb.me
+id-id.messenger.com
+id.0.facebook.com
+id.fb.me
+id.fma.fb.me
+iictt.m.facebook.com
+info.internet.org
+insights.fb.com
+intern.facebook.com
+internet.org
+investor.fb.com
+inyour.facebook.com
+iphone.facebook.com
+iphone.fb.me
+is-is.facebook.com
+it-it.facebook.com
+it.facebook.com
+ja-jp.facebook.com
+ja-ks.facebook.com
+jetairways.m.facebook.com
+k.connect.facebook.com
+ka-ge.facebook.com
+ko-kr.connect.facebook.com
+ko-kr.facebook.com
+kyivstar.m.facebook.com
+l.facebook.com
+landmarkgroup.m.facebook.com
+latest.facebook.com
+leclerc.m.facebook.com
+lists.facebook.com
+lithium.facebook.com
+live.fb.com
+liverail.c10r.facebook.com
+lm.facebook.com
+lntecc.m.facebook.com
+lntinfotech.m.facebook.com
+login.facebook.com
+lookaside.facebook.com
+lv-lv.facebook.com
+m.facebook.com
+m.me
+mahindra.m.facebook.com
+mail.thefacebook.com
+mbasic.facebook.com
+mbasic.fb.me
+mbasic.messenger.com
+meli.m.facebook.com
+messenger.com
+mia1.fbcdn.net
+microsoft.m.facebook.com
+mietra-de.m.facebook.com
+miroglio.m.facebook.com
+mm.m.facebook.com
+mobile.beta.facebook.com
+mobile.facebook.com
+moelven.m.facebook.com
+mqtt-ig-p4.facebook.com
+mqtt-mini.facebook.com
+mqtt-p4.facebook.com
+mqtt.c10r.facebook.com
+mqtt.facebook.com
+mqtt.vvv.facebook.com
+ms-my.facebook.com
+mtouch.facebook.com
+national.facebook.com
+nb-no.facebook.com
+ncontent.xx.fbcdn.net
+newsec.facebook.com
+newsroom.fb.com
+nic.facebook.com
+nike.m.facebook.com
+nl-nl.facebook.com
+nl.facebook.com
+nokia.m.facebook.com
+norcap.m.facebook.com
+noroestecom.m.facebook.com
 nova.facebook.com
 ns1.facebook.com
 ns2.facebook.com
 ns3.facebook.com
-nsa.facebook.com
+nsa.facebook.com # they just fuckin with us now
 ntp.facebook.com
 o.beta.facebook.com
 o.facebook.com
@@ -933,10 +1017,10 @@ origincache-frc.t.fbcdn.net
 origincache-kb6-shv-10-frc1.fbcdn.net
 origincache-lla.fbcdn.net
 origincache-prn.t.fbcdn.net
- origincache-shv-04-ash5.fbcdn.net
- origincache-tf.t.fbcdn.net
- origincache-tl.t.fbcdn.net
- origincache-xfa.fbcdn.net
+origincache-shv-04-ash5.fbcdn.net
+origincache-tf.t.fbcdn.net
+origincache-tl.t.fbcdn.net
+origincache-xfa.fbcdn.net
  origincache-xla.fbcdn.net
  origincache-xtf.fbcdn.net
  origincache-xtl.fbcdn.net
@@ -963,8 +1047,10 @@ origincache-prn.t.fbcdn.net
  photos-b-ord.xx.fbcdn.net
  photos-b.xx.fbcdn.net
  photos-snc1.fbcdn.net
+pixel.facebook.co
 pixel.facebook.com
 pixel.facebook.net
+pixel.messenger.com
  pl-pl.facebook.com
  platform.foursquare.com
  postmaster.facebook.com

@@ -3,6 +3,8 @@
 # Blocks ads and trackers
 # Should work on every device Spotify runs on (assuming it doesn't proxy the traffic)
 
+# For people who just want Spotify ads blocked but don't want one of the bigger lists
+
 # Designed for and tested on the Pi Hole but should work on all DNS based filters including Android apps such as AdAway, AdGuard, DNS66, etc...
 
 # A MASSIVE thank you to github.com/mrprobot for analysing the Spotify network to dig up info on where the ad domains are
