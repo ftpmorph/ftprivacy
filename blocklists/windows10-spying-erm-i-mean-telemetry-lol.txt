@@ -1,14 +1,35 @@
 # Microsoft Windows 10 and Xbox One DNS blocking lists by ftpihole
 # https://www.ftpihole.com/
 
-# Blocks, to the best of my ability, ads and "telemetry"
+# Blocks, to the best of my ability, ads and "telemetry" from Windows 10
+# Designed for and tested on the Pi Hole but should work on all DNS based filters
 
 # I have intentionally left update domains out of this so Windows Update will work correctly. This is for security reasons.
 
-# Designed for and tested on the Pi Hole but should work on all DNS based filters
+# If any domain here damages functionality on your computer please pin down the domain(s) via the Pi Hole web UI and open up an issue on GitHub, it will be looked into, but please do give enough detail so we can replicate the issue, be certain we're removing the correct domain(s), and be aware of what privacy protection we're losing as a result.
 
+# As a general rule, we will try to weigh these issues up. For example if a domain being blocked stops MS Edge from working, but other browsers work fine, we would encourage you to use another browser or whitelist the domain on your network. If, on the other hand, the domain is confirmed to stop internet connections from working correctly - clearly we will urgently remove it. You get the idea.
+
+# Credit: as well as the usual sifting through my own Pi Hole logs, this list could not possibly exist without the work of crazy-max (https://github.com/crazy-max) and 10se1ucgo
+(https://github.com/10se1ucgo) so thank you very much for what you've done for the community.
+
+a-0001.a-msedge.net
+a-0002.a-msedge.net
+a-0003.a-msedge.net
+a-0004.a-msedge.net
+a-0005.a-msedge.net
+a-0006.a-msedge.net
+a-0007.a-msedge.net
+a-0008.a-msedge.net
+a-0009.a-msedge.net
+a-msedge.net
 adserver.bing.com
 ads.msn.com
+a.ads1.msn.com
+a.ads2.msads.net
+a.ads2.msn.com
+a.rad.msn.com
+ac3.msn.com
 ads1.msads.net
 ads1.msn.com
 activity.windows.com
@@ -36,6 +57,7 @@ eu-v20.events.data.microsoft.com
 events.data.microsoft.com
 exo-ring.msedge.net
 feedback.windows.com
+footprintpredict.com
 fp-vp.azureedge.net
 fp.msedge.net
 geo.settings-win.data.microsoft.com.akadns.net
@@ -43,6 +65,7 @@ geo.settings.data.microsoft.com.akadns.net
 geo.vortex.data.microsoft.com.akadns.net
 glbdns.microsoft.com
 g.msn.com.nsatc.net
+h1.msn.com
 hk2.settings.data.microsoft.com.akadns.net
 hk2.wns.windows.com
 inference.location.live.net
@@ -56,8 +79,11 @@ oca.telemetry.microsoft.com
 onecollector.cloudapp.aria.akadns.net
 odinvzc.azureedge.net
 optanon.blob.core.windows.net
+preview.msn.com
+pre.footprintpredict.com
 rad.live.com
 rad.msn.com
+redir.metaservices.microsoft.com
 reports.wes.df.telemetry.microsoft.com
 ris.api.iris.microsoft.com
 self.events.data.microsoft.com
@@ -71,6 +97,8 @@ spynet2.microsoft.com
 spynetalt.microsoft.com
 spyneteurope.microsoft.akadns.net
 spo-ring.msedge.net
+statsfe1.ws.microsoft.com
+statsfe2.ws.microsoft.com
 survey.watson.microsoft.com
 sqm.df.telemetry.microsoft.com
 sqm.telemetry.microsoft.com

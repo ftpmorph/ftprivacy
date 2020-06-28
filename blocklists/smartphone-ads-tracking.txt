@@ -2,17 +2,15 @@
 
 # Designed for and tested on the Pi Hole but should work on all DNS based filters including Android apps such as AdAway, AdGuard, DNS66, etc...
 
-# Everything is from my own personal setup.
-# I'm sharing it with you because it straight up works on everything from smartphones to smart TVs.
-
 # As the name suggests this file is and will be focused on blocking ads, analytics, location guessing scripts, and other nasties from smartphones and smartphone apps. Also useful for tablets.
 # Will include entries for iOS and Android as well as apps which are platform agnostic.
 
 # The aim with this list is to keep things working correctly while still reducing ads and trackers as much as possible.
-# Further "risky" lists that block more but could break things, or lists that are explicitly designed to block certain sites (looking your way Zuck), are coming soon.
-# But this is the safe list. Designed specifically so that you could, if you wanted, set it up for your grandma and it'd work fine without her having to know what "one of these new fangled Pie Holes" even is.
+# This is the safe list. Designed specifically so that you could, if you wanted, set it up for your grandma and it'd work fine without her having to know what "one of these new fangled Pie Holes" even is.
 
-# Credit: most of this list comes from scanning my own Pi Hole logs, some comes from other lists I see around the net.
+# Further "risky" lists that block more but could break things, or lists that are explicitly designed to block certain sites (looking your way Zuck), are on ftpihole.com with more coming soon if you are feeling wild.
+
+# Credit: most of this list comes from me scanning my own Pi Hole logs, some comes from other lists I see around the net.
 # Thank you to everyone else who makes these lists, contributes to the Pi Hole and similar project efforts, and ultimately makes all this possible.
 # But especially me because I'm brilliant ;)
 
@@ -43,6 +41,18 @@ pixel.facebook.net
 pixel.facebook.com
 scgraph.facebook.com
 onavo.com
+
+# Twitter
+# Causes no problems in the app or website
+# Embedded tweets may not be formatted correctly on news sites etc, if you don't like this then please whitelist the two "syndication" URLs on your Pi, this formats embedded tweets as normal but at the expense of allowing tracking
+# It's funny comparing Twitter to Facebook for trackers...
+
+ads-twitter.com
+cdn.syndication.twimg.com
+crashlytics.twimg.com
+platform.twitter.com
+static.ads-twitter.com
+syndication.twitter.com
 
 # Google ads and analytics
 # Google broadly uses AdMob for in-app ads and their regular ad servers (e.g. Doubleclick) for in-browser mobile ads
@@ -125,6 +135,7 @@ smtp2.admob.com
 s0-2mdn-net.l.google.com
 securepubads.g.doubleclick.net
 semanticlocation-pa.googleapis.com
+ssl.googleanalytics.com
 ssl.google-analytics.com
 stats.g.doubleclick.net
 tpc.googlesyndication.com
@@ -180,8 +191,6 @@ fls-eu.amazon.com
 mads.amazon-adsystem.com
 mobileanalytics.us-east-1.amazonaws.com
 msh.amazon.co.uk
-settings-crashlytics-1410998606.us-east-1.elb.amazonaws.com
-settings-crashlytics-b-103974621.us-east-1.elb.amazonaws.com
 
 # Spotify
 # Ads and trackers
@@ -503,13 +512,18 @@ ichnaea-web.netflix.com
 # This traffic was noticed frequently even though no account was made and all cloud sync options were disabled
 # Recommend not using this keyboard
 
+analyticshub-aws.swiftkey.com
 api.swiftkey.com
+autosuggest.api.swiftkey.com
+autosuggest.staging.swiftkey.com
 bibo.api.swiftkey.com
+profiler-cards.api.swiftkey.com
 snippetdata.api.swiftkey.com
+shortener.api.swiftkey.com
 telemetry.api.swiftkey.com
 tigger-citadel.touchtype-fluency.com
 
-# AppNexus
+# AppNexus - huge enough ad network to deserve its own section
 
 acdn.adnxs.com
 ads.adnxs.com
@@ -701,17 +715,23 @@ mepodownload.mediatek.com
 
 # Msc ads and trackers embedded into many apps and sites
 
+1mp.mobi
 247realmedia.com
 247media.com
 24s.ru
 ad.360in.com
 53.localytics.com
+adlightning.com
 ad-sys.com
+ads.1mobile.com
 ads.ad2iction.com
 adserver.adreactor.com
 adserver.bing.com
 ads.adrise.tv
 advertising-api.gumgum.com
+adbomb.ru
+adboost.net
+adbutler.de
 ad.crwdcntrl.net
 ad.flurry.com
 ada.support
@@ -721,38 +741,61 @@ ads.localytics.com
 ads.linkedin.com
 ads.mcafee.com
 ads.msn.com
+admaster.net
 ads.nytimes.com
 ads.pinterest.com
+ads.rubiconproject.com
 ads.stackoverflow.com
 ads.yahoo.com
+adlog.flurry.com
+admanagerplus.flurry.com
 adaptv.advertising.com
 admetrix.comscore.com
 adm.dynamicyield.com
 app.adroll.com
+adbanner.ro
+adjust.com
+adjust.io
+adjustnetwork.com
+adjuggler.net
 adroll.com
 adlogs.ad2iction.com
+adtrack.adleadevent.com
 analytics.163.com
 analytics.api.brightcove.com
 analytics.plex.tv
 analyticselb.localytics.com
+analytics.rubiconproject.com
 analytics.tattoodo.com
 analytics.yahoo.com
 analytics.query.yahoo.com
 anycast.pixel.adsafeprotected.com
+apac-jp.bidswitch.net
 amplitude.com
 apptimize.com
 app.adjust.com
+app.adjust.io
+app.bugsnag.com
 app.responseiq.com
 app.musemuse.cn
 app-measurement.com
 appsflyer.com
 amplitude.com
+ai-personalization-prod-static.demandbase.com
+api.1mobile.com
 api.comscore.com
+api.demandbase.com
+api.flurry.com
+api-metrics.flurry.com
+api-metrics-canary.flurry.com
+api-verify.flurry.com
+apiproxy.flurry.com
 api.localytics.com
 api.urbanairship.com
 api.amplitude.com
 api.branch.io
 api2.branch.io
+api.bugsnag.com
 api.getblueshift.com
 api-iam.intercom.io
 api-ping.intercom.io
@@ -766,13 +809,26 @@ api-gdpr.voodoo-tech.io
 api.zwizzarmyknife.com
 ab-api.peakgames.net
 ab.tune.com
+alerts.flurry.com
 apx.moatads.com
 arc1.msn.com
+archive.adjust.io
+arkadium-tagan.adlightning.com
+autocomplete.demandbase.com
+atom.adjust.com
+app.flurry.com
 app-measurement.com
+aws-fr.bidswitch.net
+aws-fr-sync.bidswitch.net
+aws-ca.bidswitch.net
+aws-or.bidswitch.net
 bat.bing.com
+backend.adjust.io
+bc-us-east.bidswitch.net
 beacon.walmart.com
 beacon-us-iad2.rubiconproject.com
 bluekai.com
+bhmedia-tagan.adlightning.com
 bid.contextweb.com
 bidder.criteo.com
 bidder.rtk.io
@@ -782,6 +838,7 @@ brandmetrics.com
 b.scorecardresearch.com
 bounceexchange.com
 bugly.qq.com
+buzzfeed-tagan.adlightning.com
 branch.io
 bs.serving-sys.com
 by.marketinghub.opentext.com
@@ -792,6 +849,7 @@ byteoversea.com
 bugsnag.com
 c.evidon.com
 c.gumgum.com
+campaigns.bugsnag.com
 cas.criteo.com
 capture.trackjs.com
 connect.urbanairship.com
@@ -800,6 +858,7 @@ core.insightexpressai.com
 cdn.bannerflow.com
 cdn.branch.io
 cdn.brandmetrics.com
+cdn.flurry.com
 cdn.gumgum.com
 cdn.jwplayer.com
 cdn.krxd.net
@@ -810,6 +869,9 @@ cdn.rejoiner.com
 cdn.switchadhub.com
 cdn.taboola.com
 cdp.cloud.unity3d.com
+cfg.flurry.com
+config.flurry.com
+config-canary.flurry.com
 cms.analytics.yahoo.com
 config.unityads.unity3d.com
 config.mparticle.com
@@ -819,12 +881,29 @@ config3.mparticle.com
 content.bitsontherun.com
 combine.urbanairship.com
 crashlytics.163.com
+creative.demandbase.com
 contextweb.com
 countly.wickr.com
 custom.bnc.lt
 data.adroll.com
+data.flurry.com
+data-canary.flurry.com
+demand.rubiconproject.com
+dc-web-prd01.iperceptions.com
+dc-web-corpo01.iperceptions.com
+dc-web-pp01.iperceptions.com
+dc-web-prd02.iperceptions.com
+dc-web-pp02.iperceptions.com
+dc-web-prd03.iperceptions.com
 decide.mixpanel.com
+demandbase.com
+demdex.net
 demo.emarsys.net
+device.marketingcloudapis.com
+db.adjust.io
+dpm.demdex.net
+dp.demdex.net
+dp.bidswitch.net
 e.crashlytics.com
 ecommerce.iap.unity3d.com
 engage.localytics.com
@@ -833,9 +912,13 @@ engine.mobileapptracking.com
 entitlements.jwplayer.com
 emarsys.net
 emsecure.net
+ems.iperceptions.com
 emxdgt.com
 embeds.driftcdn.com
+eu-sync.bidswitch.net
+events.adjust.com
 fastlane.rubiconproject.com
+frontend.adjust.io
 go.ezoic.net
 g.ezoic.net
 g.jwpsrv.com
@@ -846,6 +929,7 @@ gads22000.pubmatic.com
 grgz18dgmh.buzz
 gate.hockeyapp.net
 get.urbanairship.com
+geo.flurry.com
 geo.moatads.com
 geo.gumgum.com
 geo.query.yahoo.com
@@ -866,6 +950,7 @@ info.localytics.com
 insight.adsrvr.org
 intercom.io
 insights.gumgum.com
+images.demandbase.com
 imrworldwide.com
 identity.mparticle.com
 jp-geo.gumgum.com
@@ -875,18 +960,23 @@ jssdks.mparticle.com
 king.com
 krxd.net
 ksmobile.com
+l3.evidon.com
 leanplum.com
 leanlab.co
+links.bugsnag.com
 localytics.com
 log.snssdk.com
 logs.locarta.co
 logx.optimizely.com
 log.outbrain.com
 logs1409.xiti.com
+otify.bugsnag.com
 hotjar.com
 hearst.emsecure.net
 hb.emxdgt.com
 hwstats.uca.cloud.unity3d.com
+m.flurry.com
+marketingcloudapis.com
 manifest.localytics.com
 match.prod.bidr.io
 match.taboola.com
@@ -903,6 +993,8 @@ metrilo.com
 mfadsrvr.com
 mg2connext.com
 mgid.com
+mobile.events.data.microsoft.com
+mobile.pipe.aria.microsoft.com
 microstatic.pl
 microticker.com
 militaryverse.com
@@ -921,8 +1013,11 @@ ms-stage.gumgum.com
 mt.analytics.163.com
 n.adnow.com
 notify.bugsnag.com
+notify.adleadevent.com
 nsi.activity.api.bbc.co.uk
 nsi.activity.api.bbc.com
+o1.alerts.flurry.com
+o2.ipcampaign.iperceptions.com
 or-geo.gumgum.com
 or-g2.gumgum.com
 openapi.qxwz.com
@@ -930,6 +1025,7 @@ omaze.com
 localytics.com
 parse.ly
 parsely.com
+performance-analytics.rubiconproject.com
 phar.gu-web.net
 pixel.adblade.com
 pixel.admedia.com
@@ -952,27 +1048,37 @@ ping.taplytics.com
 player.avplayer.com
 player.playbuzz.com
 player.playbuzz.co
+platform.rubiconproject.com
 pool.skyhookwireless.com
 portal.skyhookwireless.com
 premiumsrv.aniview.com
 provider.ad360.vn
 profile.localytics.com
+pulse.data.flurry.com
 px.ads.linkedin.com
 remarket.clicktripz.com
+remote.iperceptions.com
 remote-data.urbanairship.com
 reports.crashlytics.com
 reach-api.urbanairship.com
 reach.urbanairship.com
 research.urbanairship.com
+realtime-metrics.flurry.com
+redis.adjust.io
 rollout.ada.support
 rc.snssdk.com
+rsa.adjust.io
 rubiconproject.com
+rubicon-tagan.adlightning.com
 rtb.gumgum.com
+rtb.adlogix.io
 rtk.io
 rtlog.byteoversea.com
 river.data.ea.com
 r.skimresources.com
 s1.gumgum.com
+s2s.adjust.com
+s7.device.marketingcloudapis.com
 sa.scorecardresearch.com
 sb.voicefive.com
 showads33000.pubmatic.com
@@ -984,6 +1090,7 @@ silvergamed.com
 simonsignal.com
 simpleheatmaps.com
 scorecardresearch.com
+scripts.demandbase.com
 sb.scorecardresearch.com
 sp.analytics.yahoo.com
 sdk.beeketing.com
@@ -1011,18 +1118,25 @@ service.toonblast.net
 sentry.io
 segment.io
 st.adnow.com
+stage.adjust.io
 stackadapt.com
+static.demandbase.com
 static.dynamicyield.com
 static.getclicky.com
 static.simonsignal.com
 stats.skyhookwireless.com
 stats.unity3d.com
 settings.crashlytics.com
+settings-crashlytics-1410998606.us-east-1.elb.amazonaws.com
+settings-crashlytics-b-103974621.us-east-1.elb.amazonaws.com
 stats.adobe.com
 sstats.adobe.com
+streaming.ad-balancer.at
 super.adnow.com
+tag.demandbase.com
 tracking.ad360.vn
 trk.clearscore.com
+tracker.dsp.demandbase.com
 trk.pinterest.com
 trk.vidible.tv
 taplytics.com
@@ -1035,6 +1149,7 @@ track1.aniview.com
 trafficmanager.anyclip.com
 tenjin.io
 toonblast.net
+updates.bugsnag.com
 universal.iperceptions.com
 voodoo.io
 voodoo-ads.io
@@ -1064,17 +1179,26 @@ yj.moatads.com
 yts.moatads.com
 yt.moatads.com
 x.bidswitch.net
+x.flurry.com
 qxwz.com
 xcache.ad360.vn
 xk43.app.link
+y.flurry.com
+y1.flurry.com
+y2.flurry.com
+y3.flurry.com
+vantage.rubiconproject.com
 view.adsrvr.org
+view.adjust.com
 v.adsrvr.org
 zc.adswizz.com
+zina.flurry.com
 z.moatads.com
 
 # www domains
 
 www.bluekai.com
+www.flurry.com
 www.leanplum.com
 www.hotjar.com
 www.npttech.com
