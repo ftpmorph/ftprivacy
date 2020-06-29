@@ -46,6 +46,7 @@ o2o.api.xiaomi.com
 oth.eve.mdt.qq.com
 oth.str.mdt.qq.com
 pingma.qq.com
+resolver.msg.xiaomi.net
 resolver.msg.global.xiaomi.net
 sa.api.miui.com
 sa.api.intl.miui.com
