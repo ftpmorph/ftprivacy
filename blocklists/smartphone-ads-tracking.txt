@@ -172,6 +172,7 @@ bugreport.apple.com
 cf.iad.sdk.apple.com
 feedback.apple.com
 iadsdk.apple.com
+idiagnostics.apple.com
 internalcheck.apple.com
 iphonesubmissions.apple.com
 iphonediags.apple.com
@@ -829,6 +830,7 @@ ab-api.peakgames.net
 ab.tune.com
 alerts.flurry.com
 apx.moatads.com
+arc.msn.com
 arc1.msn.com
 archive.adjust.io
 arkadium-tagan.adlightning.com
@@ -879,6 +881,7 @@ cdn.bannerflow.com
 cdn.branch.io
 cdn.brandmetrics.com
 cdn.flurry.com
+cdn.getblueshift.com
 cdn.gumgum.com
 cdn1.hola.org
 cdn2.hola.org
@@ -926,6 +929,7 @@ demandbase.com
 demdex.net
 demo.emarsys.net
 device.marketingcloudapis.com
+driftcdn.com
 db.adjust.io
 dns-test1.hola.org
 dpm.demdex.net
@@ -958,6 +962,7 @@ gads22000.pubmatic.com
 grgz18dgmh.buzz
 gate.hockeyapp.net
 get.urbanairship.com
+geotargetly-1a441.appspot.com
 geo.flurry.com
 geo.moatads.com
 geo.gumgum.com
@@ -1023,6 +1028,7 @@ metrics.getrockerbox.com
 metrics.gfycat.com
 metrics.govexec.com
 metrics.windowsitpro.com
+metricfast.com
 metrilo.com
 mfadsrvr.com
 mg2connext.com
@@ -1061,6 +1067,7 @@ luminati.io
 parse.ly
 parsely.com
 performance-analytics.rubiconproject.com
+peakgames.helpshift.com
 phar.gu-web.net
 pixel.adblade.com
 pixel.admedia.com
@@ -1171,6 +1178,7 @@ seo.spot.im
 www.spot.im
 spot.im
 s.adroll.com
+sp.getblueshift.com
 st.adnow.com
 stage.adjust.io
 stackadapt.com
@@ -1209,7 +1217,9 @@ track1.aniview.com
 trafficmanager.anyclip.com
 tenjin.io
 toonblast.net
+toon-notification.pkgms.com
 updates.bugsnag.com
+usage.readdle.com
 universal.iperceptions.com
 voodoo.io
 voodoo-ads.io
