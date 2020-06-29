@@ -186,17 +186,25 @@ supportmetrics.apple.com
 aax.amazon-adsystem.com
 aax-us-east.amazon-adsystem.com
 aax-eu.amazon-adsystem.com
+advertising.amazon.de
 amazon-adsystem.com
 amazonadsi-a.akamaihd.net
 api.amazonalexa.com
 avs.eu.amazonalexa.com
+device-metrics-us.amazon.com
+device-metrics-us-2.amazon.com
 c.amazon-adsystem.com
 cortana-gateway.amazon.com
 device-metrics-us.amazon.com
 fls-eu.amazon.com
+fls-eu.amazon.co.uk
 mads.amazon-adsystem.com
 mobileanalytics.us-east-1.amazonaws.com
+msh.amazon.com
 msh.amazon.co.uk
+prod.amazoncrl.com
+tap-client-stats.s3-eu-west-1.amazonaws.com
+vaes.amazon-adsystem.com
 
 # Spotify
 # Ads and trackers
@@ -725,6 +733,7 @@ mepodownload.mediatek.com
 247realmedia.com
 247media.com
 24s.ru
+2n8w.app.link
 ad.360in.com
 53.localytics.com
 adlightning.com
@@ -753,6 +762,7 @@ ads.pinterest.com
 ads.rubiconproject.com
 ads.stackoverflow.com
 ads.yahoo.com
+ad.yieldmanager.com
 adlog.flurry.com
 admanagerplus.flurry.com
 adaptv.advertising.com
@@ -782,6 +792,7 @@ apptimize.com
 app.adjust.com
 app.adjust.io
 app.bugsnag.com
+app.link
 app.responseiq.com
 app.musemuse.cn
 app-measurement.com
@@ -809,6 +820,7 @@ api.intercom.io
 api.peakgames.net
 api.leanplum.com
 api.mixpanel.com
+api.medisafeproject.com # if you install Medisafe, that app you put personal medical info into, it keeps phoning home... why?
 api.segment.io
 api.skyhookwireless.com
 api-gdpr.voodoo-tech.io
@@ -840,6 +852,7 @@ bidder.criteo.com
 bidder.rtk.io
 bidswitch.net
 bidr.io
+brahe.apptimize.com
 brandmetrics.com
 b.scorecardresearch.com
 bounceexchange.com
@@ -932,7 +945,9 @@ embeds.driftcdn.com
 eu-sync.bidswitch.net
 events.adjust.com
 fastlane.rubiconproject.com
+feed.medisafeproject.com
 frontend.adjust.io
+flashtalking.com
 go.ezoic.net
 g.ezoic.net
 g.jwpsrv.com
@@ -986,6 +1001,7 @@ log.outbrain.com
 logs1409.xiti.com
 luminati.io
 otify.bugsnag.com
+optimized-by.rubiconproject.com
 hola.org
 http-test1.hola.org
 hotjar.com
@@ -997,6 +1013,7 @@ marketingcloudapis.com
 manifest.localytics.com
 match.prod.bidr.io
 match.taboola.com
+md-a-s.apptimize.com
 metrics.api.drift.com
 metrics.cnn.com
 metrics.consumerreports.org
@@ -1119,6 +1136,12 @@ sdfp-va.byteoversea.com
 sgali-mcs.byteoversea.com
 smr-aliva.byteoversea.com
 smr-sg.byteoversea.com
+static.hotjar.com
+stat.alibaba.com
+stat.clickio.com
+stats.wordpress.com
+stats.wp.com
+stat240.flashtalking.com
 starling-oversea.byteoversea.com
 starling-sg.byteoversea.com
 starling-va.byteoversea.com
@@ -1132,6 +1155,7 @@ secure-dcr.imrworldwide.com
 secure.quantserve.com
 selligent.com
 sessions.bugsnag.com
+servedby.flashtalking.com
 service.toonblast.net
 sentry.io
 segment.io
@@ -1139,18 +1163,21 @@ api.spot.im
 app-cdn.spot.im
 cent.spots.im
 images.spot.im
+impression.link
 launcher.spot.im
 open-api.spot.im
 recirculation.spot.im
 seo.spot.im
 www.spot.im
 spot.im
+s.adroll.com
 st.adnow.com
 stage.adjust.io
 stackadapt.com
 static.demandbase.com
 static.dynamicyield.com
 static.getclicky.com
+static.imrworldwide.com
 static.simonsignal.com
 stats.skyhookwireless.com
 stats.unity3d.com
@@ -1162,6 +1189,11 @@ sstats.adobe.com
 streaming.ad-balancer.at
 super.adnow.com
 tag.demandbase.com
+tap.rubiconproject.com
+tap-s.rubiconproject.com
+tap-secure.rubiconproject.com
+tap-t.rubiconproject.com
+thirdparty.bnc.lt
 tracking.ad360.vn
 trk.clearscore.com
 tracker.dsp.demandbase.com
