@@ -1,6 +1,6 @@
 # Smartphone DNS blocking lists by ftpihole - https://www.ftpihole.com/
 
-# Designed for and tested on the Pi Hole but should work on all DNS or HOSTS or list of domains based filters including Android apps such as AdAway, AdGuard, DNS66, etc...
+# Designed for and tested on the Pi Hole but should work on all DNS or HOSTS or list of domains based filters including AdGuard Home or Android apps such as AdAway, DNS66, etc...
 
 # As the name suggests this file is and will be focused on blocking ads, analytics, location guessing scripts, and other nasties from smartphones and smartphone apps. Also useful for tablets.
 # Will include entries for iOS and Android as well as apps which are platform agnostic.
@@ -180,6 +180,7 @@ metrics.apple.com
 metrics.icloud.com
 news.iadsdk.apple.com
 radarsubmissions.apple.com
+stats.gc.apple.com
 supportmetrics.apple.com
 
 # Amazon ads and trackers
@@ -478,6 +479,7 @@ loc.sc-jpl.com
 loca.sc-jpl.com
 sc-analytics.appspot.com
 tr.snapchat.com
+usc.adserver.snapads.com
 
 # TikTok
 
@@ -911,8 +913,11 @@ config3.mparticle.com
 content.bitsontherun.com
 combine.urbanairship.com
 crashlytics.163.com
+crash-metrics.sdk.inmobi.com
 creative.demandbase.com
 contextweb.com
+config.inmobi.com
+config.inmobi.cn
 countly.wickr.com
 custom.bnc.lt
 data.adroll.com
@@ -985,12 +990,14 @@ ie-geo.gumgum.com
 info.localytics.com
 insight.adsrvr.org
 intercom.io
+inmobi.com
 insights.gumgum.com
 images.demandbase.com
 imrworldwide.com
 identity.mparticle.com
 jp-geo.gumgum.com
 jp-g2.gumgum.com
+js-agent.newrelic.com
 js.gumgum.com
 jssdks.mparticle.com
 king.com
@@ -1049,6 +1056,7 @@ mixpanel.com
 mon.byteoversea.com
 mon.sgsnssdk.com
 mon-va.byteoversea.com
+newrelic.com
 mparticle.com
 ms.gumgum.com
 ms-stage.gumgum.com
@@ -1199,6 +1207,12 @@ stats.adobe.com
 sstats.adobe.com
 streaming.ad-balancer.at
 super.adnow.com
+taboola.comtaboolasyndication.com
+tapjoy.com
+tapjoyads.com
+teads.tv
+telemetry.sdk.inmobi.com
+terraclicks.com
 tag.demandbase.com
 tap.rubiconproject.com
 tap-s.rubiconproject.com
@@ -1208,9 +1222,12 @@ thirdparty.bnc.lt
 tracking.ad360.vn
 trk.clearscore.com
 tracker.dsp.demandbase.com
+tracker.mtrtb.com
 trk.pinterest.com
 trk.vidible.tv
 taplytics.com
+tracking.adspreemedia.com
+tracking.i2w.io
 track.eyeviewads.com
 track.leanlab.co
 track.tenjin.io
@@ -1218,11 +1235,21 @@ trackers.voodoo-analytics.io
 track.locsci.io
 track1.aniview.com
 trafficmanager.anyclip.com
+tradeadexchange.com
+tradedoubler.com
+trafficfactory.biz
+trafficgate.net
+traffichaus.com
+trafficjunky.com
+trafficjunky.net
+trafficposse.com
+traffpartners.com
 tenjin.io
 toonblast.net
 toon-notification.pkgms.com
 updates.bugsnag.com
 usage.readdle.com
+user-agent-tracker.herokuapp.com
 universal.iperceptions.com
 voodoo.io
 voodoo-ads.io

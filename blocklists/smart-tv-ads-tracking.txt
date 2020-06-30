@@ -1,24 +1,88 @@
 # Smart TV DNS blocking lists by ftpihole - https://www.ftpihole.com/
 
-# Designed for and tested on the Pi Hole but should work on all DNS based filters.
+# Designed for and tested on the Pi Hole but should work on all DNS based filters such as AdGuard Home.
 # Everything here is from my own personal setup, fine tuned so apps still work but ads don't.
 
 # LG Smart TV (webOS)
 
+ad.lgappstv.com
+us.ad.lgsmartad.com
 gb.ad.lgsmartad.com
 gb.info.lgsmartad.com
 gb.lgrecommends.lgappstv.com
 gb.lgtvsdp.com
 gb.rdx2.lgtvsdp.com
+yumenetworks.com
+smartclip.net
+smartclip.com
 
 # Panasonic Smart TV (Firefox OS)
 
 mhc-sec-eu.myhomescreen.tv
+mhc-sec-us.myhomescreen.tv
 
-# Sony Smart TV (Bravia)
+# Samsung Smart TV (Tizen)
+# VERY LOUD
+
+ad.samsungadhub.com
+ad.samsungadhub.net
+ads.samsungads.com
+ads.samsungads.net
+acr0.samsungcloudsolution.com
+auth.samsungosp.com
+api-hub.samsungyosemite.com
+cdn.samsungcloudsolution.com
+cdn.samsungcloudsolution.net
+cpu.samsungelectronics.com
+configprd.samsungcloudsolution.com
+configprd.samsungcloudsolution.net
+device-metrics-us.amazon.com
+fkp.samsungcloudsolution.com
+fkp.samsungcloudsolution.net
+infolink.pavv.co.kr
+ns11.whois.co.kr
+musicid.samsungcloudsolution.com
+musicid.samsungcloudsolution.net
+oempprd.samsungcloudsolution.com
+oempprd.samsungcloudsolution.net
+lcprd1.samsungcloudsolution.com
+lcprd1.samsungcloudsolution.net
+log-ingestion.samsungacr.com
+log-1.samsungacr.com
+log-2.samsungacr.com
+log-3.samsungacr.com
+log.internetat.tv
+pavv.co.kr
+premium-videos.telly.com
+prov.samsungcloudsolution.com
+rd.samsungadhub.com
+sas.samsungcloudsolution.com
+sca.samsung.com
+samsungadhub.com
+samsungadhub.net
+samsungacr.com
+samsungacr.net
+samsungcloudsolution.com
+samsungcloudsolution.net
+samsungotn.com
+samsungotn.net
+samsungrm.com
+samsungrm.net
+samsungelectronics.com
+sso.internetat.tv
+syncplusconfig.s3.amazonaws.com
+targeted-config-test.samsungacr.com
+us-api.samsungyosemite.com
+uk-api.samsungyosemite.com
+vd.emp.prd.s3.amazonaws.com
+www.samsungotn.com
+www.samsungotn.net
+
+# Sony Smart TV (Bravia, Android)
 
 api-mf1.meta.ndmdhs.com
 bravia.dl.playstation.net
+flingo.tv # another domain for samba.tv, the company that scans what's on your TV screen (see below)
 social.biv.sony.tv
 www.sony.net
 
@@ -38,11 +102,11 @@ ichnaea-web.netflix.com
 samba.tv
 events.cid.samba.tv
 
-# These are the guys who helped with the switchover to digital TV in the UK. What's their software doing in your telly? No idea! At a guess, ads.
+# These are the guys who helped with the switchover to digital TV in the UK. What's their software doing in your telly? No idea! At a guess, targeted advertising.
 
 img-ctv.digitaluk.co.uk
 
-# No idea on this one. Probably ads.
+# No idea on this one. Probably location related ads.
 
 secure-geolocation.premiumtv.co.uk
 

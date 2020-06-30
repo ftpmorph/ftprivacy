@@ -5,7 +5,7 @@
 # Important: these rules may break Xiaomi Account and Mi Cloud.
 # All other services such as Android updates, Play Store and Play Store apps, and other standard Android/Google functionality is tested to work fine.
 
-# Designed for and tested on the Pi Hole but should work on all domain list based filters including Android apps such as AdAway, DNS66, etc...
+# Designed for and tested on the Pi Hole but should work on all domain list based filters including AdGuard Home and Android apps such as AdAway, DNS66, etc...
 
 abtest.mistat.xiaomi.com
 abtest.mistat.intl.xiaomi.com
@@ -14,23 +14,45 @@ ad.xiaomi.com
 ad1.xiaomi.com
 adinfo.ra1.xlmc.sec.miui.com
 analytics.ff.avast.sec.miui.com
+api.xiaomi.com
 api.account.xiaomi.com
+api.ad.xiaomi.com
 api.admob.xiaomi.com
 api.activity.browser.miui.com
 api.activity.browser.intl.miui.com
 api.hybrid.xiaomi.com
 api.hybrid.intl.xiaomi.com
+api.setting.intl.miui.com
+api.vip.miui.com
+api.zhuti.xiaomi.com
+a.stat.xiaomi.com
 app.chat.xiaomi.net
 au.ff.avast.com
 au.ff.avast.sec.miui.com
+cdn.ad.xiaomi.com
+contactapi.micloud.xiaomi.net
+connect.rom.miui.com
+cc.sys.intl.xiaomi.com
+cc.sys.miui.com
+cc2.sys.intl.xiaomi.com
+cc2.sys.miui.com
+ccc.sys.intl.xiaomi.com
+ccc.sys.miui.com
 data.mistat.xiaomi.com
 data.mistat.intl.xiaomi.com
+drm.market.xiaomi.com
+e.ad.xiaomi.com
 feedback.intl.miui.com
 feedback.miui.com
+file.market.xiaomi.com
+find.api.micloud.xiaomi.net
+flash.sec.intl.miui.com
 fr.app.chat.global.xiaomi.net
 fr-app-chat-global-xiaomi-net-1516654448.eu-central-1.elb.amazonaws.com
 findapi.micloud.xiaomi.net
 globalapi.ad.xiaomi.com
+game.xiaomi.com
+geofence.sys.miui.com
 imgg.traffic-media.co
 imgg.traffic-media.co.uk
 info.analysis.kp.sec.miui.com
@@ -38,7 +60,12 @@ loc.map.baidu.com
 log.avlyun.sec.miui.com
 log.avlyun.sec.intl.miui.com
 logupdate.avlyun.sec.miui.com
+log.ad.xiaomi.com
+new.api.ad.xiaomi.com
+market.xiaomi.com
+mazu.sec.miui.com
 metok-ccc.intl.xiaomi.com
+m.zhuti.xiaomi.com
 miuiboot.tracking.intl.miui.com
 miuiboot.tracking.miui.com
 native.feedback.miui.com
@@ -50,12 +77,18 @@ resolver.msg.xiaomi.net
 resolver.msg.global.xiaomi.net
 sa.api.miui.com
 sa.api.intl.miui.com
+ssp.ad.xiaomi.com
+sec-cdn.static.xiaomi.net
 storeconfig.mistat.intl.xiaomi.com
 sdkconfig.ad.xiaomi.com
 sdkconfig.ad.intl.xiaomi.com
+thm.market.xiaomi.com
 tracking.rus.miui.com
 tracking.intl.miui.com
 tracking.miui.com
+us.find.api.micloud.xiaomi.net
+video.intl.xiaomi.com
+wifiapi.micloud.xiaomi.net
 weatherapi.market.xiaomi.com
 www.abtest.mistat.xiaomi.com
 www.abtest.mistat.intl.xiaomi.com
@@ -76,6 +109,24 @@ www.zeus.ad.xiaomi.com
 qq.com
 zeus.ad.intl.xiaomi.com
 zeus.ad.xiaomi.com
+zhuti.xiaomi.com
+
+# Xiaomi Mi Fit
+
+api.weibo.cn
+api.weibo.com
+app.sina.cn
+bugtags.com
+c.isdspeed.qq.com
+cgi.connect.qq.com
+cgi.qplus.com
+fusion.qq.com
+iot.qq.com
+oc.umeng.co
+oc.umeng.com
+paopaotuan.org
+pingma.qq.com
+qzs.qq.com
 
 # Bonus Qualcomm "telemetry" came through a Xiaomi I own
 
