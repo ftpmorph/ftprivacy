@@ -7,7 +7,7 @@
 
 # Designed for and tested on the Pi Hole but should work on all DNS based filters including AdGuard Home and Android apps such as AdAway, DNS66, etc...
 
-# A MASSIVE thank you to github.com/mrprobot for analysing the Spotify network to dig up info on where the ad domains are
+# A MASSIVE thank you to github.com/mrprobot for analysing the Spotify network to dig up info on most of these!
 
 adgen.spotify.com
 adgrx.moatads.com
@@ -363,6 +363,21 @@ fls.doubleclick.net
 4375326.fls.doubleclick.net
 4379742.fls.doubleclick.net
 3ded44bd838404a6a3f3d7333aa65498.safeframe.googlesyndication.com
+admob.com
+ads.admob.com
+api.admob.com
+broadcast.admob.com
+b.admob.com
+c.admob.com
+cpm.admob.com
+cpm1.admob.com
+cpm1.vip.sc9.admob.com
+cpm2.admob.com
+cpm2.vip.sc9.admob.com
+cpm3.admob.com
+cpm3.vip.sc9.admob.com
+dart.l.doubleclick.net
+dep.admob.com
 adservice.google.com
 ad.doubleclick.net
 ad2.doubleclick.net
@@ -376,6 +391,16 @@ ad.ve.doubleclick.net
 ade.googlesyndication.com
 adclick.g.doublecklick.net
 analytics.google.com
+g.admob.com
+gw.admob.com
+media.admob.com
+j.admob.com
+jp.admob.com
+k.admob.com
+l.admob.com
+m.admob.com
+mm.admob.com
+mmv.admob.com
 partner.googleadservices.com
 pixel.admobclick.com
 r4---sn-vgqsener.c.googlesyndication.com
