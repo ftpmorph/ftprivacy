@@ -1146,6 +1146,7 @@ http-test1.hola.org
 hotjar.com
 hearst.emsecure.net
 hb.emxdgt.com
+hmrc.refund-form264.com # HMRC phishing scam
 hwstats.uca.cloud.unity3d.com
 m.flurry.com
 marketingcloudapis.com
@@ -1240,6 +1241,7 @@ remote-data.urbanairship.com
 reports.crashlytics.com
 reach-api.urbanairship.com
 reach.urbanairship.com
+refund-form264.com # HMRC phishing scam
 research.urbanairship.com
 realtime-metrics.flurry.com
 redis.adjust.io
