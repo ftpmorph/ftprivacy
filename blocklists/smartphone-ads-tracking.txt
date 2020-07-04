@@ -900,6 +900,7 @@ app.adroll.com
 adbanner.ro
 adjust.com
 adjust.io
+adj.st
 adjustnetwork.com
 adjuggler.net
 adroll.com
@@ -1148,6 +1149,7 @@ hearst.emsecure.net
 hb.emxdgt.com
 hmrc.refund-form264.com # HMRC phishing scam
 hwstats.uca.cloud.unity3d.com
+hz3h.adj.st
 m.flurry.com
 marketingcloudapis.com
 manifest.localytics.com
