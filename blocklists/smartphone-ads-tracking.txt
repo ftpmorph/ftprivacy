@@ -1070,6 +1070,7 @@ dp.demdex.net
 dp.bidswitch.net
 e.crashlytics.com
 ecommerce.iap.unity3d.com
+eepay-billinginfo.com # EE SMS phishing scam
 engage.localytics.com
 eng.localytics.com
 engine.mobileapptracking.com
