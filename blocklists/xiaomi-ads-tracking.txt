@@ -49,6 +49,7 @@ find.api.micloud.xiaomi.net
 flash.sec.intl.miui.com
 fr.app.chat.global.xiaomi.net
 fr-app-chat-global-xiaomi-net-1516654448.eu-central-1.elb.amazonaws.com
+fr-app-chat-global-xiaomi-net1-1667981913.eu-central-1.elb.amazonaws.com
 findapi.micloud.xiaomi.net
 globalapi.ad.xiaomi.com
 game.xiaomi.com
