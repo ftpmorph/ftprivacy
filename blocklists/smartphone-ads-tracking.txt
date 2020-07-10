@@ -609,11 +609,20 @@ usc.adserver.snapads.com
 # TikTok
 
 ads.tiktok.com
+applog.tiktokv.com
+app.musemuse.cn
+applog.musical.ly
+ad-lb-alisg.byteoversea.net
+ad-lb-maliva.byteoversea.net
 analytics.tiktok.com
 analytics.tiktokv.com
 applog.musical.ly
 applog.tiktokv.com
+client_monitor.isnssdk.com
+clientmonitor.isnssdk.com
 dm16.musical.ly
+equinix-iad-api.l.byteoversea.net
+equinix-iad-cache01.l.byteoversea.net
 frontier.musical.ly
 gecko-va.musical.ly
 gecko-va.tiktokv.com.edgesuite.net
@@ -622,26 +631,45 @@ jsb.tiktokv.com
 jsb-va.tiktokv.com
 jsb.musical.ly
 jsb-va.musical.ly
+log.byteoversea.com
+log.byteoversea.com.edgekey.net
+log15.byteoversea.com
+log16.byteoversea.com
+mon.byteoversea.com
+mon-va.byteoversea.com
 log.musical.ly
 log2.musical.ly
+log.isnssdk.com
+log-tb.isnssdk.com
 log.tiktok.com
 log.tiktokv.com
 log-va.tiktokv.com
 log-va.tiktokv.com.edgekey.net
+log16-normal-c-useast1a.tiktokv.com
+log.sgsnssdk.com
+log-tb.sgsnssdk.com
 mon.musical.ly
 mon.tiktokv.com
 mon-va.tiktokv.com.edgesuite.net
 mon-va.tiktokv.com
+monitor.isnssdk.com
 musically.app.link
 musically-alternate.app.link
+musemuse.cn
 rtlog.musical.ly
 rtlog.tiktokv.com
+share.musemuse.cn
 test-ads.tiktok.com
 test-ads.tiktokv.com
+topbuzz-applog-alisg.l.byteoversea.net
+xlog.byteoversea.com
+xlog-va.byteoversea.com
 xlog.musical.ly
 xlog-va.musical.ly
 xlog.tiktokv.com
 xlog-va.tiktokv.com
+v16-ad.byteoversea.com
+vaali1.l.byteoversea.net
 
 # Netflix
 # Yes, even Netflix are at it
