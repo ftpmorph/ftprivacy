@@ -211,6 +211,7 @@ tx102.sc9.admob.com
 tx103.sc9.admob.com
 u.admob.com
 ukr.admob.com
+userlocation.googleapis.com
 v.admob.com
 vip.sc9.admob.com
 video-ad-stats.googlesyndication.com
@@ -631,6 +632,7 @@ jsb.tiktokv.com
 jsb-va.tiktokv.com
 jsb.musical.ly
 jsb-va.musical.ly
+jsb-va.byteoversea.com
 log.byteoversea.com
 log.byteoversea.com.edgekey.net
 log15.byteoversea.com

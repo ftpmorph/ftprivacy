@@ -1,5 +1,6 @@
-# FULL BLOCK ON TIKTOK - THE TIME HAS COME
-# In light of recent news regarding TikTok's potential as a spy tool for China
+# TIKTOK GOES THE CLOCK... TIME FOR A TOTAL BLOCK!
+
+# In light of recent news regarding TikTok's potential as a spy tool for the CCP...
 # Here is a blocklist aimed at blocking the whole of TikTok from your network
 
 # Created by FTPiHole - https://ftpihole.com - https://twitter.com/ftpihole - https://telegram.me/ftpihole
@@ -41,6 +42,7 @@ dm16-va.tiktokv.com
 dsa-video.traffic.bytedance.akadns.net
 frontier.tiktokv.com
 frontier-va.tiktokv.com
+gecko-sg.byteoversea.com
 gecko-sg.tiktokv.com
 gecko-va.tiktokv.com
 gecko-va.musical.ly
@@ -156,6 +158,7 @@ jsb.tiktokv.com
 jsb-va.tiktokv.com
 jsb.musical.ly
 jsb-va.musical.ly
+jsb-va.byteoversea.com
 log.byteoversea.com
 log.byteoversea.com.edgekey.net
 log15.byteoversea.com
