@@ -15,7 +15,7 @@
 # But especially me because I'm brilliant ;)
 
 # Facebook - let's start with the obvious, shall we?
-# This will not block access to FB, I have a separate one for that.
+# This will not block access to FB, I have a separate one for that here: https://ftpihole.s3.eu-west-2.amazonaws.com/blocklists/facebook-full-block.txt
 # This only reduces "analytics."
 # Includes services owned by FB such as Insta and WhatsApp.
 
@@ -49,15 +49,16 @@ onavo.com
 
 # Twitter
 # Causes no problems in the app or website
-# Embedded tweets may not be formatted correctly on news sites etc, if you don't like this then please whitelist the two "syndication" URLs on your Pi, this formats embedded tweets as normal but at the expense of allowing tracking
 # It's funny comparing Twitter to Facebook for trackers...
 
 ads-twitter.com
-cdn.syndication.twimg.com
+#cdn.syndication.twimg.com
 crashlytics.twimg.com
 platform.twitter.com
 static.ads-twitter.com
-syndication.twitter.com
+#syndication.twitter.com
+twitter.app.link
+twitter-alternate.app.link
 
 # Google ads and analytics
 # Google broadly uses AdMob for in-app ads and their regular ad servers (e.g. Doubleclick) for in-browser mobile ads
@@ -278,7 +279,7 @@ vaes.amazon-adsystem.com
 
 # Spotify
 # Ads and trackers
-# A MASSIVE thank you to github.com/mrprobot for analysing the Spotify network to dig up the info on where these domains are
+# A MASSIVE thank you to github.com/mrprobot for analysing the Spotify network to dig up info on most of these!
 
 adgen.spotify.com
 adgrx.moatads.com
@@ -608,6 +609,8 @@ tr.snapchat.com
 usc.adserver.snapads.com
 
 # TikTok
+# The below blocks known TikTok trackers
+# To block the whole of TikTok please add our other list: https://ftpihole.s3.eu-west-2.amazonaws.com/blocklists/tiktok-full-block-ftpihole.txt
 
 ads.tiktok.com
 applog.tiktokv.com
@@ -632,6 +635,7 @@ jsb.tiktokv.com
 jsb-va.tiktokv.com
 jsb.musical.ly
 jsb-va.musical.ly
+jsb.byteoversea.com
 jsb-va.byteoversea.com
 log.byteoversea.com
 log.byteoversea.com.edgekey.net
@@ -892,8 +896,11 @@ mepodownload.mediatek.com
 247media.com
 24s.ru
 2n8w.app.link
+2n8w-alternate.app.link
 ad.360in.com
 53.localytics.com
+92zb.adj.st
+94vs.adj.st
 adlightning.com
 ad-sys.com
 ads.1mobile.com
@@ -1001,6 +1008,8 @@ aws-fr.bidswitch.net
 aws-fr-sync.bidswitch.net
 aws-ca.bidswitch.net
 aws-or.bidswitch.net
+autotrader.app.link
+autotrader-alternate.app.link
 bat.bing.com
 backend.adjust.io
 bc-us-east.bidswitch.net
@@ -1080,6 +1089,8 @@ data.adroll.com
 data.flurry.com
 data-canary.flurry.com
 demand.rubiconproject.com
+deliveroo.app.link
+deliveroo-alternate.app.link
 dc-web-prd01.iperceptions.com
 dc-web-corpo01.iperceptions.com
 dc-web-pp01.iperceptions.com
@@ -1090,6 +1101,8 @@ decide.mixpanel.com
 demandbase.com
 demdex.net
 demo.emarsys.net
+depop.app.link
+depop-alternate.app.link
 device.marketingcloudapis.com
 dev.appboy.com
 driftcdn.com
@@ -1110,6 +1123,10 @@ emsecure.net
 ems.iperceptions.com
 emxdgt.com
 embeds.driftcdn.com
+eps2.app.link
+eps2-alternate.app.link
+etsy.app.link
+etsy-alternate.app.link
 eu-sync.bidswitch.net
 events.adjust.com
 fastlane.rubiconproject.com
@@ -1177,6 +1194,8 @@ hola.org
 http-test1.hola.org
 hotjar.com
 hearst.emsecure.net
+headspace.app.link
+headspace-alternate.app.link
 hb.emxdgt.com
 hmrc.refund-form264.com # HMRC phishing scam
 hwstats.uca.cloud.unity3d.com
@@ -1225,6 +1244,7 @@ notify.bugsnag.com
 notify.adleadevent.com
 nsi.activity.api.bbc.co.uk
 nsi.activity.api.bbc.com
+nu9k.adj.st
 o1.alerts.flurry.com
 o2.ipcampaign.iperceptions.com
 or-geo.gumgum.com
@@ -1278,6 +1298,8 @@ refund-form264.com # HMRC phishing scam
 research.urbanairship.com
 realtime-metrics.flurry.com
 redis.adjust.io
+redbubble-alternate.app.link
+redbubble.app.link
 rollout.ada.support
 rc.snssdk.com
 rsa.adjust.io
@@ -1288,6 +1310,7 @@ rtb.adlogix.io
 rtk.io
 rtlog.byteoversea.com
 river.data.ea.com
+r6nl.adj.st
 r.skimresources.com
 s1.gumgum.com
 s2s.adjust.com
@@ -1344,6 +1367,8 @@ images.spot.im
 impression.link
 launcher.spot.im
 open-api.spot.im
+sobump.app.link
+sobump-alternate.app.link
 recirculation.spot.im
 seo.spot.im
 www.spot.im
@@ -1378,6 +1403,8 @@ tap.rubiconproject.com
 tap-s.rubiconproject.com
 tap-secure.rubiconproject.com
 tap-t.rubiconproject.com
+tattoodo.app.link
+tattoodo-alternate.app.link
 thirdparty.bnc.lt
 tracking.ad360.vn
 trk.clearscore.com
