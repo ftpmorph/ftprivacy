@@ -1127,6 +1127,7 @@ eps2.app.link
 eps2-alternate.app.link
 etsy.app.link
 etsy-alternate.app.link
+eu-aa.online-metrix.net
 eu-sync.bidswitch.net
 events.adjust.com
 fastlane.rubiconproject.com
@@ -1188,6 +1189,7 @@ logx.optimizely.com
 log.outbrain.com
 logs1409.xiti.com
 luminati.io
+online-metrix.net
 otify.bugsnag.com
 optimized-by.rubiconproject.com
 hola.org
