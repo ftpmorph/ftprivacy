@@ -26,11 +26,13 @@ connect.facebook.com
 crashlogs.whatsapp.net
 embed.fbsbx.com
 fbpigeon.com
-a-graph.facebook.com
+graph.facebook.com
+graph.facebook-hardware.com
 graph.accountkit.com
 graph.fbpigeon.com
 graph.fbsbx.com
 graph.instagram.com
+graph.oculus.com
 graph.onavo.com
 huawei.facebook.com
 iphone.facebook.com
@@ -54,7 +56,7 @@ onavo.com
 ads-twitter.com
 #cdn.syndication.twimg.com
 crashlytics.twimg.com
-platform.twitter.com
+#platform.twitter.com
 static.ads-twitter.com
 #syndication.twitter.com
 twitter.app.link
@@ -146,6 +148,7 @@ dart.l.doubleclick.net
 dep.admob.com
 doubleclick.net
 e.admob.com
+firebaselogging-pa.googleapis.com
 fls.doubleclick.net
 g.admob.com
 gw.admob.com
@@ -631,6 +634,7 @@ frontier.musical.ly
 gecko-va.musical.ly
 gecko-va.tiktokv.com.edgesuite.net
 ib.tiktokv.com
+ipstatp.com
 jsb.tiktokv.com
 jsb-va.tiktokv.com
 jsb.musical.ly
@@ -912,6 +916,7 @@ advertising-api.gumgum.com
 adbomb.ru
 adboost.net
 adbutler.de
+a.realsrv.com
 ad.crwdcntrl.net
 ad.flurry.com
 ada.support
@@ -1164,6 +1169,7 @@ is.snssdk.com
 ie-geo.gumgum.com
 info.localytics.com
 insight.adsrvr.org
+inapps.appsflyer.com
 intercom.io
 inmobi.com
 insights.gumgum.com
@@ -1253,6 +1259,7 @@ or-geo.gumgum.com
 or-g2.gumgum.com
 openapi.qxwz.com
 omaze.com
+launches.appsflyer.com
 localytics.com
 luminati.io
 parse.ly
@@ -1290,6 +1297,7 @@ provider.ad360.vn
 profile.localytics.com
 pulse.data.flurry.com
 px.ads.linkedin.com
+realsrv.com
 remarket.clicktripz.com
 remote.iperceptions.com
 remote-data.urbanairship.com
@@ -1394,6 +1402,7 @@ stats.adobe.com
 sstats.adobe.com
 streaming.ad-balancer.at
 super.adnow.com
+syndication.realsrv.com
 taboola.comtaboolasyndication.com
 tapjoy.com
 tapjoyads.com
