@@ -910,6 +910,7 @@ ad-sys.com
 ads.1mobile.com
 ads.ad2iction.com
 adserver.adreactor.com
+ads.appleinsider.com
 adserver.bing.com
 ads.adrise.tv
 advertising-api.gumgum.com
@@ -1137,6 +1138,7 @@ eu-sync.bidswitch.net
 events.adjust.com
 fastlane.rubiconproject.com
 feed.medisafeproject.com
+fpa-events.arstechnica.com
 frontend.adjust.io
 flashtalking.com
 go.ezoic.net
@@ -1352,6 +1354,7 @@ stat.alibaba.com
 stat.clickio.com
 stats.wordpress.com
 stats.wp.com
+stats2.arstechnica.com
 stat240.flashtalking.com
 starling-oversea.byteoversea.com
 starling-sg.byteoversea.com
