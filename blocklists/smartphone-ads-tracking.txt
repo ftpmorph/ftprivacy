@@ -1264,6 +1264,7 @@ omaze.com
 launches.appsflyer.com
 localytics.com
 luminati.io
+paypal-login292.com # paypal phishing scam
 parse.ly
 parsely.com
 performance-analytics.rubiconproject.com
@@ -1412,6 +1413,7 @@ tapjoyads.com
 teads.tv
 telemetry.sdk.inmobi.com
 terraclicks.com
+tax-refund-hmrc.com # HMRC phishing scam
 tag.demandbase.com
 tap.rubiconproject.com
 tap-s.rubiconproject.com
