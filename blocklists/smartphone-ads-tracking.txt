@@ -1269,7 +1269,7 @@ parse.ly
 parsely.com
 performance-analytics.rubiconproject.com
 peakgames.helpshift.com
-peeksoft.co
+#peeksoft.co
 phar.gu-web.net
 pixel.adblade.com
 pixel.admedia.com
@@ -1512,7 +1512,7 @@ www.hola.org
 www.hotjar.com
 www.npttech.com
 www.omaze.com
-www.peeksoft.co
+#www.peeksoft.co
 www.playbuzz.com
 www.grgz18dgmh.buzz
 www.skyhookwireless.com
