@@ -1153,6 +1153,7 @@ advertising-api.gumgum.com
 adbomb.ru
 adboost.net
 adbutler.de
+adclient.rottentomatoes.com
 a.realsrv.com
 ad.crwdcntrl.net
 ad.flurry.com
