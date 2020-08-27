@@ -102,6 +102,7 @@ twitter-alternate.app.link
 4371920.fls.doubleclick.net
 4375326.fls.doubleclick.net
 4379742.fls.doubleclick.net
+8921356.fls.doubleclick.net
 3ded44bd838404a6a3f3d7333aa65498.safeframe.googlesyndication.com
 ad2.doubleclick.net
 ad.3au.doubleclick.net
@@ -144,6 +145,7 @@ cpm2.admob.com
 cpm2.vip.sc9.admob.com
 cpm3.admob.com
 cpm3.vip.sc9.admob.com
+click.google-analytics.com
 dart.l.doubleclick.net
 dep.admob.com
 doubleclick.net
@@ -204,6 +206,7 @@ semanticlocation-pa.googleapis.com
 ssl.googleanalytics.com
 ssl.google-analytics.com
 stats.g.doubleclick.net
+static.doubleclick.net
 tpc.googlesyndication.com
 tracking.admobsphere.com
 tic.googlesyndication.com
@@ -1169,6 +1172,7 @@ admaster.net
 ads.nytimes.com
 ads.pinterest.com
 ads.rubiconproject.com
+ads.servebom.com
 ads.stackoverflow.com
 ads.yahoo.com
 ad.yieldmanager.com
@@ -1289,6 +1293,7 @@ capture.trackjs.com
 connect.urbanairship.com
 content.jwplatform.com
 core.insightexpressai.com
+cdn.adsafeprotected.com
 cdn.bannerflow.com
 cdn.branch.io
 cdn.brandmetrics.com
@@ -1389,6 +1394,7 @@ gads.pubmatic.com
 gads22000.pubmatic.com
 grgz18dgmh.buzz
 gate.hockeyapp.net
+get.s-onetag.com
 get.urbanairship.com
 geotargetly-1a441.appspot.com
 geo.flurry.com
@@ -1422,6 +1428,7 @@ jp-g2.gumgum.com
 js-agent.newrelic.com
 js.gumgum.com
 jssdks.mparticle.com
+js-sec.indexww.com
 king.com
 krxd.net
 ksmobile.com
@@ -1693,6 +1700,7 @@ toonblast.net
 toon-notification.pkgms.com
 t.update.moatads.com
 updates.bugsnag.com
+usabilla.com
 usage.readdle.com
 user-agent-tracker.herokuapp.com
 universal.iperceptions.com
@@ -1758,3 +1766,4 @@ www.grgz18dgmh.buzz
 www.skyhookwireless.com
 www2.skyhookwireless.com
 www.urbanairship.com
+www.usabilla.com
