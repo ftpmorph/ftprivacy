@@ -1324,7 +1324,7 @@ campaign.luminati.io
 cas.criteo.com
 capture.trackjs.com
 connect.urbanairship.com
-content.jwplatform.com
+#content.jwplatform.com
 campaign.api.kochava.com
 core.insightexpressai.com
 cdn.adsafeprotected.com
@@ -1338,7 +1338,7 @@ cdn1.hola.org
 cdn2.hola.org
 cdn3.hola.org
 cdn4.hola.org
-cdn.jwplayer.com
+#cdn.jwplayer.com
 cdn.krxd.net
 cdn.localytics.com
 cdn.luminati.io
@@ -1672,7 +1672,7 @@ starling-oversea.byteoversea.com
 starling-sg.byteoversea.com
 starling-va.byteoversea.com
 stratfor.org
-ssl.p.jwpcdn.com
+#ssl.p.jwpcdn.com
 social3.toonblast.net
 social69.toonblast.net
 sonar.adswizz.com
