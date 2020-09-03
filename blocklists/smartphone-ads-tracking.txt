@@ -1388,6 +1388,7 @@ dp.bidswitch.net
 e.crashlytics.com
 ecommerce.iap.unity3d.com
 eepay-billinginfo.com # EE SMS phishing scam
+ee.uk.network-inv.com # EE SMS phishing scam
 engage.localytics.com
 eng.localytics.com
 engine.mobileapptracking.com
@@ -1520,6 +1521,7 @@ ms.gumgum.com
 ms-stage.gumgum.com
 mt.analytics.163.com
 n.adnow.com
+network-inv.com # phishing
 notify.bugsnag.com
 notify.adleadevent.com
 nsi.activity.api.bbc.co.uk
