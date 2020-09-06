@@ -122,6 +122,10 @@ ad-emea.doubleclick.net
 ad.es.doubleclick.net
 ad.fi.doubleclick.net
 ad.fr.doubleclick.net
+ad.il.doubleclick.net
+ad.in.doubleclick.net
+ad.jp.doubleclick.net
+ad.ma.doubleclick.net
 ad.me.doubleclick.net
 ad.mo.doubleclick.net
 ad.nl.doubleclick.net
@@ -158,6 +162,10 @@ adservice.google.es
 adservice.google.eu
 adservice.google.fi
 adservice.google.fr
+adservice.google.il
+adservice.google.in
+adservice.google.jp
+adservice.google.ma
 adservice.google.me
 adservice.google.nl
 adservice.google.no
@@ -165,7 +173,7 @@ adservice.google.pk
 adservice.google.pl
 adservice.google.se
 adservice.google.ru
-adservice.google.se
+adservice.google.tr
 adservice.google.tw
 adservice.google.ua
 ad.doubleclick.net
@@ -287,6 +295,7 @@ x.admob.com
 y.admob.com
 z.admob.com
 zhcn.admob.com
+zhru.admob.com
 zhuk.admob.com
 zhtw.admob.com
 www.admob.com
