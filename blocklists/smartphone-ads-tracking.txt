@@ -14,10 +14,9 @@
 # Thank you to everyone else who makes these lists, contributes to the Pi Hole and similar project efforts, and ultimately makes all this possible.
 # But especially me because I'm brilliant ;)
 
-# Facebook - let's start with the obvious, shall we?
-# This will not block access to FB, I have a separate one for that here: https://ftpihole.s3.eu-west-2.amazonaws.com/blocklists/facebook-full-block.txt
+# Facebook and Facebook owned services - let's start with the obvious, shall we?
+# This will not block access to FB, I have a separate one for that here: https://www.ftpihole.com/lists/#facebook-quarantine-blocklist (along with full blocks for Instagram and WhatsApp)
 # This only reduces "analytics."
-# Includes services owned by FB such as Insta and WhatsApp.
 
 ads.facebook.com
 analytics.facebook.com
@@ -66,7 +65,11 @@ twitter-alternate.app.link
 # Google broadly uses AdMob for in-app ads and their regular ad servers (e.g. Doubleclick) for in-browser mobile ads
 
 000000000.fls.doubleclick.net
+00000000.fls.doubleclick.net
+0000000.fls.doubleclick.net
 000000.fls.doubleclick.net
+00000.fls.doubleclick.net
+0000.fls.doubleclick.net
 000.fls.doubleclick.net
 00.fls.doubleclick.net
 0.fls.doubleclick.net
@@ -269,6 +272,7 @@ securepubads.g.doubleclick.net
 semanticlocation-pa.googleapis.com
 ssl.googleanalytics.com
 ssl.google-analytics.com
+stats.blogger.com
 stats.g.doubleclick.net
 static.doubleclick.net
 tracking.admobsphere.com
@@ -349,6 +353,43 @@ msh.amazon.co.uk
 prod.amazoncrl.com
 tap-client-stats.s3-eu-west-1.amazonaws.com
 vaes.amazon-adsystem.com
+
+# Xiaomi basic ads and tracking
+# This only blocks a small number of MIUI ad and tracking domains
+# To fully block the massive amount of traffic sent by MIUI go here: https://www.ftpihole.com/lists/#xiaomi-smartphone-services-blocklist
+
+ad.mi.com
+ad.xiaomi.com
+ad1.xiaomi.com
+adinfo.ra1.xlmc.sec.miui.com
+analytics.ff.avast.sec.miui.com
+api.ad.xiaomi.com
+api.admob.xiaomi.com
+a.stat.xiaomi.com
+au.ff.avast.sec.miui.com
+cdn.ad.xiaomi.com
+data.mistat.xiaomi.com
+data.mistat.intl.xiaomi.com
+e.ad.xiaomi.com
+log.ad.xiaomi.com
+miuiboot.tracking.intl.miui.com
+miuiboot.tracking.miui.com
+ssp.ad.xiaomi.com
+stat.xiaomi.com
+tracking.rus.miui.com
+tracking.intl.miui.com
+tracking.miui.com
+www.abtest.mistat.xiaomi.com
+www.abtest.mistat.intl.xiaomi.com
+www.analytics.ff.avast.sec.miui.com
+www.data.mistat.xiaomi.com
+www.data.mistat.intl.xiaomi.com
+www.miuiboot.tracking.intl.miui.com
+www.miuiboot.tracking.miui.com
+www.zeus.ad.intl.xiaomi.com
+www.zeus.ad.xiaomi.com
+zeus.ad.intl.xiaomi.com
+zeus.ad.xiaomi.com
 
 # Spotify
 # Ads and trackers
@@ -683,7 +724,7 @@ usc.adserver.snapads.com
 
 # TikTok
 # The below blocks known TikTok trackers
-# To block the whole of TikTok please add our other list: https://ftpihole.s3.eu-west-2.amazonaws.com/blocklists/tiktok-full-block-ftpihole.txt
+# To block the whole of TikTok please add our other list: https://www.ftpihole.com/lists/#tiktok-goes-the-clock-time-for-a-total-block
 
 ads.tiktok.com
 applog.tiktokv.com
@@ -695,6 +736,7 @@ analytics.tiktok.com
 analytics.tiktokv.com
 applog.musical.ly
 applog.tiktokv.com
+byteoversea.com
 client_monitor.isnssdk.com
 clientmonitor.isnssdk.com
 dm16.musical.ly
@@ -738,6 +780,13 @@ musically-alternate.app.link
 musemuse.cn
 rtlog.musical.ly
 rtlog.tiktokv.com
+sdfp-va.byteoversea.com
+sgali-mcs.byteoversea.com
+smr-aliva.byteoversea.com
+smr-sg.byteoversea.com
+starling-oversea.byteoversea.com
+starling-sg.byteoversea.com
+starling-va.byteoversea.com
 share.musemuse.cn
 test-ads.tiktok.com
 test-ads.tiktokv.com
@@ -750,6 +799,7 @@ xlog.tiktokv.com
 xlog-va.tiktokv.com
 v16-ad.byteoversea.com
 vaali1.l.byteoversea.net
+vaali-mcs.byteoversea.com
 
 # Netflix
 # Yes, even Netflix are at it
@@ -1247,6 +1297,13 @@ advertising-api.gumgum.com
 adbomb.ru
 adboost.net
 adbutler.de
+adsroller.com
+adspeed.net
+adwhirl.com
+adworx.at
+adworx.nl
+adzerk.net
+adzerk.s3.amazonaws.com
 adclient.rottentomatoes.com
 a.realsrv.com
 ad.crwdcntrl.net
@@ -1268,6 +1325,9 @@ ads.stackoverflow.com
 ads.yahoo.com
 ad.yieldmanager.com
 adlog.flurry.com
+adsrv.deviantart.com
+adv.wp.pl
+adv.webmd.com
 admanagerplus.flurry.com
 adaptv.advertising.com
 admetrix.comscore.com
@@ -1280,10 +1340,13 @@ adj.st
 adjustnetwork.com
 adjuggler.net
 adroll.com
+adultadvertising.com
 adlogs.ad2iction.com
 adtrack.adleadevent.com
 analytics.163.com
+analytics.brave.com
 analytics.api.brightcove.com
+analytics.global.sky.com
 analytics.kochava.com
 analytics20.kochava.com
 analytics.plex.tv
@@ -1356,11 +1419,27 @@ aws-ca.bidswitch.net
 aws-or.bidswitch.net
 autotrader.app.link
 autotrader-alternate.app.link
+bannerads.de
+bannerboxes.com
+banner-exchange-24.de
+bannermall.com
+bannermarkt.nl
+bannerpower.com
+banners.adultfriendfinder.com
+banner.reinstil.de
+banner.relcom.ru
+banner.tanto.de
+banner.vadian.net
+banner10.zetasystem.dk
 bat.bing.com
 backend.adjust.io
 bc-us-east.bidswitch.net
 beacon.walmart.com
 beacon-us-iad2.rubiconproject.com
+berp.com
+belstat.com
+belstat.nl
+begun.ru
 bluekai.com
 bhmedia-tagan.adlightning.com
 bid.contextweb.com
@@ -1369,6 +1448,9 @@ bidder.kochava.com
 bidder.rtk.io
 bidswitch.net
 bidr.io
+bidclix.com
+bidclix.net
+bidvertiser.com
 b.kochava.com
 brahe.apptimize.com
 brandmetrics.com
@@ -1382,7 +1464,6 @@ by.marketinghub.opentext.com
 b.measuread.com
 b.voicefive.com
 c1.ts.amplience.org
-byteoversea.com
 bugsnag.com
 c.evidon.com
 c.gumgum.com
@@ -1527,7 +1608,13 @@ i.snssdk.com
 ib.snssdk.com
 is.snssdk.com
 icm.kochava.com
+icptrack.com
+identity.mparticle.com
+identads.com
+idtargeting.com
 ie-geo.gumgum.com
+ilbanner.com
+ilead.itrack.it
 info.localytics.com
 insight.adsrvr.org
 inapps.appsflyer.com
@@ -1539,7 +1626,7 @@ images.demandbase.com
 images.emb-api.com
 imrworldwide.com
 imp.control.kochava.com
-identity.mparticle.com
+itrack.it
 jp-geo.gumgum.com
 jp-g2.gumgum.com
 js-agent.newrelic.com
@@ -1676,6 +1763,8 @@ pulse.data.flurry.com
 push-manage.api.kochava.com
 px.ads.linkedin.com
 realsrv.com
+referrer.disqus.com
+reforge.in
 remarket.clicktripz.com
 remote.iperceptions.com
 remote-data.urbanairship.com
@@ -1683,6 +1772,7 @@ reports.crashlytics.com
 reach-api.urbanairship.com
 reach.urbanairship.com
 refund-form264.com # HMRC phishing scam
+research.de.com
 research.urbanairship.com
 realtime-metrics.flurry.com
 redis.adjust.io
@@ -1723,21 +1813,26 @@ sdk.control.kochava.com
 sdk.iad-01.braze.com
 sdk.fra-01.braze.eu
 sdkm.w.inmobi.com
-sdfp-va.byteoversea.com
-sgali-mcs.byteoversea.com
-smr-aliva.byteoversea.com
-smr-sg.byteoversea.com
 stash.api.kochava.com
 static.hotjar.com
 stat.alibaba.com
 stat.clickio.com
-stats.wordpress.com
-stats.wp.com
+stat.cliche.se
+statcounter.com
+stats.adobe.com
+sstats.adobe.com
 stats2.arstechnica.com
 stat240.flashtalking.com
-starling-oversea.byteoversea.com
-starling-sg.byteoversea.com
-starling-va.byteoversea.com
+stats.bbc.co.uk
+stats.wordpress.com
+stats.wp.com
+stats.nymag.com
+stats.skyhookwireless.com
+stats.unity3d.com
+stats.uswitch.com
+stat-track.com
+stat.pl
+stat.webmedia.pl
 stratfor.org
 #ssl.p.jwpcdn.com
 social3.toonblast.net
@@ -1766,9 +1861,15 @@ recirculation.spot.im
 seo.spot.im
 www.spot.im
 spot.im
+sportsad.net
+spylog.com
+srvtrck.com
+srwww1.com
 s.adroll.com
 sp.getblueshift.com
 st.adnow.com
+st.dynamicyield.com
+startapp.com
 stage.adjust.io
 stage.kochava.com
 stackadapt.com
@@ -1778,20 +1879,30 @@ static.getclicky.com
 static.imrworldwide.com
 static.kochava.com
 static.simonsignal.com
-stats.skyhookwireless.com
-stats.unity3d.com
 settings.crashlytics.com
 settings-crashlytics-1410998606.us-east-1.elb.amazonaws.com
 settings-crashlytics-b-103974621.us-east-1.elb.amazonaws.com
-stats.adobe.com
-sstats.adobe.com
 streaming.ad-balancer.at
 super.adnow.com
+superstats.com
+supertop.ru
+supertracking.net
+surfmusik-adserver.de
+sw88.espn.com
 syndication.realsrv.com
+t.appsflyer.com
+t.indeed.com
+t.paypal.com
+t.hulu.com
+t2.hulu.com
+taboola.com
 taboola.comtaboolasyndication.com
+tapad.com
 tapjoy.com
 tapjoyads.com
 teads.tv
+telemetry.dropbox.com
+telemetry.v.dropbox.com
 telemetry.sdk.inmobi.com
 terraclicks.com
 tax-refund-hmrc.com # HMRC phishing scam
@@ -1807,22 +1918,29 @@ tracking.ad360.vn
 trk.clearscore.com
 tracker.dsp.demandbase.com
 tracker.mtrtb.com
+tracker.anandtech.com
 trk.pinterest.com
 trk.vidible.tv
 taplytics.com
 track.adform.net
 tracking.adspreemedia.com
 tracking.i2w.io
+tracking.epicgames.com
 track.eyeviewads.com
+track.gawker.com
 track.leanlab.co
 track.tenjin.io
 trackers.voodoo-analytics.io
 track.locsci.io
+track.slideshare.net
 track.taimi.com
+trk.techtarget.com
+track.zomato.com
 track1.aniview.com
 trafficmanager.anyclip.com
 tradeadexchange.com
 tradedoubler.com
+traffic-exchange.com
 trafficfactory.biz
 trafficgate.net
 traffichaus.com
@@ -1830,6 +1948,11 @@ trafficjunky.com
 trafficjunky.net
 trafficposse.com
 traffpartners.com
+trafficrouter.io
+trafficspaces.net
+trafficswarm.com
+trafic.ro
+trendcounter.com
 tenjin.io
 toonblast.net
 toon-notification.pkgms.com
@@ -1854,17 +1977,28 @@ vu.moatads.com
 vars.hotjar.com
 vas.sgsnssdk.com
 v.shopify.com
-v16-ad.byteoversea.com
-vaali-mcs.byteoversea.com
 vice-web-statics-cdn.vice.com
 va-geo.gumgum.com
 verizon.gumgum.com
+webstat.com
+webstat.net
+webstat.channel4.com
+websponsors.com
+webstats4u.com
+webtracky.com
+webtraffic.se
+webtraxx.de
+webtracker.jp
+webtrendslive.com
+webtrends.telegraph.co.uk
+webxcdn.com
 web.hola.org
 whatif.api.kochava.com
 widget.intercom.io
 quantserve.com
 quantcount.com
 qxwz.com
+yieldtraffic.com
 y.analytics.yahoo.com
 y.moatads.com
 yj.moatads.com
@@ -1874,6 +2008,8 @@ y.flurry.com
 y1.flurry.com
 y2.flurry.com
 y3.flurry.com
+ypu.samsungelectronics.com
+xad.com
 x.bidswitch.net
 x.flurry.com
 xcache.ad360.vn
@@ -1883,8 +2019,10 @@ vantage.rubiconproject.com
 view.adsrvr.org
 view.adjust.com
 v.adsrvr.org
+vungle.com
 zc.adswizz.com
 zina.flurry.com
+zpu.samsungelectronics.com
 zserver.hola.org
 z.moatads.com
 

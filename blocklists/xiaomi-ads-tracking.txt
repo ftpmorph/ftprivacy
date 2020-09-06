@@ -80,6 +80,7 @@ sa.api.miui.com
 sa.api.intl.miui.com
 ssp.ad.xiaomi.com
 sec-cdn.static.xiaomi.net
+stat.xiaomi.com
 storeconfig.mistat.intl.xiaomi.com
 sdkconfig.ad.xiaomi.com
 sdkconfig.ad.intl.xiaomi.com

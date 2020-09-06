@@ -145,6 +145,7 @@ analytics.tiktok.com
 analytics.tiktokv.com
 applog.musical.ly
 applog.tiktokv.com
+byteoversea.com
 client_monitor.isnssdk.com
 clientmonitor.isnssdk.com
 dm16.musical.ly
@@ -154,10 +155,12 @@ frontier.musical.ly
 gecko-va.musical.ly
 gecko-va.tiktokv.com.edgesuite.net
 ib.tiktokv.com
+ipstatp.com
 jsb.tiktokv.com
 jsb-va.tiktokv.com
 jsb.musical.ly
 jsb-va.musical.ly
+jsb.byteoversea.com
 jsb-va.byteoversea.com
 log.byteoversea.com
 log.byteoversea.com.edgekey.net
@@ -186,6 +189,13 @@ musically-alternate.app.link
 musemuse.cn
 rtlog.musical.ly
 rtlog.tiktokv.com
+sdfp-va.byteoversea.com
+sgali-mcs.byteoversea.com
+smr-aliva.byteoversea.com
+smr-sg.byteoversea.com
+starling-oversea.byteoversea.com
+starling-sg.byteoversea.com
+starling-va.byteoversea.com
 share.musemuse.cn
 test-ads.tiktok.com
 test-ads.tiktokv.com
@@ -198,3 +208,4 @@ xlog.tiktokv.com
 xlog-va.tiktokv.com
 v16-ad.byteoversea.com
 vaali1.l.byteoversea.net
+vaali-mcs.byteoversea.com
