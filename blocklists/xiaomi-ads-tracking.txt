@@ -66,6 +66,9 @@ new.api.ad.xiaomi.com
 market.xiaomi.com
 mazu.sec.miui.com
 metok-ccc.intl.xiaomi.com
+mobads.baidu.com
+mobads-logs.baidu.com
+mobile-global.baidu.com
 m.zhuti.xiaomi.com
 miuiboot.tracking.intl.miui.com
 miuiboot.tracking.miui.com
@@ -84,6 +87,7 @@ stat.xiaomi.com
 storeconfig.mistat.intl.xiaomi.com
 sdkconfig.ad.xiaomi.com
 sdkconfig.ad.intl.xiaomi.com
+s.mobile-global.baidu.com
 thm.market.xiaomi.com
 tracking.rus.miui.com
 tracking.intl.miui.com

@@ -59,6 +59,7 @@ events.data.microsoft.com
 exo-ring.msedge.net
 feedback.windows.com
 footprintpredict.com
+ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net
 fp-vp.azureedge.net
 fp.msedge.net
 geo.settings-win.data.microsoft.com.akadns.net
@@ -73,6 +74,7 @@ inference.location.live.net
 iriscoremetadataprod.blob.core.windows.net
 location-inference-westus.cloudapp.net
 live.rads.msn.com
+masdpanalytics.azureedge.net
 mobile.events.data.microsoft.com
 mobile.pipe.aria.microsoft.com
 modern.watson.data.microsoft.com.akadns.net
