@@ -15,9 +15,10 @@
 # TL;DR: Running Hola on your computer is like being a Tor exit node, your connection can be abused for all manner of illicit activity such as blackhats, carding, and DDoS and it would all come from your IP address
 
 campaign.luminati.io
-dns-test1.hola.org
 client.luminati.io
+clientsdk.luminati.io
 client.hola.org
+dns-test1.hola.org
 http-test1.hola.org
 hola.org
 104-129-42-100.hola.org	
