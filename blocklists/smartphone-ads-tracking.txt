@@ -16,7 +16,7 @@
 
 # Facebook and Facebook owned services - let's start with the obvious, shall we?
 # This will not block access to FB, I have a separate one for that here: https://www.ftpihole.com/lists/#facebook-quarantine-blocklist (along with full blocks for Instagram and WhatsApp)
-# This only reduces "analytics."
+# This only reduces some ads and "analytics."
 
 ads.facebook.com
 an.facebook.com
@@ -335,53 +335,147 @@ www.googleadservices.com
 # iOS still phones home to tracking domains even with the relevant settings disabled
 # And iAds are, of course, still a thing
 
+analytics.itunes.apple.com
+api.smoot.apple.com
+api2.smoot.apple.com
+api-aka.smoot.apple.com
 banners.itunes.apple.com
+books-analytics-events.apple.com
 bugreport.apple.com
 ca.iadsdk.apple.com
 cf.iadsdk.apple.com
 cf.iad.sdk.apple.com
+cstat.apple.com
 feedback.apple.com
+iad.apple.com
+iadcontent.apple.com
 iadsdk.apple.com
 idiagnostics.apple.com
 internalcheck.apple.com
 iphonesubmissions.apple.com
 iphonediags.apple.com
+iphone-ld.apple.com
 metrics.apple.com
 metrics.icloud.com
 news.iadsdk.apple.com
+notes-analytics-events.apple.com
 radarsubmissions.apple.com
+searchads.apple.com
+securemetrics.apple.com
+securemetrics.apple.com.cn
+securemvt.apple.com
+smoot.apple.com
 stats.gc.apple.com
+stg-cmws.iad.apple.com
+stocks-analytics-events.apple.com
 supportmetrics.apple.com
+supportmetrics-uat.apple.com
 tr.iadsdk.apple.com
 ut.iadsdk.apple.com
+weather-analytics-events.apple.com
 
-# Amazon ads and trackers
+# Amazon ads and tracking
 
+amazon-adsystem.amazon.com
+aan.amazon-adsystem.com
 aax.amazon-adsystem.com
-aax-us-east.amazon-adsystem.com
+aax.amazon-adsystems.com
+aax-cpm.amazon-adsystem.com
 aax-eu.amazon-adsystem.com
+aax-fe.amazon-adsystem.com
+aax-fe-pek.amazon-adsystem.com
+aax-fe-sin.amazon-adsystem.com
+aax-us.amazon-adsystem.com
+aax-us-east.amazon-adsystem.com
+aax-us-pdx.amazon-adsystem.com
+assoc-msdk-us.amazon-adsystem.com
+aax-cpm.amazon-adsystem.amazon.com
+aax-us-cpm.amazon-adsystem.amazon.com
+aax-us-east.amazon-adsystem.com
+avs.eu.amazonalexa.com
+advertising.amazon.ae
+advertising.amazon.ca
+advertising.amazon.com
+advertising-eu.amazon.com
+advertising-fe.amazon.com
+advertising.amazon.com.au
 advertising.amazon.de
 amazon-adsystem.com
 amazonadsi-a.akamaihd.net
 analytics.s3.amazonaws.com
 api.amazonalexa.com
 avs.eu.amazonalexa.com
+c.amazon-adsystem.com
+c.amazon-adsystems.com
+cdn-a.amazon-adsystem.com
+cdn-d.amazon-adsystem.com
+configuration-vending.service.amazonsilk.com
+cortana-gateway.amazon.com
 device-metrics-us.amazon.com
 device-metrics-us-2.amazon.com
-c.amazon-adsystem.com
-cortana-gateway.amazon.com
+dra.amazon-adsystem.com
+fls-eu.amazon-adsystem.com
+fls-fe.amazon-adsystem.com
+fls-fe.amazon-adsystems.com
+fls-na.amazon-adsystem.com
+fls-cn.amazon.cn
 fls-eu.amazon.com
 fls-eu.amazon.co.uk
+fls-na.amazon.ca
 fls-na.amazon.com
 global.cmcs.service.amazonsilk.com
+global.configuration-vending.service.amazonsilk.com
+global.safebrowsing.service.amazonsilk.com
+imdb.amazon-adsystem.com
+ir-ca.amazon-adsystem.com
+ir-de.amazon-adsystem.com
+ir-es.amazon-adsystem.com
+ir-fr.amazon-adsystem.com
+ir-in.amazon-adsystem.com
+ir-it.amazon-adsystem.com
+ir-jp.amazon-adsystem.com
+ir-na.amazon-adsystem.com
+ir-na.amazon-adsystems.com
+ir-uk.amazon-adsystem.com
+mads.amazon.com
+mads-eu.amazon.com
+mas-sdk.amazon.com
 mads.amazon-adsystem.com
 mobileanalytics.us-east-1.amazonaws.com
 msh.amazon.com
 msh.amazon.co.uk
 nativead.s3.amazonaws.com
 prod.amazoncrl.com
+ps-us.amazon-adsystem.com
+r13s.service.amazonsilk.com
+rcm-na.amazon-adsystem.com
+rcm-na.amazon-adsystems.com
+rcm-fe.amazon-adsystem.com
+rcm-eu.amazon-adsystem.com
+rcm.amazon.com
+rcm-images.amazon.com
+rcm-cn.amazon.cn
+s.amazon-adsystem.com
 tap-client-stats.s3-eu-west-1.amazonaws.com
+v.amazon-adsystem.com
 vaes.amazon-adsystem.com
+vfw-us.amazon-adsystem.com
+v-eu.amazon-adsystem.com
+wms-eu.amazon-adsystem.com
+wms-fe.amazon-adsystem.com
+wms-in.amazon-adsystem.com
+wms-na.amazon-adsystem.com
+ws-fe.amazon-adsystem.com
+ws-in.amazon-adsystem.com
+ws-na.amazon-adsystem.com
+ws-eu.amazon-adsystem.com
+ws.amazon.com
+ws.amazon-adsystems.com
+z-eu.amazon-adsystem.com
+z-fe.amazon-adsystem.com
+z-in.amazon-adsystem.com
+z-na.amazon-adsystem.com
+z-na.amazon-adsystems.com
 
 # Xiaomi basic ads and tracking
 # This only blocks a small number of MIUI ad and tracking domains
@@ -713,6 +807,8 @@ pixel.spotify.com
 pixel1.spotify.com
 pixel2.spotify.com
 sap.spotify.com
+spotify.app.link
+spotify-alternate.app.link
 spotify.backtrace.io
 spotify.c3metrics.com
 spotify.co1.qualtrics.com
@@ -778,6 +874,7 @@ crs.baidu.com
 cpu.baidu.com
 crab.baidu.com
 click.bes.baidu.com
+click.fanyi.baidu.com
 click.hm.baidu.com
 conf.international.baidu.com
 datax.baidu.com
@@ -789,8 +886,18 @@ eclick.baidu.com
 eiv.baidu.com
 entry.baidu.com
 ers.baidu.com
+fc2tn.baidu.com
+fc3tn.baidu.com
+fc5tn.baidu.com
+fclick.baidu.com
+fclog.baidu.com
 feed.baidu.com
+feed-image.baidu.com
+game.baidu.com
+gdown.baidu.com
 gsp1.baidu.com
+hijack.baidu.com
+hiphotos.baidu.com
 hdj.baidu.com
 hm.baidu.com
 hmma.baidu.com
@@ -798,8 +905,10 @@ hpd.baidu.com
 idm.bce.baidu.com
 idm-su.baidu.com
 imageplus.baidu.com
+imgstat.baidu.com
 j.br.baidu.com
 kstj.baidu.com
+log.hm.baidu.com
 loc.map.baidu.com
 log.hm.baidu.com
 ofloc.map.baidu.com
@@ -819,8 +928,10 @@ share.baidu.com
 static.tieba.baidu.com
 stat.v.baidu.com
 statsonline.pushct.baidu.com
+ulog.imap.baidu.com
 update.pan.baidu.com
 ubmcmm.baidustatic.com
+wkclick.baidu.com
 
 # TikTok
 # The below blocks known TikTok trackers
@@ -1388,6 +1499,7 @@ mepodownload.mediatek.com
 53.localytics.com
 92zb.adj.st
 94vs.adj.st
+accio.ai
 accesstrade.com.vn
 accesstrade.vn
 ad4push.com
@@ -1451,6 +1563,7 @@ ada.support
 ads.betweendigital.com
 ads.ccgateway.net
 ads.contextweb.com
+ads.emirates.net.ae
 ads.flurry.com
 ads.gumgum.com
 ad.i2idata.com
@@ -1490,7 +1603,10 @@ adj.st
 adjustnetwork.com
 adjuggler.net
 ad-maven.com
+adnetwork.ai
+adnetwork.fullservices.com.ar
 adroll.com
+adserver.ai
 adultadvertising.com
 adlogs.ad2iction.com
 adtrack.adleadevent.com
@@ -1531,18 +1647,28 @@ apn-winners-us-west-2-rtb.adroll.com
 apac-jp.bidswitch.net
 appboy.com
 amplitude.com
+amp.permutive.com
 apptimize.com
+applift.com
+applifier.com
+applovin.com
+a.applovin.com
+a-usa.applovin.com
 app.adapt.io
 app.adjust.com
 app.adjust.io
 app.adroll.com
+app.appsflyer.com
+apps.applift.com
 app.bugfender.com
 app.bugreplay.com
 app.bugsnag.com
 app.clickyab.com
 app.flurry.com
 app.link
+app.optimizely.com
 app.responseiq.com
+app.returnpath.net
 app.musemuse.cn
 app-cdn.spot.im
 app-measurement.com
@@ -1553,11 +1679,16 @@ appsflyer.com
 appsflyer-web-4-962407740.eu-west-1.elb.amazonaws.com
 amplitude.com
 ai-personalization-prod-static.demandbase.com
+a.api.permutive.app
 api.1mobile.com
 api.247-inc.net
 apis.adbro.me
 api.addthis.com
 api.ad-locus.com
+api.applovin.com
+api.appsflyer.com
+api2.appsflyer.com
+api.appwifi.com
 api.beaconsinspace.com
 api.beaconstreetservices.com
 api.bee7.com
@@ -1584,7 +1715,10 @@ api.localytics.com
 api.locately.com
 api.locuslabs.com
 api.ning.com
+api.permutive.com
+api.permutive.app
 api.oneaudience.com
+api.optimizely.com
 api.urbanairship.com
 api.amplitude.com
 api.branch.io
@@ -1597,11 +1731,15 @@ api.intercom.io
 api.peakgames.net
 api.leanplum.com
 api.spot.im
+api.tapstream.com
+api.taplytics.com
+api.tappoint.com
 api.mixpanel.com
 api.medisafeproject.com # if you install Medisafe, that app you put personal medical info into, it keeps phoning home... why?
 api.segment.io
 api.skyhookwireless.com
 api.west.bidtellect.com
+api.telemetry.watchabc.go.com
 api-gdpr.voodoo-tech.io
 api.kochava.com
 api.zwizzarmyknife.com
@@ -1617,6 +1755,7 @@ arc.msn.com
 arc1.msn.com
 archive.adjust.io
 arkadium-tagan.adlightning.com
+assets.applovin.com
 assets.kochava.com
 autocomplete.demandbase.com
 atom.adjust.com
@@ -1634,6 +1773,7 @@ aws-or.bidswitch.net
 augur.io
 autotrader.app.link
 autotrader-alternate.app.link
+b.api.permutive.app
 bango.net
 bannerads.de
 bannerads.co.in
@@ -1647,6 +1787,7 @@ banners.adfox.me
 banners.adfox.net
 banners.adfox.ru
 banners.adultfriendfinder.com
+banner.appsflyer.com
 banner.boostbox.com.br
 banner.congstar.de
 banners.contentfeed.net
@@ -1679,6 +1820,7 @@ b.criteo.com
 bid.adview.cn
 bid.adview.pl
 bid.adview.com
+bid.applovin.com
 bidadx.com
 bid.contextweb.com
 bidder.criteo.com
@@ -1705,6 +1847,7 @@ branch.io
 browsiprod.com
 bttn.io
 bttrack.com
+bnc.lt
 bs.serving-sys.com
 by.marketinghub.opentext.com
 b.measuread.com
@@ -1736,6 +1879,7 @@ cat.sv.us.criteo.com
 cat.va.us.criteo.com
 capture.trackjs.com
 cent.spots.im
+centro.pixel.ad
 ccgateway.net
 coinad.com
 count.ly
@@ -1756,6 +1900,8 @@ cdn.3lift.com
 cdn.adacado.com
 cdn.adbro.me
 cdn.adsafeprotected.com
+cdn.applift.com
+cdn.appsflyer.com
 cdn.bannerflow.com
 cdn.bannersnack.com
 cdn.bidadx.com
@@ -1770,6 +1916,10 @@ cdn1.hola.org
 cdn2.hola.org
 cdn3.hola.org
 cdn4.hola.org
+cdn.optimizely.com
+cdn-a2-ncl.optimizely.com
+cdn-pci.optimizely.com
+cdn-s-optional.optimizely.com
 cdn-gl.imrworldwide.com
 #cdn.jwplayer.com
 cdn.krxd.net
@@ -1780,6 +1930,7 @@ cdn.playbuzz.com
 cdn.rejoiner.com
 cdn.switchadhub.com
 cdn.taboola.com
+cdp.adserver.ai
 cdp.cloud.unity3d.com
 cfa.2mdnsys.com
 cfg.flurry.com
@@ -1791,6 +1942,7 @@ clientsdk.luminati.io
 client.luminati.io
 click.accesstrade.vn
 clk.control.kochava.com
+clickserv.pixel.ad
 cloudmobi.net
 cloudapi.imrworldwide.com
 config.ad-brix.com
@@ -1831,6 +1983,7 @@ data-location.enhance.co
 databrain.com
 databrainz.com
 datadoghq.com
+data.adserver.ai
 data.flurry.com
 data-canary.flurry.com
 data-ipv6.flurry.com
@@ -1839,6 +1992,7 @@ data.ads.oppomobile.com
 data-id.ads.oppomobile.com
 dataf.ads.oppomobile.com
 dar.imrworldwide.com
+d.applovin.com
 d.eu.criteo.com
 d.us.criteo.com
 demand.clickyab.com
@@ -1909,12 +2063,16 @@ eu-tlx.3lift.com
 eu-aa.online-metrix.net
 eu-sync.bidswitch.net
 europe.bidtellect.com
+errors.client.optimizely.com
+experience.appsflyer.com
 exp.360in.com
 exe.bid
 extreme-ip-lookup.com
 extremereach.io
 events.adjust.com
+events.appsflyer.com
 events.browsiprod.com
+events.mobile.optimizely.com
 fast.accesstrade.com.vn
 fastlane.rubiconproject.com
 feed.medisafeproject.com
@@ -1934,6 +2092,7 @@ gatr.hit.gemius.pl
 googlecm.hit.gemius.pl
 goodadvert.ru
 go.ezoic.net
+go.optimizely.com
 g.3gl.net
 g.ezoic.net
 g.jwpsrv.com
@@ -1963,6 +2122,8 @@ gem.gbc.criteo.com
 global.mgr.consensu.org
 go.kochava.com
 go.localytics.com
+grab.accio.ai
+grabv1.accio.ai
 grader.localytics.com
 gu-web.net
 gum.criteo.com
@@ -1993,6 +2154,8 @@ idtargeting.com
 ie-geo.gumgum.com
 ilbanner.com
 ilead.itrack.it
+inertia.af
+1xslots.africa
 info.adacado.com
 info.localytics.com
 insight.adsrvr.org
@@ -2007,24 +2170,31 @@ i2ad.jp
 i2i.jp
 images.3lift.com
 img.3lift.com
+img.applovin.com
 images.demandbase.com
 images.emb-api.com
 images.spot.im
+impact.applifier.com
+impression.appsflyer.com
 impression.link
 imrworldwide.com
 imp.gammaplatform.com
 imp.control.kochava.com
 itrack.it
+jhqvy.app.link
 jp-geo.gumgum.com
 jp-g2.gumgum.com
 js-agent.newrelic.com
+jslibrary.adserver.ai
 js.gumgum.com
 jssdks.mparticle.com
 js-sec.indexww.com
 king.com
 kits.crashlytics.com
 kochava.com
+klclick.com
 krxd.net
+k9lb.adj.st
 kp1g.kochava.com
 ksmobile.com
 kvinit-prod.api.kochava.com
@@ -2042,6 +2212,8 @@ logging.fishsticksgames.com
 log.go.com
 log.snssdk.com
 logs.locarta.co
+log.optimizely.com
+log3.optimizely.com
 logx.optimizely.com
 log.outbrain.com
 logs1409.xiti.com
@@ -2064,6 +2236,8 @@ hwstats.uca.cloud.unity3d.com
 hz3h.adj.st
 hkbj.biddingx.com
 m.flurry.com
+mangarock.app.link 
+mangarock-alternate.app.link
 masdpanalytics.azureedge.net
 marketing.criteo.com
 marketingcloudapis.com
@@ -2074,6 +2248,7 @@ match.taboola.com
 masky.biddingx.com
 md-a-s.apptimize.com
 metrics.api.drift.com
+metrics.barclaycardus.com
 metrics.boostmobile.com
 metrics.brightcove.com
 metrics.capitalone.com
@@ -2081,6 +2256,7 @@ m-metrics.capitalone.com
 metrics.cnn.com
 metrics.consumerreports.org
 metrics.ctv.ca
+metrics.dailytelegraph.com.au
 metrics.fedex.com
 metrics.foxnews.com
 metrics.getrockerbox.com
@@ -2108,18 +2284,23 @@ mintegral.com
 mixedreading.com
 mixpanel.com
 monitor.kochava.com
-mon.byteoversea.com
 mon.sgsnssdk.com
-mon-va.byteoversea.com
 newrelic.com
 mparticle.com
+myfitnesspal.app.link
+myfitnesspal-alternate.app.link
 mtracking-molocoads-com.control.kochava.com
+ms.applovin.com
+ms.applvn.com
 ms.gumgum.com
 ms-stage.gumgum.com
 mt.analytics.163.com
 n.adnow.com
 nativesdks.mparticle.com
 network-inv.com # phishing
+news_uk.amp.permutive.com
+nextdoor.app.link
+nextdoor-alternate.app.link
 nexus.ensighten.com
 notify.bugsnag.com
 notify.adleadevent.com
@@ -2134,26 +2315,34 @@ or-g2.gumgum.com
 open-api.spot.im
 openapi.qxwz.com
 omaze.com
+onelink.me
 online-metrix.net
 otify.bugsnag.com
+optimizely.com
 optimized-by.rubiconproject.com
 opx-winners-ap-northeast-1-rtb.adroll.com
 opx-winners-eu-west-1-rtb.adroll.com
 opx-winners-us-east-1-rtb.adroll.com
 opx-winners-us-west-2-rtb.adroll.com
 omax.admarvel.com
+pad-v3.presage.io
 paypal-login292.com # paypal phishing scam
 partners.api.kochava.com
 parse.ly
 parsely.com
+pdn.applovin.com
 performance-analytics.rubiconproject.com
+permutive.app
+permutive.com
 peakgames.helpshift.com
 #peeksoft.co
 phar.gu-web.net
+pixel.ad
 pixel.adblade.com
 pixel.admedia.com
 pixel.adsafeprotected.com
 pixel.adsrvr.org
+pixel.app.returnpath.net
 pixel.33across.com
 pixel.emxdgt.com
 pixel.tapad.com
@@ -2173,8 +2362,10 @@ player.playbuzz.com
 player.playbuzz.co
 platform.rubiconproject.com
 pool.skyhookwireless.com
+pokey.thisisglobal.com
 portal.skyhookwireless.com
 premiumsrv.aniview.com
+prod-a.applovin.com
 provider.ad360.vn
 profile.localytics.com
 proton.flurry.com
@@ -2191,6 +2382,7 @@ realstats.dhgate.com
 recirculation.spot.im
 referrer.disqus.com
 reforge.in
+returnpath.net
 remarket.clicktripz.com
 remote.iperceptions.com
 remote-data.urbanairship.com
@@ -2216,9 +2408,11 @@ rubiconproject.com
 rubicon-tagan.adlightning.com
 rubick.gameanalytics.com
 rumcdn.geoedge.be
+rum.optimizely.com
 rtb.gumgum.com
 rtb.adlogix.io
 rtk.io
+rt.applvn.com
 rtlog.byteoversea.com
 river.data.ea.com
 r6nl.adj.st
@@ -2238,6 +2432,7 @@ serpens.iad-01.braze.com
 seginus.iad-03.braze.com
 sirius.iad-03.braze.com
 skai.iad-03.braze.com
+slug.onelink.me
 spica.iad-03.braze.com
 smetrics.att.com
 smetrics.chrysler.com
@@ -2253,6 +2448,7 @@ scorecardresearch.com
 scripts.demandbase.com
 sb.scorecardresearch.com
 sp.analytics.yahoo.com
+sdk.appsflyer.com
 sdk.beeketing.com
 sdk-ads.bidmotion.com
 sdk-data.bidmotion.com
@@ -2269,6 +2465,8 @@ sparkle.locationlabs.com
 spixel.adsafeprotected.com
 stash.api.kochava.com
 stat.alibaba.com
+stats.appsflyer.com
+statsgoogle.appsflyer.com
 stat.clickio.com
 stat.cliche.se
 statcounter.com
@@ -2288,9 +2486,11 @@ stats.nymag.com
 stats.skyhookwireless.com
 stats.unity3d.com
 stats.uswitch.com
+stats.ulysses.app
 stat-track.com
 stat.pl
 stat.webmedia.pl
+status.appsflyer.com
 stratfor.org
 #ssl.p.jwpcdn.com
 social3.toonblast.net
@@ -2330,6 +2530,7 @@ smetrics.aa.com
 smetrics.bestbuy.com
 smetrics.cnn.com
 smetrics1.experian.com
+snssdk1233.onelink.me
 seo.spot.im
 spot.im
 sportsad.net
@@ -2368,6 +2569,7 @@ static.hotjar.com
 static.imrworldwide.com
 static.kochava.com
 static.simonsignal.com
+static.trafficjunky.com
 settings.crashlytics.com
 settings-crashlytics-1410998606.us-east-1.elb.amazonaws.com
 settings-crashlytics-b-103974621.us-east-1.elb.amazonaws.com
@@ -2408,12 +2610,14 @@ tag.demandbase.com
 tags-cdn.deployads.com
 tags.experian.co.uk
 tag.gammaplatform.com
+tapi.optimizely.com
 tap.rubiconproject.com
 tap-s.rubiconproject.com
 tap-secure.rubiconproject.com
 tap-t.rubiconproject.com
 tattoodo.app.link
 tattoodo-alternate.app.link
+teams.optimizely.com
 thirdparty.bnc.lt
 ticks2.bugsense.com
 tie.247-inc.net
@@ -2421,6 +2625,9 @@ tracking.ad360.vn
 tracking.adalyser.com
 tracking.adalliance.io
 tracking.ad-brix.com
+track.appsflyer.com
+tracking.applift.com
+tracking.appwifi.com
 trk.clearscore.com
 track.clickbooth.com
 track.clickon.co.il
@@ -2430,6 +2637,7 @@ tracker.departapp.com
 tracker.mtrtb.com
 tracker.anandtech.com
 trk.pinterest.com
+trk.klclick.com
 trk.vidible.tv
 taplytics.com
 track.adform.net
@@ -2477,10 +2685,14 @@ t.update.moatads.com
 uapi.ads.oppomobile.com
 uaid-linkage.imrworldwide.com
 ue.flipboard.com
+udemy.app.link
+udemy-alternate.app.link
+up.pixel.ad
 update.3lift.com
 updates.bugsnag.com
 us-east-tlx.3lift.com
 us-west-tlx.3lift.com
+usanaly.accio.ai
 usabilla.com
 usage.readdle.com
 user-agent-tracker.herokuapp.com
@@ -2524,6 +2736,7 @@ widget.intercom.io
 wurren.iad-03.braze.com
 ws.batch.com
 w.masky.biddingx.com
+q4mn.adj.st
 quantserve.com
 quantcount.com
 qxwz.com
@@ -2546,7 +2759,10 @@ xcache.ad360.vn
 xk43.app.link
 xxxbidder.kochava.com
 xenon.iad-03.braze.com
+validate.appsflyer.com
 vantage.rubiconproject.com
+vid.applovin.com
+vis.optimizely.com
 vortex.hulu.com
 view.adsrvr.org
 view.adjust.com
@@ -2561,6 +2777,9 @@ z.moatads.com
 
 # www domains
 
+www.adnetwork.ai
+www.appsflyer.com
+www.applift.com
 www.bluekai.com
 www.flurry.com
 www.geoplugin.net

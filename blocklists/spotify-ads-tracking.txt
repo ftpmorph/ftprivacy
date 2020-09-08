@@ -293,6 +293,8 @@ pixel.spotify.com
 pixel1.spotify.com
 pixel2.spotify.com
 sap.spotify.com
+spotify.app.link
+spotify-alternate.app.link
 spotify.backtrace.io
 spotify.c3metrics.com
 spotify.co1.qualtrics.com

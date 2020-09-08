@@ -74,6 +74,7 @@ inference.location.live.net
 iriscoremetadataprod.blob.core.windows.net
 location-inference-westus.cloudapp.net
 live.rads.msn.com
+nam.api.cortana.ai
 masdpanalytics.azureedge.net
 mobile.events.data.microsoft.com
 mobile.pipe.aria.microsoft.com
