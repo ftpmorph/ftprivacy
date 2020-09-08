@@ -29,6 +29,7 @@ api.vip.miui.com
 api.zhuti.xiaomi.com
 a.stat.xiaomi.com
 app.chat.xiaomi.net
+app.chat.global.xiaomi.net
 au.ff.avast.com
 au.ff.avast.sec.miui.com
 cdn.ad.xiaomi.com
@@ -40,6 +41,7 @@ cc2.sys.intl.xiaomi.com
 cc2.sys.miui.com
 ccc.sys.intl.xiaomi.com
 ccc.sys.miui.com
+chat.global.xiaomi.net
 data.mistat.xiaomi.com
 data.mistat.intl.xiaomi.com
 drm.market.xiaomi.com
@@ -54,6 +56,7 @@ fr.app.chat.global.xiaomi.net
 fr-app-chat-global-xiaomi-net-1516654448.eu-central-1.elb.amazonaws.com
 fr-app-chat-global-xiaomi-net1-1667981913.eu-central-1.elb.amazonaws.com
 findapi.micloud.xiaomi.net
+global.xiaomi.net
 globalapi.ad.xiaomi.com
 game.xiaomi.com
 geofence.sys.miui.com
@@ -69,8 +72,11 @@ market.xiaomi.com
 mazu.sec.miui.com
 metok-ccc.intl.xiaomi.com
 m.zhuti.xiaomi.com
+micloud.xiaomi.net
 miuiboot.tracking.intl.miui.com
 miuiboot.tracking.miui.com
+msg.xiaomi.net
+msg.global.xiaomi.net
 native.feedback.miui.com
 o2o.api.xiaomi.com
 oth.eve.mdt.qq.com
