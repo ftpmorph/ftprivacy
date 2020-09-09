@@ -29,14 +29,17 @@ ad.samsungadhub.net
 ads.samsungads.com
 ads.samsungads.net
 acr0.samsungcloudsolution.com
-auth.samsungosp.com
 api-hub.samsungyosemite.com
+apu.samsungelectronics.com
+auth.samsungosp.com
+bpu.samsungelectronics.com
 cdn.samsungcloudsolution.com
 cdn.samsungcloudsolution.net
 cpu.samsungelectronics.com
 configprd.samsungcloudsolution.com
 configprd.samsungcloudsolution.net
 device-metrics-us.amazon.com
+dpu.samsungelectronics.com
 fkp.samsungcloudsolution.com
 fkp.samsungcloudsolution.net
 infolink.pavv.co.kr
@@ -45,6 +48,8 @@ musicid.samsungcloudsolution.com
 musicid.samsungcloudsolution.net
 oempprd.samsungcloudsolution.com
 oempprd.samsungcloudsolution.net
+otnprd8.samsungcloudsolution.net
+kpu.samsungelectronics.com
 lcprd1.samsungcloudsolution.com
 lcprd1.samsungcloudsolution.net
 log-ingestion.samsungacr.com
@@ -72,11 +77,15 @@ samsungelectronics.com
 sso.internetat.tv
 syncplusconfig.s3.amazonaws.com
 targeted-config-test.samsungacr.com
+upu.samsungelectronics.com
 us-api.samsungyosemite.com
 uk-api.samsungyosemite.com
 vd.emp.prd.s3.amazonaws.com
 www.samsungotn.com
 www.samsungotn.net
+xpu.samsungelectronics.com
+ypu.samsungelectronics.com
+zpu.samsungelectronics.com
 
 # Sony Smart TV (Bravia, Android)
 

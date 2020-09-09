@@ -224,6 +224,13 @@ analytics.google.com
 analytics.admob.com
 api.admob.com
 apps.admob.com
+beacons.gvt2.com
+beacons2.gvt2.com
+beacons3.gvt2.com
+beacons4.gvt2.com
+beacons5.gvt2.com
+beacons5.gvt3.com
+beacons.gcp.gvt2.com
 broadcast.admob.com
 buttons.googlesyndication.com
 b.admob.com
@@ -283,6 +290,7 @@ mm1.vip.sc1.admob.com
 mm1.vip.sc9.admob.com
 mm104.sc9.admob.com
 metrics.admob.com
+metric.gstatic.com
 mobile-displayads.l.doubleclick.net
 n.admob.com
 network.admob.com
@@ -314,6 +322,7 @@ smtp.admob.com
 smtp2.admob.com
 s0.doubleclick.net
 s0-2mdn-net.l.google.com
+s-v6exp1-ds.metric.gstatic.com
 securepubads.g.doubleclick.net
 semanticlocation-pa.googleapis.com
 ssl.googleanalytics.com
@@ -357,8 +366,10 @@ www.doubleclick.net
 www3.doubleclick.net
 www2.doubleclick.net
 www1.doubleclick.net
-www.googletagmanager.com
 www.googleadservices.com
+www.googleanalytics.com
+www.google-analytics.com
+www.googletagmanager.com
 
 # Apple
 # iOS still phones home to tracking domains even with the relevant settings disabled
@@ -1550,6 +1561,8 @@ accesstrade.com.vn
 accesstrade.vn
 ad4push.com
 ad6media.fr
+ads234.com
+ads345.com
 adbox.lt
 adclick.lt
 adlightning.com
@@ -1665,6 +1678,10 @@ ads.pinterest.com
 ads.proc.cc
 ads.radiosarajevo.ba
 ads.rubiconproject.com
+ads.samsungads.com
+ads.samsungads.net
+ad.samsungadhub.com
+ad.samsungadhub.net
 ads.servebom.com
 ads.skopjeinfo.mk
 ads.sport1.mk
@@ -1678,6 +1695,8 @@ ads.watson.ch
 ads.wwe.biz
 ads4.wwe.biz
 adimg.daumcdn.net
+adelogs.adobe.com
+adlog.com.com
 adlog.flurry.com
 adsrv.deviantart.com
 adsrvr.org
@@ -1688,10 +1707,12 @@ adaptv.advertising.com
 admetrix.comscore.com
 adm.dynamicyield.com
 adbanner.ro
+ademails.com
 adform.com
 adform.net
 admarvel.com
 admarvel.s3.amazonaws.com
+adobestats.com
 adjust.com
 adjust.io
 adj.st
@@ -1760,6 +1781,7 @@ apn-winners-us-west-2-rtb.adroll.com
 apac-jp.bidswitch.net
 appboy.com
 amplitude.com
+amp.ai
 amp.permutive.com
 apptimize.com
 applift.com
@@ -1799,6 +1821,7 @@ api.247-inc.net
 apis.adbro.me
 api.addthis.com
 api.ad-locus.com
+api.adsymptotic.com
 api.applovin.com
 api.appsflyer.com
 api2.appsflyer.com
@@ -1806,6 +1829,7 @@ api.appwifi.com
 api.beaconsinspace.com
 api.beaconstreetservices.com
 api.bee7.com
+api.behavioralengine.com
 api.bttrack.com
 api.bugsee.com
 api.bugfender.com
@@ -1833,6 +1857,7 @@ api.permutive.com
 api.permutive.app
 api.oneaudience.com
 api.optimizely.com
+api.simpleanalytics.io
 api.urbanairship.com
 api.amplitude.com
 api.branch.io
@@ -1858,6 +1883,7 @@ api.telemetry.watchabc.go.com
 api-gdpr.voodoo-tech.io
 api.kochava.com
 api.zwizzarmyknife.com
+apu.samsungelectronics.com
 ab-api.peakgames.net
 ab.tune.com
 alerts.flurry.com
@@ -1872,7 +1898,9 @@ archive.adjust.io
 arkadium-tagan.adlightning.com
 assets.applovin.com
 assets.kochava.com
+auspice.augur.io
 autocomplete.demandbase.com
+auto.search.msn.com
 atom.adjust.com
 app-measurement.com
 as.ad-brix.com
@@ -1956,6 +1984,7 @@ brahe.apptimize.com
 brandmetrics.com
 blucher.iad-03.braze.com
 b.scorecardresearch.com
+b.stats.paypal.com
 bounceexchange.com
 bond.iad-03.braze.com
 bugly.qq.com
@@ -2111,12 +2140,14 @@ data-id.ads.oppomobile.com
 dataf.ads.oppomobile.com
 dar.imrworldwide.com
 d.applovin.com
+de.sitestat.com
 d.eu.criteo.com
 d.us.criteo.com
 demand.clickyab.com
 demand.rubiconproject.com
 deliveroo.app.link
 deliveroo-alternate.app.link
+dc.dqa.samsung.com
 dc-web-prd01.iperceptions.com
 dc-web-corpo01.iperceptions.com
 dc-web-pp01.iperceptions.com
@@ -2130,10 +2161,14 @@ demo.emarsys.net
 deployads.com
 depop.app.link
 depop-alternate.app.link
+detectorcarecenter.in
 device.marketingcloudapis.com
 dev.appboy.com
+diagmon-policy.samsungdm.com
+didtheyreadit.com
 directadvert.net
 directadvert.ru
+directads.mcafee.com
 dispatcher.360in.com
 dis.criteo.com
 dis.as.criteo.com
@@ -2143,6 +2178,8 @@ disney.demdex.net
 disqusads.com
 driftcdn.com
 domob.cn
+donotwatch.org
+dontwatch.us
 doppler.hulu.com
 dsp-creative.demandbase.com
 db.adjust.io
@@ -2151,6 +2188,7 @@ dns-test1.hola.org
 dpm.demdex.net
 dp.demdex.net
 dp.bidswitch.net
+dpu.samsungelectronics.com
 dynamic.adcrowd.com
 dynamic.criteo.com
 d.madsack-native.de
@@ -2183,6 +2221,7 @@ eu-aa.online-metrix.net
 eu-sync.bidswitch.net
 europe.bidtellect.com
 errors.client.optimizely.com
+eus.rubiconproject.com
 experience.appsflyer.com
 exp.360in.com
 exe.bid
@@ -2192,6 +2231,7 @@ events.adjust.com
 events.appsflyer.com
 events.browsiprod.com
 events.mobile.optimizely.com
+events.cid.samba.tv
 fast.accesstrade.com.vn
 fastlane.rubiconproject.com
 feed.medisafeproject.com
@@ -2204,10 +2244,17 @@ frontend.collective.kochava.com
 flashtalking.com
 ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net
 flagpoles.gnl-live.bbcverticals.com
+flingo.tv
 flurry.cachefly.net
 gameanalytics.com
 gammaplatform.com
 gatr.hit.gemius.pl
+goatse.bz
+goatse.ca
+goatse.cx
+goat.cx
+goatse.ru
+goatsegirl.org
 googlecm.hit.gemius.pl
 goodadvert.ru
 go.ezoic.net
@@ -2226,6 +2273,7 @@ gate.hockeyapp.net
 get.s-onetag.com
 get.urbanairship.com
 geoedge.be
+geohawk.co.uk
 geoplugin.net
 geotargetly-1a441.appspot.com
 geoip.businessinsider.com
@@ -2278,6 +2326,7 @@ inertia.af
 1xslots.africa
 info.adacado.com
 info.localytics.com
+infolink.pavv.co.kr
 insight.adsrvr.org
 inapps.appsflyer.com
 inboard.kochava.com
@@ -2311,9 +2360,11 @@ jssdks.mparticle.com
 js-sec.indexww.com
 king.com
 kits.crashlytics.com
+kissmetrics.com
 kochava.com
 klclick.com
 krxd.net
+kpu.samsungelectronics.com
 k9lb.adj.st
 kp1g.kochava.com
 ksmobile.com
@@ -2323,7 +2374,11 @@ launcher.spot.im
 lddt.de
 leanplum.com
 leanlab.co
+lemonparty.biz
+lemonparty.org
 links.bugsnag.com
+linkcounter.com
+linkcounter.pornosite.com
 localytics.com
 locately.com
 locationlabs.com
@@ -2331,13 +2386,21 @@ logger.cloudmobi.net
 log.espn.com
 logging.fishsticksgames.com
 log.go.com
-log.snssdk.com
+log.internetat.tv
 logs.locarta.co
 log.optimizely.com
 log3.optimizely.com
 logx.optimizely.com
 log.outbrain.com
+log-ingestion.samsungacr.com
+log-1.samsungacr.com
+log-2.samsungacr.com
+log-3.samsungacr.com
+log.snssdk.com
 logs1409.xiti.com
+lolhello.com
+lolshock.com
+loltrain.com
 luminati.io
 launches.appsflyer.com
 hola.org
@@ -2345,6 +2408,7 @@ http-test1.hola.org
 homify.com.mx
 hotjar.com
 hotpot.360in.com
+howtotroll.org
 hearst.emsecure.net
 headspace.app.link
 headspace-alternate.app.link
@@ -2373,12 +2437,16 @@ match.prod.bidr.io
 match.taboola.com
 masky.biddingx.com
 md-a-s.apptimize.com
+meatspin.biz
+meatspin.com
 metrics.api.drift.com
+metrics.att.com
 metrics.barclaycardus.com
 metrics.boostmobile.com
 metrics.brightcove.com
 metrics.capitalone.com
 m-metrics.capitalone.com
+metrics.cbc.ca
 metrics.cnn.com
 metrics.consumerreports.org
 metrics.ctv.ca
@@ -2386,11 +2454,22 @@ metrics.dailytelegraph.com.au
 metrics.fedex.com
 metrics.fivem.net
 metrics.foxnews.com
+metrics.gap.com
 metrics.getrockerbox.com
 metrics.gfycat.com
 metrics.govexec.com
 metrics.hibernian.ie
 metrics.kochava.com
+metrics.maxim.com
+metrics.nba.com
+metrics.npr.org
+metrics.olivegarden.com
+metrics.parallels.com
+metrics.rottentomatoes.com
+metrics.sun.com
+metrics.theatlantic.com
+metrics.thedailybeast.com
+metrics.washingtonpost.com
 metrics.windowsitpro.com
 metricfast.com
 metrilo.com
@@ -2402,6 +2481,7 @@ mobile.adsafeprotected.com
 mobile-static.adsafeprotected.com
 mobile.events.data.microsoft.com
 mobile.pipe.aria.microsoft.com
+mobile.webvisor.com
 microstatic.pl
 microticker.com
 militaryverse.com
@@ -2430,8 +2510,10 @@ news_uk.amp.permutive.com
 nextdoor.app.link
 nextdoor-alternate.app.link
 nexus.ensighten.com
+nimp.org
 notify.bugsnag.com
 notify.adleadevent.com
+ns11.whois.co.kr
 nsi.activity.api.bbc.co.uk
 nsi.activity.api.bbc.com
 ns1.kochava.com
@@ -2443,6 +2525,7 @@ or-g2.gumgum.com
 open-api.spot.im
 openapi.qxwz.com
 omaze.com
+on.nimp.org
 onelink.me
 online-metrix.net
 otify.bugsnag.com
@@ -2453,11 +2536,13 @@ opx-winners-eu-west-1-rtb.adroll.com
 opx-winners-us-east-1-rtb.adroll.com
 opx-winners-us-west-2-rtb.adroll.com
 omax.admarvel.com
+oralse.cx
 pad-v3.presage.io
 paypal-login292.com # paypal phishing scam
 partners.api.kochava.com
 parse.ly
 parsely.com
+pavv.co.kr
 pdn.applovin.com
 performance-analytics.rubiconproject.com
 permutive.app
@@ -2466,6 +2551,7 @@ peakgames.helpshift.com
 #peeksoft.co
 phar.gu-web.net
 pixel.ad
+pixel.advertising.com
 pixel.adblade.com
 pixel.admedia.com
 pixel.adsafeprotected.com
@@ -2473,7 +2559,6 @@ pixel.adsrvr.org
 pixel.app.returnpath.net
 pixel.33across.com
 pixel.emxdgt.com
-pixel.tapad.com
 pixel.mathtag.com
 pixel.measuread.com
 pixel-origin.mathtag.com
@@ -2482,6 +2567,8 @@ pixel.onaudience.com
 pixel.parsely.com
 pixel.rubiconproject.com
 pixel.skimresources.com
+pixel.staticworld.net
+pixel.tapad.com
 pixel.quantserve.com
 pixel.zprk.io
 pixel.zumby.io
@@ -2555,6 +2642,11 @@ s7.addthis.com
 s7.device.marketingcloudapis.com
 s79.research.de.com
 sanalytics.disneyplus.com
+samba.tv
+samsungads.com
+samsungads.net
+samsungadhub.com
+samsungadhub.net
 sagittarius.iad-01.braze.com
 sa.entireweb.com
 sa.scorecardresearch.com
@@ -2562,6 +2654,7 @@ sb.voicefive.com
 scarf.ensighten.com
 serpens.iad-01.braze.com
 seginus.iad-03.braze.com
+selfpwn.org
 sirius.iad-03.braze.com
 skai.iad-03.braze.com
 slug.onelink.me
@@ -2569,6 +2662,8 @@ spica.iad-03.braze.com
 smartad.ee
 smetrics.att.com
 smetrics.chrysler.com
+shafou.com
+shockgore.com
 showads33000.pubmatic.com
 shoelace.com
 shoptimally.com
@@ -2580,6 +2675,7 @@ simpleheatmaps.com
 scorecardresearch.com
 scripts.demandbase.com
 sb.scorecardresearch.com
+sso.internetat.tv
 sp.analytics.yahoo.com
 sdk.appsflyer.com
 sdk.beeketing.com
@@ -2598,9 +2694,13 @@ sdkm.w.inmobi.com
 sparkle.locationlabs.com
 spixel.adsafeprotected.com
 stash.api.kochava.com
+stats.adultswim.com
 stat.alibaba.com
 stats.appsflyer.com
 statsgoogle.appsflyer.com
+stats.buysellads.com
+stats.cartoonnetwork.com
+stats.clickability.com
 stat.clickio.com
 stat.cliche.se
 statcounter.com
@@ -2615,6 +2715,9 @@ stats.bbc.co.uk
 stats.datawrapper.de
 stats.digg.com
 stat.ethz.ch
+stats.ft.com
+stats.gamestop.com
+stats.independent.co.uk
 stats.independent.ie
 stat.kbs.co.kr
 stats.wordpress.com
@@ -2625,6 +2728,7 @@ stats.pixelegg.de
 stats.protonmail.ch
 stats.protonmail.com
 stats.skyhookwireless.com
+stats.telegraph.co.uk
 stats.unity3d.com
 stats.uswitch.com
 stats.ulysses.app
@@ -2665,12 +2769,16 @@ server-us.imrworldwide.com
 sentry.io
 segment.io
 segments.adap.tv
+sitestat.com
 sobump.app.link
 sobump-alternate.app.link
 smetrics.aa.com
+smetrics.att.com
 smetrics.bestbuy.com
 smetrics.cnn.com
 smetrics1.experian.com
+smetrics.tesco.com
+smetrics.washingtonpost.com
 snssdk1233.onelink.me
 seo.spot.im
 spot.im
@@ -2686,7 +2794,9 @@ sp.getblueshift.com
 st.adnow.com
 st.dynamicyield.com
 stc.gammaplatform.com
+stg-dc.dqa.samsung.com
 startapp.com
+startup.mobile.yandex.net
 stage.adjust.io
 stage.kochava.com
 stackadapt.com
@@ -2712,11 +2822,14 @@ static.hotjar.com
 static.imrworldwide.com
 static.kochava.com
 static.simonsignal.com
+static.smni.com
 static.step.dk
+static.trackedweb.net
 static.trafficjunky.com
 settings.crashlytics.com
 settings-crashlytics-1410998606.us-east-1.elb.amazonaws.com
 settings-crashlytics-b-103974621.us-east-1.elb.amazonaws.com
+showads.pubmatic.com
 steffweb.dk
 step.dk
 streaming.ad-balancer.at
@@ -2839,7 +2952,9 @@ uaid-linkage.imrworldwide.com
 ue.flipboard.com
 udemy.app.link
 udemy-alternate.app.link
+ud-prd.geohawk.co.uk
 up.pixel.ad
+upu.samsungelectronics.com
 update.3lift.com
 updates.bugsnag.com
 us-east-tlx.3lift.com
@@ -2905,6 +3020,7 @@ y1.flurry.com
 y2.flurry.com
 y3.flurry.com
 ypu.samsungelectronics.com
+xpu.samsungelectronics.com
 xad.com
 x.bidswitch.net
 x.flurry.com
@@ -2930,6 +3046,8 @@ z.moatads.com
 
 # www domains
 
+www.ads234.com
+www.ads345.com
 www.ads.proc.cc
 www.adnetwork.ai
 www.appsflyer.com
@@ -2938,16 +3056,27 @@ www.bluekai.com
 www.flurry.com
 www.getback.ch
 www.geoplugin.net
+www.goatse.bz
+www.goatse.ca
+www.goatse.cx
+www.goat.cx
+www.goatse.ru
+www.goatsegirl.org
 www.leanplum.com
 www.luminati.io
+www.oralse.cx
 www.hola.org
 www.hotjar.com
 www.kochava.com
+www.nimp.org
 www.npttech.com
 www.omaze.com
+www.on.nimp.org
 #www.peeksoft.co
 www.playbuzz.com
 www.grgz18dgmh.buzz
+www.selfpwn.org
+www.shafou.com
 www.spot.im
 www.skyhookwireless.com
 www2.skyhookwireless.com
