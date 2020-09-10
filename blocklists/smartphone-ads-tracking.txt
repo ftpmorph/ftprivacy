@@ -1559,6 +1559,7 @@ a8.net
 accio.ai
 accesstrade.com.vn
 accesstrade.vn
+ablink.click.depop.com
 ad4push.com
 ad6media.fr
 ads234.com
@@ -1739,6 +1740,8 @@ adlogs.ad2iction.com
 adtrack.adleadevent.com
 adtrack.king.com
 ag.gbc.criteo.com
+alivecor.app.link
+alivecor-alternate.app.link
 ana.biddingx.com
 ana.masky.biddingx.com
 analytics.163.com
@@ -1917,6 +1920,7 @@ aws-or.bidswitch.net
 augur.io
 autotrader.app.link
 autotrader-alternate.app.link
+b5fd600b4e365cf3b0c7329c391f80e0.ulink.adjust.com
 b.api.permutive.app
 bango.net
 bannerads.de
@@ -2147,6 +2151,7 @@ demand.clickyab.com
 demand.rubiconproject.com
 deliveroo.app.link
 deliveroo-alternate.app.link
+deliveroo.onelink.me
 dc.dqa.samsung.com
 dc-web-prd01.iperceptions.com
 dc-web-corpo01.iperceptions.com
@@ -2377,6 +2382,9 @@ leanlab.co
 lemonparty.biz
 lemonparty.org
 links.bugsnag.com
+links.alerts.depop.com
+links.ohhey.depop.com
+link.adjust.com
 linkcounter.com
 linkcounter.pornosite.com
 localytics.com
@@ -2878,6 +2886,7 @@ tattoodo.app.link
 tattoodo-alternate.app.link
 teams.optimizely.com
 thirdparty.bnc.lt
+tidal.onelink.me
 ticks2.bugsense.com
 tie.247-inc.net
 tracking.ad360.vn
@@ -2949,10 +2958,12 @@ txn.ingest.eu.crittercism.com
 t.update.moatads.com
 uapi.ads.oppomobile.com
 uaid-linkage.imrworldwide.com
+uberm.bttn.io
 ue.flipboard.com
 udemy.app.link
 udemy-alternate.app.link
 ud-prd.geohawk.co.uk
+ulink.adjust.com
 up.pixel.ad
 upu.samsungelectronics.com
 update.3lift.com
@@ -3004,6 +3015,7 @@ widget.intercom.io
 wurren.iad-03.braze.com
 ws.batch.com
 w.masky.biddingx.com
+wzrkt.com
 q4mn.adj.st
 quantserve.com
 quantcount.com
@@ -3040,6 +3052,8 @@ vulcan.branch.io
 vungle.com
 zc.adswizz.com
 zina.flurry.com
+zl2p.app.link
+zl2p-alternate.app.link
 zpu.samsungelectronics.com
 zserver.hola.org
 z.moatads.com
