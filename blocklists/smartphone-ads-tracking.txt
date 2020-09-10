@@ -41,6 +41,7 @@ lithium.facebook.com
 lm.facebook.com
 l.facebook.com
 logger.instagram.com
+mqtt-mini.facebook.com
 tr.facebook.com
 pixel.facebook.net
 pixel.facebook.com
@@ -276,6 +277,31 @@ googleads2.g.doubleclick.net
 googleads3.g.doubleclick.net
 googleads4.g.doubleclick.net
 googleadapis.l.google.com
+id.google.ac
+id.google.ae
+id.google.at
+id.google.au
+id.google.br
+id.google.ch
+id.google.com
+id.google.co.jp
+id.google.co.kr
+id.google.co.uk
+id.google.de
+id.google.dk
+id.google.es
+id.google.eu
+id.google.fr
+id.google.gr
+id.google.ie
+id.google.il
+id.google.in
+id.google.it
+id.google.jp
+id.google.se
+id.google.pk
+id.google.pl
+id.google.ru
 media.admob.com
 j.admob.com
 jp.admob.com
@@ -405,6 +431,7 @@ securemetrics.apple.com
 securemetrics.apple.com.cn
 securemvt.apple.com
 smoot.apple.com
+smp-device-content.apple.com
 stats.gc.apple.com
 stg-cmws.iad.apple.com
 stocks-analytics-events.apple.com
@@ -886,6 +913,7 @@ app-analytics.snapchat.com
 ase.adserver.snapads.com
 euc.adserver.snapads.com
 euw.adserver.snapads.com
+gcs.sc-cdn.net
 loc.sc-jpl.com
 loca.sc-jpl.com
 sc-analytics.appspot.com
@@ -2033,6 +2061,7 @@ centro.pixel.ad
 ccgateway.net
 coinad.com
 count.ly
+countly.wickr.com
 collector.bughd.com
 collector.capturly.com
 collector.doordash.com
@@ -2125,7 +2154,6 @@ cszz.ru
 contextweb.com
 config.inmobi.com
 config.inmobi.cn
-countly.wickr.com
 custom.bnc.lt
 cv.accesstrade.vn
 data.adroll.com
@@ -2237,6 +2265,7 @@ events.appsflyer.com
 events.browsiprod.com
 events.mobile.optimizely.com
 events.cid.samba.tv
+events.split.io
 fast.accesstrade.com.vn
 fastlane.rubiconproject.com
 feed.medisafeproject.com
@@ -2334,6 +2363,7 @@ info.localytics.com
 infolink.pavv.co.kr
 insight.adsrvr.org
 inapps.appsflyer.com
+in.appcenter.ms
 inboard.kochava.com
 ingameads.gameloft.com
 intercom.io
@@ -2511,6 +2541,7 @@ ms.applvn.com
 ms.gumgum.com
 ms-stage.gumgum.com
 mt.analytics.163.com
+m.quantcount.com
 n.adnow.com
 nativesdks.mparticle.com
 network-inv.com # phishing
@@ -2697,6 +2728,7 @@ sdk.iad-08.braze.com
 sdk.fra-01.braze.eu
 sdk.imrworldwide.com
 sdk.hexia.io
+sdk.split.io
 sdk.vl1.mobi
 sdkm.w.inmobi.com
 sparkle.locationlabs.com
@@ -2975,6 +3007,7 @@ usabilla.com
 usage.readdle.com
 user-agent-tracker.herokuapp.com
 universal.iperceptions.com
+utraffic.engine.adglare.net
 voodoo.io
 voodoo-ads.io
 voodoo-analytics.io

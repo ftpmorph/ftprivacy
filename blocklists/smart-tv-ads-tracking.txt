@@ -9,21 +9,47 @@ ad.lgappstv.com
 us.ad.lgsmartad.com
 gb.ad.lgsmartad.com
 gb.info.lgsmartad.com
+us.info.lgsmartad.com
 gb.lgrecommends.lgappstv.com
 gb.lgtvsdp.com
 gb.rdx2.lgtvsdp.com
+us.lgtvsdp.com
+us.rdx2.lgtvsdp.com
 yumenetworks.com
 smartclip.net
 smartclip.com
+smartshare.lgtvsdp.com
 
 # Panasonic Smart TV (Firefox OS)
 
 mhc-sec-eu.myhomescreen.tv
 mhc-sec-us.myhomescreen.tv
+usage-eu-fy2014.myhomescreen.tv
+usage-eu-fy2015.myhomescreen.tv
+usage-eu-fy2016.myhomescreen.tv
+usage-eu-fy2017.myhomescreen.tv
+usage-eu-fy2018.myhomescreen.tv
+usage-eu-fy2019.myhomescreen.tv
+usage-eu-fy2020.myhomescreen.tv
+usage-us-fy2014.myhomescreen.tv
+usage-us-fy2015.myhomescreen.tv
+usage-us-fy2016.myhomescreen.tv
+usage-us-fy2017.myhomescreen.tv
+usage-us-fy2018.myhomescreen.tv
+usage-us-fy2019.myhomescreen.tv
+usage-us-fy2020.myhomescreen.tv
+x2.vindicosuite.com
+
+# Philips (Android, Net TV, Roku OS)
+
+ad.nettvservices.com
+legacyportal.nettvservices.com
+nettv.corio.com
 
 # Samsung Smart TV (Tizen)
 # VERY LOUD
 
+ads.aimitv.com
 ad.samsungadhub.com
 ad.samsungadhub.net
 ads.samsungads.com
@@ -31,46 +57,68 @@ ads.samsungads.net
 acr0.samsungcloudsolution.com
 api-hub.samsungyosemite.com
 apu.samsungelectronics.com
-auth.samsungosp.com
 bpu.samsungelectronics.com
-cdn.samsungcloudsolution.com
-cdn.samsungcloudsolution.net
+cloud.arqiva.tv
 cpu.samsungelectronics.com
+connecttv.pelmorex.com
 configprd.samsungcloudsolution.com
 configprd.samsungcloudsolution.net
+d179kwmlpc4o47.cloudfront.net
+d1jwpcr0q4pcq0.cloudfront.net
+d2tnx644ijgq6i.cloudfront.net
+d37ju0xanoz6gh.cloudfront.net
+d3mjsomixevyw7.cloudfront.net
+d37ju0xanoz6gh.cloudfront.net
+data.arqiva.tv
 device-metrics-us.amazon.com
+dev-multiscreen.samsung.com
 dpu.samsungelectronics.com
+eu-api.samsungyosemite.com
 fkp.samsungcloudsolution.com
 fkp.samsungcloudsolution.net
+gamespromotion.samsungcloudsolution.com
+game.internetat.tv
+gld.samsungosp.com
+gpm.samsungqbe.com
 infolink.pavv.co.kr
+i-stream.pl
+notice.samsungcloudsolution.com
+noticecdn.samsungcloudsolution.com
+noticefile.samsungcloudsolution.com
 ns11.whois.co.kr
+multiscreen.samsung.com
 musicid.samsungcloudsolution.com
 musicid.samsungcloudsolution.net
 oempprd.samsungcloudsolution.com
 oempprd.samsungcloudsolution.net
-otnprd8.samsungcloudsolution.net
+openapi.samsung.com
+osb.samsungqbe.com
+osb-apps.samsungqbe.com
+osb-krsvc.samsungqbe.com
+osb-eusvc.samsungqbe.com
 kpu.samsungelectronics.com
-lcprd1.samsungcloudsolution.com
-lcprd1.samsungcloudsolution.net
 log-ingestion.samsungacr.com
+log-ingestion-eu.samsungacr.com
 log-1.samsungacr.com
 log-2.samsungacr.com
 log-3.samsungacr.com
 log.internetat.tv
 pavv.co.kr
+pipeaota.com
 premium-videos.telly.com
 prov.samsungcloudsolution.com
 rd.samsungadhub.com
+rwww.samsungotn.net
 sas.samsungcloudsolution.com
 sca.samsung.com
+samsungads.com
+samsungads.net
 samsungadhub.com
 samsungadhub.net
 samsungacr.com
 samsungacr.net
 samsungcloudsolution.com
 samsungcloudsolution.net
-samsungotn.com
-samsungotn.net
 samsungrm.com
 samsungrm.net
 samsungelectronics.com
@@ -80,20 +128,72 @@ targeted-config-test.samsungacr.com
 upu.samsungelectronics.com
 us-api.samsungyosemite.com
 uk-api.samsungyosemite.com
+vd.contents.prod.eu.s3.amazonaws.com
 vd.emp.prd.s3.amazonaws.com
-www.samsungotn.com
-www.samsungotn.net
+vdterms.samsungcloudsolution.com
 xpu.samsungelectronics.com
 ypu.samsungelectronics.com
 zpu.samsungelectronics.com
 
+www.samsungrm.net
+www.samsungelectronics.com
+
 # Sony Smart TV (Bravia, Android)
 
+ad8641f3cff742de893d919add74c2bb.ssm1.internet.sony.tv
+ad8641f3cff742de893d919add74c2bb.ssm2.internet.sony.tv
 api-mf1.meta.ndmdhs.com
+bdcore-apr-lb.bda.ndmdhs.com
 bravia.dl.playstation.net
+call.me.sel.sony.com
+facemap.foldlife.net
 flingo.tv # another domain for samba.tv, the company that scans what's on your TV screen (see below)
 social.biv.sony.tv
+ssm1.internet.sony.tv
+ssm2.internet.sony.tv
+ssm3.internet.sony.tv
+tvsideviewandroidv2-cfgdst-ore-pro.bda.ndmdhs.com
 www.sony.net
+
+# Roku (Roku OS)
+
+austin.logs.roku.com
+display.ravm.tv
+cooper.logs.roku.com
+liberty.logs.roku.com
+midland.logs.roku.com
+ravm.tv
+scribe.logs.roku.com
+
+# Hisense (Android TV, Roku TV, VIDAA)
+
+api-gps-em.hismarttv.com
+api-launcher-em.hismarttv.com
+auth-launcher-em.hismarttv.com
+auth-em.hismarttv.com
+msg-em.hismarttv.com
+unified-ter-na.hismarttv.com
+
+# HBBTV (open source OS on many smart TV's)
+# Known for its strong privacy and security... not.
+# https://en.wikipedia.org/wiki/Hybrid_Broadcast_Broadband_TV#Security_and_privacy_concerns
+
+cdn.hbbtv.smartclip.net
+hbbtv.3sat.de
+hbbtv-1.eurosport.com
+hbbtv-extern-fe01.sim-technik.de
+hbbtv-track.redbutton.de
+hbbtv.kabeleins.de
+hbbtv.qvc.de
+hbbtv.rtl2.de
+hbbtv.sat1.de
+hbbtv.sixx.de
+hbbtv01p.anixe.net
+hbbtvapp.sonnenklar.tv
+hbbtv.superrtl.de
+p-hbbtv.superrtl.de
+scheduler.hbbtv.smartclip.net
+stats.hbbtv.smartclip.net
 
 # Various Smart TV brands
 
@@ -123,3 +223,26 @@ secure-geolocation.premiumtv.co.uk
 
 geohawk.co.uk
 ud-prd.geohawk.co.uk
+
+# Other third party crap from various smart TV's
+
+2mdn.net
+ad.71i.de
+adv.ettoday.net
+advertising.com
+api.nfl.com
+cdn.smartclip.net
+cdns-content.dzcdn.net
+database01p.anixe.net
+de.ioam.de
+googleads.g.doubleclick.net
+nbc-jite.nbcuni.com
+redbutton-adproxy-lb-prod.redbutton.de
+redbutton-lb-prod.redbutton.de
+redbutton.sim-technik.de
+script.ioam.de
+start.digitaltext.rtl.de
+stats-irl.sxp.smartclip.net
+trvdp.com
+tv-static.scdn.co
+xml.opera.com
