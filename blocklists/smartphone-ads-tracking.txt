@@ -1764,6 +1764,7 @@ ad.flurry.com
 ada.support
 ads.betweendigital.com
 ads.ccgateway.net
+adsapi.chartbeat.com
 ads.contextweb.com
 ads.domainoptions.net
 ads.emirates.net.ae
@@ -1967,6 +1968,7 @@ api.behavioralengine.com
 api.bttrack.com
 api.bugsee.com
 api.bugfender.com
+api.chartbeat.com
 api.comscore.com
 api.cleverpush.com
 api.cloudmobi.net
@@ -2036,13 +2038,13 @@ apm.crittercism.com
 apx.moatads.com
 archive.adjust.io
 arkadium-tagan.adlightning.com
+assets.adobedtm.com
 assets.applovin.com
 assets.kochava.com
 audiences.adara.com
 auspice.augur.io
 autocomplete.demandbase.com
 atom.adjust.com
-app-measurement.com
 asia.qualtrics.com
 as.ad-brix.com
 as-dmpsync.3lift.com
@@ -2098,6 +2100,7 @@ bentley.co1.qualtrics.com
 bdapi.ads.oppomobile.com
 bjdata.ads.oppomobile.com
 beacons.extremereach.io
+beacon.livefyre.com
 beacon.walmart.com
 beacon-us-iad2.rubiconproject.com
 beanstalkdata.com
@@ -2134,6 +2137,7 @@ brandmetrics.com
 blucher.iad-03.braze.com
 b.scorecardresearch.com
 b.stats.paypal.com
+bootstrap.livefyre.com
 bounceexchange.com
 bond.iad-03.braze.com
 bugly.qq.com
@@ -2144,6 +2148,8 @@ bttn.io
 bttrack.com
 bnc.lt
 bs.serving-sys.com
+bskyb.demdex.net
+bskyb.sc.omtrdc.net
 bsu.qualtrics.com
 bts360.qualtrics.com
 by.marketinghub.opentext.com
@@ -2229,6 +2235,7 @@ cdn-s-optional.optimizely.com
 cdn-gl.imrworldwide.com
 #cdn.jwplayer.com
 cdn.krxd.net
+cdn.livefyre.com
 cdn.localytics.com
 cdn.luminati.io
 cdn.measuread.com
@@ -2301,6 +2308,7 @@ data-canary.flurry.com
 data-ipv6.flurry.com
 data.emb-api.com
 data.leipzig.de
+data.livefyre.com
 data.ads.oppomobile.com
 data-id.ads.oppomobile.com
 dataf.ads.oppomobile.com
@@ -2315,6 +2323,7 @@ demand.rubiconproject.com
 deliveroo.app.link
 deliveroo-alternate.app.link
 deliveroo.onelink.me
+device-api.urbanairship.com
 dc.dqa.samsung.com
 dc-web-prd01.iperceptions.com
 dc-web-corpo01.iperceptions.com
@@ -2583,6 +2592,7 @@ kp1g.kochava.com
 ksmobile.com
 kvinit-prod.api.kochava.com
 l3.evidon.com
+lc.livefyre.com
 launcher.spot.im
 lddt.de
 leanmobi.fusetracking.com
@@ -2596,6 +2606,7 @@ links.ohhey.depop.com
 link.adjust.com
 linkcounter.com
 linkcounter.pornosite.com
+livefyre.com
 localytics.com
 locately.com
 locationlabs.com
@@ -2676,6 +2687,7 @@ hwstats.uca.cloud.unity3d.com
 hz3h.adj.st
 hkbj.biddingx.com
 m.flurry.com
+mab.chartbeat.com
 madvertise.de
 madsack-native.de
 mangarock.app.link 
@@ -3098,6 +3110,8 @@ static.adacado.com
 static.adsafeprotected.com
 static.ad-maven.com
 static.accesstrade.vn
+static.chartbeat.com
+static2.chartbeat.com
 static.cleverpush.com
 static.clevertap.com
 static.clickyab.com
@@ -3127,6 +3141,7 @@ showads.pubmatic.com
 steffweb.dk
 step.dk
 streaming.ad-balancer.at
+stream1.livefyre.com
 stuff.cdn.biddingx.com
 super.adnow.com
 superstats.com
@@ -3280,6 +3295,7 @@ uberm.bttn.io
 ue.flipboard.com
 udemy.app.link
 udemy-alternate.app.link
+udm.scorecardresearch.com
 ud-prd.geohawk.co.uk
 ulink.adjust.com
 up.pixel.ad
@@ -3394,6 +3410,7 @@ www.appsflyer.com
 www.applift.com
 www.beginads.com
 www.bluekai.com
+www.chartbeat.com
 www.flurry.com
 www.getback.ch
 www.geoplugin.net
@@ -3404,6 +3421,7 @@ www.goat.cx
 www.goatse.ru
 www.goatsegirl.org
 www.leanplum.com
+www.livefyre.com
 www.luminati.io
 www.oralse.cx
 www.hola.org
