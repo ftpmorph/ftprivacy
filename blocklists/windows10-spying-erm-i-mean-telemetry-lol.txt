@@ -46,6 +46,7 @@ browser.pipe.aria.microsoft.com
 cache.datamart.windows.com
 candycrushsoda.king.com
 c.msn.com
+collection.location.live.net
 continuum.dds.microsoft.com
 corp.sts.microsoft.com
 cs1.wpc.v0cdn.net
@@ -68,6 +69,7 @@ geo.settings.data.microsoft.com.akadns.net
 geo.vortex.data.microsoft.com.akadns.net
 glbdns.microsoft.com
 g.msn.com.nsatc.net
+h-microsoft.online-metrix.net
 h1.msn.com
 hk2.settings.data.microsoft.com.akadns.net
 hk2.wns.windows.com
@@ -77,6 +79,8 @@ location-inference-westus.cloudapp.net
 live.rads.msn.com
 nam.api.cortana.ai
 masdpanalytics.azureedge.net
+microsoft.qualtrics.com
+microsoft.siteintercept.qualtrics.com
 mobile.events.data.microsoft.com
 mobile.pipe.aria.microsoft.com
 modern.watson.data.microsoft.com.akadns.net

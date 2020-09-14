@@ -39,7 +39,6 @@ analytics-001.lon.spotify.com
 analytics-002.lon.spotify.com
 apex.spotify.com
 ap.spotify.com
-apx.moatads.com
 datasharing.spotify.com
 00.video-ak.cdn.spotify.com            
 01.video-ak.cdn.spotify.com            
@@ -307,6 +306,7 @@ search.spotxchange.com
 sync.search.spotxchange.com  
 spotxchange.com
 spotx.tv
+supportspotify.iad1.qualtrics.com
 valerie.ap.spotify.com
 valerie.lon2.spotify.com
 valerie.lon.spotify.com
@@ -318,6 +318,7 @@ www.spotify.facebook-ads.adtz.com
 www.spotify.pinterest.adtz.com
 zapp.spotify.com
 zlink.app.spotify.com
+zndmp7hs1p0bgook1-supportspotify.siteintercept.qualtrics.com
 zaira.lon2.spotify.com
 zaira.lon.spotify.com
 zayit.ap.spotify.com
@@ -369,6 +370,7 @@ fls.doubleclick.net
 admob.com
 ads.admob.com
 api.admob.com
+apx.moatads.com
 broadcast.admob.com
 b.admob.com
 c.admob.com

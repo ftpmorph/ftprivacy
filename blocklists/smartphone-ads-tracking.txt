@@ -1,21 +1,21 @@
-# Smartphone DNS blocking lists by ftpihole - https://www.ftpihole.com/
+# Smartphone + tablet + browser DNS blocking list by FTPiHole
+# Website: https://www.ftpihole.com
+# GitHub: https://github.com/ftpmorph/ftpihole
+# Twitter: https://twitter.com/ftpihole
 
-# Designed for and tested on the Pi Hole but should work on all DNS or HOSTS or list of domains based filters including AdGuard Home or Android apps such as AdAway, DNS66, etc...
-
-# As the name suggests this file is and will be focused on blocking ads, analytics, location guessing scripts, and other nasties from smartphones and smartphone apps. Also useful for tablets.
-# Will include entries for iOS and Android as well as apps which are platform agnostic.
+# Designed for and tested on the Pi Hole but should work on all DNS or HOSTS or list of domains based filters including AdGuard Home or Android apps such as AdGuard, AdAway, Blockada, DNS66, etc...
 
 # The aim with this list is to keep things working correctly while still reducing ads and trackers as much as possible.
-# This is the safe list. Designed specifically so that you could, if you wanted, set it up for your grandma and it'd work fine without her having to know what "one of these new fangled Pie Holes" even is.
+# It is designed to "just work" so that you could, if you wanted, set it up for your grandma and it'd work fine without her having to know what "one of these new fangled Pie Holes" even is.
 
-# Further "risky" lists that block more but could break things, or lists that are explicitly designed to block certain sites (looking your way Zuck), are on ftpihole.com with more coming soon if you are feeling wild.
+# Further lists that block more, including entire sites and apps (looking your way Zuck), are on https://ftpihole.com/lists and https://github.com/ftpmorph/ftpihole (remember to use the "raw" links if browsing through GitHub) with more coming soon if you are feeling wild.
 
 # Credit: most of this list comes from me scanning my own Pi Hole logs, some comes from other lists I see around the net.
 # Thank you to everyone else who makes these lists, contributes to the Pi Hole and similar project efforts, and ultimately makes all this possible.
 # But especially me because I'm brilliant ;)
 
 # Facebook and Facebook owned services - let's start with the obvious, shall we?
-# This will not block access to FB, I have a separate one for that here: https://www.ftpihole.com/lists/#facebook-quarantine-blocklist (along with full blocks for Instagram and WhatsApp)
+# This will not block access to FB, I have a separate list for that here: https://www.ftpihole.com/lists/#facebook-quarantine-blocklist (along with full blocks for Instagram and WhatsApp)
 # This only reduces some ads and "analytics."
 
 ads.facebook.com
@@ -419,10 +419,14 @@ bat.bing.com
 bingads.microsoft.com
 browser.pipe.aria.microsoft.com
 browser.events.data.microsoft.com
+collection.location.live.net
 events.data.microsoft.com
+h-microsoft.online-metrix.net
 inference.location.live.net
 live.rads.msn.com
 masdpanalytics.azureedge.net
+microsoft.qualtrics.com
+microsoft.siteintercept.qualtrics.com
 mobile.pipe.aria.microsoft.com
 mobile.events.data.microsoft.com
 oca.telemetry.microsoft.com
@@ -493,6 +497,8 @@ weather-analytics-events.apple.com
 # Amazon ads and tracking
 
 amazon-adsystem.amazon.com
+amazon1.qualtrics.com 
+amazonde1.qualtrics.com
 aan.amazon-adsystem.com
 aax.amazon-adsystem.com
 aax.amazon-adsystems.com
@@ -685,7 +691,6 @@ analytics-001.lon.spotify.com
 analytics-002.lon.spotify.com
 apex.spotify.com
 ap.spotify.com
-apx.moatads.com
 datasharing.spotify.com
 00.video-ak.cdn.spotify.com            
 01.video-ak.cdn.spotify.com            
@@ -953,6 +958,7 @@ search.spotxchange.com
 sync.search.spotxchange.com  
 spotxchange.com
 spotx.tv
+supportspotify.iad1.qualtrics.com
 valerie.ap.spotify.com
 valerie.lon2.spotify.com
 valerie.lon.spotify.com
@@ -964,6 +970,7 @@ www.spotify.facebook-ads.adtz.com
 www.spotify.pinterest.adtz.com
 zapp.spotify.com
 zlink.app.spotify.com
+zndmp7hs1p0bgook1-supportspotify.siteintercept.qualtrics.com
 zaira.lon2.spotify.com
 zaira.lon.spotify.com
 zayit.ap.spotify.com
@@ -1146,11 +1153,19 @@ vaali1.l.byteoversea.net
 vaali-mcs.byteoversea.com
 
 # Netflix
-# Yes, even Netflix are at it
+# Analytics and tracking URLs
 
+beacon.netflix.com 
+beacon.geo.netflix.com
+beacon.eu-west-1.prodaa.netflix.com 
+beacon.us-east-1.prodaa.netflix.com 
+beacon.us-west-2.prodaa.netflix.com
 customerevents.netflix.com
+dualstack.ichnaea-web-323206729.eu-west-1.elb.amazonaws.com
 ichnaea.netflix.com
 ichnaea-web.netflix.com
+nmtracking.netflix.com 
+presentationtracking.netflix.com
 
 # SwiftKey
 # This traffic was noticed frequently even though no account was made and all cloud sync options were disabled
@@ -1631,6 +1646,8 @@ mepodownload.mediatek.com
 # Msc ads and trackers embedded into many apps and sites
 
 1mp.mobi
+1.qualtrics.com
+15.taboola.com
 112.2o7.net
 247realmedia.com
 247media.com
@@ -1643,16 +1660,32 @@ mepodownload.mediatek.com
 3cinteractive.com
 3gl.net
 4dsply.com
+451research.co1.qualtrics.com
 53.localytics.com
 92zb.adj.st
 94vs.adj.st
 925.lt
 96.lt
 a8.net
+aa.online-metrix.net
+aaa.qualtrics.com
+aadigital.co1.qualtrics.com
+aba.qualtrics.com
+ablink.click.depop.com
+aboutloyalty.eu.qualtrics.com 
+aboutloyalty.qualtrics.com
+acap.asia.qualtrics.com
+accolade.co1.qualtrics.com
 accio.ai
 accesstrade.com.vn
 accesstrade.vn
-ablink.click.depop.com
+actions-am.taboola.com 
+actions-ch.taboola.com 
+actions-hk.taboola.com 
+actions-latb.taboola.com 
+actions-nj.taboola.com 
+actions-sg.taboola.com
+adara.com
 ad4push.com
 ad6media.fr
 ads234.com
@@ -1660,6 +1693,7 @@ ads345.com
 adbox.lt
 adclick.lt
 adlightning.com
+adobe.co1.qualtrics.com
 ad-sys.com
 adv.a8.net
 ad-api.a8.net
@@ -1751,6 +1785,7 @@ ads.gumgum.com
 ad.highsearch.co.kr
 ad.i2idata.com
 ad.idnad.co.kr
+ads.locationforexpert.com
 ads.localytics.com
 ads.linkedin.com
 ad.mainpost.de
@@ -1779,6 +1814,7 @@ ads.skopjeinfo.mk
 ads.sport1.mk
 ads.stackoverflow.com
 ads.telemedia.ch
+ads.tracking202.com
 ads.trendolend.mk
 ads.yahoo.com
 ad.yieldmanager.com
@@ -1859,6 +1895,7 @@ analytics.yahoo.com
 analytics.query.yahoo.com
 analytics.v13.ch
 andromeda.iad-01.braze.com
+akamai.taboola.com
 atlas.iad-03.braze.com
 anycast.pixel.adsafeprotected.com
 adx-winners-ap-southeast-1-rtb.adroll.com
@@ -1874,6 +1911,8 @@ apn-winners-us-east-1-rtb.adroll.com
 apn-winners-us-west-2-rtb.adroll.com
 apac-jp.bidswitch.net
 appboy.com
+am-trc.taboola.com
+am-trc-events.taboola.com
 amplitude.com
 amp.ai
 amp.permutive.com
@@ -1908,6 +1947,7 @@ app-config.enhance.co
 appsflyer.com
 appsflyer-web-4-962407740.eu-west-1.elb.amazonaws.com
 amplitude.com
+ancestry.siteintercept.qualtrics.com
 ai-personalization-prod-static.demandbase.com
 a.api.permutive.app
 api.1mobile.com
@@ -1965,6 +2005,11 @@ api.peakgames.net
 api.permaleads.ch
 api.leanplum.com
 api.spot.im
+api.taboola.com
+api-s2s.taboola.com
+api-s2s-america.taboola.com 
+api-s2s-apac.taboola.com 
+api-s2s-emea.taboola.com
 api.tapstream.com
 api.taplytics.com
 api.tappoint.com
@@ -1976,6 +2021,7 @@ api.west.bidtellect.com
 api.telemetry.watchabc.go.com
 api-gdpr.voodoo-tech.io
 api.kochava.com
+api.qualtrics.com
 api.zwizzarmyknife.com
 apu.samsungelectronics.com
 ab-api.peakgames.net
@@ -1984,16 +2030,20 @@ alerts.flurry.com
 alerts.api.kochava.com
 appload.ingest.crittercism.com
 appload.ingest.eu.crittercism.com
+appstate.az1.qualtrics.com 
+aptmetrics.qualtrics.com
 apm.crittercism.com
 apx.moatads.com
 archive.adjust.io
 arkadium-tagan.adlightning.com
 assets.applovin.com
 assets.kochava.com
+audiences.adara.com
 auspice.augur.io
 autocomplete.demandbase.com
 atom.adjust.com
 app-measurement.com
+asia.qualtrics.com
 as.ad-brix.com
 as-dmpsync.3lift.com
 as-eb2.3lift.com
@@ -2005,6 +2055,9 @@ aws-fr.bidswitch.net
 aws-fr-sync.bidswitch.net
 aws-ca.bidswitch.net
 aws-or.bidswitch.net
+au1.qualtrics.com
+auburn.qualtrics.com
+auckland.au1.qualtrics.com
 augur.io
 autotrader.app.link
 autotrader-alternate.app.link
@@ -2037,13 +2090,18 @@ banner.vadian.net
 banner10.zetasystem.dk
 backend.adjust.io
 base-cdn.admarvel.com
+bbk.qualtrics.com
 bc-us-east.bidswitch.net
+belkin.co1.qualtrics.com
+bellmedia.qualtrics.com
+bentley.co1.qualtrics.com
 bdapi.ads.oppomobile.com
 bjdata.ads.oppomobile.com
 beacons.extremereach.io
 beacon.walmart.com
 beacon-us-iad2.rubiconproject.com
 beanstalkdata.com
+beginads.com
 berp.com
 belgikanst.iad-03.braze.com
 belstat.com
@@ -2086,6 +2144,8 @@ bttn.io
 bttrack.com
 bnc.lt
 bs.serving-sys.com
+bsu.qualtrics.com
+bts360.qualtrics.com
 by.marketinghub.opentext.com
 b.measuread.com
 b.voicefive.com
@@ -2098,11 +2158,18 @@ bugsense.com
 bugsnag.com
 c1.adform.net
 c1.ts.amplience.org
+c1.taboola.com
+c2.taboola.com
 c.evidon.com
 c.gumgum.com
+c.taboola.com
+calltracking.fathomseo.com
+cambridge.eu.qualtrics.com
 campaign.ad-brix.com
 campaigns.bugsnag.com
 campaign.luminati.io
+canterbury.qualtrics.com
+cardiff.qualtrics.com
 capturly.com
 cas.criteo.com
 cas.as.criteo.com
@@ -2142,6 +2209,7 @@ cdn.applift.com
 cdn.appsflyer.com
 cdn.bannerflow.com
 cdn.bannersnack.com
+cdn.beginads.com
 cdn.bidadx.com
 cdn.branch.io
 cdn.brandmetrics.com
@@ -2170,9 +2238,11 @@ cdn.switchadhub.com
 cdn.taboola.com
 cdp.adserver.ai
 cdp.cloud.unity3d.com
+cds.taboola.com
 cfa.2mdnsys.com
 cfg.flurry.com
 challenge.360in.com
+client.adara.com
 client.hola.org
 clientmetrics-augmentum.kik.com
 clientmetrics.kik.com
@@ -2181,8 +2251,11 @@ client.luminati.io
 click.accesstrade.vn
 clk.control.kochava.com
 clickserv.pixel.ad
+click.stats-locations.com
 cloudmobi.net
 cloudapi.imrworldwide.com
+cloudfront.qualtrics.com
+co1.qualtrics.com
 config.ad-brix.com
 config.emb-api.com
 config.flurry.com
@@ -2202,6 +2275,8 @@ control.kochava.com
 control.kochava.comcontrol.kochava.com
 config.uca.cloud.unity3d.com
 combine.urbanairship.com
+compass.adara.com
+cortex.adara.com
 crash.163.com
 crashlytics.163.com
 crash-metrics.sdk.inmobi.com
@@ -2234,6 +2309,7 @@ d.applovin.com
 de.sitestat.com
 d.eu.criteo.com
 d.us.criteo.com
+destinylocation.info
 demand.clickyab.com
 demand.rubiconproject.com
 deliveroo.app.link
@@ -2274,6 +2350,7 @@ domob.cn
 donotwatch.org
 dontwatch.us
 doppler.hulu.com
+dsp.adara.com
 dsp-creative.demandbase.com
 db.adjust.io
 dmpsync.3lift.com
@@ -2326,13 +2403,16 @@ events.browsiprod.com
 events.mobile.optimizely.com
 events.cid.samba.tv
 events.split.io
+eventtracking.omarsys.com
 farfetch.onelink.me
 fast.accesstrade.com.vn
 fastlane.rubiconproject.com
+fathomseo.com
 feed.medisafeproject.com
 firebase-settings.crashlytics.com
 fpa-events.arstechnica.com
 freegeoip.net
+freehulunetflix.com
 frontend.adjust.io
 frontend-na.collective.kochava.com
 frontend.collective.kochava.com
@@ -2341,6 +2421,8 @@ ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net
 flagpoles.gnl-live.bbcverticals.com
 flingo.tv
 flurry.cachefly.net
+foxmvsdata.s.moatpixel.com
+fusetracking.com
 gameanalytics.com
 gammaplatform.com
 gatr.hit.gemius.pl
@@ -2354,6 +2436,7 @@ googlecm.hit.gemius.pl
 goodadvert.ru
 go.ezoic.net
 go.optimizely.com
+g1-iad.qualtrics.com
 g.3gl.net
 g.ezoic.net
 g.jwpsrv.com
@@ -2367,10 +2450,21 @@ gemius.pl
 gate.hockeyapp.net
 get.s-onetag.com
 get.urbanairship.com
+get.qualtrics.com
 geoedge.be
 geohawk.co.uk
 geoplugin.net
 geotargetly-1a441.appspot.com
+geo-location.s-onetag.com
+geolocation-api.invisionapp.com
+geolocation.1trust.app
+geolocation.forbes.com
+geolocation.onetrust.com
+geolocation.t-online.de
+geolocation.stroeerdp.de
+geolocation.performgroup.com
+geolocation-db.com
+geolocationsystem.com
 geoip.businessinsider.com
 geoip-api.cleverpush.com
 geopulse.factual.com
@@ -2385,6 +2479,11 @@ gem.gbc.criteo.com
 global.mgr.consensu.org
 go.kochava.com
 go.localytics.com
+go.qualtrics.com
+go2.qualtrics.com
+gov1.qualtrics.com 
+govexec.co1.qualtrics.com 
+govexe.co1.qualtrics.com
 grab.accio.ai
 grabv1.accio.ai
 grader.localytics.com
@@ -2396,6 +2495,7 @@ iad.g.163.com
 i.360in.com
 iabmap.evidon.com
 ibis.iad-03.braze.com
+ichnaea.adara.com
 identity-resolver.api.kochava.com
 i.snssdk.com
 ib.3lift.com
@@ -2430,6 +2530,7 @@ ingameads.gameloft.com
 intercom.io
 inmobi.com
 insights.gumgum.com
+imdb.co1.qualtrics.com
 i-mobile.co.jp
 i2ad.jp
 i2i.jp
@@ -2439,18 +2540,34 @@ img.applovin.com
 images.demandbase.com
 images.emb-api.com
 images.spot.im
+images.taboola.com
+images-dl.taboola.com 
+images1.taboola.com 
+images2.taboola.com 
+images3.taboola.com 
+images4.taboola.com 
+images5.taboola.com
 impact.applifier.com
 impression.appsflyer.com
+impr.taboola.com
+imprammp.taboola.com 
+imprchmp.taboola.com 
+imprnjmp.taboola.com 
+imprsgmp.taboola.com
 impression.link
 imrworldwide.com
 imp.gammaplatform.com
 imp.control.kochava.com
+ip2ulocation.com
+iplocationtools.com
+iplocation.zoho.com
 itrack.it
 jhqvy.app.link
 jp-geo.gumgum.com
 jp-g2.gumgum.com
 js-agent.newrelic.com
 jslibrary.adserver.ai
+js.adara.com
 js.gumgum.com
 jssdks.mparticle.com
 js-sec.indexww.com
@@ -2468,6 +2585,7 @@ kvinit-prod.api.kochava.com
 l3.evidon.com
 launcher.spot.im
 lddt.de
+leanmobi.fusetracking.com
 leanplum.com
 leanlab.co
 lemonparty.biz
@@ -2481,6 +2599,18 @@ linkcounter.pornosite.com
 localytics.com
 locately.com
 locationlabs.com
+locationto.net
+location.appcloudbox.net
+location.btc.top
+location.bloomberg.com
+location.data.cnzz.com
+location.nicehash.com
+location.placed.com
+location.syndication.kbb.com
+location.tabletwise.com 
+location.wynk.in
+locations.yext.com
+locations-v2.ibmlivenationapi.com
 logger.cloudmobi.net
 log.espn.com
 logging.fishsticksgames.com
@@ -2496,12 +2626,38 @@ log-1.samsungacr.com
 log-2.samsungacr.com
 log-3.samsungacr.com
 log.snssdk.com
+log.trackingio.com
 logs1409.xiti.com
 lolhello.com
 lolshock.com
 loltrain.com
 luminati.io
 launches.appsflyer.com
+h.online-metrix.net
+h6.online-metrix.net
+h-airbnb3.online-metrix.net
+h-api-jpmc.online-metrix.net
+h-api-ms.online-metrix.net
+h-api.online-metrix.net
+h-api-sb.online-metrix.net
+h-api-test.online-metrix.net
+h-ebay.online-metrix.net
+h-fail-test.online-metrix.net
+h-gumtree.online-metrix.net 
+h-gumtree1.online-metrix.net
+h-lloydsbank.online-metrix.net
+h-homeaway2.online-metrix.net
+h-metrobank.online-metrix.net
+h-paddypower.online-metrix.net
+h-sdk.online-metrix.net 
+h-sdk2.online-metrix.net
+h-signifyd.online-metrix.net
+h-skyuk.online-metrix.net
+h-subway.online-metrix.net
+h-tesco.online-metrix.net
+h-ups.online-metrix.net
+h-verizon.online-metrix.net
+h-walmart.online-metrix.net
 hola.org
 http-test1.hola.org
 homify.com.mx
@@ -2535,6 +2691,7 @@ manifest.localytics.com
 match.prod.bidr.io
 match.taboola.com
 masky.biddingx.com
+mcafee.siteintercept.qualtrics.com
 md-a-s.apptimize.com
 meatspin.biz
 meatspin.com
@@ -2588,6 +2745,8 @@ minormeeting.com
 mintegral.com
 mixedreading.com
 mixpanel.com
+moatads.com
+moatpixel.com
 monitor.kochava.com
 mon.sgsnssdk.com
 newrelic.com
@@ -2599,10 +2758,16 @@ ms.applovin.com
 ms.applvn.com
 ms.gumgum.com
 ms-stage.gumgum.com
+msloc.qualtrics.com
+mst.qualtrics.com
+msu.qualtrics.com
 mt.analytics.163.com
 m.quantcount.com
 n.adnow.com
 nativesdks.mparticle.com
+nbcudisplay.s.moatpixel.com
+nbcuvideo.s.moatpixel.com
+netstorage.taboola.com
 network-inv.com # phishing
 news_uk.amp.permutive.com
 nextdoor.app.link
@@ -2611,11 +2776,13 @@ nexus.ensighten.com
 nimp.org
 notify.bugsnag.com
 notify.adleadevent.com
+nr.taboola.com
 ns11.whois.co.kr
 nsi.activity.api.bbc.co.uk
 nsi.activity.api.bbc.com
 ns1.kochava.com
 nu9k.adj.st
+nyt.qualtrics.com
 o1.alerts.flurry.com
 o2.ipcampaign.iperceptions.com
 or-geo.gumgum.com
@@ -2635,6 +2802,10 @@ opx-winners-us-east-1-rtb.adroll.com
 opx-winners-us-west-2-rtb.adroll.com
 omax.admarvel.com
 oralse.cx
+osu.qualtrics.com
+oxy.qualtrics.com
+pace.qualtrics.com
+paddypower.siteintercept.qualtrics.com
 pad-v3.presage.io
 paypal-login292.com # paypal phishing scam
 partners.api.kochava.com
@@ -2681,6 +2852,7 @@ platform.rubiconproject.com
 pool.skyhookwireless.com
 pokey.thisisglobal.com
 portal.skyhookwireless.com
+popup.taboola.com
 premiumsrv.aniview.com
 prod-a.applovin.com
 provider.ad360.vn
@@ -2694,15 +2866,18 @@ pulse.data.flurry.com
 push-manage.api.kochava.com
 px.ads.linkedin.com
 r.3gl.net
+r.online-metrix.net
 realsrv.com
 realstats.dhgate.com
 recirculation.spot.im
 referrer.disqus.com
 reforge.in
+regstat.paddypower.com
 returnpath.net
 remarket.clicktripz.com
 remote.iperceptions.com
 remote-data.urbanairship.com
+relocationtemp.qualtrics.com
 reports.crashlytics.com
 reach-api.urbanairship.com
 reach.urbanairship.com
@@ -2715,11 +2890,16 @@ redis.adjust.io
 redbubble-alternate.app.link
 redbubble.app.link
 redirect.madsack-adcenter.de
+redirect.qualtrics.com
+resources.taboola.com
 report.adview.com
 report.adview.cn
-report.adview.pl
+report.adview.pl 
+reporting.qualtrics.com
+reportingapi.qualtrics.com
 reporting.api.kochava.com
 rollout.ada.support
+rotator.beginads.com
 rotation.linuxnewmedia.de
 rc.snssdk.com
 rsa.adjust.io
@@ -2735,12 +2915,15 @@ rt.applvn.com
 rtlog.byteoversea.com
 river.data.ea.com
 r6nl.adj.st
+rr.locationforexpert.com
 r.skimresources.com
+s.moatpixel.com
 s1.gumgum.com
 s2s.adjust.com
 s7.addthis.com
 s7.device.marketingcloudapis.com
 s79.research.de.com
+sac-h-homeaway2.online-metrix.net
 sanalytics.disneyplus.com
 samba.tv
 samsungads.com
@@ -2751,6 +2934,8 @@ sagittarius.iad-01.braze.com
 sa.entireweb.com
 sa.scorecardresearch.com
 sb.voicefive.com
+sb1.aa.online-metrix.net 
+sb2.aa.online-metrix.net
 scarf.ensighten.com
 serpens.iad-01.braze.com
 seginus.iad-03.braze.com
@@ -2772,9 +2957,12 @@ signifyd.com
 silvergamed.com
 simonsignal.com
 simpleheatmaps.com
+siteintercept.qualtrics.com
+siteinterceptco1.qualtrics.com
 scorecardresearch.com
 scripts.demandbase.com
 sb.scorecardresearch.com
+ss.qualtrics.com
 sso.internetat.tv
 sp.analytics.yahoo.com
 sdk.appsflyer.com
@@ -2790,10 +2978,13 @@ sdk.fra-01.braze.eu
 sdk.imrworldwide.com
 sdk.hexia.io
 sdk.split.io
+sdk.stats-locations.com
+sdks.stats-locations.com
 sdk.vl1.mobi
 sdkm.w.inmobi.com
 sparkle.locationlabs.com
 spixel.adsafeprotected.com
+star.originus.qualtrics.com
 stash.api.kochava.com
 stats.adultswim.com
 stat.alibaba.com
@@ -2833,6 +3024,7 @@ stats.telegraph.co.uk
 stats.unity3d.com
 stats.uswitch.com
 stats.ulysses.app
+stats-locations.com
 stat-track.com
 stat.pl
 stat.webmedia.pl
@@ -2925,6 +3117,7 @@ static.kochava.com
 static.simonsignal.com
 static.smni.com
 static.step.dk
+static.tracking202.com
 static.trackedweb.net
 static.trafficjunky.com
 settings.crashlytics.com
@@ -2986,36 +3179,62 @@ tracking.ad360.vn
 tracking.adalyser.com
 tracking.adalliance.io
 tracking.ad-brix.com
+tracking.adsrv.io
+tracking.adultsense.com
+tracking.affiliates.de
 tracker.anandtech.com
 track.appsflyer.com
 tracking.applift.com
 tracking.appwifi.com
+tracking.beginads.com
 trk.clearscore.com
+tracking.cleverads.vn
 track.clickbooth.com
 track.clickon.co.il
+tracking.clickmeter.com
 trk.clinch.co
 tracker.dsp.demandbase.com
 tracker.departapp.com
+tracking.directservices.it
+tracking.eclick.vn
+tracking.everydayhealth.com
+tracking.fathomseo.com
+tracking.feedmob.com 
+tracking.feedperfect.com
 track.games.la
+tracking.immobilienscout24.de
+trk.klclick.com
 track.mopo.de
+tracking.services.mozilla.com
 tracker.mtrtb.com
 track.neux.de
+tracking.onespot.com
+tracking.pandoiq.com
+tracking.performancerevenues.com
 trk.pinterest.com
-trk.klclick.com
+tracking.searchmarketing.com
+trc.taboola.com
+tracking.taboola.com
+tracking.tapinfluence.com
+tracking.tomsguide.com
+tracking.tomshardware.com
+tracking.trafficjunky.net
 trk.vidible.tv
 taplytics.com
 track.adform.net
 track.addict-mobile.net
 tracking.adspreemedia.com
 tracker.databrain.com
-tracking.i2w.io
 tracking.epicgames.com
 track.eyeviewads.com
 track.gawker.com
 tracking.globonet.ch
+tracking.i2w.io
+tracking-thirdparty.i2w.io
 track.leanlab.co
 tracking.linda.de
 tracking.onefeed.co.uk
+tracking.prd.mz.internal.unity3d.com
 track.tenjin.io
 track.tiara.daum.net
 trackers.voodoo-analytics.io
@@ -3023,6 +3242,9 @@ track.locsci.io
 track.slideshare.net
 track.taimi.com
 trk.techtarget.com
+tracking.validclick.com
+tracking.xapads.com
+tracking.yomedia.vn
 track.zomato.com
 track1.aniview.com
 trafficmanager.anyclip.com
@@ -3042,10 +3264,13 @@ trafficswarm.com
 trafic.ro
 trendcounter.com
 trendcounter.de
+tribpubdfp745347008913.s.moatpixel.com
 tenjin.io
 toonblast.net
 toon-notification.pkgms.com
 token.api.kochava.com
+tmx-api.ams.online-metrix.net 
+tmx-fp.online-metrix.net
 txn.ingest.crittercism.com
 txn.ingest.eu.crittercism.com
 t.update.moatads.com
@@ -3069,6 +3294,9 @@ usage.readdle.com
 user-agent-tracker.herokuapp.com
 universal.iperceptions.com
 utraffic.engine.adglare.net
+vidanalytics.taboola.com
+vidstat.taboola.com 
+vidstatb.taboola.com
 voodoo.io
 voodoo-ads.io
 voodoo-analytics.io
@@ -3088,6 +3316,7 @@ vice-web-statics-cdn.vice.com
 va-geo.gumgum.com
 verizon.gumgum.com
 wahacondrax.iad-03.braze.com
+wc-tracking.lavasoft.com
 webstat.com
 webstat.net
 webstat.channel4.com
@@ -3111,6 +3340,7 @@ ws.batch.com
 w.masky.biddingx.com
 wzrkt.com
 q4mn.adj.st
+quantcast584928381.s.moatpixel.com
 quantserve.com
 quantcount.com
 qxwz.com
@@ -3146,6 +3376,7 @@ vulcan.branch.io
 vungle.com
 zc.adswizz.com
 zina.flurry.com
+zynga.qualtrics.com
 zl2p.app.link
 zl2p-alternate.app.link
 zpu.samsungelectronics.com
@@ -3156,10 +3387,12 @@ z.moatads.com
 
 www.ads234.com
 www.ads345.com
+www.adara.com
 www.ads.proc.cc
 www.adnetwork.ai
 www.appsflyer.com
 www.applift.com
+www.beginads.com
 www.bluekai.com
 www.flurry.com
 www.getback.ch
