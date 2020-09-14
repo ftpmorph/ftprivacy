@@ -31,6 +31,7 @@ a.ads2.msads.net
 a.ads2.msn.com
 a.rad.msn.com
 ac3.msn.com
+ads.msads.net
 ads1.msads.net
 ads1.msn.com
 activity.windows.com
@@ -97,10 +98,12 @@ settings-win.data.microsoft.com
 settings.data.microsoft.com
 services.wes.df.telemetry.microsoft.com
 settings.data.glbdns2.microsoft.com
+spynet.microsoft.com
 spynet2.microsoft.com
 spynetalt.microsoft.com
 spyneteurope.microsoft.akadns.net
 spo-ring.msedge.net
+statsfe.ws.microsoft.com
 statsfe1.ws.microsoft.com
 statsfe2.ws.microsoft.com
 survey.watson.microsoft.com
