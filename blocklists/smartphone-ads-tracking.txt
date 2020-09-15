@@ -2567,6 +2567,7 @@ impression.link
 imrworldwide.com
 imp.gammaplatform.com
 imp.control.kochava.com
+ios.bugly.qq.com
 ip2ulocation.com
 iplocationtools.com
 iplocation.zoho.com
@@ -2577,8 +2578,10 @@ jp-g2.gumgum.com
 js-agent.newrelic.com
 jslibrary.adserver.ai
 js.adara.com
+js.appboycdn.com
 js.gumgum.com
 jssdks.mparticle.com
+jssdkcdns.mparticle.com
 js-sec.indexww.com
 king.com
 kits.crashlytics.com
@@ -2606,6 +2609,8 @@ links.ohhey.depop.com
 link.adjust.com
 linkcounter.com
 linkcounter.pornosite.com
+limebike.app.link
+limebike-alternate.app.link
 livefyre.com
 localytics.com
 locately.com
@@ -2861,6 +2866,7 @@ player.avplayer.com
 player.playbuzz.com
 player.playbuzz.co
 platform.rubiconproject.com
+platform-cdn.sharethrough.com
 pool.skyhookwireless.com
 pokey.thisisglobal.com
 portal.skyhookwireless.com
