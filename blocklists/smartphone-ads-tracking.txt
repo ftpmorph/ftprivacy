@@ -111,6 +111,8 @@ twitter-alternate.app.link
 4379742.fls.doubleclick.net
 8921356.fls.doubleclick.net
 3ded44bd838404a6a3f3d7333aa65498.safeframe.googlesyndication.com
+7ecbd5d8-dnsotls-ds.metric.gstatic.com
+9600015f-dnsotls-ds.metric.gstatic.com
 ad2.doubleclick.net
 ad.3au.doubleclick.net
 adclick.g.doubleclick.net
@@ -626,7 +628,8 @@ adinfo.ra1.xlmc.sec.miui.com
 analytics.ff.avast.sec.miui.com
 api.ad.xiaomi.com
 api.admob.xiaomi.com
-api.device.xiaomi.net
+api.activity.browser.miui.com
+api.activity.browser.intl.miui.com
 a.stat.xiaomi.com
 au.ff.avast.sec.miui.com
 cdn.ad.xiaomi.com
@@ -634,7 +637,10 @@ data.mistat.xiaomi.com
 data.mistat.intl.xiaomi.com
 e.ad.xiaomi.com
 fcanr.tracking.miui.com
+geofence.sys.miui.com
+globalapi.ad.xiaomi.com
 log.ad.xiaomi.com
+new.api.ad.xiaomi.com
 miuiboot.tracking.intl.miui.com
 miuiboot.tracking.miui.com
 sdkconfig.ad.xiaomi.com
@@ -1157,13 +1163,15 @@ vaali-mcs.byteoversea.com
 
 beacon.netflix.com 
 beacon.geo.netflix.com
-beacon.eu-west-1.prodaa.netflix.com 
-beacon.us-east-1.prodaa.netflix.com 
+beacon.eu-west-1.prodaa.netflix.com
+beacon.us-east-1.prodaa.netflix.com
+beacon.eu-west-2.prodaa.netflix.com 
 beacon.us-west-2.prodaa.netflix.com
 customerevents.netflix.com
 dualstack.ichnaea-web-323206729.eu-west-1.elb.amazonaws.com
 ichnaea.netflix.com
 ichnaea-web.netflix.com
+ichnaea-ios-aws-control.prod.ftl.netflix.com
 nmtracking.netflix.com 
 presentationtracking.netflix.com
 
