@@ -1882,6 +1882,7 @@ ana.biddingx.com
 ana.masky.biddingx.com
 analytics.163.com
 analytics.ad.daum.net
+analytics.archive.org
 analytics.brave.com
 analytics.api.brightcove.com
 analytics.ccgateway.net
@@ -2536,6 +2537,7 @@ ilbanner.com
 ilead.itrack.it
 inertia.af
 1xslots.africa
+incoming.telemetry.mozilla.org
 info.adacado.com
 info.localytics.com
 infolink.pavv.co.kr
@@ -2612,8 +2614,6 @@ leanlab.co
 lemonparty.biz
 lemonparty.org
 links.bugsnag.com
-links.alerts.depop.com
-links.ohhey.depop.com
 link.adjust.com
 linkcounter.com
 linkcounter.pornosite.com
@@ -2869,7 +2869,7 @@ pixel.zumby.io
 ping-meta-prd.jwpltx.com
 ping.taplytics.com
 pinterest.app.link
-pinterest-alternative.app.link
+pinterest-alternate.app.link
 player.avplayer.com
 player.playbuzz.com
 player.playbuzz.co
@@ -3183,6 +3183,7 @@ teads.tv
 telemetry.dropbox.com
 telemetry.v.dropbox.com
 telemetry.sdk.inmobi.com
+telemetry.mozilla.org
 terraclicks.com
 tax-refund-hmrc.com # HMRC phishing scam
 tag-st.contextweb.com
