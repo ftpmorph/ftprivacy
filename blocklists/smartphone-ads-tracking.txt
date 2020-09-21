@@ -111,6 +111,7 @@ twitter-alternate.app.link
 4379742.fls.doubleclick.net
 8921356.fls.doubleclick.net
 3ded44bd838404a6a3f3d7333aa65498.safeframe.googlesyndication.com
+2c0aabe9-dnsotls-ds.metric.gstatic.com
 7ecbd5d8-dnsotls-ds.metric.gstatic.com
 9600015f-dnsotls-ds.metric.gstatic.com
 ad2.doubleclick.net
@@ -242,6 +243,7 @@ c1.vip.sc9.admob.com
 clk1.vip.sc9.admob.com
 clk2.vip.sc9.admob.com
 clk3.vip.sc9.admob.com
+c122004c-dnsotls-ds.metric.gstatic.com
 cpm.admob.com
 cpm1.admob.com
 cpm1.vip.sc9.admob.com
@@ -359,6 +361,7 @@ stats.blogger.com
 stats.g.doubleclick.net
 static.doubleclick.net
 static.googleadsserving.cn
+supl.google.com # Google A-GPS server, whitelist if you want Google location services
 tracking.admobsphere.com
 tic.googlesyndication.com
 tpc.googlesyndication.com
@@ -2000,6 +2003,7 @@ api.locuslabs.com
 api.ning.com
 api.permutive.com
 api.permutive.app
+api.revenuecat.com
 api.oneaudience.com
 api.optimizely.com
 api.simpleanalytics.io
@@ -2246,6 +2250,8 @@ cdn-gl.imrworldwide.com
 cdn.krxd.net
 cdn.livefyre.com
 cdn.localytics.com
+cdn.lockerdomecdn.com
+cdn2.lockerdomecdn.com
 cdn.luminati.io
 cdn.measuread.com
 cdn.playbuzz.com
@@ -2400,6 +2406,7 @@ emxdgt.com
 embeds.driftcdn.com
 eps2.app.link
 eps2-alternate.app.link
+etahub.com
 etsy.app.link
 etsy-alternate.app.link
 eu-dmpsync.3lift.com
@@ -2720,6 +2727,7 @@ mcafee.siteintercept.qualtrics.com
 md-a-s.apptimize.com
 meatspin.biz
 meatspin.com
+media.trafficjunky.net
 metrics.api.drift.com
 metrics.att.com
 metrics.barclaycardus.com
@@ -3161,6 +3169,7 @@ super.adnow.com
 superstats.com
 supertop.ru
 supertracking.net
+supl.vodafone.com # Vodafone A-GPS server, whitelist if you want Vodafone location services
 surfmusik-adserver.de
 sw88.espn.com
 syndication.realsrv.com
