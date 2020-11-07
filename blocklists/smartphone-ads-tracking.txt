@@ -460,6 +460,7 @@ vortex.data.microsoft.com
 # And iAds are, of course, still a thing
 
 analytics.itunes.apple.com
+apple.comscoreresearch.com
 api.smoot.apple.com
 api2.smoot.apple.com
 api-aka.smoot.apple.com
@@ -2659,6 +2660,7 @@ log-3.samsungacr.com
 log.snssdk.com
 log.trackingio.com
 logs1409.xiti.com
+login73847773-paypal.com #phishing
 lolhello.com
 lolshock.com
 loltrain.com
