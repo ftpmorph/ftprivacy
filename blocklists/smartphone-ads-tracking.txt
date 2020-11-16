@@ -470,6 +470,7 @@ bugreport.apple.com
 ca.iadsdk.apple.com
 cf.iadsdk.apple.com
 cf.iad.sdk.apple.com
+cs.iadsdk.apple.com
 cstat.apple.com
 feedback.apple.com
 iad.apple.com
@@ -499,6 +500,7 @@ supportmetrics-uat.apple.com
 tr.iadsdk.apple.com
 ut.iadsdk.apple.com
 weather-analytics-events.apple.com
+www.iadsdk.apple.com
 
 # Amazon ads and tracking
 
@@ -2627,6 +2629,7 @@ linkcounter.com
 linkcounter.pornosite.com
 limebike.app.link
 limebike-alternate.app.link
+livecheck.yourbetterofferfinal.best
 livefyre.com
 localytics.com
 locately.com
@@ -2694,6 +2697,7 @@ h-walmart.online-metrix.net
 hola.org
 http-test1.hola.org
 homify.com.mx
+homebrew.sh # fake brew.sh site
 hotjar.com
 hotpot.360in.com
 howtotroll.org
@@ -3386,6 +3390,7 @@ quantcast584928381.s.moatpixel.com
 quantserve.com
 quantcount.com
 qxwz.com
+yourbetterofferfinal.best
 yield-manager.browsiprod.com
 yieldtraffic.com
 y.analytics.yahoo.com

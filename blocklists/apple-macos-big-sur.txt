@@ -1,0 +1,83 @@
+# Apple domains blocklist for privacy conscious macOS Big Sur users by FTPiHole
+# Website: https://www.ftpihole.com
+# GitHub: https://github.com/ftpmorph/ftpihole
+# Twitter: https://twitter.com/ftpihole
+
+# In Big Sur, Apple has blocked kernel extensions and crippled the network extension API so it now excludes many of their own processes
+# What this means for you is many of Apple's apps now bypass VPNs and firewalls such as Little Snitch
+# Yes you read that right: in Big Sur you can have a VPN connected and Little Snitch running, but Apple will still phone home outside of any VPN and it will not show up in Little Snitch or any other third party firewall
+# Even worse, there is no way to disable this behaviour in settings and doing it manually requires terminal knowledge and disabling OS security features such as SIP (I do not recommend this)
+# It also may not be possible at all on the new M1 (Apple Silicon) Macs, this is yet to be seen
+
+# More details can be found at the following links:
+# https://sneak.berlin/20201112/your-computer-isnt-yours/
+# https://appleterm.com/2020/10/20/macos-big-sur-firewalls-and-vpns/
+# https://tinyapps.org/blog/202010210700_whose_computer_is_it.html
+# https://obdev.at/support/littlesnitch/245914647368270
+
+# For a company that prides itself so much on privacy, this is ridiculous... macOS is now going the Windows 10 path where the user cannot opt out of data being sent silently to the mothership
+# Whether this is wrapped up as "telemetry" or "security" it is bad for privacy either way
+
+# This FTPiHole blocklist will block all known Apple domains excluded from the network extension API in Big Sur which are not essential for the system to run
+# So if you use Big Sur on a network with this blocklist working, the requests will not get through to Apple regardless of the setup of your computer
+# I will not block OS update or App Store domains, nor will I block iMessage and other services you may use, but I will block all known background phone home services e.g. diagnostics
+# Currently this is a work in progress and will be updated as more information is known
+# Any additions can be suggested through opening an issue on our GitHub page: https://github.com/ftpmorph/ftpihole
+
+ocsp.apple.com # this is the domain Apple checks app's certs against, its failure is the reason for slow app launches when Big Sur was released, if you believe the security of this feature is worth the privacy risk you can whitelist the domain - please read the links above to learn more about what it does if you are unsure
+
+aidc.apple.com
+analytics.itunes.apple.com
+apple.comscoreresearch.com
+banners.itunes.apple.com
+books-analytics-events.apple.com
+books-analytics-events.news.apple-dns.net
+bugreport.apple.com
+configuration.apple.com
+configuration.ls.apple.com
+ca.iadsdk.apple.com
+cf.iadsdk.apple.com
+cf.iad.sdk.apple.com
+cs.iadsdk.apple.com
+cstat.apple.com
+cstat-lb.apple.com
+cstat-lb.apple.com.akadns.net
+feedback.apple.com
+feedback.icloud.com
+feedbackws.icloud.com
+feedbackws.fe.apple-dns.net
+gs-loc.apple.com
+iad.apple.com
+iadcontent.apple.com
+iadsdk.apple.com
+identity.apple.com
+idiagnostics.apple.com
+internalcheck.apple.com
+metrics.apple.com
+metrics.icloud.com
+metrics.fe.apple-dns.net
+metrics.mzstatic.com
+messaging.metrics.icloud.com
+news.iadsdk.apple.com
+news-analytics-events.apple.com
+news-events.apple.com
+news-events.news.apple-dns.net
+notes-analytics-events.apple.com
+notes-analytics-events.news.apple-dns.net
+outsideapple.apple.com
+radarsubmissions.apple.com
+searchads.apple.com
+securemetrics.apple.com
+stats.gc.apple.com
+stg-cmws.iad.apple.com
+stocks-analytics-events.apple.com
+stocks-analytics-events.news.apple-dns.net
+su.iadsdk.apple.com
+supportmetrics.apple.com
+supportmetrics-uat.apple.com
+pancake.apple.com
+tr.iadsdk.apple.com
+ut.iadsdk.apple.com
+weather-analytics-events.apple.com
+weather-analytics-events.news.apple-dns.net
+www.iadsdk.apple.com
