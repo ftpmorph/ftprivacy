@@ -210,6 +210,7 @@ ichnaea-web.netflix.com
 
 samba.tv
 events.cid.samba.tv
+platform.cid.samba.tv
 
 # These are the guys who helped with the switchover to digital TV in the UK. What's their software doing in your telly? No idea! At a guess, targeted advertising.
 
@@ -246,3 +247,6 @@ stats-irl.sxp.smartclip.net
 trvdp.com
 tv-static.scdn.co
 xml.opera.com
+file2fxm.azureedge.net
+7345023508.fxmconnect.com
+7345023508.fxm9485766783.com
