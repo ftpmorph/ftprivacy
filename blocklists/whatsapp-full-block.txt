@@ -126,6 +126,7 @@ mmi701.whatsapp.net
 mmi731.whatsapp.net
 mms.whatsapp.net
 pps.whatsapp.net
+privatestats.whatsapp.net
 ratings.whatsapp.com
 static.whatsapp.net
 translate-dev.whatsapp.com
