@@ -2734,6 +2734,7 @@ mcafee.siteintercept.qualtrics.com
 md-a-s.apptimize.com
 meatspin.biz
 meatspin.com
+media.go2speed.org
 media.trafficjunky.net
 metrics.api.drift.com
 metrics.att.com
@@ -2906,11 +2907,13 @@ pubmatic-winners-us-east-1-rtb.adroll.com
 pubmatic-winners-us-west-2-rtb.adroll.com
 pulse.data.flurry.com
 push-manage.api.kochava.com
+p.typekit.net
 px.ads.linkedin.com
 r.3gl.net
 r.online-metrix.net
 realsrv.com
 realstats.dhgate.com
+recommender.scarabresearch.com
 recirculation.spot.im
 referrer.disqus.com
 reforge.in
@@ -3203,6 +3206,7 @@ telemetry.sdk.inmobi.com
 telemetry.mozilla.org
 terraclicks.com
 tax-refund-hmrc.com # HMRC phishing scam
+tags.bluekai.com
 tag-st.contextweb.com
 tag.crsspxl.com
 tags.crwdcntrl.net
