@@ -47,6 +47,7 @@ pixel.facebook.net
 pixel.facebook.com
 pixel.messenger.com
 pixel.facebook.co
+privatestats.whatsapp.net
 sonar-iad.xx.fbcdn.net
 scgraph.facebook.com
 onavo.com
