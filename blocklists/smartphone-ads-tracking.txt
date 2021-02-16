@@ -2117,6 +2117,7 @@ bentley.co1.qualtrics.com
 bdapi.ads.oppomobile.com
 bjdata.ads.oppomobile.com
 beacons.extremereach.io
+beacon.krxd.net
 beacon.livefyre.com
 beacon.walmart.com
 beacon-us-iad2.rubiconproject.com
@@ -2883,6 +2884,7 @@ pixel.tapad.com
 pixel.quantserve.com
 pixel.zprk.io
 pixel.zumby.io
+ping.chartbeat.net
 ping-meta-prd.jwpltx.com
 ping.taplytics.com
 pinterest.app.link
