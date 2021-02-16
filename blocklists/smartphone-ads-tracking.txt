@@ -1,21 +1,21 @@
-# Smartphone + tablet + browser DNS blocking list by FTPiHole
-# Website: https://www.ftpihole.com
-# GitHub: https://github.com/ftpmorph/ftpihole
-# Twitter: https://twitter.com/ftpihole
+# Smartphone + tablet + browser domain based DNS blocking list by FTPrivacy
+# Website: https://www.ftprivacy.cloud
+# GitHub: https://github.com/ftpmorph/ftprivacy
+# Twitter: https://twitter.com/ftprivacy
 
 # Designed for and tested on the Pi Hole but should work on all DNS or HOSTS or list of domains based filters including AdGuard Home or Android apps such as AdGuard, AdAway, Blockada, DNS66, etc...
 
 # The aim with this list is to keep things working correctly while still reducing ads and trackers as much as possible.
 # It is designed to "just work" so that you could, if you wanted, set it up for your grandma and it'd work fine without her having to know what "one of these new fangled Pie Holes" even is.
 
-# Further lists that block more, including entire sites and apps (looking your way Zuck), are on https://ftpihole.com/lists and https://github.com/ftpmorph/ftpihole (remember to use the "raw" links if browsing through GitHub) with more coming soon if you are feeling wild.
+# Further lists that block more, including entire sites and apps (looking your way Zuck), are on https://ftprivacy.cloud/domain-blocklists and https://github.com/ftpmorph/ftprivacy (remember to use the "raw" links if browsing through GitHub) with more coming soon if you are feeling wild.
 
 # Credit: most of this list comes from me scanning my own Pi Hole logs, some comes from other lists I see around the net.
 # Thank you to everyone else who makes these lists, contributes to the Pi Hole and similar project efforts, and ultimately makes all this possible.
 # But especially me because I'm brilliant ;)
 
 # Facebook and Facebook owned services - let's start with the obvious, shall we?
-# This will not block access to FB, I have a separate list for that here: https://www.ftpihole.com/lists/#facebook-quarantine-blocklist (along with full blocks for Instagram and WhatsApp)
+# This will not block access to FB, I have a separate list for that here: https://ftprivacy.cloud/domain-blocklists.html#all-of-facebook (along with full blocks for Instagram and WhatsApp)
 # This only reduces some ads and "analytics."
 
 ads.facebook.com
@@ -406,7 +406,7 @@ www.googletagmanager.com
 # Microsoft
 # Ads and trackers online and in apps
 # Basic "telemetry" domains
-# For a comprehensive Windows 10 "telemetry" block add this list as well: https://www.ftpihole.com/lists/#windows-10-the-ultimate-telemetry-blocklist
+# For a comprehensive Windows 10 "telemetry" block add this list as well: https://ftprivacy.cloud/domain-blocklists.html#windows-10-telemetry
 
 ads.msn.com
 ads1.msn.com
@@ -626,7 +626,7 @@ z-na.amazon-adsystems.com
 
 # Xiaomi basic ads and tracking
 # This only blocks a small number of MIUI ad and tracking domains
-# To fully block the massive amount of traffic sent by MIUI go here: https://www.ftpihole.com/lists/#xiaomi-smartphone-services-blocklist
+# To fully block the massive amount of traffic sent by MIUI go here: https://ftprivacy.cloud/domain-blocklists.html#xiaomi-ads-and-trackers
 
 ad.mi.com
 ad.xiaomi.com
@@ -1088,7 +1088,7 @@ wkclick.baidu.com
 
 # TikTok
 # The below blocks known TikTok trackers
-# To block the whole of TikTok please add our other list: https://www.ftpihole.com/lists/#tiktok-goes-the-clock-time-for-a-total-block
+# To block the whole of TikTok please add our other list: https://ftprivacy.cloud/domain-blocklists.html#xiaomi-ads-and-trackers
 
 ads.tiktok.com
 applog.tiktokv.com
