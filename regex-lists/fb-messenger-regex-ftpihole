@@ -1,0 +1,25 @@
+# Regex rule for all messenger.com domains, this will block access to the FB Messenger domain
+# It can also be used to allow it if, for example, you have a blocklist covering all of FB but still need Messenger access
+
+# I made this to allow Messenger even if Facebook is blocked by another blocklist
+# For my own use with AdGuard Home's "allow list" feature
+
+# Want to use this as an allow list too? Awesome. However, please note that as fbcdn.net and
+# similar domains would still be blocked by a full FB blocklist, images may not work
+# But basic messaging functionality should
+
+# Can equally be used as a blocklist within AdGuard if you wish, although keep in mind you can use
+# Filters > Blocked Services to block various social media services in an automated fashion
+# However sometimes it is not granular enough, i.e. if you block Facebook it blocks Messenger, hence me creating this
+
+# So if you don't want to block FB but do want to block messenger or vice versa, this will do exactly that
+# for any blocker that accepts regex adblock rules (won't work if it only takes plain lists of domains)
+
+# If you use AdBlock Home you can add regex blocklists the same as you add a list of domains blocklist
+# If you use Pi Hole, although you can manually add regex rules in the web UI, it does not natively support regex lists at the time of writing
+# You can just copy/paste this single rule to your whitelist in Pi Hole and it will work
+
+# In the future I will be releasing more regex blocklists to allow for cleaner and more efficient adblocking
+# These will work natively for AdGuard Home but for Pi Hole will require a Python script: https://github.com/mmotti/pihole-regex
+
+||messenger.com^
