@@ -1,7 +1,7 @@
 # [FTPrivacy.cloud](https://ftprivacy.cloud)
 
-About to reboot this project in a major way.
+About to reboot this project in a major way. Big things coming soon.
 
-Check the site or follow on [Twitter](https://twitter.com/ftprivacy), [Telegram](https://t.me/FTPrivacy), or [Mastodon](https://social.privacytools.io/@ftpihole) for updates.
+Check the site or follow on [Twitter](https://twitter.com/ftprivacy) or [Telegram](https://t.me/FTPrivacy) for updates on cool new stuff.
 
-Big things coming soon.
+Don't worry, I still maintain a list of the standard domain blocklists as per the old site [right here.](https://ftprivacy.cloud/domain-blocklists.html)
