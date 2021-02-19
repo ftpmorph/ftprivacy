@@ -1,0 +1,58 @@
+# FTPrivacy.cloud
+# https://github.com/ftpmorph/ftprivacy
+# https://twitter.com/ftprivacy
+# https://telegram.me/ftprivacy
+
+# This is an "adblock style" regex blocklist for Xiaomi smartphones running the stock MIUI ROM.
+
+# Xiaomi injects ads and trackers directly into its official MIUI Android ROMs that ship with the phones.
+# This list tries to block as many as possible while leaving the base functionality of services Mi Cloud working.
+# Crucially, it assures OTAs still work so you continue to get OS updates with security patches.
+
+# Want a list that'll just totally block all Xiaomi/Mi/MIUI services (and still allow OTAs)?
+# Add this one as well: https://raw.githubusercontent.com/ftpmorph/ftprivacy/master/blocklists/xiaomi-ads-tracking.txt
+# If you don't care about Xiaomi services I recommend adding both. If you do use those services, only add this one.
+
+# First party Xiaomi domains
+
+||ad.mi.com^
+||ad.xiaomi.com^
+||admob.xiaomi.com^
+||mistat.xiaomi.com^
+||mistat.intl.xiaomi.com^
+||tracking.miui.com^
+||tracking.intl.miui.com^
+
+# Third party services used in MIUI by Xiaomi
+
+||a.baidu.com^
+||adm.baidu.com^
+||admob.com^
+||admobclick.com^
+||admobsphere.com^
+||bes.baidu.com^
+||br.baidu.com^
+||bzclk.baidu.com^
+||datax.baidu.com^
+||doubleclick.net^
+||e.baidu.com^
+||eclick.baidu.com^
+||google-analytics.com^
+||googleadservices.com^
+||googlesyndication.com^
+||hm.baidu.com^
+||proxy.c9w.net^
+||sestat.baidu.com^
+||sclick.baidu.com^
+
+# Baseband telemetry and GPS data leak (Qualcomm)
+
+||gpsonextra.net^
+||izatcloud.net^
+||qualcomm.com^
+||quicinc.com^
+||xtracloud.net^
+
+# Baseband URLs for MediaTek devices
+
+||mediatek.com^
