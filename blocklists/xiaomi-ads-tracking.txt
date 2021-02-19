@@ -1,11 +1,14 @@
 # Xiaomi smartphone DNS blocking list by FTPrivacy.cloud
+# https://github.com/ftpmorph/ftprivacy
+# https://twitter.com/ftprivacy
+# https://telegram.me/ftprivacy
 
 # Xiaomi Android phones do a LOT of background data transmission constantly!
 # A lot of this is ad and tracking domains. Ads are now injected directly into the MIUI based ROMs the phones ship with.
 
 # Important: these rules may break Xiaomi Account and Mi Cloud.
 # All other services such as Android updates, Play Store and Play Store apps, and other standard Android/Google functionality is tested to work fine.
-# For a list that won't break Mi Cloud etc you can use the regex blockist here: 
+# For a list that won't break Mi Cloud etc you can use the regex blockist here: https://raw.githubusercontent.com/ftpmorph/ftprivacy/master/regex-blocklists/xiaomi-ads-tracking-regex-blocklist-ftprivacy.txt
 
 # Designed for and tested on the Pi Hole but should work on all domain list based filters including AdGuard Home and Android apps such as AdAway, DNS66, etc...
 
