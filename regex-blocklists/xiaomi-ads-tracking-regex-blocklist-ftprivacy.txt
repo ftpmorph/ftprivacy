@@ -41,6 +41,8 @@
 ||googleadservices.com^
 ||googlesyndication.com^
 ||hm.baidu.com^
+||imgg.traffic-media.co^
+||imgg.traffic-media.co.uk^
 ||proxy.c9w.net^
 ||sestat.baidu.com^
 ||sclick.baidu.com^
