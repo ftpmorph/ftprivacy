@@ -1,0 +1,44 @@
+# FTPrivacy.cloud
+# https://github.com/ftpmorph/ftprivacy
+
+# Regex whitelist of legit crypto miner pools for miners
+
+# Many blocklists try to prevent "cryptojacking" malware from working by blanket blocking all miner pools.
+# The problem? This also blocks mining pools for people who legitimately mine cryptocurrencies.
+# Add this whitelist to AdGuard Home or any other blocker that accepts regex lists ("adblock rules") and never have to worry about this again!
+
+# Added this list but your miners are still getting blocked from the pools?
+# Feel free to make a PR adding your miner's domain using the GitHub repo link above.
+# As long as the pool is serving legit users and takes steps to prevent abuse by botnets it will be approved.
+
+# Please note this list does NOT include mining pools used exclusively by botnets and only accepts pools that take steps to prevent abuse by botnets.
+# Therefore it should not be used as a blocklist. It won't provide full protection against actual "cryptojacking" malware.
+
+||ausminers.com^
+||c3pool.com^
+||cryptonote.social^
+||crypto-pool.fr^
+||dxpool.com^
+||f2pool.com^
+||fairhash.org^
+||gntl.co.uk^
+||hashcity.org^
+||hashing.mine.nu^
+||hashvault.pro^
+||hellominer.com^
+||herominers.com^
+||minergate.com^
+||minexmr.com^
+||miningpoolhub.com^
+||monerohash.com^
+||moneroocean.stream^
+||nanopool.org^
+||netlord.de^
+||ragerx.lol^
+||skypool.org^
+||supportxmr.com^
+||viabtc.com^
+||xmrfast.com^
+||xmrminers.club^
+||xmrpool.eu^
+||xmrvsbeast.com^
