@@ -47,6 +47,10 @@
 ||sestat.baidu.com^
 ||sclick.baidu.com^
 
+# Google Analytics cookies
+
+$cookie=/__utm[a-z]/
+
 # Baseband telemetry and GPS data leak (Qualcomm)
 
 ||gpsonextra.net^
