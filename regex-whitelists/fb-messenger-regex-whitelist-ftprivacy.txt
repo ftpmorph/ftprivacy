@@ -1,0 +1,17 @@
+# FTPrivacy.cloud
+# https://github.com/ftpmorph/ftprivacy
+
+# I made this to allow Messenger even if Facebook is blocked by another blocklist
+# For my own use with AdGuard Home's "allow list" feature while Facebook is on in "blocked services"
+
+# Want to use this as an allow list too? Awesome. However, please note that as fbcdn.net and similar domains would still be blocked by a full FB blocklist
+# So images may not work but basic messaging functionality should.
+
+# Can equally be used as a blocklist within AdGuard if you wish, although keep in mind you can use
+# Filters > Blocked Services to block various social media services in an automated fashion
+# However sometimes it is not granular enough, i.e. if you block Facebook it blocks Messenger, hence me creating this.
+
+# So if you don't want to block FB but do want to block messenger or vice versa, this will do exactly that
+# for any blocker that accepts regex adblock rules (won't work if it only takes plain lists of domains)
+
+||messenger.com^
