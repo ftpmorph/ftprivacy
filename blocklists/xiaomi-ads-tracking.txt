@@ -1,9 +1,11 @@
-# Xiaomi smartphone DNS blocking list by ftpihole - https://www.ftpihole.com/
+# Xiaomi smartphone DNS blocking list by FTPrivacy.cloud
 
 # Xiaomi Android phones do a LOT of background data transmission constantly!
+# A lot of this is ad and tracking domains. Ads are now injected directly into the MIUI based ROMs the phones ship with.
 
 # Important: these rules may break Xiaomi Account and Mi Cloud.
 # All other services such as Android updates, Play Store and Play Store apps, and other standard Android/Google functionality is tested to work fine.
+# For a list that won't break Mi Cloud etc you can use the regex blockist here: 
 
 # Designed for and tested on the Pi Hole but should work on all domain list based filters including AdGuard Home and Android apps such as AdAway, DNS66, etc...
 
@@ -382,6 +384,8 @@ www.googleadservices.com
 # Bonus Qualcomm "telemetry" came through a Xiaomi I own
 
 tls.telemetry.swe.quicinc.com # why does a chip maker even need "telemetry"?
+qcc.qccgeo.qualcomm.com # geo suggests location tracking
+qcc.qualcomm.com
 
 izatcloud.net # registered to Qualcomm, hosted in China
 gpsonextra.net # this one's a dedicated US server
