@@ -1,5 +1,7 @@
 # FTPrivacy.cloud
 # https://github.com/ftpmorph/ftprivacy
+# https://twitter.com/ftprivacy
+# https://telegram.me/ftprivacy
 
 # Regex whitelist of legit crypto miner pools for miners
 
@@ -14,31 +16,31 @@
 # Please note this list does NOT include mining pools used exclusively by botnets and only accepts pools that take steps to prevent abuse by botnets.
 # Therefore it should not be used as a blocklist. It won't provide full protection against actual "cryptojacking" malware.
 
-||ausminers.com^
-||c3pool.com^
-||cryptonote.social^
-||crypto-pool.fr^
-||dxpool.com^
-||f2pool.com^
-||fairhash.org^
-||gntl.co.uk^
-||hashcity.org^
-||hashing.mine.nu^
-||hashvault.pro^
-||hellominer.com^
-||herominers.com^
-||minergate.com^
-||minexmr.com^
-||miningpoolhub.com^
-||monerohash.com^
-||moneroocean.stream^
-||nanopool.org^
-||netlord.de^
-||ragerx.lol^
-||skypool.org^
-||supportxmr.com^
-||viabtc.com^
-||xmrfast.com^
-||xmrminers.club^
-||xmrpool.eu^
-||xmrvsbeast.com^
+@@||ausminers.com^
+@@||c3pool.com^
+@@||cryptonote.social^
+@@||crypto-pool.fr^
+@@||dxpool.com^
+@@||f2pool.com^
+@@||fairhash.org^
+@@||gntl.co.uk^
+@@||hashcity.org^
+@@||hashing.mine.nu^
+@@||hashvault.pro^
+@@||hellominer.com^
+@@||herominers.com^
+@@||minergate.com^
+@@||minexmr.com^
+@@||miningpoolhub.com^
+@@||monerohash.com^
+@@||moneroocean.stream^
+@@||nanopool.org^
+@@||netlord.de^
+@@||ragerx.lol^
+@@||skypool.org^
+@@||supportxmr.com^
+@@||viabtc.com^
+@@||xmrfast.com^
+@@||xmrminers.club^
+@@||xmrpool.eu^
+@@||xmrvsbeast.com^
