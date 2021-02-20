@@ -17,9 +17,12 @@
 
 ||ad.mi.com^
 ||ad.xiaomi.com^
+||ad.intl.xiaomi.com^
+||ad1.xiaomi.com^
 ||admob.xiaomi.com^
 ||mistat.xiaomi.com^
 ||mistat.intl.xiaomi.com^
+||stat.xiaomi.com^
 ||tracking.miui.com^
 ||tracking.intl.miui.com^
 
@@ -28,8 +31,10 @@
 ||a.baidu.com^
 ||adm.baidu.com^
 ||admob.com^
+||admob.mobi^
 ||admobclick.com^
 ||admobsphere.com^
+||analytics.google.com^
 ||bes.baidu.com^
 ||br.baidu.com^
 ||bzclk.baidu.com^
@@ -43,6 +48,9 @@
 ||hm.baidu.com^
 ||imgg.traffic-media.co^
 ||imgg.traffic-media.co.uk^
+||mobads.baidu.com^
+||mobads-logs.baidu.com^
+||mobile-global.baidu.com^
 ||proxy.c9w.net^
 ||sestat.baidu.com^
 ||sclick.baidu.com^
