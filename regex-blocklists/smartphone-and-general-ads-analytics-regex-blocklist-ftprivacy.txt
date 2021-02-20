@@ -53,6 +53,8 @@
 ||admob.mobi^
 ||admobclick.com^
 ||admobsphere.com^
+||adservice.google.com^
+||adservice.google.co.uk^
 ||ads.youtube.com^
 ||analytics.google.com^
 ||clientmetrics-pa.googleapis.com^
@@ -137,6 +139,7 @@
 
 # Apple
 
+||cstat.apple.com^
 ||iad.apple.com^
 ||iadcontent.apple.com^
 ||iadsdk.apple.com^
@@ -276,6 +279,8 @@ $removeparam=gclid|yclid|fbclid
 # Generic ads and trackers
 
 ||360in.com^
+||a1.api.bbc.co.uk^
+||activity.api.bbc.co.uk^
 ||adj.st^
 ||adjust.com^
 ||adjust.io^
@@ -309,6 +314,7 @@ $removeparam=gclid|yclid|fbclid
 ||applovin.com^
 ||appsflyer.com^
 ||applift.com^
+||app-measurement.com^
 ||augur.io^
 ||bugfender.com^
 ||bugsnag.com^
@@ -325,38 +331,68 @@ $removeparam=gclid|yclid|fbclid
 ||clickyab.com^
 ||contextweb.com^
 ||comscoreresearch.com^
+||communicatorcorp.com^
+||countly.wickr.com^
 ||demdex.net^
+||driftcdn.com^
 ||flurry.com^
 ||gameanalytics.com^
 ||gumgum.com^
+||hockeyapp.net^
 ||imgg.traffic-media.co^
 ||imgg.traffic-media.co.uk^
 ||king.com^
+||klclick.com^
+||launchdarkly.com^
 ||leanplum.com^
+||liveramp.com^
 ||localytics.com^
 ||locately.com^
+||mathtag.com^
 ||medisafeproject.com^ # if you install Medisafe, that app you put personal medical info into, it keeps phoning home... why?
+||measuread.com^
+||micpn.com^
 ||mixpanel.com^
 ||moatads.com^
+||mobiletraits.com^
+||mobiletraits.s3.amazonaws.com^
 ||mopub.com^
+||mybbc-analytics.files.bbci.co.uk^
+||newrelic.com^
+||nr-data.net^
+||optimizely.com^
 ||online-metrix.net^
+||pippio.com^
 ||proxy.c9w.net^
 ||pubmatic.com^
+||pure360.com^
+||rapleaf.com^
 ||realsrv.com^
+||returnpath.net^
+||rlcdn.com^
 ||rubiconproject.com^
 ||samsungads.com^
 ||samsungads.net^
 ||samsungadhub.com^
 ||samsungadhub.net^
 ||segment.io^
+||sentry.io^
+||scarabresearch.com^
+||scorecardresearch.com^
 ||simpleanalytics.io^
 ||skyhookwireless.com^
+||specialattributes.com^
+||specialattributes.s3.amazonaws.com^
+||split.io^
 ||spot.im^
 ||spotx.tv^
 ||spotxchange.com^
 ||taboola.com^
 ||taplytics.com^
+||telemetry.mozilla.org^
 ||tracking202.com^
 ||urbanairship.com^
+||usabilla.com^
+||voicefive.com^
 ||qualtrics.com^
 ||yieldmanager.com^
