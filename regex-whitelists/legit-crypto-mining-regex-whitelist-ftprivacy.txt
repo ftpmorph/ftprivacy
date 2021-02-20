@@ -43,4 +43,5 @@
 @@||xmrfast.com^
 @@||xmrminers.club^
 @@||xmrpool.eu^
+@@||xmrig.com^
 @@||xmrvsbeast.com^
