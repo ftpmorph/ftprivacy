@@ -101,6 +101,7 @@
 ||amazon-adsystem.com^
 ||amazon-adsystems.com^
 ||client-log.amazon.com^
+||kindle-cpu.com^
 ||widgets.amazon.com^
 ||ws.amazon.com^
 
@@ -167,12 +168,14 @@
 
 ||beacon.netflix.com^
 ||customerevents.netflix.com^
+||dradis.netflix.com^
 ||geo.netflix.com^
 ||ichnaea.netflix.com^
 ||ichnaea-android.netflix.com^
 ||ichnaea-ios.netflix.com^
 ||ichnaea-web.netflix.com^
 ||nmtracking.netflix.com^
+||oca.nflxvideo.net^
 ||presentationtracking.netflix.com^
 ||prodaa.netflix.com^
 
