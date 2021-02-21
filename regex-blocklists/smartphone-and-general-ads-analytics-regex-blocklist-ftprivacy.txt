@@ -168,14 +168,13 @@
 
 ||beacon.netflix.com^
 ||customerevents.netflix.com^
-||dradis.netflix.com^
 ||geo.netflix.com^
 ||ichnaea.netflix.com^
+||ichnaea-web.dradis.netflix.com^
 ||ichnaea-android.netflix.com^
 ||ichnaea-ios.netflix.com^
 ||ichnaea-web.netflix.com^
 ||nmtracking.netflix.com^
-||oca.nflxvideo.net^
 ||presentationtracking.netflix.com^
 ||prodaa.netflix.com^
 
