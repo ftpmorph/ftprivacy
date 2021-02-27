@@ -188,6 +188,11 @@
 ||supportmetrics-uat.apple.com^
 ||weather-analytics-events.apple.com^
 
+# Samsung (smartphones)
+
+||dc.dqa.samsung.com^
+||diagmon-*.samsungdm.com^
+
 # Netflix
 
 ||beacon.netflix.com^
@@ -462,6 +467,7 @@ $removeparam=gclid|yclid|fbclid
 ||bizible.com^
 ||bizographics.com^
 ||bluekai.com^
+||bmetrack.com^
 ||bounceexchange.com^
 ||branch.io^
 ||brandmetrics.com^
@@ -474,6 +480,7 @@ $removeparam=gclid|yclid|fbclid
 ||bugly.qq.com^
 ||c3metrics.com^
 ||ccidnet.com^
+||cdnwidget.com^
 ||cdp.cloud.unity3d.com^
 ||chartbeat.com^
 ||cleverpush.com^
@@ -498,25 +505,26 @@ $removeparam=gclid|yclid|fbclid
 ||demandbase.com^
 ||demdex.net^
 ||deployads.com^
-||diagmon-policy.samsungdm.com^
-||diagmon-serviceapi.samsungdm.com^
 ||didtheyreadit.com^
 ||directadvert.net^
 ||directadvert.ru^
 ||directads.mcafee.com^
 ||disqusads.com^
+||dotomi.com^
 ||driftcdn.com^
 ||dynamicyield.com^
 ||eepay-billinginfo.com^ # EE SMS phishing scam
 ||estat.com^
 ||enhance.co^
 ||emb-api.com^
+||emltrk.com^
 ||eyeviewads.com^
 ||extremereach.io^
 ||extreme-ip-lookup.com^
 ||factual.com^
 ||flurry.com^
 ||flurry.cachefly.net^
+||forter.com^
 ||fpa-events.arstechnica.com^
 ||freegeoip.net^
 ||freehulunetflix.com^
@@ -527,6 +535,7 @@ $removeparam=gclid|yclid|fbclid
 ||geoedge.be^
 ||geohawk.co.uk^
 ||geoip.businessinsider.com^
+||geolocation.forbes.com^
 ||geolocation-db.com^
 ||geolocationsystem.com^
 ||geoplugin.net^
@@ -554,6 +563,7 @@ $removeparam=gclid|yclid|fbclid
 ||hs-analytics.net^
 ||hmrc.refund-form*.com^ # HMRC phishing
 ||hubspot.com^
+||i.embed.ly^
 ||i2ad.jp^
 ||i2i.jp^
 ||iap.unity3d.com^
@@ -570,6 +580,7 @@ $removeparam=gclid|yclid|fbclid
 ||inmobi.cn^
 ||inside-graph.com^
 ||insightexpressai.com^
+||instabug.com^
 ||insurads.com^
 ||intentiq.com^
 ||intercom.io^
@@ -634,6 +645,7 @@ $removeparam=gclid|yclid|fbclid
 ||mavencoalition.io^
 ||maxymiser.net^
 ||media6degrees.com^
+||media.net^
 ||mediaad.org^
 ||medisafeproject.com^ # if you install Medisafe, that app you put personal medical info into, it keeps phoning home... why?
 ||measuread.com^
@@ -737,6 +749,7 @@ $removeparam=gclid|yclid|fbclid
 ||sharethis.com^
 ||sharethrough.com^
 ||shockgore.com^
+||sibautomation.com^
 ||simpleanalytics.io^
 ||siteimproveanalytics.io^
 ||sitestat.com^
@@ -766,6 +779,7 @@ $removeparam=gclid|yclid|fbclid
 ||statcounter.com^
 ||staticworld.net^
 ||stats-locations.com^
+||stat.adguard.com^
 ||stats.adobe.com^
 ||sstats.adobe.com^
 ||stats.adultswim.com^
