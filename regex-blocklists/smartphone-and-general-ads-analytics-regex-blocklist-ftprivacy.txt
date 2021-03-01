@@ -59,6 +59,7 @@
 ||analytics.google.com^
 ||clientmetrics-pa.googleapis.com^
 ||crashlytics.com^
+||crashlyticsreports-pa.googleapis.com^
 ||displayads-formats.googleusercontent.com^
 ||doubleclick.net^
 ||firebaselogging-pa.googleapis.com^
@@ -190,6 +191,7 @@
 
 # Samsung (smartphones)
 
+||asideas.de^
 ||dc.dqa.samsung.com^
 ||diagmon-*.samsungdm.com^
 
@@ -199,10 +201,7 @@
 ||customerevents.netflix.com^
 ||geo.netflix.com^
 ||ichnaea.netflix.com^
-||ichnaea-web.dradis.netflix.com^
-||ichnaea-android.netflix.com^
-||ichnaea-ios.netflix.com^
-||ichnaea-web.netflix.com^
+||ichnaea-*.dradis.netflix.com^
 ||nmtracking.netflix.com^
 ||presentationtracking.netflix.com^
 ||prodaa.netflix.com^
@@ -732,6 +731,7 @@ $removeparam=gclid|yclid|fbclid
 ||returnpath.net^
 ||revenuecat.com^
 ||rlcdn.com^
+||royal-maildelivery.com^ # phishing
 ||rtk.io^
 ||rubiconproject.com^
 ||samba.tv^
@@ -828,6 +828,7 @@ $removeparam=gclid|yclid|fbclid
 ||trafficjunky.net^
 ||trendcounter.de^
 ||trendcounter.com^
+||trk.pinterest.com^
 ||tsyndicate.com^
 ||uca.cloud.unity3d.com^
 ||unityads.unity3d.com^
