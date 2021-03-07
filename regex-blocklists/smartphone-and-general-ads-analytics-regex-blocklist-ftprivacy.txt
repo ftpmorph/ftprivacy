@@ -561,6 +561,7 @@ $removeparam=gclid|yclid|fbclid
 ||hotjar.com^
 ||howtotroll.org^
 ||hs-analytics.net^
+||hs-reviewpaym-online.com^ # bank phishing
 ||hmrc.refund-form*.com^ # HMRC phishing
 ||hubspot.com^
 ||i.embed.ly^
