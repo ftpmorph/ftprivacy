@@ -1,0 +1,11 @@
+# FTPrivacy.cloud
+# https://github.com/ftpmorph/ftprivacy
+# https://twitter.com/ftprivacy
+# https://telegram.me/ftprivacy
+
+# General false positives whitelist
+
+# Microsoft
+
+# This is for Azure's CDN, plenty of legit services are hosted here, it is just a CDN, but blocked mistakenly often
+@@||msecnd.net
