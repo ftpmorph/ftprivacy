@@ -8,4 +8,22 @@
 # Microsoft
 
 # This is for Azure's CDN, plenty of legit services are hosted here, it is just a CDN, but blocked mistakenly often
+
 @@||msecnd.net^$important
+
+# Samsung
+
+# Required to allow OTAs on Samsung Android smartphones
+
+@@||cfota*.samsungdms.net^$important
+@@||ospserver.net^$important
+@@||poll.omc.samsungdm.com^$important
+@@||poll.samsung-omc.com^$important
+
+# Apple
+
+# Allows iMessage gif keyboard to work
+
+@@||api-glb-euw1b.smoot.apple.com^$important
+@@||cdn2.smoot.apple.com^$important
+
