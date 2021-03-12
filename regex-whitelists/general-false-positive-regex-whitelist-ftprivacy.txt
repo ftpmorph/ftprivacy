@@ -8,4 +8,4 @@
 # Microsoft
 
 # This is for Azure's CDN, plenty of legit services are hosted here, it is just a CDN, but blocked mistakenly often
-@@||msecnd.net
+@@||msecnd.net^$important
