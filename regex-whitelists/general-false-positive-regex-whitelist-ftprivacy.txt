@@ -1,5 +1,6 @@
 # FTPrivacy.cloud
 # https://github.com/ftpmorph/ftprivacy
+# https://fosstodon.org/@ftprivacy
 # https://twitter.com/ftprivacy
 # https://telegram.me/ftprivacy
 
@@ -20,10 +21,16 @@
 @@||poll.omc.samsungdm.com^$important
 @@||poll.samsung-omc.com^$important
 
+# Required to allow OTAs on Xiaomi Android smartphones
+
+@@||enbigota.d.miui.com^$important
+@@||bigota.d.miui.com^$important
+@@||hugeota.d.miui.com^$important
+
 # Apple
 
 # Allows iMessage gif keyboard to work
 
 @@||api-glb-euw1b.smoot.apple.com^$important
-@@||cdn2.smoot.apple.com^$important
+@@||cdn*.smoot.apple.com^$important
 
