@@ -1,0 +1,14 @@
+# FTPrivacy.cloud
+# https://github.com/ftpmorph/ftprivacy
+# https://fosstodon.org/@ftprivacy
+# https://twitter.com/ftprivacy
+# https://telegram.me/ftprivacy
+
+# WhatsApp regex/adblock rules block list
+# Works best with AdGuard Home on your LAN or within a VPN or encrypted DNS
+# For the domain list version: https://raw.githubusercontent.com/ftpmorph/ftprivacy/master/blocklists/whatsapp-full-block.txt
+
+||whatsapp.com^
+||whatsapp.net^
+||whatsapp-*.facebook.com^
+||whatsapp-*.fbcdn.net^
