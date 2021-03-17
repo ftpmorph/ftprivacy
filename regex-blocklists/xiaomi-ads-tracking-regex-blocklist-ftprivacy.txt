@@ -1,5 +1,6 @@
 # FTPrivacy.cloud
 # https://github.com/ftpmorph/ftprivacy
+# https://fosstodon.org/@ftprivacy
 # https://twitter.com/ftprivacy
 # https://telegram.me/ftprivacy
 
@@ -15,16 +16,51 @@
 
 # First party Xiaomi domains
 
+||activity.browser.miui.com^
+||activity.browser.*.miui.com^
+||activity.hybrid.xiaomi.com^
+||activity.hybrid.*.xiaomi.com^
+||activity.mi.com^
+||activity.*.mi.com^
 ||ad.mi.com^
+||ad.*.mi.com^
+||ads.mi.com^
 ||ad.xiaomi.com^
-||ad.intl.xiaomi.com^
+||ad.*.xiaomi.com^
 ||ad1.xiaomi.com^
 ||admob.xiaomi.com^
+||adinfo.ra1.xlmc.sec.miui.com^
+||analytics.ff.avast.sec.miui.com^
+||alexa.mi.com^
+||alexa.*.mi.com^ # yes, that's right, you even get American spyware now too!
+||browserapi.micloud.xiaomi.net^
+||bugreport.xiaomi.net^
+||event.mi.com^
+||event.*.mi.com^
+||events.miui.com^
+||feed.browser.miui.com^
+||feedback.miui.com^
+||feedback.*.miui.com^
+||log.youpin.mi.com^
 ||mistat.xiaomi.com^
-||mistat.intl.xiaomi.com^
+||mistat.*.xiaomi.com^
+||openapp.io.mi.com^
+||proxy-*.mi.com^
+||proxy-*.*.mi.com^
+||proxy.mi.com^
+||proxy.*.mi.com^
+||proxy.*.*.mi.com^
+||sentry.sec.miui.com^
+||smartcamera.api.io.mi.com^
 ||stat.xiaomi.com^
+||stat.*.*.xiaomi.com^
+||stat.*.xiaomi.com^
+||stat.mi.com^
+||stats.miui.com^
+||stats.xiaomi.com^
+||track.*.xiaomi.com^
 ||tracking.miui.com^
-||tracking.intl.miui.com^
+||tracking.*.miui.com^
 
 # Third party services used in MIUI by Xiaomi
 

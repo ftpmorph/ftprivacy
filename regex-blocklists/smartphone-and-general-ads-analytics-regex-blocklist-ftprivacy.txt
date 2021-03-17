@@ -1,9 +1,11 @@
 # FTPrivacy.cloud
 # https://github.com/ftpmorph/ftprivacy
+# https://fosstodon.org/@ftprivacy
 # https://twitter.com/ftprivacy
 # https://telegram.me/ftprivacy
 
-# This is the regex and adblock rule version of my most useful, universal list: https://github.com/ftpmorph/ftprivacy/blob/master/blocklists/smartphone-ads-tracking.txt
+# This is the regex and adblock rule version of my most useful, universally used list.
+The original domain list version can be found here: https://github.com/ftpmorph/ftprivacy/blob/master/blocklists/smartphone-ads-tracking.txt
 
 # While it started off as being for smartphones only, it has over time grown to become a lot more universal.
 # The original list is a great one to have on your network as a general ad blocker for desktop and mobile.
@@ -16,6 +18,7 @@
 ||connect.facebook.net^
 ||connect.facebook.com^
 ||crashlogs.whatsapp.net^
+||dns.facebook.com^
 ||facebook.com^$third-party,cookie=c_user
 ||facebook.com^$third-party,script
 ||fb.com^$third-party,script
@@ -114,6 +117,8 @@
 
 # Microsoft
 
+||adcenter.microsoft.com^
+||advertising.microsoft.com^
 ||adserver.bing.com^
 ||ads.msn.com^
 ||ads*.msn.com^
@@ -138,11 +143,17 @@
 ||rad.live.com^
 ||rad.msn.com^
 ||rads.msn.com^
+||tar.microsoft.com^
+||target.microsoft.com^
+||targetingservices.microsoft.com^
+||targetingservicesppe.microsoft.com^
 ||telemetry.appex.bing.net^
 ||telemetry.microsoft.com^
 ||telemetry.remoteapp.windowsazure.com^
 ||telemetry.urs.microsoft.com^
 ||watson.microsoft.com^
+||watson.officeint.microsoft.com^
+||watson*.officeint.microsoft.com^
 
 # In its default config, Windows sends out a lot of "wpad.blahblahblah" requests.
 # WPAD is an outdated Microsoft protocol from the 90's that creates a big security risk.
@@ -162,19 +173,40 @@
 
 # Apple
 
+||advertising.apple.com^
+||ad-iad*.apple.com^
+||analytics.itunes.apple.com^
 ||books-analytics-events.apple.com^
+||counter.apple.com^
+||cprad-iad*.apple.com^
+||cpradcnt-iad*.apple.com^
+||cprfeed-iad*.apple.com^
 ||cstat.apple.com^
+||cstat-*.apple.com^
+||cstat.*.apple.com^
+||devstats.apple.com^
+||edmarketing.apple.com^
 ||feedback.apple.com^
+||feedback.push.apple.com^
+||geoplaces.apple.com^
 ||gs-loc.apple.com^
 ||iad.apple.com^
 ||iadcontent.apple.com^
 ||iadsdk.apple.com^
 ||idiagnostics.apple.com^
+||imgstats.apple.com^
 ||internalcheck.apple.com^
+||iosdiags.apple.com^
+||iosdiags-*.apple.com^
 ||iphonesubmissions.apple.com^
 ||iphonediags.apple.com^
+||iphonediagsuat-bscan.apple.com^
+||iphonediagsit2.apple.com^
+||iphonediagsuat2.apple.com^
+||marketing.apple.com^
 ||metrics.apple.com^
 ||metrics.icloud.com^
+||news-events.apple.com^
 ||notes-analytics-events.apple.com^
 ||radarsubmissions.apple.com^
 ||searchads.apple.com^
@@ -187,6 +219,8 @@
 ||stocks-analytics-events.apple.com^
 ||supportmetrics.apple.com^
 ||supportmetrics-uat.apple.com^
+||trace.apple.com^
+||tracker.apple.com^
 ||weather-analytics-events.apple.com^
 
 # Samsung (smartphones)
@@ -197,11 +231,17 @@
 
 # Netflix
 
+||ads.test.netflix.com^
+||ads.test.geo.netflix.com^
 ||beacon.netflix.com^
 ||customerevents.netflix.com^
+||customerevents.*.netflix.com^
+||estats.netflix.com^
 ||geo.netflix.com^
 ||ichnaea.netflix.com^
+||ichnaea.geo.netflix.com^
 ||ichnaea-*.netflix.com^
+||ichnaea-*.geo.netflix.com^
 ||ichnaea-*.dradis.netflix.com^
 ||nmtracking.netflix.com^
 ||presentationtracking.netflix.com^
@@ -228,18 +268,32 @@
 ||datasharing.spotify.com^
 ||mp3ad.scdn.co^
 ||pixel.spotify.com^
-||pixel1.spotify.com^
-||pixel2.spotify.com^
+||pixel*.spotify.com^
+||spotify.facebook.com^
 ||video-ak.cdn.spotify.com^
 
 # Snapchat
 
+||ads.snapchat.com^
+||adsapi.snapchat.com^
+||adsapi2.snapchat.com^
+||adsapi3.snapchat.com^
+||adsapimus.snapchat.com^
+||advertising.snapchat.com^
+||ad-center.snapchat.com^
 ||analytics.snapchat.com^
 ||app-analytics.snapchat.com^
 ||app-analytics-v2.snapchat.com^
+||events.antivirus.snappublisher.snapchat.com^
+||events.snapchat.com^
+||events.snappublisher.snapchat.com^
 ||gcs.sc-cdn.net^
 ||loc.sc-jpl.com^
 ||loca.sc-jpl.com^
+||metrics.snappublisher.snapchat.com^
+||pro-insights.snapchat.com^
+||pro-stories.snapchat.com^
+||promo.snappublisher.snapchat.com^
 ||sc-analytics.appspot.com^
 ||tr.snapchat.com^
 ||snapads.com^
@@ -267,27 +321,58 @@
 ||eclick.baidu.com^
 ||hm.baidu.com^
 ||mobads.baidu.com^
-||mobads-logs.baidu.com^
-||mobile-global.baidu.com^
+||mobads-*.baidu.com^
+||mobile-*.baidu.com^
 ||sestat.baidu.com^
 ||sclick.baidu.com^
 
 # Xiaomi
 
 ||activity.browser.miui.com^
-||activity.browser.intl.miui.com^
+||activity.browser.*.miui.com^
+||activity.hybrid.xiaomi.com^
+||activity.hybrid.*.xiaomi.com^
+||activity.mi.com^
+||activity.*.mi.com^
 ||ad.mi.com^
+||ad.*.mi.com^
+||ads.mi.com^
 ||ad.xiaomi.com^
-||ad.intl.xiaomi.com^
+||ad.*.xiaomi.com^
 ||ad1.xiaomi.com^
 ||admob.xiaomi.com^
 ||adinfo.ra1.xlmc.sec.miui.com^
 ||analytics.ff.avast.sec.miui.com^
+||alexa.mi.com^
+||alexa.*.mi.com^ # yes, that's right, you even get American spyware now too!
+||browserapi.micloud.xiaomi.net^
+||bugreport.xiaomi.net^
+||event.mi.com^
+||event.*.mi.com^
+||events.miui.com^
+||feed.browser.miui.com^
+||feedback.miui.com^
+||feedback.*.miui.com^
+||log.youpin.mi.com^
 ||mistat.xiaomi.com^
-||mistat.intl.xiaomi.com^
+||mistat.*.xiaomi.com^
+||openapp.io.mi.com^
+||proxy-*.mi.com^
+||proxy-*.*.mi.com^
+||proxy.mi.com^
+||proxy.*.mi.com^
+||proxy.*.*.mi.com^
+||sentry.sec.miui.com^
+||smartcamera.api.io.mi.com^
 ||stat.xiaomi.com^
+||stat.*.*.xiaomi.com^
+||stat.*.xiaomi.com^
+||stat.mi.com^
+||stats.miui.com^
+||stats.xiaomi.com^
+||track.*.xiaomi.com^
 ||tracking.miui.com^
-||tracking.intl.miui.com^
+||tracking.*.miui.com^
 
 # SwiftKey
 
@@ -373,6 +458,11 @@ $removeparam=gclid|yclid|fbclid
 ||ads.oppomobile.com^
 ||ads.pinterest.com^
 ||ads.stackoverflow.com^
+||adfs.theguardian.com^
+||adfsdev.theguardian.com^
+||admanager.theguardian.com^
+||advertisercontent.theguardian.com^
+||advertising.theguardian.com^
 ||ads.yahoo.com^
 ||adara.com^
 ||ad-brix.com^
@@ -487,7 +577,7 @@ $removeparam=gclid|yclid|fbclid
 ||clicktale.net^
 ||clicktripz.com^
 ||clickyab.com^
-||clientmetrics-augmentum.kik.com^
+||clientmetrics-*.kik.com^
 ||clientmetrics.kik.com^
 ||cloudmobi.net^
 ||cnad.com^
@@ -499,6 +589,7 @@ $removeparam=gclid|yclid|fbclid
 ||communicatorcorp.com^
 ||coremetrics.com^
 ||countly.wickr.com^
+||cpx.to^
 ||criteo.com^
 ||crwdcntrl.net^
 ||databrain.com^
@@ -539,7 +630,7 @@ $removeparam=gclid|yclid|fbclid
 ||geolocation-db.com^
 ||geolocationsystem.com^
 ||geoplugin.net^
-||geotargetly-1a441.appspot.com^
+||geotargetly-*.appspot.com^
 ||getblueshift.com^
 ||getclicky.com^
 ||goatse.bz^
@@ -638,6 +729,7 @@ $removeparam=gclid|yclid|fbclid
 ||loltrain.com^
 ||lytics.io^
 ||madvertise.de^
+||marketo.net^
 ||marketingcloudapis.com^
 ||masterad.de^
 ||matheranalytics.com^
@@ -678,6 +770,7 @@ $removeparam=gclid|yclid|fbclid
 ||metrics.sun.com^
 ||metrics.theatlantic.com^
 ||metrics.thedailybeast.com^
+||metrics.uber.com^
 ||metrics.washingtonpost.com^
 ||metrics.windowsitpro.com^
 ||metricfast.com^
@@ -696,6 +789,7 @@ $removeparam=gclid|yclid|fbclid
 ||mparticle.com^
 ||newrelic.com^
 ||network-inv.com^ # EE SMS phishing scam
+||npttech.com^
 ||nr-data.net^
 ||optimizely.com^
 ||oneaudience.com^
@@ -703,9 +797,10 @@ $removeparam=gclid|yclid|fbclid
 ||onelink.me^
 ||onetag.com^
 ||online-metrix.net^
-||omtrdc.net
+||omtrdc.net^
 ||ophan.theguardian.com^
 ||outbrain.com^
+||pardot.com^
 ||paypal-limitations*.com^ # phishing
 ||peakgames.net^
 ||permutive.app^
@@ -721,6 +816,7 @@ $removeparam=gclid|yclid|fbclid
 ||pub.network^
 ||pubmatic.com^
 ||pure360.com^
+||ravenjs.com^
 ||r-ad.ne.jp^
 ||rapleaf.com^
 ||realsrv.com^
@@ -736,13 +832,16 @@ $removeparam=gclid|yclid|fbclid
 ||royal-maildelivery.com^ # phishing
 ||rtk.io^
 ||rubiconproject.com^
+||sail-horizon.com^
 ||samba.tv^
 ||samsungads.com^
 ||samsungads.net^
 ||samsungadhub.com^
 ||samsungadhub.net^
 ||sanalytics.disneyplus.com^
+||secure-mobile-connect.com^ # phishing
 ||securedvisit.com^
+||segment.com^
 ||segment.io^
 ||selfpwn.org^
 ||sentry.io^
@@ -764,7 +863,8 @@ $removeparam=gclid|yclid|fbclid
 ||smetrics.chrysler.com^
 ||smetrics.bestbuy.com^
 ||smetrics.cnn.com^
-||smetrics1.experian.com^
+||smetrics.experian.com^
+||smetrics*.experian.com^
 ||smetrics.tesco.com^
 ||smetrics.washingtonpost.com^
 ||s-onetag.com^
@@ -793,6 +893,9 @@ $removeparam=gclid|yclid|fbclid
 ||stats.digg.com^
 ||stats.ft.com^
 ||stats.gamestop.com^
+||stat.github.com^
+||stat*.github.com^
+||stats.github.com^
 ||stats.independent.co.uk^
 ||stats.independent.ie^
 ||stats.paypal.com^
@@ -807,6 +910,7 @@ $removeparam=gclid|yclid|fbclid
 ||stats.wp.com^
 ||stickyadstv.com^
 ||syndication.kbb.com^
+||syndication.theguardian.com^
 ||taboola.com^
 ||tags.experian.co.uk^
 ||tapad.com^
@@ -839,6 +943,7 @@ $removeparam=gclid|yclid|fbclid
 ||usage.readdle.com^
 ||user-agent-tracker.herokuapp.com^
 ||visitor-track.com^
+||visualwebsiteoptimiser.com^
 ||voodoo-analytics.io^
 ||voodoo-tech.io^
 ||voicefive.com^
@@ -861,6 +966,7 @@ $removeparam=gclid|yclid|fbclid
 ||quantcount.com^
 ||quantserve.com^
 ||quantummetric.com^
+||yadro.ru^
 ||yext.com^
 ||yourbetterofferfinal.best^
 ||yieldlab.net^
