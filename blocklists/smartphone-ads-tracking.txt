@@ -1,14 +1,18 @@
 # Smartphone + tablet + browser domain based DNS blocking list by FTPrivacy
-# Website: https://www.ftprivacy.cloud
-# GitHub: https://github.com/ftpmorph/ftprivacy
-# Twitter: https://twitter.com/ftprivacy
+# https://www.ftprivacy.cloud
+# https://github.com/ftpmorph/ftprivacy
+# https://fosstodon.org/@ftprivacy
+# https://twitter.com/ftprivacy
+# https://telegram.me/ftprivacy
 
-# Designed for and tested on the Pi Hole but should work on all DNS or HOSTS or list of domains based filters including AdGuard Home or Android apps such as AdGuard, AdAway, Blockada, DNS66, etc...
+# Domain list version
+# Tested on the Pi Hole, AdGuard Home, AdAway, and DNS66
+# Should work on all domain list or HOSTS based filters
 
-# The aim with this list is to keep things working correctly while still reducing ads and trackers as much as possible.
-# It is designed to "just work" so that you could, if you wanted, set it up for your grandma and it'd work fine without her having to know what "one of these new fangled Pie Holes" even is.
+# Adblock rules/regex version (for AdGuard Home, browser ad blockers, etc) here:
+# https://raw.githubusercontent.com/ftpmorph/ftprivacy/master/regex-blocklists/smartphone-and-general-ads-analytics-regex-blocklist-ftprivacy.txt
 
-# Further lists that block more, including entire sites and apps (looking your way Zuck), are on https://ftprivacy.cloud/domain-blocklists and https://github.com/ftpmorph/ftprivacy (remember to use the "raw" links if browsing through GitHub) with more coming soon if you are feeling wild.
+# Further lists that block more, including entire sites and apps (looking your way Zuck), are on https://ftprivacy.cloud/domain-blocklists and https://github.com/ftpmorph/ftprivacy (remember to use the "raw" links if browsing through GitHub)
 
 # Credit: most of this list comes from me scanning my own Pi Hole logs, some comes from other lists I see around the net.
 # Thank you to everyone else who makes these lists, contributes to the Pi Hole and similar project efforts, and ultimately makes all this possible.
@@ -408,6 +412,9 @@ www.googletagmanager.com
 # Basic "telemetry" domains
 # For a comprehensive Windows 10 "telemetry" block add this list as well: https://ftprivacy.cloud/domain-blocklists.html#windows-10-telemetry
 
+advertise.bingads.microsoft.com
+adcenter.microsoft.com
+advertising.microsoft.com
 ads.msn.com
 ads1.msn.com
 a.ads1.msn.com
@@ -445,21 +452,53 @@ statsfe1.ws.microsoft.com
 statsfe2.ws.microsoft.com
 sqm.df.telemetry.microsoft.com
 sqm.telemetry.microsoft.com
+tar.microsoft.com
+target.microsoft.com
+targetingservices.microsoft.com
+targetingservicesppe.microsoft.com
 telemetry.appex.bing.net
 telemetry.microsoft.com
 telecommand.telemetry.microsoft.com
+umwatsonc.telemetry.microsoft.com
+umwatsonc.events.data.microsoft.com
 watson.live.com
 watson.microsoft.com
+watson.officeint.microsoft.com
+watson1.officeint.microsoft.com
+wat8.ppe.telemetry.microsoft.com
+watson.alpha.telemetry.microsoft.com
+watson.df.telemetry.microsoft.com
 watson.ppe.telemetry.microsoft.com
 watson.telemetry.microsoft.com
+watson1.watson.microsoft.com
+watson102.watson.microsoft.com
+watson103.watson.microsoft.com
+watson104.watson.microsoft.com
+watson101.watson.microsoft.com
+watson105.watson.microsoft.com
+watson106.watson.microsoft.com
+watson107.watson.microsoft.com
+watson110.watson.microsoft.com
+watson111.watson.microsoft.com
+watson108.watson.microsoft.com
+watson112.watson.microsoft.com
+watson115.watson.microsoft.com
+watson109.watson.microsoft.com
 web.vortex.data.microsoft.com
 wes.df.telemetry.microsoft.com
 vortex.data.microsoft.com
+www.adcenter.microsoft.com
+www.advertise.bingads.microsoft.com
+www.advertising.microsoft.com
 
 # Apple
 # iOS still phones home to tracking domains even with the relevant settings disabled
 # And iAds are, of course, still a thing
 
+ad-iad1.apple.com
+ad-iad2.apple.com
+ad-iad3.apple.com
+advertising.apple.com
 analytics.itunes.apple.com
 apple.comscoreresearch.com
 api.smoot.apple.com
@@ -471,21 +510,261 @@ bugreport.apple.com
 ca.iadsdk.apple.com
 cf.iadsdk.apple.com
 cf.iad.sdk.apple.com
+counter.apple.com
+cprad-iad4.apple.com
+cpradcnt-iad4.apple.com
+cprfeed-iad4.apple.com
 cs.iadsdk.apple.com
 cstat.apple.com
+cstat-origin.apple.com
+cstat.g.apple.com
+devstats.apple.com
+edmarketing.apple.com
 feedback.apple.com
+feedback.push.apple.com
+geoplaces.apple.com
 iad.apple.com
+iad2d1-cmws.iad.apple.com
+iad2d1-iadc.iad.apple.com
+iad2d1-iadctest.iad.apple.com
+iad2d1-iadsdk.iad.apple.com
+iad2d1-iadsdktest.iad.apple.com
+iad2d1-oo.iad.apple.com
+iad2d1-feed.iad.apple.com
+iad2d1.iad.apple.com
+iad2nowhere.iad.apple.com
+iad2s1-cmws.iad.apple.com
+iad2s1-chalkboard.iad.apple.com
+iad2s1-iadc.iad.apple.com
+iad2s1-feed.iad.apple.com
+iad2s1-iadsdk.iad.apple.com
+iad2s1-iadctest.iad.apple.com
+iad2s1-api.iad.apple.com
+iad2s1-newssdk.iad.apple.com
+iad2s1-pass.iad.apple.com
+iad2s1-workbench.iad.apple.com
+iad2s1-oo.iad.apple.com
+iad2s2-api.iad.apple.com
+iad2s1.iad.apple.com
+iad2s2-chalkboard.iad.apple.com
+iad2s2-cmws.iad.apple.com
+iad2s2-feed.iad.apple.com
+iad2s2-iadc.iad.apple.com
+iad2s1-iadsdktest.iad.apple.com
+iad2s2-iadctest.iad.apple.com
+iad2s2-iadsdk.iad.apple.com
+iad2s2-pass.iad.apple.com
+iad2s2-oo.iad.apple.com
+iad2s2-workbench.iad.apple.com
+iad2s2-iadsdktest.iad.apple.com
+iad2s2.iad.apple.com
+iad2s2-newssdk.iad.apple.com
+iad2s3-chalkboard.iad.apple.com
+iad2s3-cmws.iad.apple.com
+iad2s3-iadc.iad.apple.com
+iad2s3-iadsdk.iad.apple.com
+iad2s3-newssdk.iad.apple.com
+iad2s3-iadsdktest.iad.apple.com
+iad2s3-oo.iad.apple.com
+iad2s3.iad.apple.com
+iad2s3-workbench.iad.apple.com
+iad2s3-iadctest.iad.apple.com
+iad2s4-chalkboard.iad.apple.com
+iad2s4-iadctest.iad.apple.com
+iad2s3-pass.iad.apple.com
+iad2s4-feed.iad.apple.com
+iad2s4-api.iad.apple.com
+iad2s4-newssdk.iad.apple.com
+iad2s4-iadc.iad.apple.com
+iad2s4-oo.iad.apple.com
+iad2s4-workbench.iad.apple.com
+iad2s4.iad.apple.com
+iad2s4-iadsdk.iad.apple.com
+iad2s4-pass.iad.apple.com
+iad2v1-api-bc.iad.apple.com
+iad2v1-bc.iad.apple.com
+iad2v1-cmws.iad.apple.com
+iad2v1-api.iad.apple.com
+iad2v1-cf.iad.apple.com
+iad2v1-feed.iad.apple.com
+iad2v1-iadc.iad.apple.com
+iad2v1-iadctest.iad.apple.com
+iad2v1-iadsdk.iad.apple.com
+iad2v1-iadsdktest.iad.apple.com
+iad2v1-newssdk.iad.apple.com
+iad2v1-oo.iad.apple.com
+iad2v1-chalkboard.iad.apple.com
+iad2v1.iad.apple.com
+iad2v2-cf.iad.apple.com
+iad2s3-api.iad.apple.com
+iad2v2-chalkboard2.iad.apple.com
+iad2v2-chalkboard.iad.apple.com
+iad2v2-feed.iad.apple.com
+iad2v2-iadctest.iad.apple.com
+iad2v2-api.iad.apple.com
+iad2v2-iadsdk.iad.apple.com
+iad2v2-newssdk.iad.apple.com
+iad2v2-iadsdktest.iad.apple.com
+iad2v2-iadc.iad.apple.com
+iad2v2-cmws.iad.apple.com
+iad2v2-oo.iad.apple.com
+iad2v2-pass.iad.apple.com
+iad2v2-workbench.iad.apple.com
+iad2v1-workbench.iad.apple.com
+iad2v2.iad.apple.com
+iad2v3-api.iad.apple.com
+iad2v3-cmws.iad.apple.com
+iad2v3-iadsdk-soak.iad.apple.com
+iad2v3-chalkboard.iad.apple.com
+iad2v3-iadsdktest.iad.apple.com
+iad2v3-cf.iad.apple.com
+iad2v3-oo.iad.apple.com
+iad2v3-iadsdk.iad.apple.com
+iad2v3-newssdk.iad.apple.com
+iad2v3-pass.iad.apple.com
+iad2v3-workbench.iad.apple.com
+iad2v3.iad.apple.com
+iad2v4-api.iad.apple.com
+iad2v4-cmws.iad.apple.com
+iad2v4-chalkboard.iad.apple.com
+iad2v4-feed.iad.apple.com
+iad2v4-iadc.iad.apple.com
+iad2v4-iadctest.iad.apple.com
+iad2v4-newssdk.iad.apple.com
+iad2v4-iadsdk.iad.apple.com
+iad2v3-iadc.iad.apple.com
+iad2v4-pass.iad.apple.com
+iad2v4-oo.iad.apple.com
+iad2v4-workbench.iad.apple.com
+iad2v4.iad.apple.com
+iad2v5-api.iad.apple.com
+iad2v5-chalkboard.iad.apple.com
+iad2v5-cmws.iad.apple.com
+iad2v5-feed.iad.apple.com
+iad2v5-iadc.iad.apple.com
+iad2v5-iadctest.iad.apple.com
+iad2v5-iadsdk.iad.apple.com
+iad2v3-iadctest.iad.apple.com
+iad2v5-oo.iad.apple.com
+iad2v5-pass.iad.apple.com
+iad2v5.iad.apple.com
+iad2v5-workbench.iad.apple.com
+iad2v4-iadsdktest.iad.apple.com
+iad2v1-pass.iad.apple.com
 iadcontent.apple.com
 iadsdk.apple.com
 idiagnostics.apple.com
+imgstats.apple.com
+info.searchads.apple.com
 internalcheck.apple.com
+iosdiags.apple.com
+iosdiags-dr.apple.com
+iosdiags-mdn.apple.com
+iosdiags-nwk.apple.com
+iosdiags-mdn.apple.com
+iosdiags-nwk.apple.com
 iphonesubmissions.apple.com
 iphonediags.apple.com
+iphonediagsuat-bscan.apple.com
+iphonediagsit2.apple.com
+iphonediagsuat2.apple.com
 iphone-ld.apple.com
+marketing.apple.com
 metrics.apple.com
 metrics.icloud.com
+mr11p01ad-adbwebvip.iad.apple.com
+mr11p01ad-api.searchads.apple.com
+mr11p01ad-app.searchads.apple.com
+mr11p01ad-connectproxy.iad.apple.com
+mr11p01ad-cf.iadsdk-stg.iad.apple.com
+mr11p01ad-deviceproxy.iad.apple.com
+mr11p01ad-cs.iadsdk-stg.iad.apple.com
+mr11p01ad-ext-apps-cloud.iad.apple.com
+mr11p01ad-ext-cloud.iad.apple.com
+mr11p01ad-ext-infcloud.iad.apple.com
+mr11p01ad-ext-csc-cloud.iad.apple.com
+mr11p01ad-events.iad.apple.com
+mr11p01ad-iadsdk00703.iad.apple.com
+mr11p01ad-iadsdk00704.iad.apple.com
+mr11p01ad-iadsdk00705.iad.apple.com
+mr11p01ad-iadsdk00702.iad.apple.com
+mr11p01ad-iadsdk00803.iad.apple.com
+mr11p01ad-iadsdk00701.iad.apple.com
+mr11p01ad-iadsdk00802.iad.apple.com
+mr11p01ad-iadsdk00901.iad.apple.com
+mr11p01ad-iadsdk00904.iad.apple.com
+mr11p01ad-iadsdk00905.iad.apple.com
+mr11p01ad-iadsdk01001.iad.apple.com
+mr11p01ad-iadsdk01002.iad.apple.com
+mr11p01ad-iadsdk00805.iad.apple.com
+mr11p01ad-iadsdk01003.iad.apple.com
+mr11p01ad-iadsdk01005.iad.apple.com
+mr11p01ad-iadsdk01004.iad.apple.com
+mr11p01ad-iadsdk01102.iad.apple.com
+mr11p01ad-iadsdk00902.iad.apple.com
+mr11p01ad-iadsdk00801.iad.apple.com
+mr11p01ad-iadsdk01103.iad.apple.com
+mr11p01ad-iadsdk01105.iad.apple.com
+mr11p01ad-iadsdk01104.iad.apple.com
+mr11p01ad-iadsdk01202.iad.apple.com
+mr11p01ad-iadsdk01203.iad.apple.com
+mr11p01ad-iadsdk01201.iad.apple.com
+mr11p01ad-iadsdk01204.iad.apple.com
+mr11p01ad-iadsdk00804.iad.apple.com
+mr11p01ad-iadsdk01101.iad.apple.com
+mr11p01ad-searchads.iad.apple.com
+mr11p01ad-static.iad.apple.com
+mr11p01ad-iadsdk00903.iad.apple.com
+mr11q01ad-cf.iadsdk-r1.iad.apple.com
+mr11q01ad-ext-csc-cloud.iad.apple.com
+mr11q01ad-cs.iadsdk-r1.iad.apple.com
+mr11q01ad-tapp.iad.apple.com
+mr11q01ad-tr.iadsdk-r1.iad.apple.com
+mr11q01ad-r1-ext-svc.iad.apple.com
+mr11q01ad-ext-apps-cloud.iad.apple.com
+mr11q01ad-ext-cloud.iad.apple.com
+mr11q01ad-ut.iadsdk-r1.iad.apple.com
+news-events.apple.com
 news.iadsdk.apple.com
+nk11p01ad-netscaler001-snip01.iad.apple.com
 notes-analytics-events.apple.com
+p1-am-iad-servlet-proxy.iad.apple.com
+p1-am-iad-ss-logging-server.iad.apple.com
+p1-hk-iad-ss-logging-server.iad.apple.com
+p1-mr-iad-ap-apps-ad-tester.iad.apple.com
+p1-mr-ap-templates-asset.iad.apple.com
+p1-mr-iad-servlet-proxy.iad.apple.com
+p1-mr-iad-news-static-assets.iad.apple.com
+p1-mr-iad-ss-client-settings.iad.apple.com
+p1-mr-iad-ss-services-campaign.iad.apple.com
+p1-mr-iad-ss-logging-server.iad.apple.com
+p1-mr-iad-ss-apps-campaign-management.iad.apple.com
+p1-mr-iad-ss-services-media.iad.apple.com
+p1-mr-iad-ss-services-finance.iad.apple.com
+p1-mr-iad-ss-services-reporting.iad.apple.com
+p1-mr-iad-ss-apps-opt-out.iad.apple.com
+p1-mr-iad-ss-static-assets-admin.iad.apple.com
+p1-mr-iad-ss-services-attribution.iad.apple.com
+p1-mr-iad-ss-user-targeting.iad.apple.com
+p1-mr-iad-ss-services-creative.iad.apple.com
+p1-mr-iad-ss-static-assets.iad.apple.com
+p1-mr-iad-ss-static-assets-cm.iad.apple.com
+p1-mr-iad-ss-services-search.iad.apple.com
+p1-st-ap-templates-asset-old.iad.apple.com
+p1-st-iad-ap-apps-ad-tester.iad.apple.com
+p1-st-iad-news-static-assets.iad.apple.com
+p1-st-iad-servlet-proxy.iad.apple.com
+p1-st-iad-ss-logging-server.iad.apple.com
+p1-st-iad-ss-services-attribution.iad.apple.com
+p1-st-iad-ss-sponsored-search.iad.apple.com
+p1-st-iad-ss-static-assets.iad.apple.com
+p1-st-iad-ss-static-assets-cm.iad.apple.com
+p1-st-iad-ss-serving-searchads.iad.apple.com
+p1-st-iad-ss-user-targeting.iad.apple.com
+p1-st-iad-ss-client-settings.iad.apple.com
+p1-st-ap-templates-asset.iad.apple.com
+p1-st-iad-ss-static-assets-admin.iad.apple.com
+p1-sy-iad-ss-logging-server.iad.apple.com
 radarsubmissions.apple.com
 searchads.apple.com
 securemetrics.apple.com
@@ -493,14 +772,50 @@ securemetrics.apple.com.cn
 securemvt.apple.com
 smoot.apple.com
 smp-device-content.apple.com
+s1-ext-searchads.iad.apple.com
+s1-iad-ap-apps-ad-tester.iad.apple.com
+s1-iad-device-proxy.iad.apple.com
+s1-iad-news-static-assets.iad.apple.com
+s1-iad-ss-apps-opt-out.iad.apple.com
+s1-iad-servlet-proxy.iad.apple.com
+s1-iad-ss-services-finance.iad.apple.com
+s1-iad-ss-client-settings.iad.apple.com
+s1-iad-ss-logging-server.iad.apple.com
+s1-iad-ss-services-creative.iad.apple.com
+s1-iad-ss-services-campaign.iad.apple.com
+s1-iad-ss-serving-searchads.iad.apple.com
+s1-iad-ss-services-media.iad.apple.com
+s1-iad-ss-static-assets-admin.iad.apple.com
+s1-iad-ss-static-assets.iad.apple.com
+s1-iad-ss-user-targeting.iad.apple.com
+s1-iad-ss-static-assets-cm.iad.apple.com
+s1-iad-ss-sponsored-search.iad.apple.com
+s1-mr-events.iad.apple.com
+s2-ext-searchads.iad.apple.com
+s2-iad-ap-apps-ad-tester.iad.apple.com
+s2-iad-ss-client-settings.iad.apple.com
+s2-iad-ss-services-campaign.iad.apple.com
+s2-iad-ss-services-media.iad.apple.com
+s2-iad-ss-logging-server.iad.apple.com
+s2-iad-ss-services-creative.iad.apple.com
+s2-iad-ss-services-finance.iad.apple.com
+s2-iad-ss-static-assets-cm.iad.apple.com
+s2-iad-ss-static-assets-admin.iad.apple.com
+s2-iad-ss-serving-searchads.iad.apple.com
+s2-iad-ss-static-assets.iad.apple.com
+s2-iad-ss-user-targeting.iad.apple.com
 stats.gc.apple.com
 stg-cmws.iad.apple.com
 stocks-analytics-events.apple.com
 supportmetrics.apple.com
 supportmetrics-uat.apple.com
+trace.apple.com
+tracker.apple.com
 tr.iadsdk.apple.com
+tr.iadsdk-r1.apple.com
 ut.iadsdk.apple.com
 weather-analytics-events.apple.com
+www.advertising.apple.com
 www.iadsdk.apple.com
 
 # Amazon ads and tracking
@@ -628,12 +943,19 @@ z-na.amazon-adsystems.com
 # This only blocks a small number of MIUI ad and tracking domains
 # To fully block the massive amount of traffic sent by MIUI go here: https://ftprivacy.cloud/domain-blocklists.html#xiaomi-ads-and-trackers
 
+activity.hybrid.xiaomi.com
+activity.zb.mi.com
 ad.mi.com
+ads.mi.com
+ad.jr.mi.com
 ad.xiaomi.com
 ad1.xiaomi.com
 adinfo.ra1.xlmc.sec.miui.com
 analytics.ff.avast.sec.miui.com
+alexa.mi.com
+alexa.io.mi.com
 api.ad.xiaomi.com
+api.ad.intl.xiaomi.com
 api.admob.xiaomi.com
 api.activity.browser.miui.com
 api.activity.browser.intl.miui.com
@@ -642,22 +964,54 @@ au.ff.avast.sec.miui.com
 cdn.ad.xiaomi.com
 data.mistat.xiaomi.com
 data.mistat.intl.xiaomi.com
+data.mistat.rus.xiaomi.com
+de.alexa.io.mi.com
+event.mi.com
 e.ad.xiaomi.com
 fcanr.tracking.miui.com
+feed.browser.miui.com
+feedback.miui.com
 geofence.sys.miui.com
 globalapi.ad.xiaomi.com
+in.event.mi.com
+in.stat.mi.com
 log.ad.xiaomi.com
+log.stats.miui.com
+log.youpin.mi.com
 new.api.ad.xiaomi.com
+mier.stats.miui.com
 miuiboot.tracking.intl.miui.com
 miuiboot.tracking.miui.com
+mistat.xiaomi.com
+mistat.intl.xiaomi.com
+mistat.rus.xiaomi.com
+mitv.tracking.india.miui.com
+mitv.tracking.intl.miui.com
+mitv.tracking.rus.miui.com
+openapp.io.mi.com
+processor.smartcamera.api.io.mi.com
+proxy-ios.jxsj.mi.com
+proxy-other.jxsj.mi.com
+proxy-tencent.jxsj.mi.com
+proxy.open.be.mi.com
+ru.event.mi.com
+ru.open.io.mi.com
+ru.stat.mi.com
 sdkconfig.ad.xiaomi.com
 sdkconfig.ad.intl.xiaomi.com
 ssp.ad.xiaomi.com
 stat.xiaomi.com
+stat.file.market.xiaomi.com
+stat.pay.xiaomi.com
+stat.mi.com
+stats.miui.com
+stats.xiaomi.com
 track.ad.xiaomi.com
 tracking.rus.miui.com
+tracking.india.miui.com
 tracking.intl.miui.com
 tracking.miui.com
+us.alexa.io.mi.com
 www.abtest.mistat.xiaomi.com
 www.abtest.mistat.intl.xiaomi.com
 www.analytics.ff.avast.sec.miui.com
@@ -964,6 +1318,7 @@ spotify.c3metrics.com
 spotify.co1.qualtrics.com
 spotify.deliveryengine.adswizz.com
 spotify.demdex.net
+spotify.facebook.com
 spotify.map.fastly.net
 spotify.qualtrics.com
 spotify.sp.backtrace.io
@@ -992,18 +1347,39 @@ zayit.lon.spotify.com
 
 # Snapchat
 
+ad.targeting.snapads.com
+ads.snapchat.com
+adsapi.snapchat.com
+adsapi2.snapchat.com
+adsapi3.snapchat.com
+adsapimus.snapchat.com
+advertising.snapchat.com
 adserver.snapads.com
+adstats.snapads.com
+ad-center.snapchat.com
 analytics.snapchat.com
 app-analytics.snapchat.com
 ase.adserver.snapads.com
+bid.snapads.com
 euc.adserver.snapads.com
 euw.adserver.snapads.com
+events.antivirus.snappublisher.snapchat.com
+events.snapchat.com
+events.snappublisher.snapchat.com
 gcs.sc-cdn.net
 loc.sc-jpl.com
 loca.sc-jpl.com
+metrics.snappublisher.snapchat.com
+measurement.snapads.com
+pro-insights.snapchat.com
+pro-stories.snapchat.com
+promo.snappublisher.snapchat.com
 sc-analytics.appspot.com
+stats-reporting-server-prod.snapads.com
+targeting.snapads.com
 tr.snapchat.com
 usc.adserver.snapads.com
+use.adserver.snapads.com
 
 # Baidu
 # Basically the Chinese Google. It has a service called Baidu Tuiguang which is akin to Google's ads.
@@ -1168,6 +1544,8 @@ vaali-mcs.byteoversea.com
 # Netflix
 # Analytics and tracking URLs
 
+ads.test.netflix.com
+ads.test.geo.netflix.com
 beacon.netflix.com 
 beacon.geo.netflix.com
 beacon.eu-west-1.prodaa.netflix.com
@@ -1175,17 +1553,24 @@ beacon.us-east-1.prodaa.netflix.com
 beacon.eu-west-2.prodaa.netflix.com 
 beacon.us-west-2.prodaa.netflix.com
 customerevents.netflix.com
+customerevents.dradis.netflix.com
+customerevents.geo.netflix.com
 dualstack.ichnaea-web-323206729.eu-west-1.elb.amazonaws.com
+estats.netflix.com
 ichnaea.netflix.com
+ichnaea.geo.netflix.com
 ichnaea-web.netflix.com
+ichnaea-web.geo.netflix.com
 ichnaea-ios-aws-control.prod.ftl.netflix.com
 nmtracking.netflix.com 
 presentationtracking.netflix.com
+prodaa.netflix.com
 
 # SwiftKey
 # This traffic was noticed frequently even though no account was made and all cloud sync options were disabled
 # Recommend not using this keyboard
 
+analyticshub.swiftkey.com
 analyticshub-aws.swiftkey.com
 api.swiftkey.com
 autosuggest.api.swiftkey.com
@@ -1830,6 +2215,11 @@ ads.skopjeinfo.mk
 ads.sport1.mk
 ads.stackoverflow.com
 ads.telemedia.ch
+adfs.theguardian.com
+adfsdev.theguardian.com
+admanager.theguardian.com
+advertisercontent.theguardian.com
+advertising.theguardian.com
 ads.tracking202.com
 ads.trendolend.mk
 ads.yahoo.com
@@ -2212,6 +2602,7 @@ ccgateway.net
 coinad.com
 count.ly
 countly.wickr.com
+counter.yadro.ru
 collector.bughd.com
 collector.capturly.com
 collector.doordash.com
@@ -2767,6 +3158,7 @@ metrics.rottentomatoes.com
 metrics.sun.com
 metrics.theatlantic.com
 metrics.thedailybeast.com
+metrics.uber.com
 metrics.washingtonpost.com
 metrics.windowsitpro.com
 metricfast.com
@@ -3056,6 +3448,11 @@ stats.digg.com
 stat.ethz.ch
 stats.ft.com
 stats.gamestop.com
+stats.github.com
+stat.github.com
+stat1.github.com
+stat2.github.com
+stat4.github.com
 stats.independent.co.uk
 stats.independent.ie
 stat.kbs.co.kr
@@ -3099,6 +3496,7 @@ secure-uat2.imrworldwide.com
 secure-uk.imrworldwide.com
 secure-us.imrworldwide.com
 secure-wbw.imrworldwide.com
+secure-mobile-connect.com # phishing
 secure.quantserve.com
 selligent.com
 sessions.bugsnag.com
@@ -3186,6 +3584,7 @@ supl.vodafone.com # Vodafone A-GPS server, whitelist if you want Vodafone locati
 surfmusik-adserver.de
 sw88.espn.com
 syndication.realsrv.com
+syndication.theguardian.com
 t.adroll.com
 t.appsflyer.com
 t.beanstalkdata.com
@@ -3398,6 +3797,7 @@ quantcast584928381.s.moatpixel.com
 quantserve.com
 quantcount.com
 qxwz.com
+yadro.ru
 yourbetterofferfinal.best
 yield-manager.browsiprod.com
 yieldtraffic.com
