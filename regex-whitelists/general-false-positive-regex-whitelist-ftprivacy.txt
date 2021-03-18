@@ -6,6 +6,12 @@
 
 # General false positives whitelist
 
+# Google
+
+# Necessary otherwise Play Store breaks
+
+@@||gvt1.com^$important
+
 # Microsoft
 
 # This is for Azure's CDN, plenty of legit services are hosted here, it is just a CDN, but blocked mistakenly often
