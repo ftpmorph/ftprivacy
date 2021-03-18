@@ -77,6 +77,7 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||googlesyndication.com^
 ||gstaticadssl.l.google.com^
 ||gvt*.com^
+@@||gvt1.com^$important # necessary otherwise Play Store breaks
 ||metric.gstatic.com^
 ||mobile-displayads.l.doubleclick.net^
 ||pagead-googlehosted.l.google.com^
