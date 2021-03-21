@@ -26,12 +26,28 @@
 @@||ospserver.net^$important
 @@||poll.omc.samsungdm.com^$important
 @@||poll.samsung-omc.com^$important
+@@||secak-fota-dn.samsungdm.com^$important
 
 # Required to allow OTAs on Xiaomi Android smartphones
 
-@@||enbigota.d.miui.com^$important
 @@||bigota.d.miui.com^$important
+@@||enbigota.d.miui.com^$important
 @@||hugeota.d.miui.com^$important
+
+# Allowing OTAs on Oppo, OnePlus, Realme, Vivo and other shitty Chinaphones
+
+@@||iota.coloros.com^$important
+@@||ifota-*.coloros.com^$important
+@@||ifota-*.realmemobile.com^$important
+@@||ota.coloros.com^$important
+@@||ota.oppomobile.com^$important
+@@||ota*.oppomobile.com^$important
+@@||ota*.*.oppomobile.com^$important
+@@||ota*.coloros.com^$important
+@@||ota.*.coloros.com^$important
+@@||ota*.*.coloros.com^$important
+@@||romfs.foreign.oppomobile.com^$important
+@@||*ota.oppomobile.com^$important
 
 # Apple
 
