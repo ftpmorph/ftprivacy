@@ -1,5 +1,6 @@
 # FTPrivacy.cloud
 # https://github.com/ftpmorph/ftprivacy
+# https://fosstodon.org/@ftprivacy
 # https://twitter.com/ftprivacy
 # https://telegram.me/ftprivacy
 
@@ -21,8 +22,11 @@
 @@||cryptonote.social^
 @@||crypto-pool.fr^
 @@||dxpool.com^
+@@||ethermine.org^
+@@||ethmine.org^
 @@||f2pool.com^
 @@||fairhash.org^
+@@||flypool.org^
 @@||gntl.co.uk^
 @@||hashcity.org^
 @@||hashing.mine.nu^
@@ -45,3 +49,60 @@
 @@||xmrpool.eu^
 @@||xmrig.com^
 @@||xmrvsbeast.com^
+
+# Some blocklists even go as far as to block legit crypto exchanges, wallets, blockchain explorers, etc
+# For obvious reasons it's impossible for me to whitelist every single one so feel free to add a PR
+# While I'm not adding overtly scammy exchanges, I don't vouch for the quality of the service for any of these
+
+@@||bitcoin.com^
+@@||blockchain.com^
+@@||blockchain.info^
+@@||blockchair.com^
+@@||binance.com^
+@@||binance.us^
+@@||bisq.network^
+@@||bitfinex.com^
+@@||bitgo.com^
+@@||bitmex.com^
+@@||bittylicious.com^
+@@||bitpay.com^
+@@||bitstamp.net^
+@@||boltz.exchange^
+@@||bybit.com^
+@@||cex.io^
+@@||changenow.io^
+@@||coinb.in^
+@@||coinbase.com^
+@@||coinswitch.co^
+@@||crypto.com^
+@@||cryptokitties.co^
+@@||ethernity.io^
+@@||etherscan.io^
+@@||ethscan.org^
+@@||ens.domains^
+@@||exodus.com^
+@@||exploremonero.com^
+@@||foundation.app^
+@@||gemini.com^
+@@||getmonero.org^
+@@||hodlhodl.com^
+@@||huobi.com^
+@@||koinal.io^
+@@||kraken.com^
+@@||localbitcoins.com^
+@@||localcryptos.com^
+@@||localmonero.co^
+@@||makersplace.com^
+@@||morphtoken.com^
+@@||myetherwallet.com^
+@@||nominex.io^
+@@||opensea.io^
+@@||paxful.com^
+@@||xmrchain.net^
+@@||shapeshift.com^
+@@||sideshift.ai^
+@@||superrare.co^
+@@||uniswap.org^
+@@||unstoppabledomains.com^
+@@||upbit.com^
+@@||wirexapp.com^
