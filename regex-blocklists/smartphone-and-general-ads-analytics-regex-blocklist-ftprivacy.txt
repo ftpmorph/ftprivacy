@@ -77,7 +77,7 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||googlesyndication.com^
 ||gstaticadssl.l.google.com^
 ||gvt*.com^
-@@||gvt1.com^$important # necessary otherwise Play Store breaks
+@@||gvt1.com^| # this ensures the Play Store works
 ||metric.gstatic.com^
 ||mobile-displayads.l.doubleclick.net^
 ||pagead-googlehosted.l.google.com^
@@ -229,6 +229,8 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||asideas.de^
 ||dc.dqa.samsung.com^
 ||diagmon-*.samsungdm.com^
+||pushmessage.samsung.com^
+||samsunggeopush.com^
 
 # Netflix
 
@@ -375,6 +377,33 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||tracking.miui.com^
 ||tracking.*.miui.com^
 
+# Oppo companies and their Android variants: OnePlus / Realme / Vivo / ColorOS / OxygenOS / HydrogenOS
+
+||activity.*.oppomobile.com^
+||ads.oppomobile.com^
+||aiscan.ocloud.oppomobile.com^
+||analytics.oppomobile.com^
+||apps.coloros.com^
+||apps.oppomobile.com^
+||bug.coloros.com^
+||dc.oppomobile.com^
+||dns.oppomobile.com^
+||event.*.oppomobile.com^
+||feedback.coloros.com^
+||feedback.oppomobile.com^
+||foreign.coloros.com^
+||foreign.oppomobile.com^
+||guif.coloros.com^
+||iactivity.cdo.oppomobile.com^
+||inapp.cdo.oppomobile.com^
+||kernellog.browser.oppomobile.com^
+||kernellogf.browser.oppomobile.com^
+||kernellogf-*.browser.oppomobile.com^
+||log-eap.coloros.com^
+||log-eap-*.coloros.com^
+||stat.browser.oppomobile.com^
+||*-feedback.oppomobile.com^
+
 # SwiftKey
 
 ||swiftkey.com^
@@ -456,7 +485,7 @@ $removeparam=gclid|yclid|fbclid
 ||ads.linkedin.com^
 ||ads.mcafee.com^
 ||ads.nytimes.com^
-||ads.oppomobile.com^
+||ads.platform.zalo.me^
 ||ads.pinterest.com^
 ||ads.stackoverflow.com^
 ||adfs.theguardian.com^
@@ -513,6 +542,7 @@ $removeparam=gclid|yclid|fbclid
 ||analytics-sm.com^
 ||analytics.api.brightcove.com
 ||analytics.brave.com^
+||analytics.ff.avast.com^
 ||analytics.global.sky.com^
 ||analytics.nike.com^
 ||analytics.plex.tv^
@@ -553,6 +583,7 @@ $removeparam=gclid|yclid|fbclid
 ||bidswitch.net^
 ||bidtellect.com^
 ||bidvertiser.com^
+||bitcoinaffiliatenetwork.com^
 ||bitninja.io^
 ||bitrix.info^
 ||bizible.com^
@@ -565,6 +596,8 @@ $removeparam=gclid|yclid|fbclid
 ||braze.com^
 ||browsiprod.com^
 ||brsrvr.com^
+||btcprofit.onlinetradingplatform.pro^
+||btgirl.com.cn^
 ||bugfender.com^
 ||bugsense.com^
 ||bugsnag.com^
@@ -647,6 +680,7 @@ $removeparam=gclid|yclid|fbclid
 ||heapanalytics.com^
 ||hearst.emsecure.net^
 ||hexagon-analytics.com^
+||heytapmobi.com^
 ||histats.com^
 ||hockeyapp.net^
 ||homebrew.sh^ # fake brew.sh site
