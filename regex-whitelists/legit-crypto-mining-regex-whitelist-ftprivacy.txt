@@ -17,10 +17,14 @@
 # Please note this list does NOT include mining pools used exclusively by botnets and only accepts pools that take steps to prevent abuse by botnets.
 # Therefore it should not be used as a blocklist. It won't provide full protection against actual "cryptojacking" malware.
 
+@@||alphax.pro^
+@@||antpool.com^
 @@||ausminers.com^
 @@||c3pool.com^
+@@||coinminerz.com^
 @@||cryptonote.social^
 @@||crypto-pool.fr^
+@@||dogeminingpool.com^
 @@||dxpool.com^
 @@||ethermine.org^
 @@||ethmine.org^
@@ -28,6 +32,7 @@
 @@||fairhash.org^
 @@||flypool.org^
 @@||gntl.co.uk^
+@@||hash-to-coins.com^
 @@||hashcity.org^
 @@||hashing.mine.nu^
 @@||hashvault.pro^
@@ -35,12 +40,16 @@
 @@||herominers.com^
 @@||minergate.com^
 @@||minexmr.com^
+@@||mining-dutch.nl^
 @@||miningpoolhub.com^
+@@||miningpoolstats.stream^
 @@||monerohash.com^
 @@||moneroocean.stream^
+@@||myminingpool.uk^
 @@||nanopool.org^
 @@||netlord.de^
 @@||ragerx.lol^
+@@||revolutionchain.it^
 @@||skypool.org^
 @@||supportxmr.com^
 @@||viabtc.com^
@@ -59,6 +68,7 @@
 @@||blockchain.com^
 @@||blockchain.info^
 @@||blockchair.com^
+@@||blockcypher.com^
 @@||bloks.io^
 @@||binance.com^
 @@||binance.us^
@@ -78,10 +88,13 @@
 @@||coin98.app^
 @@||coinb.in^
 @@||coinbase.com^
+@@||coinmarketcap.com^
 @@||coinswitch.co^
 @@||crypto.com^
 @@||cryptokitties.co^
 @@||dapp.com^
+@@||dapp.review^
+@@||decentraland.org^
 @@||eos.io^
 @@||eosflare.io^
 @@||eosstudio.io^
@@ -97,6 +110,7 @@
 @@||gemini.com^
 @@||getmonero.org^
 @@||gravity.tech^
+@@||hive.io^
 @@||hodlhodl.com^
 @@||huobi.com^
 @@||koinal.io^
@@ -108,19 +122,22 @@
 @@||makersplace.com^
 @@||morphtoken.com^
 @@||myetherwallet.com^
+@@||nftm.art^
+@@||nftshowroom.com^
 @@||nominex.io^
 @@||omniexplorer.info^
 @@||omnilayer.org^
 @@||opensea.io^
 @@||paxful.com^
 @@||polkadot.network^
-@@||xmrchain.net^
+@@||rarible.com^
 @@||solana.com^
 @@||solanabeach.io^
 @@||solflare.com^
 @@||shapeshift.com^
 @@||sideshift.ai^
 @@||stakewise.io^
+@@||stateofthedapps.com^
 @@||subscan.io^
 @@||substrate.io^
 @@||superrare.co^
@@ -131,3 +148,4 @@
 @@||unstoppabledomains.com^
 @@||upbit.com^
 @@||wirexapp.com^
+@@||xmrchain.net^
