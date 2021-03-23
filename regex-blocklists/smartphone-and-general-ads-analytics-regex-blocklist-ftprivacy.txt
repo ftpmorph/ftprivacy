@@ -66,6 +66,7 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||displayads-formats.googleusercontent.com^
 ||doubleclick.net^
 ||firebaselogging-pa.googleapis.com^
+@@||fonts.gstatic.com^| # avoid breaking the stylesheet of webpages using Google fonts
 ||geomobileservices-pa.googleapis.com^
 ||google-analytics.com^
 ||googleadservices.com^
@@ -879,7 +880,9 @@ $removeparam=gclid|yclid|fbclid
 ||segment.com^
 ||segment.io^
 ||selfpwn.org^
+||sendpulse.com^
 ||sentry.io^
+||sentry.cointelegraph.com^
 ||scarabresearch.com^
 ||scorecardresearch.com^
 ||sharethis.com^
