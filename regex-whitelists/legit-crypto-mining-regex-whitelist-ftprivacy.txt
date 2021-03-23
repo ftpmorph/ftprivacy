@@ -54,10 +54,12 @@
 # For obvious reasons it's impossible for me to whitelist every single one so feel free to add a PR
 # While I'm not adding overtly scammy exchanges, I don't vouch for the quality of the service for any of these
 
+@@||beaconcha.in^
 @@||bitcoin.com^
 @@||blockchain.com^
 @@||blockchain.info^
 @@||blockchair.com^
+@@||bloks.io^
 @@||binance.com^
 @@||binance.us^
 @@||bisq.network^
@@ -69,14 +71,23 @@
 @@||bitstamp.net^
 @@||boltz.exchange^
 @@||bybit.com^
+@@||cardano.org^
+@@||cardanoscan.io^
 @@||cex.io^
 @@||changenow.io^
+@@||coin98.app^
 @@||coinb.in^
 @@||coinbase.com^
 @@||coinswitch.co^
 @@||crypto.com^
 @@||cryptokitties.co^
+@@||dapp.com^
+@@||eos.io^
+@@||eosflare.io^
+@@||eosstudio.io^
+@@||ethereum.org^
 @@||ethernity.io^
+@@||etherscan.com^
 @@||etherscan.io^
 @@||ethscan.org^
 @@||ens.domains^
@@ -85,10 +96,12 @@
 @@||foundation.app^
 @@||gemini.com^
 @@||getmonero.org^
+@@||gravity.tech^
 @@||hodlhodl.com^
 @@||huobi.com^
 @@||koinal.io^
 @@||kraken.com^
+@@||liquid.net^
 @@||localbitcoins.com^
 @@||localcryptos.com^
 @@||localmonero.co^
@@ -96,12 +109,24 @@
 @@||morphtoken.com^
 @@||myetherwallet.com^
 @@||nominex.io^
+@@||omniexplorer.info^
+@@||omnilayer.org^
 @@||opensea.io^
 @@||paxful.com^
+@@||polkadot.network^
 @@||xmrchain.net^
+@@||solana.com^
+@@||solanabeach.io^
+@@||solflare.com^
 @@||shapeshift.com^
 @@||sideshift.ai^
+@@||stakewise.io^
+@@||subscan.io^
+@@||substrate.io^
 @@||superrare.co^
+@@||tokenpocket.*^
+@@||tron.network^
+@@||tronscan.org^
 @@||uniswap.org^
 @@||unstoppabledomains.com^
 @@||upbit.com^

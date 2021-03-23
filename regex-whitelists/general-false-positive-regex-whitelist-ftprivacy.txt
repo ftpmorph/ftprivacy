@@ -12,6 +12,10 @@
 
 @@||gvt1.com^$important
 
+# Google fonts can be used for tracking but blocking them breaks a lot of webpages
+
+@@||fonts.gstatic.com^
+
 # Microsoft
 
 # This is for Azure's CDN, plenty of legit services are hosted here, it is just a CDN, but blocked mistakenly often
