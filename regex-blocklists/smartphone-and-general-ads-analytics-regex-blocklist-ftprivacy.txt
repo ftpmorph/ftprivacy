@@ -114,6 +114,9 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||client-log.amazon.com^
 ||device-metrics-*.amazon.com^
 ||kindle-cpu.com^
+||mads.amazon.com^
+||mads-*.amazon.com^
+||msh.amazon.co.uk^
 ||widgets.amazon.com^
 ||ws.amazon.com^
 
@@ -476,6 +479,7 @@ $removeparam=gclid|yclid|fbclid
 ||adj.st^
 ||adjust.com^
 ||adjust.io^
+||adjust.net.in^
 ||adjustnetwork.com^
 ||adjuggler.net^
 ||adsafeprotected.com^
@@ -594,6 +598,7 @@ $removeparam=gclid|yclid|fbclid
 ||bounceexchange.com^
 ||branch.io^
 ||brandmetrics.com^
+||bravia.dl.playstation.net^
 ||braze.com^
 ||browsiprod.com^
 ||brsrvr.com^
@@ -627,7 +632,9 @@ $removeparam=gclid|yclid|fbclid
 ||cpx.to^
 ||criteo.com^
 ||crwdcntrl.net^
+||cs.prd.msys.playstation.net^
 ||databrain.com^
+||datadoghq.com^
 ||demandbase.com^
 ||demdex.net^
 ||deployads.com^
@@ -639,6 +646,7 @@ $removeparam=gclid|yclid|fbclid
 ||dotomi.com^
 ||driftcdn.com^
 ||dynamicyield.com^
+||ebayadservices.com^
 ||eepay-billinginfo.com^ # EE SMS phishing scam
 ||estat.com^
 ||enhance.co^
@@ -746,6 +754,7 @@ $removeparam=gclid|yclid|fbclid
 ||locately.com^
 ||locationlabs.com^
 ||locationto.net^
+||loc.api.nine.com.au^
 ||location.appcloudbox.net^
 ||location.btc.top^
 ||location.bloomberg.com^
@@ -825,6 +834,7 @@ $removeparam=gclid|yclid|fbclid
 ||mparticle.com^
 ||newrelic.com^
 ||network-inv.com^ # EE SMS phishing scam
+||ndmdhs.com^ # Sony tracking domain used in mobile apps, smart TV's, PlayStations, etc.
 ||npttech.com^
 ||nr-data.net^
 ||optimizely.com^
