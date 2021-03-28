@@ -782,6 +782,7 @@ $removeparam=gclid|yclid|fbclid
 ||maven.io^
 ||mavencoalition.io^
 ||maxymiser.net^
+||mds.csx.sony.com^ # Sony tracking and ads domain
 ||media6degrees.com^
 ||media.net^
 ||mediaad.org^
