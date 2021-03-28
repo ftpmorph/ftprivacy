@@ -1,4 +1,4 @@
-# Smart TV DNS blocking lists by ftpihole - https://www.ftpihole.com/
+# Smart TV DNS blocking lists by FTPrivacy.cloud
 
 # Designed for and tested on the Pi Hole but should work on all DNS based filters such as AdGuard Home.
 # Everything here is from my own personal setup, fine tuned so apps still work but ads don't.
