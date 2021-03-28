@@ -143,12 +143,14 @@ www.samsungelectronics.com
 ad8641f3cff742de893d919add74c2bb.ssm1.internet.sony.tv
 ad8641f3cff742de893d919add74c2bb.ssm2.internet.sony.tv
 api-mf1.meta.ndmdhs.com
+b02.black.ndmdhs.com
 bdcore-apr-lb.bda.ndmdhs.com
 bravia.dl.playstation.net
 call.me.sel.sony.com
 facemap.foldlife.net
 flingo.tv # another domain for samba.tv, the company that scans what's on your TV screen (see below)
 social.biv.sony.tv
+sonybivstatic-a.akamaihd.net
 ssm1.internet.sony.tv
 ssm2.internet.sony.tv
 ssm3.internet.sony.tv
