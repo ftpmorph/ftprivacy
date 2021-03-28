@@ -31,6 +31,8 @@ usage-eu-fy2017.myhomescreen.tv
 usage-eu-fy2018.myhomescreen.tv
 usage-eu-fy2019.myhomescreen.tv
 usage-eu-fy2020.myhomescreen.tv
+usage-eu-fy2021.myhomescreen.tv
+usage-eu-fy2022.myhomescreen.tv
 usage-us-fy2014.myhomescreen.tv
 usage-us-fy2015.myhomescreen.tv
 usage-us-fy2016.myhomescreen.tv
@@ -128,6 +130,7 @@ targeted-config-test.samsungacr.com
 upu.samsungelectronics.com
 us-api.samsungyosemite.com
 uk-api.samsungyosemite.com
+vas.samsungapps.com
 vd.contents.prod.eu.s3.amazonaws.com
 vd.emp.prd.s3.amazonaws.com
 vdterms.samsungcloudsolution.com
