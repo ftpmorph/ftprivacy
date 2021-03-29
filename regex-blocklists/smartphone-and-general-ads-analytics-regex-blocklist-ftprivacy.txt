@@ -14,6 +14,7 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 # Facebook
 
 ||ads.facebook.com^
+||an.facebook.com^
 ||analytics.facebook.com^
 ||connect.facebook.net^
 ||connect.facebook.com^
@@ -89,6 +90,12 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 
 # Amazon
 
+||aan.amazon.*^
+||aax.amazon.com^
+||aax-*.amazon.com^
+||adserver.amazon.*^
+||adserver-*.amazon.*^
+||advertising.amazon.*^
 ||amazon.com^$third-party,cookie
 ||amazon.com^$third-party,script
 ||amazon.com.au^$third-party,cookie
@@ -101,18 +108,13 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||amazon.de^$third-party,script
 ||amazon.fr^$third-party,cookie
 ||amazon.fr^$third-party,script
-||adserver.amazon.com^
-||advertising.amazon.ca^
-||advertising.amazon.com^
-||advertising-eu.amazon.com^
-||advertising-fe.amazon.com^
-||advertising.amazon.com.au^
-||advertising.amazon.de^
 ||amazon-adsystem.amazon.com^
 ||amazon-adsystem.com^
 ||amazon-adsystems.com^
 ||client-log.amazon.com^
 ||device-metrics-*.amazon.com^
+||fls-*.amazon.*^
+||global.cmcs.service.amazonsilk.com^
 ||kindle-cpu.com^
 ||mads.amazon.com^
 ||mads-*.amazon.com^
@@ -138,12 +140,15 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||feedback.windows.com^
 ||fp.msedge.net^
 ||fp-vp.azureedge.net^
+||g.live.com^
+||g.msn.com^
 ||iris.microsoft.com^
 ||location.live.net^
 ||oca.microsoft.com^
 ||masdpanalytics.azureedge.net^
 ||metaservices.microsoft.com^
 ||msads.net^
+||nexusrules.officeapps.live.com^
 ||pipe.aria.microsoft.com^
 ||rad.live.com^
 ||rad.msn.com^
@@ -253,6 +258,12 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||nmtracking.netflix.com^
 ||presentationtracking.netflix.com^
 ||prodaa.netflix.com^
+
+# AdGuard Home sometimes blocks these mistakenly because they share an IP with the Netflix telemetry domains
+# So this bit unblocks them
+
+@@||appboot.netflix.com^|
+@@||api-global.netflix.com^|
 
 # Spotify
 
@@ -499,6 +510,7 @@ $removeparam=gclid|yclid|fbclid
 ||advertisercontent.theguardian.com^
 ||advertising.theguardian.com^
 ||ads.yahoo.com^
+||adalyser.com^
 ||adara.com^
 ||ad-brix.com^
 ||adbro.me^
@@ -510,30 +522,60 @@ $removeparam=gclid|yclid|fbclid
 ||adhigh.net^
 ||adkernel.com^
 ||admarvel.com^
+||admarvel.s3.amazonaws.com^
+||admaster.com.cn^
+||admatic.com.tr^
 ||admicro.vn^
+||admitad.com^
+||admixer.co.kr^
 ||admixer.net^
 ||adnetwork.ai^
 ||adobestats.com^
+||adkmob.com^
 ||adotmob.com^
 ||adleadevent.com^
 ||adlightning.com^
+||admantx.com^
+||admarketplace.net^
+||adperfect.com^
+||adpia.vn^
+||adplex.co.kr^
+||adpopcorn.com^
 ||adpushup.com^
 ||adroll.com^
 ||adriver.ru^
+||ads.allaccess.com.ph^
+||adsage.com^
 ||adscale.de^
+||adsee.jp^
 ||adserver.ai^
 ||adskeeper.co.uk^
+||adsniper.ru^
 ||adspreemedia.com^
 ||adsrvr.org^
 ||ad-score.com^
 ||ad-stir.com^
 ||adswizz.com^
+||adstage.io^
+||adstune.com^
+||adsunflower.cn^
+||adsunflower.com^
+||adtech.com^
+||adtech.de^
+||adtechjp.com^
+||adtechus.com^
 ||adtelligent.com^
 ||adtarget.com.tr^
+||addtoany.com^
 ||addthis.com^
+||adtima.vn^
 ||adtimaserver.vn^
 ||adtng.com^
 ||adtz.com^
+||adups.cn^
+||adups.com^
+||adup-tech.com^
+||aduwant.com^
 ||adsymptotic.com^
 ||adwhirl.com^
 ||advertising.com^
@@ -543,12 +585,21 @@ $removeparam=gclid|yclid|fbclid
 ||advividnetwork.com^
 ||adv.webmd.com^
 ||adzerk.net^
+||adziff.com^
+||adzmedia.com^
+||adztec.com^
+||affec.tv^
+||afsanalytics.com^
+||aiv-cdn.net^
 ||alexametrics.com^
+||aliyuncs.com^
 ||analytics-sm.com^
+||analytics.any.do^
 ||analytics.api.brightcove.com
 ||analytics.brave.com^
 ||analytics.ff.avast.com^
 ||analytics.global.sky.com^
+||analytics.mobile-cdn.walmart.com.akadns.net^
 ||analytics.nike.com^
 ||analytics.plex.tv^
 ||analytics.tattoodo.com^
@@ -556,9 +607,13 @@ $removeparam=gclid|yclid|fbclid
 ||analytics.query.yahoo.com^
 ||aniview.com^
 ||app.link^
+||app-adforce.jp^
+||appads.com^
 ||appboy.com^
 ||appboycdn.com^
 ||appdynamics.com^
+||appflood.com^
+||appia.com^
 ||appier.net^
 ||apptimize.com^
 ||applift.com^
@@ -566,7 +621,14 @@ $removeparam=gclid|yclid|fbclid
 ||applovin.com^
 ||appsflyer.com^
 ||applift.com^
+||apptornado.com^
+||apptrk.io^
 ||app-measurement.com^
+||apxadtracking.net^
+||atdmt.com^
+||atom-data.io^
+||atomex.net^
+||ato.mx^
 ||attentivemobile.com^
 ||augur.io^
 ||avividai.com^
@@ -574,6 +636,8 @@ $removeparam=gclid|yclid|fbclid
 ||b0e8.com^
 ||backtrace.io^
 ||banners.adultfriendfinder.com^
+||bannerwall.s3.appcnt.com^
+||beacon.shazam.com^
 ||beacon.walmart.com^
 ||beaconsinspace.com^
 ||beaconstreetservices.com^
@@ -609,6 +673,7 @@ $removeparam=gclid|yclid|fbclid
 ||bugsnag.com^
 ||bugly.qq.com^
 ||c3metrics.com^
+||cardlytics.com^
 ||ccidnet.com^
 ||cdnwidget.com^
 ||cdp.cloud.unity3d.com^
@@ -616,6 +681,7 @@ $removeparam=gclid|yclid|fbclid
 ||cleverpush.com^
 ||clicktale.net^
 ||clicktripz.com^
+||clickwallads.s3.amazonaws.com^
 ||clickyab.com^
 ||clientmetrics-*.kik.com^
 ||clientmetrics.kik.com^
@@ -635,6 +701,7 @@ $removeparam=gclid|yclid|fbclid
 ||cs.prd.msys.playstation.net^
 ||databrain.com^
 ||datadoghq.com^
+||deepintent.com^
 ||demandbase.com^
 ||demdex.net^
 ||deployads.com^
@@ -655,6 +722,7 @@ $removeparam=gclid|yclid|fbclid
 ||eyeviewads.com^
 ||extremereach.io^
 ||extreme-ip-lookup.com^
+||fabric.io^
 ||factual.com^
 ||flurry.com^
 ||flurry.cachefly.net^
@@ -676,6 +744,7 @@ $removeparam=gclid|yclid|fbclid
 ||geotargetly-*.appspot.com^
 ||getblueshift.com^
 ||getclicky.com^
+||gma.alicdn.com^
 ||goatse.bz^
 ||goatse.ca^
 ||goatse.cx^
@@ -699,6 +768,7 @@ $removeparam=gclid|yclid|fbclid
 ||hs-reviewpaym-online.com^ # bank phishing
 ||hmrc.refund-form*.com^ # HMRC phishing
 ||hubspot.com^
+||hydra.alibaba.com^
 ||i.embed.ly^
 ||i2ad.jp^
 ||i2i.jp^
@@ -879,6 +949,8 @@ $removeparam=gclid|yclid|fbclid
 ||royal-maildelivery.com^ # phishing
 ||rtk.io^
 ||rubiconproject.com^
+||rubiconproject.net.akadns.net^
+||s.click.aliexpress.com^
 ||sail-horizon.com^
 ||samba.tv^
 ||samsungads.com^
@@ -893,9 +965,11 @@ $removeparam=gclid|yclid|fbclid
 ||selfpwn.org^
 ||sendpulse.com^
 ||sentry.io^
+||sentry.audent.io^
 ||sentry.cointelegraph.com^
 ||scarabresearch.com^
 ||scorecardresearch.com^
+||shareaholic.com^
 ||sharethis.com^
 ||sharethrough.com^
 ||shockgore.com^
