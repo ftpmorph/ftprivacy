@@ -22,6 +22,11 @@
 
 @@||msecnd.net^$important
 
+# Netflix
+
+@@||appboot.netflix.com^$important
+@@||api-global.netflix.com^$important
+
 # Samsung
 
 # Required to allow OTAs on Samsung Android smartphones
