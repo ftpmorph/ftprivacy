@@ -14,6 +14,8 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 # Facebook
 
 ||ads.facebook.com^
+||ak.facebook.com^
+||ak.facebook.com.edgesuite.net^
 ||an.facebook.com^
 ||analytics.facebook.com^
 ||connect.facebook.net^
@@ -65,6 +67,7 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||crashlytics.com^
 ||crashlyticsreports-pa.googleapis.com^
 ||displayads-formats.googleusercontent.com^
+||doubleclick.com^
 ||doubleclick.net^
 ||firebaselogging-pa.googleapis.com^
 @@||fonts.gstatic.com^| # avoid breaking the stylesheet of webpages using Google fonts
@@ -129,6 +132,7 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||adserver.bing.com^
 ||ads.msn.com^
 ||ads*.msn.com^
+||ads.*.msn.com^
 ||ac*.msn.com^
 ||arc.msn.com^
 ||arc*.msn.com^
@@ -153,6 +157,7 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||msads.net^
 ||nexusrules.officeapps.live.com^
 ||pipe.aria.microsoft.com^
+||popup.msn.com^
 ||rad.live.com^
 ||rad.msn.com^
 ||rads.msn.com^
@@ -187,6 +192,7 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 # Apple
 
 ||advertising.apple.com^
+||advp.apple.com^
 ||ad-iad*.apple.com^
 ||analytics.itunes.apple.com^
 ||books-analytics-events.apple.com^
@@ -203,8 +209,10 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||feedback.push.apple.com^
 ||geoplaces.apple.com^
 ||gs-loc.apple.com^
+||iad-apple.com^
 ||iad.apple.com^
 ||iadcontent.apple.com^
+||iadmoo.apple.com^
 ||iadsdk.apple.com^
 ||idiagnostics.apple.com^
 ||imgstats.apple.com^
@@ -216,6 +224,7 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||iphonediagsuat-bscan.apple.com^
 ||iphonediagsit2.apple.com^
 ||iphonediagsuat2.apple.com^
+||launch.apple.com^
 ||marketing.apple.com^
 ||metrics.apple.com^
 ||metrics.icloud.com^
@@ -234,6 +243,7 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||supportmetrics-uat.apple.com^
 ||trace.apple.com^
 ||tracker.apple.com^
+||qwapi.apple.com^
 ||weather-analytics-events.apple.com^
 
 # Samsung (smartphones)
@@ -262,8 +272,9 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||presentationtracking.netflix.com^
 ||prodaa.netflix.com^
 
-# AdGuard Home sometimes blocks these mistakenly because they share an IP with the Netflix telemetry domains
-# So this bit unblocks them
+# AdGuard Home sometimes blocks these mistakenly because they occasionally share an IP with the Netflix telemetry domains
+# This is actually quite rare since Netflix uses a CDN with many endpoints, but it's happened to me a couple times
+# So this bit unblocks some innocent Netflix domains just in case
 
 @@||appboot.netflix.com^|
 @@||api-global.netflix.com^|
@@ -355,6 +366,8 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||activity.hybrid.*.xiaomi.com^
 ||activity.mi.com^
 ||activity.*.mi.com^
+||activity.miui.com^
+||activity.*.miui.com^
 ||ad.mi.com^
 ||ad.*.mi.com^
 ||ads.mi.com^
@@ -366,17 +379,29 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||analytics.ff.avast.sec.miui.com^
 ||alexa.mi.com^
 ||alexa.*.mi.com^ # yes, that's right, you even get American spyware now too!
+||assistant.miui.com^
+||assistant.*.miui.com^
 ||browserapi.micloud.xiaomi.net^
+||browser.miui.com^
+||browser.*.miui.com^
 ||bugreport.xiaomi.net^
+||collect.data.miui.com^
+||collect.data.*.miui.com^
 ||event.mi.com^
 ||event.*.mi.com^
 ||events.miui.com^
 ||feed.browser.miui.com^
 ||feedback.miui.com^
 ||feedback.*.miui.com^
+||hybrid.miui.com^
 ||log.youpin.mi.com^
+||mcc.miui.com^
+||mcc.*.miui.com^
 ||mistat.xiaomi.com^
 ||mistat.*.xiaomi.com^
+||inf.miui.com^
+||input.miui.com^
+||input.*.miui.com^
 ||openapp.io.mi.com^
 ||proxy-*.mi.com^
 ||proxy-*.*.mi.com^
@@ -385,6 +410,13 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||proxy.*.*.mi.com^
 ||sentry.sec.miui.com^
 ||smartcamera.api.io.mi.com^
+||search.miui.com^
+||search.*.miui.com^
+||sec.miui.com^
+||sec.*.miui.com^
+||static.miui.com^
+||static.*.miui.com^
+||static.*.intl.miui.com^
 ||stat.xiaomi.com^
 ||stat.*.*.xiaomi.com^
 ||stat.*.xiaomi.com^
@@ -394,6 +426,8 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||track.*.xiaomi.com^
 ||tracking.miui.com^
 ||tracking.*.miui.com^
+||vip.miui.com^
+||vip.*.miui.com^
 
 # Oppo companies and their Android variants: OnePlus / Realme / Vivo / ColorOS / OxygenOS / HydrogenOS
 
@@ -482,10 +516,15 @@ $removeparam=gclid|yclid|fbclid
 ||3lift.com^
 ||4dex.io^
 ||4dsply.com^
+||50websads.com^
+||600z.com^
 ||6sc.co^
+||77tracking.com^
+||980media.com^
 ||a1.api.bbc.co.uk^
 ||ad2iction.com^
 ||ad.gt^
+||aaddzz.com^
 ||aaxads.com^
 ||accio.ai^
 ||activity.api.bbc.co.uk^
@@ -499,22 +538,48 @@ $removeparam=gclid|yclid|fbclid
 ||adsafeprotected.com^
 ||adclient.rottentomatoes.com^
 ||adelogs.adobe.com^
+||ad.100.tbn.ru^
+||ad.abcnews.com^
+||ad.abctv.com^
+||ad.about.com^
+||ad.bondage.com^
 ||ad.flipboard.com^
+||ad.foxnetworks.com^
+||ad.usatoday.com^
+||ads.affiliates.match.com^
+||ads.betfair.com^
+||ads.bittorrent.com^
+||ads.bloomberg.com^
+||ads.businessweek.com^
+||ads.channel4.com^
+||ads.cnet.com^
+||ads.economist.com^
+||ads.fool.com^
+||ads.forbes.com^
 ||ads.forbes.net^
+||ads.ft.com^
+||ads.gawker.com^
 ||ads.linkedin.com^
+||ads.linuxjournal.com^
 ||ads.mcafee.com^
 ||ads.nytimes.com^
+||ads.ookla.com^
 ||ads.platform.zalo.me^
 ||ads.pinterest.com^
+||ads.rottentomatoes.com^
 ||ads.stackoverflow.com^
+||ads.timeout.com^
 ||adfs.theguardian.com^
 ||adfsdev.theguardian.com^
+||adimage.theguardian.com^
 ||admanager.theguardian.com^
 ||advertisercontent.theguardian.com^
 ||advertising.theguardian.com^
 ||ads.yahoo.com^
 ||adalyser.com^
 ||adara.com^
+||ad-balancer.at^
+||ad-balancer.net^
 ||ad-brix.com^
 ||adbro.me^
 ||adform.net^
@@ -523,6 +588,7 @@ $removeparam=gclid|yclid|fbclid
 ||adfox.ru^
 ||adhaven.com^
 ||adhigh.net^
+||adinjector.net^
 ||adkernel.com^
 ||admarvel.com^
 ||admarvel.s3.amazonaws.com^
@@ -552,6 +618,8 @@ $removeparam=gclid|yclid|fbclid
 ||adscale.de^
 ||adsee.jp^
 ||adserver.ai^
+||adserver.virginmedia.com^
+||adserver.yahoo.com^
 ||adskeeper.co.uk^
 ||adsniper.ru^
 ||adspreemedia.com^
@@ -639,6 +707,8 @@ $removeparam=gclid|yclid|fbclid
 ||b0e8.com^
 ||backtrace.io^
 ||banners.adultfriendfinder.com^
+||banners.easydns.com^
+||banners.ebay.com^
 ||bannerwall.s3.appcnt.com^
 ||beacon.shazam.com^
 ||beacon.walmart.com^
@@ -667,8 +737,10 @@ $removeparam=gclid|yclid|fbclid
 ||brandmetrics.com^
 ||bravia.dl.playstation.net^
 ||braze.com^
+||british-banners.com^
 ||browsiprod.com^
 ||brsrvr.com^
+||bs.yandex.ru^
 ||btcprofit.onlinetradingplatform.pro^
 ||btgirl.com.cn^
 ||bugfender.com^
@@ -697,8 +769,10 @@ $removeparam=gclid|yclid|fbclid
 ||comscoreresearch.com^
 ||communicatorcorp.com^
 ||coremetrics.com^
+||counter.yadro.ru^
 ||countly.wickr.com^
 ||cpx.to^
+||crazypopups.com^
 ||criteo.com^
 ||crwdcntrl.net^
 ||cs.prd.msys.playstation.net^
@@ -713,6 +787,7 @@ $removeparam=gclid|yclid|fbclid
 ||directadvert.net^
 ||directadvert.ru^
 ||directads.mcafee.com^
+||directtrack.com^
 ||disqusads.com^
 ||dotomi.com^
 ||driftcdn.com^
@@ -720,11 +795,16 @@ $removeparam=gclid|yclid|fbclid
 ||ebayadservices.com^
 ||eepay-billinginfo.com^ # EE SMS phishing scam
 ||estat.com^
+||etracker.de^
 ||enhance.co^
 ||emb-api.com^
 ||emltrk.com^
+||eyeblaster.com^
+||eyereturn.com^
 ||eyeviewads.com^
+||eyewonder.com^
 ||extremereach.io^
+||extremetracking.com^
 ||extreme-ip-lookup.com^
 ||fabric.io^
 ||factual.com^
@@ -734,6 +814,9 @@ $removeparam=gclid|yclid|fbclid
 ||fpa-events.arstechnica.com^
 ||freegeoip.net^
 ||freehulunetflix.com^
+||freestats.com^
+||freestats.tv^
+||freewebcounter.com^
 ||fusetracking.com^
 ||gameanalytics.com^
 ||gammaplatform.com^
@@ -755,8 +838,12 @@ $removeparam=gclid|yclid|fbclid
 ||goat.cx^
 ||goatse.ru^
 ||goatsegirl.org^
+||goldstats.com^
+||gostats.com^
 ||goodadvert.ru^
 ||gov-rebate.link^ # HMRC phishing 
+||gtsads.com^
+||gtsmobi.com^
 ||gumgum.com^
 ||gwmtracking.com^
 ||heapanalytics.com^
@@ -773,6 +860,8 @@ $removeparam=gclid|yclid|fbclid
 ||hmrc.refund-form*.com^ # HMRC phishing
 ||hubspot.com^
 ||hydra.alibaba.com^
+||hyperbanner.net^
+||hypertracker.com^
 ||i.embed.ly^
 ||i2ad.jp^
 ||i2i.jp^
@@ -847,6 +936,7 @@ $removeparam=gclid|yclid|fbclid
 ||lolshock.com^
 ||loltrain.com^
 ||lytics.io^
+||mads.cnet.com^
 ||madvertise.de^
 ||marketo.net^
 ||marketingcloudapis.com^
@@ -933,6 +1023,7 @@ $removeparam=gclid|yclid|fbclid
 ||pixel.ad^
 ||pixlee.com^
 ||pointmediatracker.com^
+||popunder.ru^
 ||proxy.c9w.net^
 ||pub.network^
 ||pubmatic.com^
