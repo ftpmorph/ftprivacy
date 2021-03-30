@@ -31,6 +31,9 @@ a-0009.a-msedge.net
 a-msedge.net
 adserver.bing.com
 ads.msn.com
+ads1.msn.com
+ads2.msn.com
+ads.eu.msn.com
 auto.search.msn.com
 a.ads1.msn.com
 a.ads2.msads.net
