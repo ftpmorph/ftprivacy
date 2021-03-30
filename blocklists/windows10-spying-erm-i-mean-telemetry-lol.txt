@@ -68,6 +68,9 @@ geo.settings-win.data.microsoft.com.akadns.net
 geo.settings.data.microsoft.com.akadns.net
 geo.vortex.data.microsoft.com.akadns.net
 glbdns.microsoft.com
+graph.microsoft.com
+g.live.com
+g.msn.com
 g.msn.com.nsatc.net
 h-microsoft.online-metrix.net
 h1.msn.com
@@ -114,6 +117,9 @@ survey.watson.microsoft.com
 sqm.df.telemetry.microsoft.com
 sqm.telemetry.microsoft.com
 sqm.telemetry.microsoft.com.nsatc.net
+target.microsoft.com
+targetingservices.microsoft.com
+targetingservicesppe.microsoft.com
 telemetry.appex.bing.net
 telemetry.microsoft.com
 telemetry.remoteapp.windowsazure.com
