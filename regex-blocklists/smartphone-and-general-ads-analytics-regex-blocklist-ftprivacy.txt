@@ -142,6 +142,9 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||fp-vp.azureedge.net^
 ||g.live.com^
 ||g.msn.com^
+||graph.microsoft.com^
+||h*.live.com^
+||h*.msn.com^
 ||iris.microsoft.com^
 ||location.live.net^
 ||oca.microsoft.com^
@@ -701,6 +704,7 @@ $removeparam=gclid|yclid|fbclid
 ||cs.prd.msys.playstation.net^
 ||databrain.com^
 ||datadoghq.com^
+||debug.opendns.com^
 ||deepintent.com^
 ||demandbase.com^
 ||demdex.net^
