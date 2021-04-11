@@ -1,0 +1,11 @@
+# Personal blocklist
+
+# This is just a blocklist of domains for my own network based on my own use cases
+# It does not include entires already in my other blocklists because I use those already
+
+# Google
+
+# This is here because, by default, AdGuard whitelists these so this overrides that behaviour
+
+||pagead.l.doubleclick.net^$important
+||www.googleadservices.com^$important
