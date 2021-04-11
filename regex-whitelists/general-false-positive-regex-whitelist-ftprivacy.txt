@@ -14,7 +14,7 @@
 
 # Google fonts can be used for tracking but blocking them breaks a lot of webpages
 
-@@||fonts.gstatic.com^
+@@||fonts.gstatic.com^$important
 
 # Microsoft
 
@@ -24,8 +24,17 @@
 
 # Netflix
 
+# AdGuard Home sometimes blocks these mistakenly because they share an IP with the Netflix telemetry domains
+
 @@||appboot.netflix.com^$important
 @@||api-global.netflix.com^$important
+
+# Amazon
+
+# Required for firmware updates
+
+@@||softwareupdates.amazon.com^$important
+@@||updates.amazon.com^$important
 
 # Samsung
 
