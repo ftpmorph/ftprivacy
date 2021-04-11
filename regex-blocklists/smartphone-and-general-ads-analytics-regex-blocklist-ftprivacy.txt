@@ -114,14 +114,24 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||amazon-adsystem.amazon.com^
 ||amazon-adsystem.com^
 ||amazon-adsystems.com^
+||arcus-*.amazon.com^
+||aviary.amazon.de^
+||bugsnag.appstore.a2z.com^
 ||client-log.amazon.com^
+||device-messaging-*.amazon.com^
+||devicemessaging.*.amazon.com^
 ||device-metrics-*.amazon.com^
+||dp-gw-na.amazon.com^
 ||fls-*.amazon.*^
 ||global.cmcs.service.amazonsilk.com^
 ||kindle-cpu.com^
 ||mads.amazon.com^
 ||mads-*.amazon.com^
+||mas-sdk.amazon.com^
+||msh.amazon.com^
 ||msh.amazon.co.uk^
+||unagi.amazon.com^
+||unagi-*.amazon.com^
 ||widgets.amazon.com^
 ||ws.amazon.com^
 
@@ -360,8 +370,6 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 
 # Xiaomi
 
-||activity.browser.miui.com^
-||activity.browser.*.miui.com^
 ||activity.hybrid.xiaomi.com^
 ||activity.hybrid.*.xiaomi.com^
 ||activity.mi.com^
@@ -373,7 +381,7 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||ads.mi.com^
 ||ad.xiaomi.com^
 ||ad.*.xiaomi.com^
-||ad1.xiaomi.com^
+||ad*.xiaomi.com^
 ||admob.xiaomi.com^
 ||adinfo.ra1.xlmc.sec.miui.com^
 ||analytics.ff.avast.sec.miui.com^
@@ -394,7 +402,10 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||feedback.miui.com^
 ||feedback.*.miui.com^
 ||hybrid.miui.com^
-||log.youpin.mi.com^
+||log.mi.com^
+||log.*.mi.com^
+||log.miui.com^
+||log.*.miui.com^
 ||mcc.miui.com^
 ||mcc.*.miui.com^
 ||mistat.xiaomi.com^
@@ -416,7 +427,7 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||sec.*.miui.com^
 ||static.miui.com^
 ||static.*.miui.com^
-||static.*.intl.miui.com^
+||static.*.*.miui.com^
 ||stat.xiaomi.com^
 ||stat.*.*.xiaomi.com^
 ||stat.*.xiaomi.com^
@@ -938,6 +949,7 @@ $removeparam=gclid|yclid|fbclid
 ||lytics.io^
 ||mads.cnet.com^
 ||madvertise.de^
+||magnet.page^
 ||marketo.net^
 ||marketingcloudapis.com^
 ||masterad.de^
@@ -996,6 +1008,7 @@ $removeparam=gclid|yclid|fbclid
 ||mobiletraits.s3.amazonaws.com^
 ||mopub.com^
 ||mybbc-analytics.files.bbci.co.uk^
+||myservicemagnet.com^
 ||mparticle.com^
 ||newrelic.com^
 ||network-inv.com^ # EE SMS phishing scam
@@ -1021,6 +1034,7 @@ $removeparam=gclid|yclid|fbclid
 ||placed.com^
 ||pippio.com^
 ||pixel.ad^
+||pixel.wp.com^
 ||pixlee.com^
 ||pointmediatracker.com^
 ||popunder.ru^

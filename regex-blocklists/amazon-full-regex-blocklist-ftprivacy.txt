@@ -1,0 +1,79 @@
+# FTPrivacy.cloud
+# https://github.com/ftpmorph/ftprivacy
+# https://fosstodon.org/@ftprivacy
+# https://twitter.com/ftprivacy
+# https://telegram.me/ftprivacy
+
+# Blocks Amazon Alexa and other services as well as blocking Amazon "telemetry" and ads
+# Does not intentionally block Amazon's store webpage or app so you can still shop there
+# It also does not block AWS services as these are used all over the internet
+# Please report any entries that stop the main Amazon site or AWS from working so they can be fixed
+
+# Note that the "smartphone and general" list blocks only the Amazon ads and tracking if that's all you want
+
+# This is a regex based "adblock rules" list, compatible with AdGuard Home or PiHole v5 with a regex extension 
+# AdGuard Home is what I use and I can confirm it is tested and working there
+
+# Amazon API
+
+||api.amazon.*^
+
+# Alexa
+
+||amazonalexa.com^
+||avs-alexa-*.amazon.com^
+||cortana-gateway.amazon.com^
+
+# Silk Browser
+
+||amazonsilk.com^
+
+# Prime Video
+
+||amazonvideo.com^
+
+# Amazon ads and trackers from main "smartphone and general" list
+# Includes Fire OS
+
+||aan.amazon.*^
+||aax.amazon.com^
+||aax-*.amazon.com^
+||adserver.amazon.*^
+||adserver-*.amazon.*^
+||advertising.amazon.*^
+||amazon.com^$third-party,cookie
+||amazon.com^$third-party,script
+||amazon.com.au^$third-party,cookie
+||amazon.com.au^$third-party,script
+||amazon.co.uk^$third-party,cookie
+||amazon.co.uk^$third-party,script
+||amazon.ca^$third-party,cookie
+||amazon.ca^$third-party,script
+||amazon.de^$third-party,cookie
+||amazon.de^$third-party,script
+||amazon.fr^$third-party,cookie
+||amazon.fr^$third-party,script
+||amazon-adsystem.amazon.com^
+||amazon-adsystem.com^
+||amazon-adsystems.com^
+||arcus-*.amazon.com^
+||aviary.amazon.de^
+||bugsnag.appstore.a2z.com^
+||client-log.amazon.com^
+||dcape-*.amazon.com^
+||device-messaging-*.amazon.com^
+||devicemessaging.*.amazon.com^
+||device-metrics-*.amazon.com^
+||dp-gw-na.amazon.com^
+||fls-*.amazon.*^
+||global.cmcs.service.amazonsilk.com^
+||kindle-cpu.com^
+||mads.amazon.com^
+||mads-*.amazon.com^
+||mas-sdk.amazon.com^
+||msh.amazon.com^
+||msh.amazon.co.uk^
+||unagi.amazon.com^
+||unagi-*.amazon.com^
+||widgets.amazon.com^
+||ws.amazon.com^
