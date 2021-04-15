@@ -3340,6 +3340,8 @@ reporting.api.kochava.com
 rollout.ada.support
 rotator.beginads.com
 rotation.linuxnewmedia.de
+rm-uk-parcel6851.com # phishing
+royal-maildelivery.com # phishing
 rc.snssdk.com
 rsa.adjust.io
 rubiconproject.com
