@@ -318,14 +318,13 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 
 ||ads.snapchat.com^
 ||adsapi.snapchat.com^
-||adsapi2.snapchat.com^
-||adsapi3.snapchat.com^
+||adsapi*.snapchat.com^
 ||adsapimus.snapchat.com^
 ||advertising.snapchat.com^
 ||ad-center.snapchat.com^
 ||analytics.snapchat.com^
 ||app-analytics.snapchat.com^
-||app-analytics-v2.snapchat.com^
+||app-analytics-v*.snapchat.com^
 ||events.antivirus.snappublisher.snapchat.com^
 ||events.snapchat.com^
 ||events.snappublisher.snapchat.com^
@@ -1055,6 +1054,7 @@ $removeparam=gclid|yclid|fbclid
 ||returnpath.net^
 ||revenuecat.com^
 ||rlcdn.com^
+||rm-uk-parcel*.com^ # phishing
 ||royal-maildelivery.com^ # phishing
 ||rtk.io^
 ||rubiconproject.com^
