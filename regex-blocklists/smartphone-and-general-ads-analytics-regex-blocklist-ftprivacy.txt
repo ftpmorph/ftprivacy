@@ -125,6 +125,7 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||fls-*.amazon.*^
 ||global.cmcs.service.amazonsilk.com^
 ||kindle-cpu.com^
+||kinesis.*.amazonaws.com^ # endpoint for Amazon analytics tool
 ||mads.amazon.com^
 ||mads-*.amazon.com^
 ||mas-sdk.amazon.com^
@@ -674,6 +675,7 @@ $removeparam=gclid|yclid|fbclid
 ||aiv-cdn.net^
 ||alexametrics.com^
 ||aliyuncs.com^
+||analytics-data.io^
 ||analytics-sm.com^
 ||analytics.any.do^
 ||analytics.api.brightcove.com
@@ -1151,6 +1153,9 @@ $removeparam=gclid|yclid|fbclid
 ||tapstream.com^
 ||tappoint.com^
 ||tenjin.io^
+||telemetry.docusign.net^
+||telemetry.dropbox.com^
+||telemetry.*.dropbox.com^
 ||telemetry.mozilla.org^
 ||theadex.com^
 ||thisisglobal.com^
@@ -1160,6 +1165,7 @@ $removeparam=gclid|yclid|fbclid
 ||trackingio.com^
 ||tracking.epicgames.com^
 ||track.gawker.com^
+||tracking.services.mozilla.com^
 ||tracking.prd.mz.internal.unity3d.com^
 ||tracking.tomsguide.com^
 ||tracking.tomshardware.com^
