@@ -2665,6 +2665,7 @@ client.hola.org
 clientmetrics-augmentum.kik.com
 clientmetrics.kik.com
 clientsdk.luminati.io
+clientstream.launchdarkly.com
 client.luminati.io
 click.accesstrade.vn
 clk.control.kochava.com
@@ -3603,6 +3604,7 @@ tapad.com
 tapjoy.com
 tapjoyads.com
 teads.tv
+telemetry.docusign.net
 telemetry.dropbox.com
 telemetry.v.dropbox.com
 telemetry.sdk.inmobi.com
@@ -3636,6 +3638,7 @@ tracking.ad-brix.com
 tracking.adsrv.io
 tracking.adultsense.com
 tracking.affiliates.de
+track.analytics-data.io
 tracker.anandtech.com
 track.appsflyer.com
 tracking.applift.com
