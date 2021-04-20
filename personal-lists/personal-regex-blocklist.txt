@@ -9,3 +9,11 @@
 
 ||pagead.l.doubleclick.net^$important
 ||www.googleadservices.com^$important
+
+# Extra stuff others might find useful but I don't want on my network
+
+# For Amazon, see also: https://github.com/ftpmorph/ftprivacy/blob/master/regex-blocklists/amazon-full-regex-blocklist-ftprivacy.txt
+
+# Google Assistant
+
+||embeddedassistant.googleapis.com^$important
