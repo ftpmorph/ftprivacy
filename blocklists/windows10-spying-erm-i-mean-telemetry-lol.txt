@@ -138,6 +138,8 @@ telecommand.telemetry.microsoft.com
 teredo.ipv6.microsoft.com
 test.activity.windows.com
 umwatsonc.events.data.microsoft.com
+upload.fp.measure.office.com
+upload2.fp.measure.office.com
 us-v10.events.data.microsoft.com
 us-v20.events.data.microsoft.com
 us.vortex-win.data.microsoft.com
