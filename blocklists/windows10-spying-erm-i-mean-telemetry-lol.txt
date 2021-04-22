@@ -91,6 +91,7 @@ location-inference-westus.cloudapp.net
 live.rads.msn.com
 nam.api.cortana.ai
 masdpanalytics.azureedge.net
+measure.office.com
 microsoft.qualtrics.com
 microsoft.siteintercept.qualtrics.com
 mobile.events.data.microsoft.com
