@@ -232,6 +232,7 @@ ampcid.google.com
 analytics.google.com
 analytics.admob.com
 api.admob.com
+api.crashlytics.com
 apps.admob.com
 beacons.gvt2.com
 beacons2.gvt2.com
@@ -249,6 +250,7 @@ clk1.vip.sc9.admob.com
 clk2.vip.sc9.admob.com
 clk3.vip.sc9.admob.com
 c122004c-dnsotls-ds.metric.gstatic.com
+cm.crashlytics.com
 cpm.admob.com
 cpm1.admob.com
 cpm1.vip.sc9.admob.com
@@ -258,6 +260,8 @@ cpm3.admob.com
 cpm3.vip.sc9.admob.com
 click.google-analytics.com
 clientmetrics-pa.googleapis.com
+crashlytics.com
+crashlyticsreports-pa.googleapis.com
 crashlytics2.l.google.com
 c.googlesyndication.com
 dart.l.doubleclick.net
@@ -265,6 +269,8 @@ dep.admob.com
 displayads-formats.googleusercontent.com
 doubleclick.net
 e.admob.com
+e.crashlytics.com
+firebase-settings.crashlytics.com
 firebaselogging-pa.googleapis.com
 ff.doubleclick.net
 fls.doubleclick.net
@@ -311,10 +317,10 @@ id.google.se
 id.google.pk
 id.google.pl
 id.google.ru
-media.admob.com
 j.admob.com
 jp.admob.com
 k.admob.com
+kits.crashlytics.com
 l.admob.com
 l.doubleclick.net
 m.doubleclick.net
@@ -324,6 +330,7 @@ mmv.admob.com
 mm1.vip.sc1.admob.com
 mm1.vip.sc9.admob.com
 mm104.sc9.admob.com
+media.admob.com
 metrics.admob.com
 metric.gstatic.com
 mobile-displayads.l.doubleclick.net
@@ -349,6 +356,7 @@ ru.admob.com
 rmd.admob.com
 rd.intl.doubleclick.net
 redirector.c.googlesyndication.com
+reports.crashlytics.com
 safeframe.googlesyndication.com
 s.admob.com
 sc1.admob.com
@@ -360,6 +368,7 @@ s0-2mdn-net.l.google.com
 s-v6exp1-ds.metric.gstatic.com
 securepubads.g.doubleclick.net
 semanticlocation-pa.googleapis.com
+settings.crashlytics.com
 ssl.googleanalytics.com
 ssl.google-analytics.com
 stats.blogger.com
@@ -438,6 +447,7 @@ h-microsoft.online-metrix.net
 inference.location.live.net
 live.rads.msn.com
 masdpanalytics.azureedge.net
+measure.office.com
 microsoft.qualtrics.com
 microsoft.siteintercept.qualtrics.com
 mobile.pipe.aria.microsoft.com
@@ -459,8 +469,10 @@ targetingservicesppe.microsoft.com
 telemetry.appex.bing.net
 telemetry.microsoft.com
 telecommand.telemetry.microsoft.com
-umwatsonc.telemetry.microsoft.com
 umwatsonc.events.data.microsoft.com
+umwatsonc.telemetry.microsoft.com
+upload.fp.measure.office.com
+upload2.fp.measure.office.com
 watson.live.com
 watson.microsoft.com
 watson.officeint.microsoft.com
@@ -2378,7 +2390,6 @@ api.chartbeat.com
 api.comscore.com
 api.cleverpush.com
 api.cloudmobi.net
-api.crashlytics.com
 api.crittercism.com
 api.eu.crittercism.com
 api.datadoghq.com
@@ -2680,7 +2691,6 @@ config.emb-api.com
 config.flurry.com
 config-canary.flurry.com
 cms.analytics.yahoo.com
-cm.crashlytics.com
 cm.masky.biddingx.com
 cm.gammaplatform.com
 cm.imrworldwide.com
@@ -2729,6 +2739,7 @@ d.applovin.com
 de.sitestat.com
 d.eu.criteo.com
 d.us.criteo.com
+debug.opendns.com
 destinylocation.info
 demand.clickyab.com
 demand.rubiconproject.com
@@ -2783,7 +2794,6 @@ dpu.samsungelectronics.com
 dynamic.adcrowd.com
 dynamic.criteo.com
 d.madsack-native.de
-e.crashlytics.com
 e.deployads.com
 ebs.criteo.com
 eb2.3lift.com
@@ -2831,7 +2841,6 @@ fast.accesstrade.com.vn
 fastlane.rubiconproject.com
 fathomseo.com
 feed.medisafeproject.com
-firebase-settings.crashlytics.com
 fpa-events.arstechnica.com
 freegeoip.net
 freehulunetflix.com
@@ -2848,6 +2857,8 @@ fusetracking.com
 gameanalytics.com
 gammaplatform.com
 gatr.hit.gemius.pl
+gleam.io
+gleamjs.io
 goatse.bz
 goatse.ca
 goatse.cx
@@ -2998,7 +3009,6 @@ jssdks.mparticle.com
 jssdkcdns.mparticle.com
 js-sec.indexww.com
 king.com
-kits.crashlytics.com
 kissmetrics.com
 kochava.com
 klclick.com
@@ -3229,6 +3239,7 @@ omaze.com
 on.nimp.org
 onelink.me
 online-metrix.net
+onthe.io
 otify.bugsnag.com
 optimizely.com
 optimized-by.rubiconproject.com
@@ -3318,7 +3329,6 @@ remarket.clicktripz.com
 remote.iperceptions.com
 remote-data.urbanairship.com
 relocationtemp.qualtrics.com
-reports.crashlytics.com
 reach-api.urbanairship.com
 reach.urbanairship.com
 reuters.demdex.net
@@ -3570,7 +3580,6 @@ static.step.dk
 static.tracking202.com
 static.trackedweb.net
 static.trafficjunky.com
-settings.crashlytics.com
 settings-crashlytics-1410998606.us-east-1.elb.amazonaws.com
 settings-crashlytics-b-103974621.us-east-1.elb.amazonaws.com
 showads.pubmatic.com
@@ -3792,6 +3801,7 @@ werbung.leipzig.de
 west.bidtellect.com
 whisky.ana.biddingx.com
 whatif.api.kochava.com
+widget.gleamjs.io
 widget.intercom.io
 wurren.iad-03.braze.com
 ws.batch.com
