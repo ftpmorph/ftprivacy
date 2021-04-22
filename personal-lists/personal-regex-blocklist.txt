@@ -17,3 +17,8 @@
 # Google Assistant
 
 ||embeddedassistant.googleapis.com^$important
+
+# McAfee
+# https://www.youtube.com/watch?v=bKgf5PaBzyg
+
+||mcafee.com^$important
