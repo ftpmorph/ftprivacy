@@ -164,6 +164,7 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||location.live.net^
 ||oca.microsoft.com^
 ||masdpanalytics.azureedge.net^
+||measure.office.com^
 ||metaservices.microsoft.com^
 ||msads.net^
 ||nexusrules.officeapps.live.com^
@@ -843,6 +844,8 @@ $removeparam=gclid|yclid|fbclid
 ||geotargetly-*.appspot.com^
 ||getblueshift.com^
 ||getclicky.com^
+||gleam.io^
+||gleamjs.io^
 ||gma.alicdn.com^
 ||goatse.bz^
 ||goatse.ca^
@@ -1022,6 +1025,7 @@ $removeparam=gclid|yclid|fbclid
 ||onelink.me^
 ||onetag.com^
 ||online-metrix.net^
+||onthe.io^
 ||omtrdc.net^
 ||ophan.theguardian.com^
 ||outbrain.com^
@@ -1080,6 +1084,7 @@ $removeparam=gclid|yclid|fbclid
 ||sentry.cointelegraph.com^
 ||scarabresearch.com^
 ||scorecardresearch.com^
+||scroll.com^
 ||shareaholic.com^
 ||sharethis.com^
 ||sharethrough.com^
