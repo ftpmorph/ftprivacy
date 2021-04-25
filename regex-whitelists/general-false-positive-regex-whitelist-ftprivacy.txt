@@ -71,6 +71,22 @@
 
 # Allows iMessage gif keyboard to work
 
-@@||api-glb-euw1b.smoot.apple.com^$important
+@@||api-glb-euw*b.smoot.apple.com^$important
 @@||cdn*.smoot.apple.com^$important
 
+# Required for Apple software updates (iOS and macOS)
+
+@@||appldnld.apple.com^$important
+@@||gdmf.apple.com^$important
+@@||gdmf.apple.com.akadns.net^$important
+@@||gg.apple.com^$important
+@@||gs.apple.com^$important
+@@||mesu.apple.com^$important
+@@||ns.itunes.apple.com^$important
+@@||swcdn.apple.com^$important
+@@||swdist.apple.com^$important
+@@||swdownload.apple.com^$important
+@@||swscan.apple.com^$important
+@@||updates.cdn-apple.com^$important
+@@||updates-http.cdn-apple.com^$important
+@@||updates-http.g.aaplimg.com^$important
