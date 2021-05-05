@@ -1479,6 +1479,7 @@ wkclick.baidu.com
 # To block the whole of TikTok please add our other list: https://ftprivacy.cloud/domain-blocklists.html#xiaomi-ads-and-trackers
 
 ads.tiktok.com
+ads-sg.tiktok.com
 applog.tiktokv.com
 app.musemuse.cn
 applog.musical.ly
@@ -2143,6 +2144,7 @@ adboost.net
 adbooth.com
 adbro.me
 adbutler.de
+adexprtz.com
 adfox.ru
 adfox.me
 adfox.net
@@ -2963,6 +2965,7 @@ inboard.kochava.com
 ingameads.gameloft.com
 intercom.io
 inmobi.com
+inpagepush.com
 insights.gumgum.com
 imdb.co1.qualtrics.com
 i-mobile.co.jp
@@ -3126,6 +3129,7 @@ masterad.de
 maxiad.de
 maxi-ad.de
 masdpanalytics.azureedge.net
+marketing.888.com
 marketing.criteo.com
 marketingcloudapis.com
 marketing.kochava.com
@@ -3139,6 +3143,7 @@ meatspin.biz
 meatspin.com
 media.go2speed.org
 media.trafficjunky.net
+metrics.io
 metrics.api.drift.com
 metrics.att.com
 metrics.barclaycardus.com
@@ -3181,6 +3186,9 @@ mobilebanner.ru
 mobile.adsafeprotected.com
 mobile-static.adsafeprotected.com
 mobile.webvisor.com
+microad.net
+microad.jp
+microadinc.com
 microstatic.pl
 microticker.com
 militaryverse.com
@@ -3298,6 +3306,7 @@ player.playbuzz.com
 player.playbuzz.co
 platform.rubiconproject.com
 platform-cdn.sharethrough.com
+poastalfees-rm.co.uk # phishing
 pool.skyhookwireless.com
 pokey.thisisglobal.com
 portal.skyhookwireless.com
@@ -3351,6 +3360,7 @@ reporting.api.kochava.com
 rollout.ada.support
 rotator.beginads.com
 rotation.linuxnewmedia.de
+rm-trackinginfo.com # phishing
 rm-uk-parcel6851.com # phishing
 royal-maildelivery.com # phishing
 rc.snssdk.com
@@ -3801,6 +3811,7 @@ werbung.leipzig.de
 west.bidtellect.com
 whisky.ana.biddingx.com
 whatif.api.kochava.com
+wingads.com
 widget.gleamjs.io
 widget.intercom.io
 wurren.iad-03.braze.com
@@ -3813,9 +3824,19 @@ quantserve.com
 quantcount.com
 qxwz.com
 yadro.ru
+yesadsrv.com
+yext.com
 yourbetterofferfinal.best
+yieldads.com
+yieldlab.net
+yieldmanager.com
 yield-manager.browsiprod.com
+yieldmo.com
+yieldoptimizer.com
 yieldtraffic.com
+youvisit.com
+yuhuads.com
+yuppyads.com
 y.analytics.yahoo.com
 y.moatads.com
 yj.moatads.com
@@ -3828,15 +3849,22 @@ y3.flurry.com
 ypu.samsungelectronics.com
 xpu.samsungelectronics.com
 xad.com
+xadcentral.com
+xadsmart.com
 x.bidswitch.net
 x.flurry.com
 xcache.ad360.vn
 xk43.app.link
+xmlads.bid
 xxxbidder.kochava.com
 xenon.iad-03.braze.com
 validate.appsflyer.com
 vantage.rubiconproject.com
 vid.applovin.com
+visitly.com
+visitstrack.com
+visitor-track.com
+visualwebsiteoptimiser.com
 vis.optimizely.com
 vortex.hulu.com
 view.adsrvr.org
