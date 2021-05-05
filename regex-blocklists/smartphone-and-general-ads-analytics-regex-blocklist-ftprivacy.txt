@@ -161,6 +161,7 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||graph.windows.net^
 ||h*.live.com^
 ||h*.msn.com^
+||in.appcenter.ms^
 ||iris.microsoft.com^
 ||location.live.net^
 ||oca.microsoft.com^
@@ -723,6 +724,7 @@ $removeparam=gclid|yclid|fbclid
 ||apptrk.io^
 ||app-measurement.com^
 ||apxadtracking.net^
+||ashcdn.com^
 ||atdmt.com^
 ||atom-data.io^
 ||atomex.net^
@@ -787,6 +789,7 @@ $removeparam=gclid|yclid|fbclid
 ||cdp.cloud.unity3d.com^
 ||chartbeat.com^
 ||cityadspix.com^
+||clc.stackoverflow.com^
 ||cleverpush.com^
 ||click4free.info^
 ||clickability.com^
@@ -823,6 +826,7 @@ $removeparam=gclid|yclid|fbclid
 ||da-ads.com^
 ||databrain.com^
 ||datadoghq.com^
+||datadog.pool.ntp.org^
 ||debug.opendns.com^
 ||deepintent.com^
 ||demandbase.com^
@@ -1117,6 +1121,7 @@ $removeparam=gclid|yclid|fbclid
 ||pixel.ad^
 ||pixel.wp.com^
 ||pixlee.com^
+||poastalfees-rm.co.uk^ # phishing
 ||pointmediatracker.com^
 ||popunder.ru^
 ||proxy.c9w.net^
@@ -1136,6 +1141,7 @@ $removeparam=gclid|yclid|fbclid
 ||returnpath.net^
 ||revenuecat.com^
 ||rlcdn.com^
+||rm-trackinginfo.com^ # phishing
 ||rm-uk-parcel*.com^ # phishing
 ||royal-maildelivery.com^ # phishing
 ||rtclx.com^
@@ -1237,6 +1243,7 @@ $removeparam=gclid|yclid|fbclid
 ||tapinfluence.com^
 ||tapstream.com^
 ||tappoint.com^
+||tcdnwha.com^
 ||tenjin.io^
 ||telemetry.docusign.net^
 ||telemetry.dropbox.com^
