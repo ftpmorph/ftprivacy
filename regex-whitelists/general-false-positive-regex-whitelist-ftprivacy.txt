@@ -77,6 +77,7 @@
 # Required for Apple software updates (iOS and macOS)
 
 @@||appldnld.apple.com^$important
+@@||apps.mzstatic.com^$important
 @@||gdmf.apple.com^$important
 @@||gdmf.apple.com.akadns.net^$important
 @@||gg.apple.com^$important
@@ -88,5 +89,7 @@
 @@||swdownload.apple.com^$important
 @@||swscan.apple.com^$important
 @@||updates.cdn-apple.com^$important
+@@||updates.g.aaplimg.com^$important
 @@||updates-http.cdn-apple.com^$important
 @@||updates-http.g.aaplimg.com^$important
+@@||xp.apple.com^$important
