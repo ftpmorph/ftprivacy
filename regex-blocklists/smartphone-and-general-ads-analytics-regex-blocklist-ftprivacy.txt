@@ -523,6 +523,7 @@ $removeparam=gclid|yclid|fbclid
 ||1mobile.com^
 ||1xslots.africa^
 ||247-inc.net^
+||250analytics.com^
 ||2o7.net^
 ||33across.com^
 ||360in.com^
@@ -545,6 +546,7 @@ $removeparam=gclid|yclid|fbclid
 ||accio.ai^
 ||actonservice.com^
 ||actonsoftware.com^
+||actito.com^
 ||activity.api.bbc.co.uk^
 ||activity.api.bbc.com^
 ||adj.st^
@@ -860,6 +862,7 @@ $removeparam=gclid|yclid|fbclid
 ||enhance.co^
 ||emb-api.com^
 ||emltrk.com^
+||emsecure.net^
 ||eyeblaster.com^
 ||eyereturn.com^
 ||eyeviewads.com^
@@ -960,6 +963,7 @@ $removeparam=gclid|yclid|fbclid
 ||i-mobile.co.jp^
 ||imgg.traffic-media.co^
 ||imgg.traffic-media.co.uk^
+||imicampaign.io^
 ||impact-ad.jp^
 ||impression.link^
 ||imrworldwide.com^
@@ -1017,6 +1021,7 @@ $removeparam=gclid|yclid|fbclid
 ||magnet.page^
 ||marketo.net^
 ||marketing.888.com^
+||marketing.perfectstays.co.uk^
 ||marketingcloudapis.com^
 ||masterad.de^
 ||matheranalytics.com^
