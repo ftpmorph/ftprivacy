@@ -26,8 +26,8 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||facebook.com^$third-party,script
 ||fb.com^$third-party,script
 ||fb.com^$third-party,cookie
-||fbsbx.com^
 ||fbpigeon.com^
+||fbsbx.com^
 ||graph.accountkit.com^
 ||graph.facebook.com^
 ||graph.facebook-hardware.com^
@@ -37,8 +37,8 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||onavo.com^
 ||pixel.facebook.net^
 ||pixel.facebook.com^
-||pixel.messenger.com^
 ||pixel.facebook.co^
+||pixel.messenger.com^
 ||privatestats.whatsapp.net^
 ||tr.facebook.com^
 ||sonar-iad.xx.fbcdn.net^
@@ -521,6 +521,7 @@ $removeparam=gclid|yclid|fbclid
 ||163.com^
 ||1dmp.io^
 ||1mobile.com^
+||1rx.io^
 ||1xslots.africa^
 ||247-inc.net^
 ||250analytics.com^
@@ -549,6 +550,7 @@ $removeparam=gclid|yclid|fbclid
 ||actito.com^
 ||activity.api.bbc.co.uk^
 ||activity.api.bbc.com^
+||adadvisor.net^
 ||adj.st^
 ||adjust.com^
 ||adjust.io^
@@ -604,6 +606,7 @@ $removeparam=gclid|yclid|fbclid
 ||ad-balancer.at^
 ||ad-balancer.net^
 ||ad-brix.com^
+||adbrn.com^
 ||adbro.me^
 ||adbutler.de^
 ||adexprtz.com^
@@ -614,6 +617,7 @@ $removeparam=gclid|yclid|fbclid
 ||adhaven.com^
 ||adhigh.net^
 ||adinjector.net^
+||adition.com^
 ||adkernel.com^
 ||admarvel.com^
 ||admarvel.s3.amazonaws.com^
@@ -666,6 +670,7 @@ $removeparam=gclid|yclid|fbclid
 ||adtarget.com.tr^
 ||addtoany.com^
 ||addthis.com^
+||addthisedge.com^
 ||adtima.vn^
 ||adtimaserver.vn^
 ||adtng.com^
@@ -691,6 +696,7 @@ $removeparam=gclid|yclid|fbclid
 ||afsanalytics.com^
 ||aiv-cdn.net^
 ||aiv-delivery.net^
+||akstat.io^
 ||alexametrics.com^
 ||aliyuncs.com^
 ||analytics-data.io^
@@ -706,6 +712,7 @@ $removeparam=gclid|yclid|fbclid
 ||analytics.tattoodo.com^
 ||analytics.yahoo.com^
 ||analytics.query.yahoo.com^
+||angsrvr.com^
 ||aniview.com^
 ||app.link^
 ||app-adforce.jp^
@@ -732,6 +739,7 @@ $removeparam=gclid|yclid|fbclid
 ||atomex.net^
 ||ato.mx^
 ||attentivemobile.com^
+||atwola.com^
 ||augur.io^
 ||avividai.com^
 ||avmws.com^
@@ -763,13 +771,16 @@ $removeparam=gclid|yclid|fbclid
 ||bitrix.info^
 ||bizible.com^
 ||bizographics.com^
+||bkrtx.com^
 ||bluekai.com^
 ||bmetrack.com^
 ||bounceexchange.com^
+||bouncex.net^
 ||branch.io^
 ||brandmetrics.com^
 ||bravia.dl.playstation.net^
 ||braze.com^
+||brealtime.com^
 ||british-banners.com^
 ||browsiprod.com^
 ||brsrvr.com^
@@ -784,6 +795,7 @@ $removeparam=gclid|yclid|fbclid
 ||camads.net^
 ||captainad.com^
 ||cardlytics.com^
+||casalemedia.com^
 ||ccidnet.com^
 ||cdn4ads.com^
 ||cdnads.com^
@@ -795,6 +807,7 @@ $removeparam=gclid|yclid|fbclid
 ||cleverpush.com^
 ||click4free.info^
 ||clickability.com^
+||clickagy.com^
 ||clickbooth.com^
 ||clickcdn.co^
 ||clickkingdom.net^
@@ -808,10 +821,12 @@ $removeparam=gclid|yclid|fbclid
 ||cloudmobi.net^
 ||cnad.com^
 ||cnzz.com^
+||cogocast.net^
 ||coinad.com^
 ||coinad.media^
 ||concert.io^
 ||connectad.io^
+||connexity.net^
 ||contextweb.com^
 ||comcontent.net^
 ||comfortclick.co.uk^
@@ -829,6 +844,7 @@ $removeparam=gclid|yclid|fbclid
 ||databrain.com^
 ||datadoghq.com^
 ||datadog.pool.ntp.org^
+||de17a.com^
 ||debug.opendns.com^
 ||deepintent.com^
 ||demandbase.com^
@@ -846,7 +862,9 @@ $removeparam=gclid|yclid|fbclid
 ||dsstrk.com^
 ||dtrk.slimcdn.com^
 ||dtzads.com^
+||duapps.com^
 ||dynamicyield.com^
+||dyntrk.com^
 ||dz4ad.com^
 ||eads.to^
 ||easyad.com^
@@ -863,6 +881,7 @@ $removeparam=gclid|yclid|fbclid
 ||emb-api.com^
 ||emltrk.com^
 ||emsecure.net^
+||emxdgt.com^
 ||eyeblaster.com^
 ||eyereturn.com^
 ||eyeviewads.com^
@@ -886,6 +905,7 @@ $removeparam=gclid|yclid|fbclid
 ||freestats.tv^
 ||freewebcounter.com^
 ||fusetracking.com^
+||fwmrm.net^
 ||gameanalytics.com^
 ||gammaplatform.com^
 ||gemius.pl^
@@ -901,6 +921,7 @@ $removeparam=gclid|yclid|fbclid
 ||geolocationsystem.com^
 ||geoplugin.net^
 ||geotargetly-*.appspot.com^
+||geo.yahoo.com^
 ||getblueshift.com^
 ||getclicky.com^
 ||gleam.io^
@@ -913,6 +934,7 @@ $removeparam=gclid|yclid|fbclid
 ||goatse.ru^
 ||goatsegirl.org^
 ||goldstats.com^
+||go-mpulse.net^
 ||gostats.com^
 ||goodadvert.ru^
 ||gov-rebate.link^ # HMRC phishing 
@@ -923,6 +945,7 @@ $removeparam=gclid|yclid|fbclid
 ||heapanalytics.com^
 ||hearst.emsecure.net^
 ||hexagon-analytics.com^
+||heycould.com^
 ||heytapmobi.com^
 ||histats.com^
 ||hockeyapp.net^
@@ -946,6 +969,7 @@ $removeparam=gclid|yclid|fbclid
 ||identads.com^
 ||idtargeting.com^
 ||ilbanner.com^
+||indexww.com^
 ||inertia.af^
 ||infeed.id^
 ||ingameads.gameloft.com^
@@ -1034,7 +1058,9 @@ $removeparam=gclid|yclid|fbclid
 ||media6degrees.com^
 ||media.net^
 ||mediaad.org^
+||mediaplex.com^
 ||medisafeproject.com^ # if you install Medisafe, that app you put personal medical info into, it keeps phoning home... why?
+||mediawallahscript.com^
 ||measuread.com^
 ||metrics.io^
 ||metrics.att.com^
@@ -1069,6 +1095,7 @@ $removeparam=gclid|yclid|fbclid
 ||metrics.washingtonpost.com^
 ||metrics.windowsitpro.com^
 ||metricfast.com^
+||mfadsrvr.com^
 ||micpn.com^
 ||microad.net^
 ||microad.jp^
@@ -1078,8 +1105,10 @@ $removeparam=gclid|yclid|fbclid
 ||mixpanel.com^
 ||mmstat.com^
 ||moonads.net^
+||mookie*.com^
 ||moatads.com^
 ||moatpixel.com^
+||mobileadtrading.com^
 ||mobileapptracking.com^
 ||mobilebanner.ru^
 ||mobitracker.info^
@@ -1093,11 +1122,14 @@ $removeparam=gclid|yclid|fbclid
 ||myservicemagnet.com^
 ||mytrack*.com^
 ||myvads.com^
+||myvisualiq.net^
 ||mparticle.com^
+||narrative.io^
 ||nativeserv.com^
 ||new*ads.com^
 ||newrelic.com^
 ||network-inv.com^ # EE SMS phishing scam
+||nexage.com^
 ||ndmdhs.com^ # Sony tracking domain used in mobile apps, smart TV's, PlayStations, etc.
 ||novatrck.icu^
 ||npttech.com^
@@ -1109,9 +1141,11 @@ $removeparam=gclid|yclid|fbclid
 ||onetag.com^
 ||online-metrix.net^
 ||onthe.io^
+||omnitagjs.com^
 ||omtrdc.net^
 ||ophan.theguardian.com^
 ||outbrain.com^
+||outbrainimg.com^
 ||pardot.com^
 ||pay2clik.cf^
 ||paypal-limitations*.com^ # phishing
@@ -1129,6 +1163,7 @@ $removeparam=gclid|yclid|fbclid
 ||poastalfees-rm.co.uk^ # phishing
 ||pointmediatracker.com^
 ||popunder.ru^
+||postrelease.com^
 ||proxy.c9w.net^
 ||pub.network^
 ||pubmatic.com^
@@ -1151,9 +1186,11 @@ $removeparam=gclid|yclid|fbclid
 ||royal-maildelivery.com^ # phishing
 ||rtclx.com^
 ||rtk.io^
+||ru4.com^
 ||rubiconproject.com^
 ||rubiconproject.net.akadns.net^
 ||s.click.aliexpress.com^
+||s3xified.com^
 ||sail-horizon.com^
 ||samba.tv^
 ||samsungads.com^
@@ -1180,6 +1217,7 @@ $removeparam=gclid|yclid|fbclid
 ||sibautomation.com^
 ||simpleanalytics.io^
 ||siteimproveanalytics.io^
+||sitescout.com^
 ||sitestat.com^
 ||skimresources.com^
 ||skyhookwireless.com^
@@ -1237,6 +1275,8 @@ $removeparam=gclid|yclid|fbclid
 ||stats.wordpress.com^
 ||stats.wp.com^
 ||stickyadstv.com^
+||sundaysky.com^
+||switchadhub.com^
 ||syndication.kbb.com^
 ||syndication.theguardian.com^
 ||taboola.com^
@@ -1272,6 +1312,7 @@ $removeparam=gclid|yclid|fbclid
 ||trafficjunky.net^
 ||trendcounter.de^
 ||trendcounter.com^
+||tremorhub.com^
 ||trckcommerce.com^
 ||trk.pinterest.com^
 ||tsyndicate.com^
@@ -1325,3 +1366,5 @@ $removeparam=gclid|yclid|fbclid
 ||youvisit.com^
 ||yuhuads.com^
 ||yuppyads.com^
+||zemanta.com^
+||zorosrv.com^

@@ -1,0 +1,30 @@
+# FTPrivacy.cloud
+# https://github.com/ftpmorph/ftprivacy
+# https://fosstodon.org/@ftprivacy
+# https://twitter.com/ftprivacy
+# https://telegram.me/ftprivacy
+
+# Regex block of all Facebook domains
+# Includes Messenger, Instagram, WhatsApp, Oculus, Onavo, etc.
+# Also "backend" services like AccountKit (uses FB to login to third party services)
+# And "like" buttons on third party sites, pixel trackers on third party sites, etc.
+# Should block all FB activity on your device/network
+#FuckTheZuck
+
+
+||accountkit.com^
+||cdninstagram.com^
+||facebook.co^
+||facebook.com^
+||facebook.com.edgesuite.net^
+||facebook.net^
+||facebook-hardware.com^
+||fb.com^
+||fbcdn.net^
+||fbpigeon.com^
+||fbsbx.com^
+||instagram.com^
+||messenger.com^
+||oculus.com^
+||onavo.com^
+||whatsapp.net^
