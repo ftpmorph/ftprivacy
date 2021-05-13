@@ -82,6 +82,7 @@ geo.settings.data.microsoft.com.akadns.net
 geo.vortex.data.microsoft.com.akadns.net
 glbdns.microsoft.com
 graph.microsoft.com
+graph.windows.net
 g.live.com
 g.msn.com
 g.msn.com.nsatc.net
@@ -105,6 +106,7 @@ oca.telemetry.microsoft.com
 onecollector.cloudapp.aria.akadns.net
 odinvzc.azureedge.net
 optanon.blob.core.windows.net
+popup.msn.com
 preview.msn.com
 pre.footprintpredict.com
 rad.live.com
