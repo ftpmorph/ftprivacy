@@ -192,6 +192,8 @@ www.sony.net
 
 # Roku (Roku OS)
 
+ads.roku.com
+logs.roku.com
 austin.logs.roku.com
 display.ravm.tv
 cooper.logs.roku.com
