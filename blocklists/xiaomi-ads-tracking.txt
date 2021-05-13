@@ -14,6 +14,7 @@
 
 abtest.mistat.xiaomi.com
 abtest.mistat.intl.xiaomi.com
+account.xiaomi.com
 ad.mi.com
 ad.xiaomi.com
 ad1.xiaomi.com
@@ -25,6 +26,8 @@ api.ad.xiaomi.com
 api.admob.xiaomi.com
 api.activity.browser.miui.com
 api.activity.browser.intl.miui.com
+api.brs.intl.miui.com
+api.collect.data.intl.miui.com
 api.device.xiaomi.net
 api.hybrid.xiaomi.com
 api.hybrid.intl.xiaomi.com
@@ -49,6 +52,7 @@ ccc.sys.miui.com
 chat.global.xiaomi.net
 data.mistat.xiaomi.com
 data.mistat.intl.xiaomi.com
+data.sec.intl.miui.com
 drm.market.xiaomi.com
 e.ad.xiaomi.com
 fcanr.tracking.miui.com
