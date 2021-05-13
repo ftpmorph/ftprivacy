@@ -22,8 +22,12 @@ smartshare.lgtvsdp.com
 
 # Panasonic Smart TV (Firefox OS)
 
+collect.myhomescreen.tv
+usage.myhomescreen.tv
+
 mhc-sec-eu.myhomescreen.tv
 mhc-sec-us.myhomescreen.tv
+
 usage-eu-fy2014.myhomescreen.tv
 usage-eu-fy2015.myhomescreen.tv
 usage-eu-fy2016.myhomescreen.tv
@@ -33,6 +37,7 @@ usage-eu-fy2019.myhomescreen.tv
 usage-eu-fy2020.myhomescreen.tv
 usage-eu-fy2021.myhomescreen.tv
 usage-eu-fy2022.myhomescreen.tv
+
 usage-us-fy2014.myhomescreen.tv
 usage-us-fy2015.myhomescreen.tv
 usage-us-fy2016.myhomescreen.tv
@@ -40,6 +45,31 @@ usage-us-fy2017.myhomescreen.tv
 usage-us-fy2018.myhomescreen.tv
 usage-us-fy2019.myhomescreen.tv
 usage-us-fy2020.myhomescreen.tv
+usage-us-fy2021.myhomescreen.tv
+usage-us-fy2022.myhomescreen.tv
+
+collect-us-fy2014.myhomescreen.tv
+collect-us-fy2015.myhomescreen.tv
+collect-us-fy2016.myhomescreen.tv
+collect-us-fy2017.myhomescreen.tv
+collect-us-fy2018.myhomescreen.tv
+collect-us-fy2019.myhomescreen.tv
+collect-us-fy2020.myhomescreen.tv
+collect-us-fy2021.myhomescreen.tv
+collect-us-fy2022.myhomescreen.tv
+collect-us-fy2023.myhomescreen.tv
+
+collect-eu-fy2014.myhomescreen.tv
+collect-eu-fy2015.myhomescreen.tv
+collect-eu-fy2017.myhomescreen.tv
+collect-eu-fy2016.myhomescreen.tv
+collect-eu-fy2018.myhomescreen.tv
+collect-eu-fy2019.myhomescreen.tv
+collect-eu-fy2020.myhomescreen.tv
+collect-eu-fy2021.myhomescreen.tv
+collect-eu-fy2022.myhomescreen.tv
+collect-eu-fy2023.myhomescreen.tv
+
 x2.vindicosuite.com
 
 # Philips (Android, Net TV, Roku OS)
@@ -199,6 +229,12 @@ hbbtv.superrtl.de
 p-hbbtv.superrtl.de
 scheduler.hbbtv.smartclip.net
 stats.hbbtv.smartclip.net
+
+# Toshiba smart TVs
+
+file2fxm.azureedge.net
+7345023508.fxmconnect.com
+7345023508.fxm9485766783.com
 
 # Various Smart TV brands
 
