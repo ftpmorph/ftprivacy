@@ -55,6 +55,7 @@ browser.pipe.aria.microsoft.com
 cache.datamart.windows.com
 candycrushsoda.king.com
 c.msn.com
+clientlog.portal.office.com
 collection.location.live.net
 continuum.dds.microsoft.com
 corp.sts.microsoft.com
@@ -62,6 +63,9 @@ cs1.wpc.v0cdn.net
 cy2.settings.data.microsoft.com.akadns.net
 cy2.vortex.data.microsoft.com.akadns.net
 diagnostics.support.microsoft.com
+edge.activity.windows.com
+edge-enterprise.activity.windows.com
+enterprise.activity.windows.com
 eu.vortex.data.microsoft.com
 eu.vortex-win.data.microsoft.com
 eu-v10.events.data.microsoft.com
