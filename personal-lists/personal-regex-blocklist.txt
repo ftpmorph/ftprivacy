@@ -22,3 +22,7 @@
 # https://www.youtube.com/watch?v=bKgf5PaBzyg
 
 ||mcafee.com^$important
+
+# Cyberark
+
+||cyberark.com^$important
