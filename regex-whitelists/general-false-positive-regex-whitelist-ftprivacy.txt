@@ -93,3 +93,30 @@
 @@||updates-http.cdn-apple.com^$important
 @@||updates-http.g.aaplimg.com^$important
 @@||xp.apple.com^$important
+
+# Microsoft
+
+# Windows Update
+
+@@||delivery.mp.microsoft.com^$important
+@@||dl.delivery.mp.microsoft.com^$important
+@@||emdl.ws.microsoft.com^$important
+@@||fe3.*.mp.microsoft.com^$important
+@@||prod.do.dsp.mp.microsoft.com^$important
+@@||tsfe.trafficshaping.dsp.mp.microsoft.com^$important
+@@||update.microsoft.com^$important
+@@||wac.phicdn.net^$important
+@@||windowsupdate.com^$important
+
+# Windows Defender AV database updates
+
+@@||definitionupdates.microsoft.com^$important
+
+# Windows Activation
+
+@@||licensing.mp.microsoft.com^$important
+
+# Windows internet connectivity check
+
+@@||msftncsi.com^$important
+@@||msftconnecttest.com^$important
