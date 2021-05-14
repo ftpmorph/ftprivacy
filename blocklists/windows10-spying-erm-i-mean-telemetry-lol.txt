@@ -70,6 +70,7 @@ eu.vortex.data.microsoft.com
 eu.vortex-win.data.microsoft.com
 eu-v10.events.data.microsoft.com
 eu-v20.events.data.microsoft.com
+europe.smartscreen.microsoft.com
 events.data.microsoft.com
 exo-ring.msedge.net
 feedback.windows.com
@@ -122,6 +123,7 @@ settings-win.data.microsoft.com
 settings.data.microsoft.com
 services.wes.df.telemetry.microsoft.com
 settings.data.glbdns2.microsoft.com
+smartscreen.microsoft.com
 spynet.microsoft.com
 spynet2.microsoft.com
 spynetalt.microsoft.com
