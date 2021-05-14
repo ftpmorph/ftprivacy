@@ -153,6 +153,8 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||ads.*.msn.com^
 ||arc.msn.com^
 ||arc*.msn.com^
+||arc.msn.com.nsatc.net^
+||aria.microsoft.com^
 ||auto.search.msn.com^
 ||bat.bing.com^
 ||bingads.microsoft.com^
@@ -160,6 +162,8 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||cs.dds.microsoft.com^
 ||data.microsoft.com^
 ||data.*.microsoft.com^
+||data.microsoft.com.akadns.net^
+||diagnostics.support.microsoft.com^
 ||feedback.windows.com^
 ||fp.msedge.net^
 ||fp-vp.azureedge.net^
@@ -171,8 +175,11 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||h*.msn.com^
 ||in.appcenter.ms^
 ||iris.microsoft.com^
+||iriscoremetadataprod.blob.core.windows.net^
+||location-inference-*.cloudapp.net^
 ||location.live.net^
 ||oca.microsoft.com^
+||onecollector.cloudapp.aria.akadns.net^
 ||manage.microsoft.com^
 ||masdpanalytics.azureedge.net^
 ||measure.office.com^
@@ -180,7 +187,6 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||msads.net^
 ||nexus.officeapps.live.com^
 ||nexusrules.officeapps.live.com^
-||pipe.aria.microsoft.com^
 ||popup.msn.com^
 ||preview.msn.com^
 ||rad.live.com^
@@ -188,6 +194,7 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||rads.msn.com^
 ||spynet.microsoft.com^
 ||spynet*.microsoft.com^
+||spynet*.microsoft.akadns.net^
 ||tar.microsoft.com^
 ||target.microsoft.com^
 ||targetingservices.microsoft.com^
@@ -200,6 +207,8 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||watson.microsoft.com^
 ||watson.officeint.microsoft.com^
 ||watson*.officeint.microsoft.com^
+||wpc.gammacdn.net^
+||wpc.v0cdn.net^
 
 # In its default config, Windows sends out a lot of "wpad.blahblahblah" requests.
 # WPAD is an outdated Microsoft protocol from the 90's that creates a big security risk.
@@ -281,6 +290,7 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||diagmon-*.samsungdm.com^
 ||pushmessage.samsung.com^
 ||samsunggeopush.com^
+||sspapi-prd.samsungrs.com^
 
 # Netflix
 
@@ -994,11 +1004,13 @@ $removeparam=gclid|yclid|fbclid
 ||castoola.com^
 ||castoola.tv^
 ||ccidnet.com^
+||cdn1.pro^
 ||cdn4ads.com^
 ||cdnads.com^
 ||cdnassels.com^
 ||cdn-ketchapp.akamaized.net^
 ||cdnmage.com^
+||cdn-server.top^
 ||cdnwidget.com^
 ||cdp.cloud.unity3d.com^
 ||ceromobi.club^
@@ -1031,6 +1043,9 @@ $removeparam=gclid|yclid|fbclid
 ||clicktripz.com^
 ||clickwallads.s3.amazonaws.com^
 ||clickyab.com^
+||clkrev.com^
+||clksecure.com^
+||clksite.com^
 ||clientmetrics-*.kik.com^
 ||clientmetrics.kik.com^
 ||clmbtech.com^
@@ -1104,7 +1119,9 @@ $removeparam=gclid|yclid|fbclid
 ||ebayadservices.com^
 ||edgeads.org^
 ||edgevertise.com^
+||educationdemotediabete.com^
 ||eepay-billinginfo.com^ # EE SMS phishing scam
+||efficiencycypressregarding.com^
 ||estat.com^
 ||etracker.de^
 ||euroclick.com^
@@ -1112,6 +1129,7 @@ $removeparam=gclid|yclid|fbclid
 ||enhance.co^
 ||emb-api.com^
 ||emltrk.com^
+||emptyspaceads.com^
 ||emsecure.net^
 ||emsservice.de^
 ||emxdgt.com^
@@ -1130,19 +1148,33 @@ $removeparam=gclid|yclid|fbclid
 ||fabric.io^
 ||factual.com^
 ||fastclick.net^
+||fattymadmanquestions.com^
 ||fc.yahoo.com^
+||fifteenprefixselfemployed.com^
+||fimpromote.club^
+||fimserve.com^
 ||flashtalking.com^
 ||flurry.com^
 ||flurry.cachefly.net^
+||fluxads.com^
+||fmax.xyz^
+||fmsads.com^
 ||forter.com^
 ||fouanalytics.com^
+||foundationbettynapoleon.com^
+||fourmtagservices.com^
+||foxcdn.life^
+||foxrevenue.com^
 ||fpa-events.arstechnica.com^
 ||freegeoip.net^
 ||freehulunetflix.com^
 ||freestats.com^
 ||freestats.tv^
 ||freewebcounter.com^
+||fuseplatform.net^
 ||fusetracking.com^
+||fusionads.net^
+||future-hawk-content.co.uk^
 ||fwmrm.net^
 ||gameads.io^
 ||gameanalytics.com^
@@ -1180,6 +1212,7 @@ $removeparam=gclid|yclid|fbclid
 ||goat.cx^
 ||goatse.ru^
 ||goatsegirl.org^
+||goclick.info^
 ||goldstats.com^
 ||go-mpulse.net^
 ||gostats.com^
@@ -1194,6 +1227,7 @@ $removeparam=gclid|yclid|fbclid
 ||hexagon-analytics.com^
 ||heycould.com^
 ||heytapmobi.com^
+||hitcpm.com^
 ||hits.theguardian.com^
 ||histats.com^
 ||hockeyapp.net^
@@ -1209,6 +1243,7 @@ $removeparam=gclid|yclid|fbclid
 ||hydra.alibaba.com^
 ||hyperbanner.net^
 ||hypertracker.com^
+||hypocritedesistsplendid.com^
 ||i.embed.ly^
 ||i2ad.jp^
 ||i2i.jp^
@@ -1227,6 +1262,7 @@ $removeparam=gclid|yclid|fbclid
 ||inmobi.com^
 ||inmobi.cn^
 ||inpagepush.com^
+||in-page-push.com^
 ||inside-graph.com^
 ||insightexpressai.com^
 ||instabug.com^
@@ -1249,6 +1285,7 @@ $removeparam=gclid|yclid|fbclid
 ||iplogger.org^
 ||iplogger.ru^
 ||iperceptions.com^
+||iredirect.net^
 ||is.sh^
 ||isoftmarketing.com^
 ||itrack.it^
@@ -1365,6 +1402,7 @@ $removeparam=gclid|yclid|fbclid
 ||microad.net^
 ||microad.jp^
 ||microadinc.com^
+||microsoftaffiliates.net^
 ||microstatic.pl^
 ||microticker.com^
 ||mimicromax.com^
@@ -1531,7 +1569,6 @@ $removeparam=gclid|yclid|fbclid
 ||spotx.tv^
 ||spotxchange.com^
 ||sprout-ad.com^
-||sspapi-prd.samsungrs.com^
 ||stackadapt.com^
 ||stat.media^
 ||statstat888.com^
