@@ -133,6 +133,7 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 ||kinesis.*.amazonaws.com^ # endpoint for Amazon analytics tool
 ||mads.amazon.com^
 ||mads-*.amazon.com^
+||mas-ext-*.amazon.com^
 ||mas-sdk.amazon.com^
 ||msh.amazon.com^
 ||msh.amazon.co.uk^
@@ -1437,6 +1438,7 @@ $removeparam=gclid|yclid|fbclid
 ||newsmaxwidget.com^
 ||network-inv.com^ # EE SMS phishing scam
 ||nexage.com^
+||nexus.bazaarvoice.com^
 ||ndmdhs.com^ # Sony tracking domain used in mobile apps, smart TV's, PlayStations, etc.
 ||novatrck.icu^
 ||npttech.com^
