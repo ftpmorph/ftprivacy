@@ -1,0 +1,132 @@
+# FTPrivacy.cloud
+# https://github.com/ftpmorph/ftprivacy
+# https://fosstodon.org/@ftprivacy
+# https://twitter.com/ftprivacy
+# https://telegram.me/ftprivacy
+
+# This is the regex and adblock rule version of my smart TV blocklist
+
+# Designed to block ads and tracking without breaking smart TV features
+# If a domain listed here breaks regular functionality please open an issue or PR on GitHub
+
+# LG Smart TV (webOS)
+
+||ad.lgappstv.com^
+||lgrecommends.lgappstv.com^
+||lgsmartad.com^
+||lgtvsdp.com^
+||smartclip.*^
+||yumenetworks.com^
+
+# Panasonic Smart TV (Firefox OS)
+
+||collect.myhomescreen.tv^
+||usage.myhomescreen.tv^
+
+||collect-*.myhomescreen.tv^
+||usage-*.myhomescreen.tv^
+
+||mhc-sec-*.myhomescreen.tv^
+
+||vindicosuite.com^
+
+# Philips (Android, Net TV, Roku OS)
+
+||ad.nettvservices.com^
+||legacyportal.nettvservices.com^
+||nettv.corio.com^
+
+# Samsung Smart TV (Tizen)
+# VERY LOUD
+
+||ads.aimitv.com^
+||devicelog.samsungcloudsolution.net^
+||device-metrics-*.amazon.com^
+||internetat.tv^
+||pavv.co.kr^
+||prderrordumpssm.samsungcloudsolution.net^
+||samsungacr.*^
+||samsungadhub.*^
+||samsungads.*^
+||samsungosp.*^
+||samsungrm.*^
+||samsungyosemite.*^
+||telly.com^
+
+# Sony Smart TV (Bravia, Android)
+
+||api-mf*.meta.ndmdhs.com^
+||black.ndmdhs.com^
+||bdcore-apr-lb.bda.ndmdhs.com^
+||bravia.dl.playstation.net^
+||call.me.sel.sony.com^
+||facemap.foldlife.net^
+||flingo.tv^ # another domain for samba.tv, the company that scans what's on your TV screen (see below)
+||social.biv.sony.tv^
+||ssm*.internet.sony.tv^
+||tvsideviewandroid*.bda.ndmdhs.com^
+
+# Roku (Roku OS)
+
+||ads.roku.com^
+||logs.roku.com^
+||ravm.tv^
+
+# Hisense (Android TV, Roku TV, VIDAA)
+
+||hismarttv.com^
+
+# HBBTV (open source OS on many smart TV's)
+# Known for its strong privacy and security... not.
+# https://en.wikipedia.org/wiki/Hybrid_Broadcast_Broadband_TV#Security_and_privacy_concerns
+
+||anixe.net^
+||hbbtv*.eurosport.com^
+||hbbtv-track.redbutton.de^
+||hbbtv.qvc.de^
+||smartclip.net^
+
+# Toshiba Smart TVs
+
+||file2fxm.azureedge.net^
+||7345023508.fxmconnect.com^
+||7345023508.fxm9485766783.com^
+
+# Various Smart TV brands
+
+# Netflix
+# Analytics, telemetry, spying on paying customers... whatever you wish to call it.
+
+||ads.test.netflix.com^
+||ads.test.*.netflix.com^
+||beacon.netflix.com^
+||customerevents.netflix.com^
+||customerevents.*.netflix.com^
+||estats.netflix.com^
+||geo.netflix.com^
+||ichnaea.netflix.com^
+||ichnaea.geo.netflix.com^
+||ichnaea-*.netflix.com^
+||ichnaea-*.geo.netflix.com^
+||ichnaea-*.dradis.netflix.com^
+||nmtracking.netflix.com^
+||presentationtracking.netflix.com^
+||prodaa.netflix.com^
+
+# Samba.tv
+# To quote Wiki: "Samba TV tracks what appears on the users' TV by reading pixels and utilizing this data for personalized recommendations"
+# Blocking this seems like a good idea.
+
+||samba.tv^
+
+# These are the guys who helped with the switchover to digital TV in the UK. What's their software doing in your telly? No idea! At a guess, targeted advertising.
+
+||img-ctv.digitaluk.co.uk^
+
+# No idea on this one. Probably location related ads.
+
+||secure-geolocation.premiumtv.co.uk^
+
+# geohawk.co.uk now redirects to Mapway so definitely location related.
+
+||geohawk.co.uk^

@@ -5,7 +5,7 @@
 # https://telegram.me/ftprivacy
 
 # This is the regex and adblock rule version of my most useful, universally used list.
-The original domain list version can be found here: https://github.com/ftpmorph/ftprivacy/blob/master/blocklists/smartphone-ads-tracking.txt
+# The original domain list version can be found here: https://github.com/ftpmorph/ftprivacy/blob/master/blocklists/smartphone-ads-tracking.txt
 
 # While it started off as being for smartphones only, it has over time grown to become a lot more universal.
 # The original list is a great one to have on your network as a general ad blocker for desktop and mobile.
@@ -296,7 +296,7 @@ The original domain list version can be found here: https://github.com/ftpmorph/
 # Netflix
 
 ||ads.test.netflix.com^
-||ads.test.geo.netflix.com^
+||ads.test.*.netflix.com^
 ||beacon.netflix.com^
 ||customerevents.netflix.com^
 ||customerevents.*.netflix.com^
@@ -894,6 +894,7 @@ $removeparam=gclid|yclid|fbclid
 ||amillionads.com^
 ||api.ads.watchabc.go.com^
 ||api.nextgen.guardianapps.co.uk^
+||amp-ipaddress-com.cdn.ampproject.org^
 ||app.link^
 ||appa.pe^
 ||app-adforce.jp^
@@ -1542,6 +1543,7 @@ $removeparam=gclid|yclid|fbclid
 ||shockgore.com^
 ||sibautomation.com^
 ||simpleanalytics.io^
+||s-ipaddress-com.cdn.ampproject.org^
 ||siteimproveanalytics.io^
 ||sitescout.com^
 ||sitestat.com^
