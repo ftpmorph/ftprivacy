@@ -663,6 +663,7 @@ $removeparam=gclid|yclid|fbclid
 ||adbanner.cz^
 ||adbanner.ro^
 ||adbrite.com^
+||adcolony.com^
 ||adfun.ru^
 ||adfusion.com^
 ||adfusionnetwork.com^
@@ -758,9 +759,11 @@ $removeparam=gclid|yclid|fbclid
 ||adfox.me^
 ||adfox.net^
 ||adfox.ru^
+||adgrx.com^
 ||adhaven.com^
 ||adhigh.net^
 ||adincube.com^
+||adingo.jp^
 ||adinjector.net^
 ||adition.com^
 ||adkernel.com^
@@ -779,6 +782,7 @@ $removeparam=gclid|yclid|fbclid
 ||adotmob.com^
 ||adleadevent.com^
 ||adlightning.com^
+||adlooxtracking.com^
 ||admantx.com^
 ||admarket.network^
 ||admarketplace.net^
@@ -808,6 +812,7 @@ $removeparam=gclid|yclid|fbclid
 ||adserver.yahoo.co.jp^
 ||adserver.*.yahoodns.net^
 ||adskeeper.co.uk^
+||adsnative.com^
 ||adsniper.ru^
 ||adsmart.net^
 ||adsmobila.com^
@@ -862,6 +867,7 @@ $removeparam=gclid|yclid|fbclid
 ||aiv-cdn.net^
 ||aiv-delivery.net^
 ||akstat.io^
+||alephd.com^
 ||alexametrics.com^
 ||aliyuncs.com^
 ||alphonso.tv^
@@ -929,6 +935,7 @@ $removeparam=gclid|yclid|fbclid
 ||avault.net^
 ||avividai.com^
 ||avmws.com^
+||avocet.io^
 ||axiatraders.com^
 ||b0e8.com^
 ||backtrace.io^
@@ -973,6 +980,7 @@ $removeparam=gclid|yclid|fbclid
 ||bkrtx.com^
 ||blasze.com^
 ||blasze.tk^
+||bluecava.com^
 ||bluekai.com^
 ||bmetrack.com^
 ||bounceexchange.com^
@@ -1002,6 +1010,7 @@ $removeparam=gclid|yclid|fbclid
 ||captainad.com^
 ||cardlytics.com^
 ||casalemedia.com^
+||casalemedia.com.edgekey.net^
 ||cashnow.ee^
 ||castoola.com^
 ||castoola.tv^
@@ -1015,6 +1024,7 @@ $removeparam=gclid|yclid|fbclid
 ||cdn-server.top^
 ||cdnwidget.com^
 ||cdp.cloud.unity3d.com^
+||celtra.com^
 ||ceromobi.club^
 ||chacomedia.com^
 ||chanekee.ga^
@@ -1054,6 +1064,7 @@ $removeparam=gclid|yclid|fbclid
 ||cloudmobi.net^
 ||cnad.com^
 ||cnzz.com^
+||cobaltgroup.com^
 ||cogocast.net^
 ||coinad.com^
 ||coinad.media^
@@ -1095,6 +1106,7 @@ $removeparam=gclid|yclid|fbclid
 ||de17a.com^
 ||debug.opendns.com^
 ||deepintent.com^
+||deliverimp.com^
 ||demandbase.com^
 ||demdex.net^
 ||deployads.com^
@@ -1106,6 +1118,7 @@ $removeparam=gclid|yclid|fbclid
 ||directtrack.com^
 ||disqusads.com^
 ||dotomi.com^
+||doubleverify.com^
 ||droptop*.com^
 ||driftcdn.com^
 ||dsstrk.com^
@@ -1124,10 +1137,12 @@ $removeparam=gclid|yclid|fbclid
 ||educationdemotediabete.com^
 ||eepay-billinginfo.com^ # EE SMS phishing scam
 ||efficiencycypressregarding.com^
+||emerse.com^
 ||estat.com^
 ||etracker.de^
 ||euroclick.com^
 ||euros4click.de^
+||everesttech.net^
 ||enhance.co^
 ||emb-api.com^
 ||emltrk.com^
@@ -1135,6 +1150,7 @@ $removeparam=gclid|yclid|fbclid
 ||emsecure.net^
 ||emsservice.de^
 ||emxdgt.com^
+||eqads.com^
 ||ero-advertising.com^
 ||eyeblaster.com^
 ||eyereturn.com^
@@ -1192,7 +1208,9 @@ $removeparam=gclid|yclid|fbclid
 ||geoip.businessinsider.com^
 ||geoip.herewetest.com^
 ||geoip.ifunny.co^
+||geo.kaspersky.com^
 ||geolocation.forbes.com^
+||geolocation.onetrust.com^
 ||geolocation.performgroup.com^
 ||geolocation-db.com^
 ||geolocationsystem.com^
@@ -1232,6 +1250,7 @@ $removeparam=gclid|yclid|fbclid
 ||hitcpm.com^
 ||hits.theguardian.com^
 ||histats.com^
+||hlserve.com^
 ||hockeyapp.net^
 ||homebrew.sh^ # fake brew.sh site
 ||hotjar.com^
@@ -1295,6 +1314,7 @@ $removeparam=gclid|yclid|fbclid
 ||joinads.me^
 ||jsadapi.com^
 ||juicyads.com^
+||jumptap.com^
 ||jxtrackers.azurewebsites.net^
 ||ketchapp.org^
 ||king.com^
@@ -1309,6 +1329,9 @@ $removeparam=gclid|yclid|fbclid
 ||leanlab.co^
 ||lemonparty.biz^
 ||lemonparty.org^
+||lfstmedia.com^
+||licasd.com^
+||ligadx.com^
 ||linkcounter.com^
 ||linksynergy.com^
 ||likr.com.tw^
@@ -1340,6 +1363,7 @@ $removeparam=gclid|yclid|fbclid
 ||lolhello.com^
 ||lolshock.com^
 ||loltrain.com^
+||lpsnmedia.net^
 ||lytics.io^
 ||mads.cnet.com^
 ||madvertise.de^
@@ -1365,6 +1389,7 @@ $removeparam=gclid|yclid|fbclid
 ||measuread.com^
 ||meetrics.net^
 ||mengchengbao.com^
+||metadsp.co.uk^
 ||metrics.io^
 ||metrics.att.com^
 ||metrics.barclaycardus.com^
@@ -1410,6 +1435,7 @@ $removeparam=gclid|yclid|fbclid
 ||mimicromax.com^
 ||mixpanel.com^
 ||mmstat.com^
+||mlnadvertising.com^
 ||moonads.net^
 ||mookie*.com^
 ||moatads.com^
@@ -1480,6 +1506,7 @@ $removeparam=gclid|yclid|fbclid
 ||popunder.ru^
 ||popunders.bid^
 ||postrelease.com^
+||prfct.co^
 ||promoted.soundcloud.com^
 ||promotionalads.yahoo.co.jp^
 ||proxy.c9w.net^
@@ -1561,6 +1588,7 @@ $removeparam=gclid|yclid|fbclid
 ||smetrics*.experian.com^
 ||smetrics.tesco.com^
 ||smetrics.washingtonpost.com^
+||sniperlog.ru^
 ||snortedconsciencethaw.com^
 ||socdm.com^
 ||s-onetag.com^
@@ -1569,6 +1597,7 @@ $removeparam=gclid|yclid|fbclid
 ||specialattributes.com^
 ||specialattributes.s3.amazonaws.com^
 ||split.io^
+||spongecell.com^
 ||spot.im^
 ||spotx.tv^
 ||spotxchange.com^
@@ -1585,6 +1614,7 @@ $removeparam=gclid|yclid|fbclid
 ||sstats.adobe.com^
 ||stats.adultswim.com^
 ||stat.alibaba.com^
+||stats.avast.com^
 ||stats.bbc.com^
 ||stats.bbc.co.uk^
 ||stats.blockchair.com^
@@ -1610,6 +1640,9 @@ $removeparam=gclid|yclid|fbclid
 ||stats.wp.com^
 ||stickyadstv.com^
 ||sundaysky.com^
+||sumologic.com^
+||supersonicads.com^
+||supersonicads*.akamaihd.net^
 ||switchadhub.com^
 ||syndication.kbb.com^
 ||syndication.theguardian.com^
@@ -1636,6 +1669,7 @@ $removeparam=gclid|yclid|fbclid
 ||theadex.com^
 ||theannoyingsite.com^
 ||thisisglobal.com^
+||tns-counter.ru^
 ||toonblast.net^
 ||toonikab.com^
 ||topblockchainsolutions.nl^
@@ -1646,6 +1680,7 @@ $removeparam=gclid|yclid|fbclid
 ||trackingio.com^
 ||tracking.epicgames.com^
 ||track.gawker.com^
+||tracker.samplicio.us^
 ||tracking.services.mozilla.com^
 ||tracking.prd.mz.internal.unity3d.com^
 ||tracking.tomsguide.com^
@@ -1663,8 +1698,10 @@ $removeparam=gclid|yclid|fbclid
 ||trcksrvrs.com^
 ||trk.pinterest.com^
 ||tsyndicate.com^
+||tvpixel.com^
 ||uca.cloud.unity3d.com^
 ||unblockit.me^
+||undertone.com^
 ||unityads.unity3d.com^
 ||unityads.unitychina.cn^
 ||unknownads.com^
@@ -1674,6 +1711,7 @@ $removeparam=gclid|yclid|fbclid
 ||user-agent-tracker.herokuapp.com^
 ||vendo.cointelegraph.com^
 ||ventanasyaluminios.com.mx^
+||vertamedia.com^
 ||visitly.com^
 ||visitstrack.com^
 ||visitor-track.com^
@@ -1683,6 +1721,7 @@ $removeparam=gclid|yclid|fbclid
 ||voodoo-tech.io^
 ||voicefive.com^
 ||voterlin.cn^
+||vungle.com^
 ||webspectator.com^
 ||webstat.com^
 ||webstat.net^
