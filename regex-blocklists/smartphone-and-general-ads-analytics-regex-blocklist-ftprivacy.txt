@@ -284,6 +284,15 @@
 ||qwapi.apple.com^
 ||weather-analytics-events.apple.com^
 
+# Ubuntu
+
+# This domain is connected to the "Whoopsie-daisy" process which phones home with system data in the background
+# Installed by default on Ubuntu, if you see this domain pop up on your blocked domains, you can remove it
+# By running "sudo apt remove whoopsie" on your Ubuntu machine(s)
+# Note: may also show up on other distros based on Ubuntu, the remedy is the same
+
+||daisy.ubuntu.com^
+
 # Samsung (smartphones)
 
 ||asideas.de^
