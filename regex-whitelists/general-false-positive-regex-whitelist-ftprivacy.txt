@@ -83,6 +83,7 @@
 @@||gg.apple.com^$important
 @@||gs.apple.com^$important
 @@||mesu.apple.com^$important
+@@||mesu-cdn.origin-apple.com.akadns.net^$important
 @@||ns.itunes.apple.com^$important
 @@||swcdn.apple.com^$important
 @@||swdist.apple.com^$important
@@ -94,12 +95,70 @@
 @@||updates-http.g.aaplimg.com^$important
 @@||xp.apple.com^$important
 
+# Linux - various distros
+
+# Updates and connection checks
+
+@@||actiontoad.canonical.com^$important
+@@||aerodent.canonical.com^$important
+@@||alpinelinux.org^$important
+@@||api.snapcraft.io^$important
+@@||appcenter.elementary.io^$important
+@@||apt.pop-os.org^$important
+@@||apt.syncthing.net^$important
+@@||archive.canonical.com^$important
+@@||archive.debian.net^$important
+@@||archive.kde.org^$important
+@@||archive.*.kde.org^$important
+@@||archive.raspbian.org^$important
+@@||archive.ubuntu.com^$important
+@@||archlinux.org^$important # Arch main, used to generate mirror list and access AUR
+@@||backports.debian.org^$important
+@@||brave-browser-*-beta.s3.brave.com^$important
+@@||brave-browser-*-release.s3.brave.com^$important
+@@||cdn.snapcraft.io^$important
+@@||changelogs.ubuntu.com^$important
+@@||connectivity-check.ubuntu.com^$important
+@@||connectivity.zorin-os.com^$important
+@@||deb.devuan.org^$important
+@@||deb.torproject.org^$important
+@@||download.opensuse.org^$important
+@@||downloads.plex.tv^$important
+@@||download.spotify.com^$important
+@@||download.virtualbox.org^$important
+@@||extra.linuxmint.com^$important
+@@||extras.ubuntu.com^$important
+@@||fedoraproject.org^$important
+@@||flathub.org^$important
+@@||nmcheck.gnome.org^$important
+@@||mirror.cyberhost.uk^$important
+@@||mirrors.evowise.com^$important # Arch worldwide mirror
+@@||mirror.rackspace.com^$important # Arch worldwide mirror
+@@||packages.debian.org^$important
+@@||packages.elementary.io^$important
+@@||packages.linuxmint.com^$important
+@@||packages.riot.im^$important
+@@||packages.zorinos.com^$important
+@@||ping.manjaro.org^$important
+@@||ports.debian.org^$important
+@@||ports.ubuntu.com^$important
+@@||ppa.launchpad.net^$important
+@@||release.debian.org^$important
+@@||repo.nxos.org^$important
+@@||repository.spotify.com^$important
+@@||repo.vivaldi.com^$important
+@@||security.debian.org^$important
+@@||security-master.debian.org^$important
+@@||security.ubuntu.com^$important
+@@||sources.debian.net^$important
+@@||updates.signal.org^$important
+@@||www.virtualbox.org^$important
+
 # Microsoft
 
 # Windows Update
 
 @@||delivery.mp.microsoft.com^$important
-@@||dl.delivery.mp.microsoft.com^$important
 @@||emdl.ws.microsoft.com^$important
 @@||fe3.*.mp.microsoft.com^$important
 @@||prod.do.dsp.mp.microsoft.com^$important
@@ -107,6 +166,7 @@
 @@||update.microsoft.com^$important
 @@||wac.phicdn.net^$important
 @@||windowsupdate.com^$important
+@@||windowsupdate.nsatc.net^$important
 
 # Windows Defender AV database updates
 
