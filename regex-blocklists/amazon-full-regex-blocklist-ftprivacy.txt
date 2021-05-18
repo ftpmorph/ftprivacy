@@ -61,6 +61,7 @@
 ||aviary.amazon.*^
 ||bugsnag.appstore.a2z.com^
 ||client-log.amazon.com^
+||dcape-*.amazon.com^
 ||device-messaging-*.amazon.com^
 ||devicemessaging.*.amazon.com^
 ||device-metrics-*.amazon.com^
