@@ -113,6 +113,7 @@
 ||aviary.amazon.*^
 ||bugsnag.appstore.a2z.com^
 ||client-log.amazon.com^
+||dcape-*.amazon.com^
 ||device-messaging-*.amazon.com^
 ||devicemessaging.*.amazon.com^
 ||device-metrics-*.amazon.com^
@@ -1140,6 +1141,7 @@ $removeparam=gclid|yclid|fbclid
 ||datadog.pool.ntp.org^
 ||data-ero-advertising.com^
 ||dataexchanger.pl^
+||datasavannah.com^
 ||datatrics.com^
 ||de17a.com^
 ||debug.opendns.com^
@@ -1287,6 +1289,7 @@ $removeparam=gclid|yclid|fbclid
 ||gwmtracking.com^
 ||heapanalytics.com^
 ||hearst.emsecure.net^
+||hellobar.com^
 ||hexagon-analytics.com^
 ||heycould.com^
 ||heytapmobi.com^
@@ -1349,6 +1352,7 @@ $removeparam=gclid|yclid|fbclid
 ||iplogger.org^
 ||iplogger.ru^
 ||iperceptions.com^
+||ipredictive.com^
 ||iredirect.net^
 ||is.sh^
 ||isoftmarketing.com^
@@ -1360,9 +1364,14 @@ $removeparam=gclid|yclid|fbclid
 ||jumptap.com^
 ||jxtrackers.azurewebsites.net^
 ||ketchapp.org^
+||keycdn.com^
+||keymedia.hu^
+||keymetric.net^
 ||king.com^
 ||kingsoft.com^
+||kissinsights.com^
 ||kissmetrics.com^
+||kismetrics.io^
 ||klclick.com^
 ||kochava.com^
 ||ksmobile.com^
@@ -1409,6 +1418,7 @@ $removeparam=gclid|yclid|fbclid
 ||lpsnmedia.net^
 ||lytics.io^
 ||mads.cnet.com^
+||madserve.org^
 ||madvertise.de^
 ||magnet.page^
 ||marketo.net^
