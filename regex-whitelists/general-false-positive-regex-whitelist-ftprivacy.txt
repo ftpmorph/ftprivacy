@@ -12,6 +12,10 @@
 
 @@||gvt1.com^$important
 
+# Internet connection check
+
+@@||connectivitycheck.gstatic.com^$important
+
 # Google fonts can be used for tracking but blocking them breaks a lot of webpages
 
 @@||fonts.gstatic.com^$important
@@ -45,6 +49,12 @@
 @@||poll.omc.samsungdm.com^$important
 @@||poll.samsung-omc.com^$important
 @@||secak-fota-dn.samsungdm.com^$important
+
+# Required to allow OTAs on Huawei Android smartphones
+
+@@||query.hicloud.com^$important
+@@||update.hicloud.com^$important
+@@||update*.huaweidevice.com^$important
 
 # Required to allow OTAs on Xiaomi Android smartphones
 
@@ -85,11 +95,13 @@
 @@||mesu.apple.com^$important
 @@||mesu-cdn.origin-apple.com.akadns.net^$important
 @@||ns.itunes.apple.com^$important
+@@||publicassets.cdn-apple.com^$important
 @@||swcdn.apple.com^$important
 @@||swdist.apple.com^$important
 @@||swdownload.apple.com^$important
 @@||swscan.apple.com^$important
 @@||updates.cdn-apple.com^$important
+@@||updates.cdn-apple.com.akadns.net^$important
 @@||updates.g.aaplimg.com^$important
 @@||updates-http.cdn-apple.com^$important
 @@||updates-http.g.aaplimg.com^$important
@@ -112,11 +124,15 @@
 @@||archive.*.kde.org^$important
 @@||archive.raspbian.org^$important
 @@||archive.ubuntu.com^$important
-@@||archlinux.org^$important # Arch main, used to generate mirror list and access AUR
+@@||archlinux.org^$important # Arch main, used to generate mirror list, access AUR, and perform connection checks
 @@||backports.debian.org^$important
 @@||brave-browser-*-beta.s3.brave.com^$important
 @@||brave-browser-*-release.s3.brave.com^$important
 @@||cdn.snapcraft.io^$important
+@@||centos.melbourneitmirror.net^$important
+@@||centos.mirror.colo-serv.net^$important
+@@||centos.mirror.garr.it^$important
+@@||centos.mirror.liquidtelecom.com^$important
 @@||changelogs.ubuntu.com^$important
 @@||connectivity-check.ubuntu.com^$important
 @@||connectivity.zorin-os.com^$important
@@ -130,7 +146,9 @@
 @@||extras.ubuntu.com^$important
 @@||fedoraproject.org^$important
 @@||flathub.org^$important
+@@||getfedora.org^$important
 @@||nmcheck.gnome.org^$important
+@@||mirrorlist.centos.org^$important
 @@||mirror.cyberhost.uk^$important
 @@||mirrors.evowise.com^$important # Arch worldwide mirror
 @@||mirror.rackspace.com^$important # Arch worldwide mirror
