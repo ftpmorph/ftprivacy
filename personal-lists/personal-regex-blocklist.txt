@@ -22,7 +22,9 @@
 # https://www.youtube.com/watch?v=bKgf5PaBzyg
 
 ||mcafee.com^$important
+||mcafeewebadvisor.com^$important
 
 # Cyberark
+# Would a Cyberark be like a boat version of a Cybertruck?
 
 ||cyberark.com^$important
