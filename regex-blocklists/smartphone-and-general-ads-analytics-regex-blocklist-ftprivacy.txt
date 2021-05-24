@@ -65,6 +65,7 @@
 ||admob.mobi^
 ||admobclick.com^
 ||admobsphere.com^
+||adsense.google.com^
 ||adservice.google.*^
 ||ads.youtube.com^
 ||analytics.google.com^
@@ -76,6 +77,7 @@
 ||doubleclick.net^
 ||firebaselogging-pa.googleapis.com^
 @@||fonts.gstatic.com^| # avoid breaking the stylesheet of webpages using Google fonts
+||geo*.ggpht.com^
 ||geomobileservices-pa.googleapis.com^
 ||google-analytics.com^
 ||googleadservices.com^
@@ -83,18 +85,19 @@
 ||googleadapis.l.google.com^
 ||googletagmanager.com^
 ||googletagservices.com^
-||geomobileservices-pa.googleapis.com^
 ||googlesyndication.com^
 ||gstaticadssl.l.google.com^
 ||gvt*.com^
 @@||gvt1.com^| # this ensures the Play Store works
 ||id.google.ad^
+||mail-ads.google.com^
 ||metric.gstatic.com^
 ||mobile-displayads.l.doubleclick.net^
 ||pagead-googlehosted.l.google.com^
 ||semanticlocation-pa.googleapis.com^
 ||stats.blogger.com^
 ||userlocation.googleapis.com^
+||video-stats.l.google.com^
 ||www-googletagmanager.l.google.com^
 
 # Amazon
@@ -211,6 +214,7 @@
 ||watson*.officeint.microsoft.com^
 ||wpc.gammacdn.net^
 ||wpc.v0cdn.net^
+||wustat.windows.com^
 
 # In its default config, Windows sends out a lot of "wpad.blahblahblah" requests.
 # WPAD is an outdated Microsoft protocol from the 90's that creates a big security risk.
@@ -307,8 +311,10 @@
 ||metrics.samsung.com^
 ||pushmessage.samsung.com^
 ||samsunggeopush.com^
+||sbixby.com^
 ||ssp.samsung.com^
 ||sspapi-prd.samsungrs.com^
+||syncplusconfig.s3.amazonaws.com^
 
 # Netflix
 
@@ -642,6 +648,7 @@ $removeparam=gclid|yclid|fbclid
 ||33across.com^
 ||360.cn^
 ||360in.com^
+||360securityapps.com^
 ||360yield.com^
 ||36900pf.com^
 ||3cinteractive.com^
@@ -752,6 +759,7 @@ $removeparam=gclid|yclid|fbclid
 ||adsafeprotected.com^
 ||adsafety.net^
 ||adsame.com^
+||adsbynimbus.com^
 ||adshopping.com^
 ||adshuffle.com^
 ||ad-sniper.com^
@@ -990,6 +998,7 @@ $removeparam=gclid|yclid|fbclid
 ||amillionads.com^
 ||api.ads.watchabc.go.com^
 ||api.nextgen.guardianapps.co.uk^
+||amplitude.com^
 ||amp-ipaddress-com.cdn.ampproject.org^
 ||app.link^
 ||appa.pe^
@@ -1167,6 +1176,7 @@ $removeparam=gclid|yclid|fbclid
 ||chinahdcm.com^
 ||chrome-redirect.top^
 ||cityadspix.com^
+||ciq.labs.att.com^
 ||clc.stackoverflow.com^
 ||clearcovid19virus.com^
 ||cleardefencewin.com^
@@ -1210,6 +1220,7 @@ $removeparam=gclid|yclid|fbclid
 ||connectad.io^
 ||connexity.net^
 ||contextweb.com^
+||conviva.com^
 ||com-auth.site^
 ||comcontent.net^
 ||comericac.com^
@@ -1420,6 +1431,7 @@ $removeparam=gclid|yclid|fbclid
 ||iap.unity3d.com^
 ||ibclick.stream^
 ||ibmlivenationapi.com^
+||ibmmarketingcloud.com^
 ||icptrack.com^
 ||identads.com^
 ||idtargeting.com^
@@ -1427,6 +1439,7 @@ $removeparam=gclid|yclid|fbclid
 ||indexww.com^
 ||inertia.af^
 ||infeed.id^
+||infogram.com^
 ||ingameads.gameloft.com^
 ||inmobi.com^
 ||inmobi.cn^
@@ -1459,6 +1472,7 @@ $removeparam=gclid|yclid|fbclid
 ||iqdata.ai^
 ||iredirect.net^
 ||ironbeast.io^
+||ironsrc.com^
 ||is.sh^
 ||isappcloud.com^
 ||isoftmarketing.com^
@@ -1476,6 +1490,7 @@ $removeparam=gclid|yclid|fbclid
 ||king.com^
 ||kingsoft.com^
 ||kissinsights.com^
+||kissmetricshq.com^
 ||kissmetrics.com^
 ||kismetrics.io^
 ||klclick.com^
@@ -1556,6 +1571,7 @@ $removeparam=gclid|yclid|fbclid
 ||measuread.com^
 ||meetrics.net^
 ||mengchengbao.com^
+||merkleinc.com^
 ||metadsp.co.uk^
 ||metrics.io^
 ||metrics.att.com^
@@ -1602,10 +1618,13 @@ $removeparam=gclid|yclid|fbclid
 ||microticker.com^
 ||mimicromax.com^
 ||mixpanel.com^
+||mixtraffic.com^
 ||mmstat.com^
 ||mlnadvertising.com^
 ||moonads.net^
 ||mookie*.com^
+||moadnet.com^
+||moat.com^
 ||moatads.com^
 ||moatpixel.com^
 ||mobileadtrading.com^
@@ -1620,12 +1639,14 @@ $removeparam=gclid|yclid|fbclid
 ||monitoringservice.co^
 ||mopub.com^
 ||movad.net^
+||mpstat.us^
 ||msmetrics.ws.sonos.com^
 ||mybbc-analytics.files.bbci.co.uk^
 ||mylinkbox.com^
 ||mylivejasmin.org^
 ||mynativeads.com^
 ||myservicemagnet.com^
+||mystat.*^
 ||mytrack*.com^
 ||myvads.com^
 ||myvisualiq.net^
@@ -1633,11 +1654,13 @@ $removeparam=gclid|yclid|fbclid
 ||narrative.io^
 ||nativead.s3.amazonaws.com^
 ||nativeserv.com^
+||neilpatel.com^
 ||new*ads.com^
 ||newrelic.com^
 ||newsmaxwidget.com^
 ||network-inv.com^ # EE SMS phishing scam
 ||nexage.com^
+||nextag.com^
 ||nexus.bazaarvoice.com^
 ||ndmdhs.com^ # Sony tracking domain used in mobile apps, smart TV's, PlayStations, etc.
 ||novatrck.icu^
@@ -1691,6 +1714,7 @@ $removeparam=gclid|yclid|fbclid
 ||p.typekit.net^
 ||pub.network^
 ||pubmatic.com^
+||pulseinsights.com^
 ||pure360.com^
 ||purpleads.io^
 ||putrr*.com^
@@ -1704,6 +1728,7 @@ $removeparam=gclid|yclid|fbclid
 ||regstat.paddypower.com^
 ||researchnow.com^
 ||responseiq.com^
+||responsys.net^
 ||returnpath.net^
 ||revenuecat.com^
 ||rlcdn.com^
@@ -1723,6 +1748,8 @@ $removeparam=gclid|yclid|fbclid
 ||s3xified.com^
 ||sa.bbc.co.uk^
 ||sa.bbc.com^
+||safecount.net^
+||sagemetrics.com^
 ||sail-horizon.com^
 ||samba.tv^
 ||samsungads.com^
@@ -1737,6 +1764,7 @@ $removeparam=gclid|yclid|fbclid
 ||selfpwn.org^
 ||sendpulse.com^
 ||sentry.io^
+||sentry-cdn.com^
 ||sentry.audent.io^
 ||sentry.cointelegraph.com^
 ||servedby.o2.co.uk^
@@ -1779,18 +1807,29 @@ $removeparam=gclid|yclid|fbclid
 ||socdm.com^
 ||s-onetag.com^
 ||sojern.com^
+||sokrati.com^
 ||somecdn.bid^
 ||specialattributes.com^
 ||specialattributes.s3.amazonaws.com^
 ||split.io^
 ||spongecell.com^
+||spot200.com^
+||spotad.co^
+||spot.fitness.com^
 ||spot.im^
+||spotim.market^
 ||spotx.tv^
 ||spotxchange.com^
+||springserve.com^
 ||sprout-ad.com^
+||sptag*.com^
+||spylog.com^
+||ssp.verizonmedia.com^
 ||stackadapt.com^
+||star-advertising.com^
 ||*-stats.supernotes.app^
 ||stat.media^
+||stat24.*^
 ||statstat888.com^
 ||statad.ru^
 ||statcounter.com^
@@ -1825,6 +1864,7 @@ $removeparam=gclid|yclid|fbclid
 ||stats.uswitch.com^
 ||stats.wordpress.com^
 ||stats.wp.com^
+||stat.xhamsterpremium.com^
 ||stickyadstv.com^
 ||stpd.cloud^
 ||sundaysky.com^
@@ -1892,6 +1932,7 @@ $removeparam=gclid|yclid|fbclid
 ||tsyndicate.com^
 ||tvpixel.com^
 ||uca.cloud.unity3d.com^
+||ugamsolutions.com^
 ||unblockit.me^
 ||undertone.com^
 ||unityads.unity3d.com^
@@ -1901,6 +1942,9 @@ $removeparam=gclid|yclid|fbclid
 ||usabilla.com^
 ||usage.readdle.com^
 ||user-agent-tracker.herokuapp.com^
+||usergrid.com^
+||userreport.com^
+||w3counter.com^
 ||vendo.cointelegraph.com^
 ||ventanasyaluminios.com.mx^
 ||vercel-insights.com^
@@ -1908,12 +1952,14 @@ $removeparam=gclid|yclid|fbclid
 ||visitly.com^
 ||visitstrack.com^
 ||visitor-track.com^
+||vistrac.com^
 ||visualwebsiteoptimiser.com^
 ||vkcache.com^
 ||voodoo-analytics.io^
 ||voodoo-tech.io^
 ||voicefive.com^
 ||voterlin.cn^
+||vrtcal.com^
 ||vungle.com^
 ||wallstrads.com^
 ||webcounter.be^
@@ -1932,6 +1978,7 @@ $removeparam=gclid|yclid|fbclid
 ||webvisor.com^
 ||widget.weibo.com^
 ||wigetmedia.com^
+||wikia-ads.wikia.com^
 ||wildtowedcad.work^
 ||wingads.com^
 ||wnp.com^
@@ -1996,6 +2043,7 @@ $removeparam=gclid|yclid|fbclid
 ||za-ads.de^
 ||zbsybh.cn^
 ||zemanta.com^
+||zeusclicks.com^
 ||zieltracker.de^
 ||zodiakactive.com^
 ||zorosrv.com^
