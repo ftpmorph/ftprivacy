@@ -872,6 +872,7 @@ $removeparam=gclid|yclid|fbclid
 ||admixer.net^
 ||adnetwork.ai^
 ||adnet.*^
+||adoberelations.com^
 ||adobestats.com^
 ||adkmob.com^
 ||adotmob.com^
@@ -1024,6 +1025,7 @@ $removeparam=gclid|yclid|fbclid
 ||app-measurement.com^
 ||apxadtracking.net^
 ||ashcdn.com^
+||atecasec.com^
 ||atdmt.com^
 ||atom-data.io^
 ||atomex.net^
@@ -1250,6 +1252,7 @@ $removeparam=gclid|yclid|fbclid
 ||data.corp.unity3d.com^
 ||databrain.com^
 ||datadoghq.com^
+||datadoghq*.com^
 ||datadog.pool.ntp.org^
 ||data-ero-advertising.com^
 ||dataexchanger.pl^
@@ -1325,10 +1328,12 @@ $removeparam=gclid|yclid|fbclid
 ||fc.yahoo.com^
 ||federatedmedia.net^
 ||fifteenprefixselfemployed.com^
+||findmymacs.com^
 ||fimpromote.club^
 ||fimserve.com^
 ||flashtalking.com^
 ||flexbanner.com^
+||flixprice.com^
 ||flurry.com^
 ||flurry.cachefly.net^
 ||fluxads.com^
@@ -1432,6 +1437,7 @@ $removeparam=gclid|yclid|fbclid
 ||ibclick.stream^
 ||ibmlivenationapi.com^
 ||ibmmarketingcloud.com^
+||icloudserv.com^
 ||icptrack.com^
 ||identads.com^
 ||idtargeting.com^
@@ -1506,6 +1512,7 @@ $removeparam=gclid|yclid|fbclid
 ||licasd.com^
 ||licensebuttons.net^
 ||ligadx.com^
+||linebrand.xyz^
 ||linkcounter.com^
 ||linkit.biz^
 ||linkredirect.biz^
@@ -1550,6 +1557,7 @@ $removeparam=gclid|yclid|fbclid
 ||madserve.org^
 ||madvertise.de^
 ||magnet.page^
+||mantrucks.xyz^
 ||marketo.net^
 ||marketing.888.com^
 ||marketing.perfectstays.co.uk^
@@ -1637,6 +1645,7 @@ $removeparam=gclid|yclid|fbclid
 ||monetiza.co^
 ||money4ads.com^
 ||monitoringservice.co^
+||monotel.xyz^
 ||mopub.com^
 ||movad.net^
 ||mpstat.us^
@@ -1663,6 +1672,7 @@ $removeparam=gclid|yclid|fbclid
 ||nextag.com^
 ||nexus.bazaarvoice.com^
 ||ndmdhs.com^ # Sony tracking domain used in mobile apps, smart TV's, PlayStations, etc.
+||nodeline.xyz^
 ||novatrck.icu^
 ||npttech.com^
 ||nr-data.net^
@@ -1776,6 +1786,7 @@ $removeparam=gclid|yclid|fbclid
 ||sharethrough.com^
 ||shockgore.com^
 ||sibautomation.com^
+||sidelink.xyz^
 ||simpleanalytics.io^
 ||s-ipaddress-com.cdn.ampproject.org^
 ||sitecounter.be^
@@ -1835,6 +1846,7 @@ $removeparam=gclid|yclid|fbclid
 ||statcounter.com^
 ||staticworld.net^
 ||stats-locations.com^
+||statsmag.*^
 ||stat.adguard.com^
 ||stats.adobe.com^
 ||sstats.adobe.com^
@@ -1899,6 +1911,7 @@ $removeparam=gclid|yclid|fbclid
 ||theadex.com^
 ||theannoyingsite.com^
 ||thisisglobal.com^
+||titiez.com^
 ||tns-counter.ru^
 ||toonblast.net^
 ||toonikab.com^
@@ -1924,6 +1937,7 @@ $removeparam=gclid|yclid|fbclid
 ||trafiq.*^
 ||trendcounter.de^
 ||trendcounter.com^
+||trendmicronano.com^
 ||tremorhub.com^
 ||trckcommerce.com^
 ||trcksrvrs.com^
