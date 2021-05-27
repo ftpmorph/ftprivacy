@@ -28,3 +28,7 @@
 # Would a Cyberark be like a boat version of a Cybertruck?
 
 ||cyberark.com^$important
+
+# Linux internet connectivity check
+
+||networkcheck.xanny.family^$important
