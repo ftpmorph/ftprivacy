@@ -1,0 +1,34 @@
+# Personal blocklist
+
+# This is just a blocklist of domains for my own network based on my own use cases
+# It does not include entires already in my other blocklists because I use those already
+
+# Google
+
+# This is here because, by default, AdGuard whitelists these so this overrides that behaviour
+
+||pagead.l.doubleclick.net^$important
+||www.googleadservices.com^$important
+
+# Extra stuff others might find useful but I don't want on my network
+
+# For Amazon, see also: https://github.com/ftpmorph/ftprivacy/blob/master/regex-blocklists/amazon-full-regex-blocklist-ftprivacy.txt
+
+# Google Assistant
+
+||embeddedassistant.googleapis.com^$important
+
+# McAfee
+# https://www.youtube.com/watch?v=bKgf5PaBzyg
+
+||mcafee.com^$important
+||mcafeewebadvisor.com^$important
+
+# Cyberark
+# Would a Cyberark be like a boat version of a Cybertruck?
+
+||cyberark.com^$important
+
+# Linux internet connectivity check
+
+||networkcheck.xanny.family^$important

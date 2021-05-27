@@ -1665,6 +1665,7 @@ $removeparam=gclid|yclid|fbclid
 ||leanlab.co^
 ||lemonparty.biz^
 ||lemonparty.org^
+||liadm.com^
 ||lfstmedia.com^
 ||licasd.com^
 ||licensebuttons.net^
@@ -1932,6 +1933,7 @@ $removeparam=gclid|yclid|fbclid
 ||safecount.net^
 ||sagemetrics.com^
 ||sail-horizon.com^
+||sailthru.com^
 ||samba.tv^
 ||samsungads.com^
 ||samsungads.net^
@@ -2002,6 +2004,7 @@ $removeparam=gclid|yclid|fbclid
 ||spot.im^
 ||spotim.market^
 ||spotx.tv^
+||spotxcdn.com^
 ||spotxchange.com^
 ||springserve.com^
 ||sprout-ad.com^
@@ -2083,7 +2086,9 @@ $removeparam=gclid|yclid|fbclid
 ||theadex.com^
 ||theannoyingsite.com^
 ||thisisglobal.com^
+||tidaltv.com^
 ||titiez.com^
+||tiqcdn.com^
 ||tns-counter.ru^
 ||toonblast.net^
 ||toonikab.com^
@@ -2094,6 +2099,7 @@ $removeparam=gclid|yclid|fbclid
 ||tracking202.com^
 ||trackingio.com^
 ||tracking.epicgames.com^
+||trackmytarget.com^
 ||track.gawker.com^
 ||tracker.samplicio.us^
 ||tracking.services.mozilla.com^
@@ -2105,7 +2111,9 @@ $removeparam=gclid|yclid|fbclid
 ||traffic.club^
 ||trafficclub-nde.netdna-ssl.com^
 ||trafficbee.com^
+||trafficfactory.biz^
 ||trafficjunky.net^
+||trafficstars.com^
 ||trafiq.*^
 ||trendcounter.de^
 ||trendcounter.com^
@@ -2149,7 +2157,9 @@ $removeparam=gclid|yclid|fbclid
 ||vrtcal.com^
 ||vungle.com^
 ||wallstrads.com^
+||wbtrk.net^
 ||webcounter.be^
+||weborama.*^
 ||webspectator.com^
 ||webstat.com^
 ||webstat.net^
