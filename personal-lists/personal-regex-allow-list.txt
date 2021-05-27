@@ -15,3 +15,7 @@
 # Linux internet connectivity check
 
 @@||networkcheck.xanny.family^$important
+
+# VPN
+
+@@||api.ivpn.net^$important
