@@ -1,0 +1,17 @@
+# Personal allow list
+
+# This is just a whitelist of domains for my own network based on my own use cases
+# It does not include entires already in my other whitelists because I use those already
+
+# Amazon
+
+@@||api.amazon.*^$important
+@@||amazonvideo.com^$important
+
+# Apps (generic)
+
+@@||wirex.app.link^$important
+
+# Linux internet connectivity check
+
+@@||networkcheck.xanny.family^$important
