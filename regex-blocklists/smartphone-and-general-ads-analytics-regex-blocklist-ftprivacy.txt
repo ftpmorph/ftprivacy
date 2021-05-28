@@ -707,6 +707,7 @@ $removeparam=gclid|yclid|fbclid
 ||247-inc.net^
 ||250analytics.com^
 ||254a.com^
+||2cnt.net^
 ||2o7.net^
 ||2s11.com^
 ||2no.co^
@@ -1683,6 +1684,7 @@ $removeparam=gclid|yclid|fbclid
 ||livejasmin*.*^
 ||livelog.biz^
 ||liveramp.com^
+||liqwid.*^
 ||load*.biz^
 ||locallogic.co^
 ||localytics.com^
@@ -1886,6 +1888,7 @@ $removeparam=gclid|yclid|fbclid
 ||popunders.bid^
 ||postrelease.com^
 ||powerad.ai^
+||powerinboxedge.com^
 ||prfct.co^
 ||promoted.soundcloud.com^
 ||promotionalads.yahoo.co.jp^
@@ -1923,6 +1926,7 @@ $removeparam=gclid|yclid|fbclid
 ||rubiconproject.com^
 ||rubiconproject.net.akadns.net^
 ||rubiginose.com^
+||rundsp.com^
 ||rutarget.ru^
 ||s-adx.op-mobile.opera.com^
 ||s.adx.opera.com^
@@ -2075,6 +2079,7 @@ $removeparam=gclid|yclid|fbclid
 ||tapstream.com^
 ||tappoint.com^
 ||tcdnwha.com^
+||teads.tv^
 ||tenjin.io^
 ||telemetry.docusign.net^
 ||telemetry.dropbox.com^
