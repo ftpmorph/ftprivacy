@@ -15,7 +15,8 @@
 # As long as the pool is serving legit users and takes steps to prevent abuse by botnets it will be approved.
 
 # Please note this list does NOT include mining pools used exclusively by botnets and only accepts pools that take steps to prevent abuse by botnets.
-# Therefore it should not be used as a blocklist. It won't provide full protection against actual "cryptojacking" malware.
+# For example coinhive.com and other JS based browser hijacking services are not whitelisted and are blocked in the main "smartphone and general" list.
+# Therefore this should not be used as a blocklist. It won't provide protection against actual "cryptojacking" malware.
 
 @@||alphax.pro^
 @@||antpool.com^
@@ -63,16 +64,23 @@
 # For obvious reasons it's impossible for me to whitelist every single one so feel free to add a PR
 # While I'm not adding overtly scammy exchanges, I don't vouch for the quality of the service for any of these
 
+@@||adalite.io^
+@@||adapools.org^
+@@||adastat.net^
 @@||beaconcha.in^
+@@||beincrypto.com^
 @@||bitcoin.com^
 @@||blockchain.com^
 @@||blockchain.info^
 @@||blockchair.com^
 @@||blockcypher.com^
+@@||blockscan.com^
+@@||blockstream.info^
 @@||bloks.io^
 @@||binance.com^
 @@||binance.us^
 @@||bisq.network^
+@@||bitcoinmagazine.com^
 @@||bitfinex.com^
 @@||bitgo.com^
 @@||bitmex.com^
@@ -80,6 +88,7 @@
 @@||bitpay.com^
 @@||bitstamp.net^
 @@||boltz.exchange^
+@@||btctimes.com^
 @@||bybit.com^
 @@||cardano.org^
 @@||cardanoscan.io^
@@ -88,13 +97,21 @@
 @@||coin98.app^
 @@||coinb.in^
 @@||coinbase.com^
+@@||coincentral.com^
+@@||coindesk.com^
+@@||coingecko.com^
 @@||coinmarketcap.com^
 @@||coinswitch.co^
+@@||cointelegraph.com^
 @@||crypto.com^
 @@||cryptokitties.co^
+@@||cryptonator.com^
 @@||dapp.com^
 @@||dapp.review^
+@@||daedaluswallet.io^
 @@||decentraland.org^
+@@||decrypt.co^
+@@||enjinx.io^
 @@||eos.io^
 @@||eosflare.io^
 @@||eosstudio.io^
@@ -106,30 +123,46 @@
 @@||ens.domains^
 @@||exodus.com^
 @@||exploremonero.com^
+@@||figment.io^
 @@||foundation.app^
 @@||gemini.com^
 @@||getmonero.org^
+@@||gochain.io^
+@@||godex.io^
 @@||gravity.tech^
 @@||hive.io^
 @@||hodlhodl.com^
 @@||huobi.com^
+@@||infura.io^
 @@||koinal.io^
 @@||kraken.com^
 @@||liquid.net^
 @@||localbitcoins.com^
 @@||localcryptos.com^
 @@||localmonero.co^
+@@||luno.com^
 @@||makersplace.com^
 @@||morphtoken.com^
 @@||myetherwallet.com^
+@@||mynano.ninja^
+@@||nano-faucet.org^
+@@||nano.org^
+@@||nanocrawler.cc^
+@@||nanolooker.com^
+@@||nanowallets.guide^
+@@||natrium.io^
+@@||nault.cc^
 @@||nftm.art^
 @@||nftshowroom.com^
 @@||nominex.io^
 @@||omniexplorer.info^
 @@||omnilayer.org^
 @@||opensea.io^
+@@||openzeppelin.com^
 @@||paxful.com^
+@@||poolrank.net^
 @@||polkadot.network^
+@@||polkascan.io^
 @@||rarible.com^
 @@||solana.com^
 @@||solanabeach.io^
@@ -141,11 +174,14 @@
 @@||subscan.io^
 @@||substrate.io^
 @@||superrare.co^
+@@||tezos.com^
 @@||tokenpocket.*^
 @@||tron.network^
 @@||tronscan.org^
 @@||uniswap.org^
 @@||unstoppabledomains.com^
 @@||upbit.com^
+@@||viewblock.io^
 @@||wirexapp.com^
+@@||xchange.me^
 @@||xmrchain.net^

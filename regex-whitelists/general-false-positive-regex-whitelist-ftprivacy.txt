@@ -45,6 +45,7 @@
 # Required to allow OTAs on Samsung Android smartphones
 
 @@||cfota*.samsungdms.net^$important
+@@||d3ktdnr9f13nnt.cloudfront.net^$important
 @@||ospserver.net^$important
 @@||poll.omc.samsungdm.com^$important
 @@||poll.samsung-omc.com^$important
