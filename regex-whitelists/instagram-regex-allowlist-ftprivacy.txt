@@ -12,6 +12,7 @@
 @@||instagram.com^
 @@||instagram.c10r.facebook.com^
 
-# Let's make sure this tracking domain is still blocked
+# Let's make sure these tracking domains are still blocked
 
+||graph.facebook.com^$important
 ||graph.instagram.com^$important

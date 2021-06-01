@@ -10,6 +10,7 @@
 
 @@||whatsapp.net^
 
-# You probably still don't want this tracker though
+# You probably still don't want the trackers though
 
+||graph.facebook.com^$important
 ||privatestats.whatsapp.net^$important
