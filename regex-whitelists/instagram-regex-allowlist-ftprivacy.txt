@@ -10,6 +10,7 @@
 
 @@||cdninstagram.com^
 @@||instagram.com^
+@@||instagram.c10r.facebook.com^
 
 # Let's make sure this tracking domain is still blocked
 

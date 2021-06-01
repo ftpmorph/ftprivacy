@@ -9,3 +9,7 @@
 # For if you used the Facebook blocklist but want WhatsApp to still work
 
 @@||whatsapp.net^
+
+# You probably still don't want this tracker though
+
+||privatestats.whatsapp.net^$important
