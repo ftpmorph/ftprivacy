@@ -10,3 +10,7 @@
 
 @@||cdninstagram.com^
 @@||instagram.com^
+
+# Let's make sure this tracking domain is still blocked
+
+||graph.instagram.com^$important
