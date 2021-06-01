@@ -1,0 +1,12 @@
+# FTPrivacy.cloud
+# https://github.com/ftpmorph/ftprivacy
+# https://fosstodon.org/@ftprivacy
+# https://twitter.com/ftprivacy
+# https://telegram.me/ftprivacy
+
+# Regex allow list for Instagram
+
+# For if you used the Facebook blocklist but want The Gram to still work
+
+@@||cdninstagram.com^
+@@||instagram.com^

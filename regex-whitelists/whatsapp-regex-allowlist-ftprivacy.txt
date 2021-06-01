@@ -1,0 +1,11 @@
+# FTPrivacy.cloud
+# https://github.com/ftpmorph/ftprivacy
+# https://fosstodon.org/@ftprivacy
+# https://twitter.com/ftprivacy
+# https://telegram.me/ftprivacy
+
+# Regex allow list for WhatsApp
+
+# For if you used the Facebook blocklist but want WhatsApp to still work
+
+@@||whatsapp.net^
