@@ -11,29 +11,26 @@
 # Should block all FB activity on your device/network
 #FuckTheZuck
 
-||1ccountkit.com^
-||2ccountkit.com^
+||*ccountkit.com^
 ||accountkit.com^
 ||applinks.org^
 ||cdninstagram.com^
-||facebook.co^
-||facebook.com^
+||facebook.*^
 ||facebook.com.edgesuite.net^
-||facebook.de^
-||facebook.fr^
-||facebook.net^
 ||facebook-hardware.com^
 ||fb.com^
 ||fb.me^
 ||fbcallback.wechat.com^
-||fbcdn.com^
-||fbcdn.net^
+||fbcdn.*^
 ||fbpigeon.com^
 ||fbsbx.com^
 ||fburl.com^
 ||freebasics.com^
+||graph.facebook.com^$important
+||graph.instagram.com^$important
 ||instagram.com^
 ||internet.org^
+||privatestats.whatsapp.net^$important
 ||tfbnw.net^
 ||thefacebook.com^
 ||messenger.com^

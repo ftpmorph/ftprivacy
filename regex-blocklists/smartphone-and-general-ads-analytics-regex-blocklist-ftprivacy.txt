@@ -1643,6 +1643,7 @@ $removeparam=gclid|yclid|fbclid
 ||juicyads.com^
 ||jumptap.com^
 ||jxtrackers.azurewebsites.net^
+||kajabi-cdn.com^
 ||ketchapp.org^
 ||keycdn.com^
 ||keymedia.hu^
