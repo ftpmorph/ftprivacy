@@ -1006,6 +1006,7 @@ $removeparam=gclid|yclid|fbclid
 ||adsmobila.com^
 ||adspreemedia.com^
 ||adsrvr.org^
+||adnami.io^
 ||ad-score.com^
 ||ad-stir.com^
 ||adswizz.com^
