@@ -10,6 +10,24 @@
 ||pagead.l.doubleclick.net^$important
 ||www.googleadservices.com^$important
 
+# Lotame
+
+# AdGuard also whitelists this for some reason
+
+||tags.crwdcntrl.net^$important
+
+# Instagram
+
+# Whitelisted on my network cuz it has hot cosplay girls and cool cars but still don't want this tracker
+
+||graph.instagram.com^$important
+
+# WhatsApp
+
+# Reluctantly whitelisted but still don't want this tracker
+
+||privatestats.whatsapp.net^$important
+
 # Extra stuff others might find useful but I don't want on my network
 
 # For Amazon, see also: https://github.com/ftpmorph/ftprivacy/blob/master/regex-blocklists/amazon-full-regex-blocklist-ftprivacy.txt
