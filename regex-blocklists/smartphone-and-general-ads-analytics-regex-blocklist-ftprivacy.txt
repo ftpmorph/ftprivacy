@@ -1399,6 +1399,7 @@ $removeparam=gclid|yclid|fbclid
 ||debug.opendns.com^
 ||deepintent.com^
 ||deliverimp.com^
+||delivery-pending.com^ # phishing
 ||demandbase.com^
 ||demdex.net^
 ||deployads.com^
@@ -1449,6 +1450,7 @@ $removeparam=gclid|yclid|fbclid
 ||emsecure.net^
 ||emsservice.de^
 ||emxdgt.com^
+||eoapxl.com^
 ||eqads.com^
 ||ero-advertising.com^
 ||eviltracker.net^
