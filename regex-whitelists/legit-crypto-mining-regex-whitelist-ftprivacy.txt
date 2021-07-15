@@ -92,6 +92,7 @@
 
 @@||0x.org^
 @@||1inch.io^
+@@||21ada.ca^
 @@||adafolio.com^
 @@||adalite.io^
 @@||adapools.org^
@@ -110,9 +111,15 @@
 @@||blockscan.com^
 @@||blockstream.info^
 @@||bloks.io^
+@@||bnbstatic.com^
+@@||binance.cloud^
 @@||binance.com^
+@@||binance.me^
+@@||binance.im^
 @@||binance.org^
+@@||binance.uk^
 @@||binance.us^
+@@||binancezh.sh^
 @@||bisq.network^
 @@||bitcoinmagazine.com^
 @@||bitfinex.com^
@@ -180,6 +187,7 @@
 @@||godex.io^
 @@||guarda.com^
 @@||gravity.tech^
+@@||harmony.one^
 @@||hive.io^
 @@||hodlhodl.com^
 @@||huobi.com^
