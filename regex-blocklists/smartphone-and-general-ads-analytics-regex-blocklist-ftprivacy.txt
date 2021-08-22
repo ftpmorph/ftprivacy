@@ -1059,7 +1059,9 @@ $removeparam=gclid|yclid|fbclid
 ||afsanalytics.com^
 ||afy11.net^
 ||agkn.com^
-||aistat.net
+||aimatch.com^
+||aimatch.net^
+||aistat.net^
 ||aiv-cdn.net^
 ||aiv-delivery.net^
 ||akstat.io^
@@ -1295,6 +1297,7 @@ $removeparam=gclid|yclid|fbclid
 ||chicksaddlery.net^
 ||chinahdcm.com^
 ||chrome-redirect.top^
+||citrusad.com^
 ||cityadspix.com^
 ||ciq.labs.att.com^
 ||clarium.io^
@@ -1311,6 +1314,7 @@ $removeparam=gclid|yclid|fbclid
 ||clickcdn.co^
 ||clickedyclick.com^
 ||clickgate.biz^
+||clickguardian.app^
 ||clickkingdom.net^
 ||clickly.me^
 ||clickonometrics.com^
@@ -1437,6 +1441,7 @@ $removeparam=gclid|yclid|fbclid
 ||elasticad.net^
 ||elqtrk.intel.*^
 ||emerse.com^
+||ensighten.com^
 ||estat.com^
 ||etracker.de^
 ||eum-appdynamics.com^
@@ -1647,6 +1652,7 @@ $removeparam=gclid|yclid|fbclid
 ||jumptap.com^
 ||jxtrackers.azurewebsites.net^
 ||kajabi-cdn.com^
+||kampyle.com^
 ||ketchapp.org^
 ||keycdn.com^
 ||keymedia.hu^
@@ -1716,6 +1722,7 @@ $removeparam=gclid|yclid|fbclid
 ||lolshock.com^
 ||loltrain.com^
 ||lpsnmedia.net^
+||lr-ingest.io^
 ||lucker.co^
 ||lytics.io^
 ||m2.ai^
@@ -1813,6 +1820,7 @@ $removeparam=gclid|yclid|fbclid
 ||mobiletraits.com^
 ||mobiletraits.s3.amazonaws.com^
 ||mobiyield.com^
+||monetate.net^
 ||monetiza.co^
 ||money4ads.com^
 ||monitoringservice.co^
@@ -2029,6 +2037,7 @@ $removeparam=gclid|yclid|fbclid
 ||statcounter.com^
 ||staticworld.net^
 ||stats-locations.com^
+||stat-track.com^
 ||statsmag.*^
 ||stat.adguard.com^
 ||stats.adobe.com^
@@ -2101,6 +2110,7 @@ $removeparam=gclid|yclid|fbclid
 ||tns-counter.ru^
 ||toonblast.net^
 ||toonikab.com^
+||tom.itv.com^
 ||topblockchainsolutions.nl^
 ||track-js.link^
 ||trackad*.com^
