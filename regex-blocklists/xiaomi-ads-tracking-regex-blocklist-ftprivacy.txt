@@ -33,6 +33,8 @@
 ||analytics.ff.avast.sec.miui.com^
 ||alexa.mi.com^
 ||alexa.*.mi.com^ # yes, that's right, you even get American spyware now too!
+||api.io.mi.com^
+||aurogon.intl.miui.com^
 ||browserapi.micloud.xiaomi.net^
 ||bugreport.xiaomi.net^
 ||event.mi.com^
@@ -41,6 +43,8 @@
 ||feed.browser.miui.com^
 ||feedback.miui.com^
 ||feedback.*.miui.com^
+||jupiter.sys.miui.com^
+||jupiter.*.sys.miui.com^
 ||log.youpin.mi.com^
 ||mistat.xiaomi.com^
 ||mistat.*.xiaomi.com^
@@ -50,6 +54,7 @@
 ||proxy.mi.com^
 ||proxy.*.mi.com^
 ||proxy.*.*.mi.com^
+||register.xmpush.global.xiaomi.com^
 ||sentry.sec.miui.com^
 ||smartcamera.api.io.mi.com^
 ||stat.xiaomi.com^
