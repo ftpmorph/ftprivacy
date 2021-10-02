@@ -26,11 +26,13 @@ api.ad.xiaomi.com
 api.admob.xiaomi.com
 api.activity.browser.miui.com
 api.activity.browser.intl.miui.com
+api.aurogon.intl.miui.com
 api.brs.intl.miui.com
 api.collect.data.intl.miui.com
 api.device.xiaomi.net
 api.hybrid.xiaomi.com
 api.hybrid.intl.xiaomi.com
+api.newsfeed.intl.miui.com
 api.sec.miui.com
 api.setting.intl.miui.com
 api.vip.miui.com
@@ -69,9 +71,13 @@ global.xiaomi.net
 globalapi.ad.xiaomi.com
 game.xiaomi.com
 geofence.sys.miui.com
+huangye.miui.com
+i2.api.io.mi.com
+idmb.register.xmpush.global.xiaomi.com
 imgg.traffic-media.co
 imgg.traffic-media.co.uk
 info.analysis.kp.sec.miui.com
+jupiter.intl.sys.miui.com
 log.avlyun.sec.miui.com
 log.avlyun.sec.intl.miui.com
 logupdate.avlyun.sec.miui.com
@@ -104,6 +110,7 @@ sdkconfig.ad.intl.xiaomi.com
 thm.market.xiaomi.com
 track.ad.xiaomi.com
 tracking.rus.miui.com
+tracking.india.miui.com
 tracking.intl.miui.com
 tracking.miui.com
 us.find.api.micloud.xiaomi.net
