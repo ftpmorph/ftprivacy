@@ -62,6 +62,8 @@
 @@||bigota.d.miui.com^$important
 @@||enbigota.d.miui.com^$important
 @@||hugeota.d.miui.com^$important
+@@||update.miui.com^$important
+@@||update.intl.miui.com^$important
 
 # Allowing OTAs on Oppo, OnePlus, Realme, Vivo and other shitty Chinaphones
 
