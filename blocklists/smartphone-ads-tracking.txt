@@ -42,7 +42,7 @@ huawei.facebook.com
 iphone.facebook.com
 iphone.fb.me
 lithium.facebook.com
-lm.facebook.com
+#lm.facebook.com # reportedly blocks links on posts from working on mobile app: https://github.com/ftpmorph/ftprivacy/issues/10
 l.facebook.com
 logger.instagram.com
 mqtt-mini.facebook.com
