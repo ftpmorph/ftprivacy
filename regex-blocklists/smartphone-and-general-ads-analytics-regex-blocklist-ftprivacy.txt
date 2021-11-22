@@ -97,6 +97,7 @@
 ||pagead-googlehosted.l.google.com^
 ||semanticlocation-pa.googleapis.com^
 ||stats.blogger.com^
+||supl.google.com^
 ||userlocation.googleapis.com^
 ||video-stats.l.google.com^
 ||www-googletagmanager.l.google.com^
@@ -167,6 +168,7 @@
 ||data.microsoft.com.akadns.net^
 ||diagnostics.support.microsoft.com^
 ||feedback.windows.com^
+||flex.msn.com^
 ||fp.msedge.net^
 ||fp-vp.azureedge.net^
 ||g.live.com^
@@ -1460,6 +1462,7 @@ $removeparam=gclid|yclid|fbclid
 ||eoapxl.com^
 ||eqads.com^
 ||ero-advertising.com^
+||events.gfe.nvidia.com^
 ||eviltracker.net^
 ||eyeblaster.com^
 ||eyereturn.com^
@@ -1539,6 +1542,7 @@ $removeparam=gclid|yclid|fbclid
 ||getclicky.com^
 ||getcontent.net^
 ||getfree-vpn.com^
+||getmdl.io^
 ||gleam.io^
 ||gleamjs.io^
 ||gma.alicdn.com^
@@ -1886,6 +1890,7 @@ $removeparam=gclid|yclid|fbclid
 ||peakgames.net^
 ||permutive.app^
 ||permutive.com^
+||perimetrix.net^
 ||petametrics.com^
 ||phar.gu-web.net^
 ||placed.com^
@@ -1929,6 +1934,7 @@ $removeparam=gclid|yclid|fbclid
 ||responsys.net^
 ||returnpath.net^
 ||revenuecat.com^
+||riskified.com^
 ||rlcdn.com^
 ||rm-secure-fee.com^ # phishing
 ||rm-trackinginfo.com^ # phishing
@@ -1969,6 +1975,7 @@ $removeparam=gclid|yclid|fbclid
 ||sentry.audent.io^
 ||sentry.cointelegraph.com^
 ||servedby.o2.co.uk^
+||settings.services.mozilla.com^
 ||scarabresearch.com^
 ||scorecardresearch.com^
 ||scroll.com^
@@ -2060,6 +2067,8 @@ $removeparam=gclid|yclid|fbclid
 ||stats.independent.co.uk^
 ||stats.independent.ie^
 ||stats.jpush.cn^
+||stat.kbs.co.kr^
+||stats.lineageos.org^
 ||stats.paypal.com^
 ||stats.protonmail.ch^
 ||stats.protonmail.com^
@@ -2099,6 +2108,7 @@ $removeparam=gclid|yclid|fbclid
 ||telemetry.docusign.net^
 ||telemetry.dropbox.com^
 ||telemetry.*.dropbox.com^
+||telemetry.gfe.nvidia.com^
 ||telemetry.layer.com^
 ||telemetry.mozilla.org^
 ||tgadv.it^
