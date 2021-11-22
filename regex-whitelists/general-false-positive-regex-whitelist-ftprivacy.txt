@@ -26,6 +26,10 @@
 
 @@||msecnd.net^$important
 
+# Makes sure VS Code lets you install extensions
+
+@@||vsassets.io^$important
+
 # Netflix
 
 # AdGuard Home sometimes blocks these mistakenly because they share an IP with the Netflix telemetry domains
