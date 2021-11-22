@@ -217,6 +217,7 @@
 ||wpc.gammacdn.net^
 ||wpc.v0cdn.net^
 @@||vsassets.io^| # VS Code fix
+@@||azureedge.net^| # fixes innocent sites hosted on Azure CDN
 ||wustat.windows.com^
 
 # In its default config, Windows sends out a lot of "wpad.blahblahblah" requests.
