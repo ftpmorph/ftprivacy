@@ -30,6 +30,10 @@
 
 @@||vsassets.io^$important
 
+# Fixes incorrect blocking of innocent sites hosted on Azure CDN
+
+@@||azureedge.net^$important
+
 # Netflix
 
 # AdGuard Home sometimes blocks these mistakenly because they share an IP with the Netflix telemetry domains
