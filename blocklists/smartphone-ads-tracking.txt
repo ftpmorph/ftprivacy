@@ -375,7 +375,7 @@ stats.blogger.com
 stats.g.doubleclick.net
 static.doubleclick.net
 static.googleadsserving.cn
-supl.google.com # Google A-GPS server, whitelist if you want Google location services
+supl.google.com # Google location, when you allow any app location access, Google accesses it too
 tracking.admobsphere.com
 tic.googlesyndication.com
 tpc.googlesyndication.com
@@ -2629,6 +2629,7 @@ core.insightexpressai.com
 coremetrics.carrier.com
 counter.kingsoft.com
 c.deployads.com
+c.riskified.com
 cdn.3lift.com
 cdn.adacado.com
 cdn.adbro.me
@@ -2687,7 +2688,9 @@ click.stats-locations.com
 cloudmobi.net
 cloudapi.imrworldwide.com
 cloudfront.qualtrics.com
+cloudflareinsights.com
 co1.qualtrics.com
+code.getmdl.io
 config.ad-brix.com
 config.emb-api.com
 config.flurry.com
@@ -2836,6 +2839,7 @@ events.appsflyer.com
 events.browsiprod.com
 events.mobile.optimizely.com
 events.cid.samba.tv
+events.gfe.nvidia.com
 events.split.io
 eventtracking.omarsys.com
 farfetch.onelink.me
@@ -2859,6 +2863,7 @@ fusetracking.com
 gameanalytics.com
 gammaplatform.com
 gatr.hit.gemius.pl
+getmdl.io
 gleam.io
 gleamjs.io
 goatse.bz
@@ -3269,6 +3274,8 @@ parsely.com
 pavv.co.kr
 pdn.applovin.com
 performance-analytics.rubiconproject.com
+perimetrix.net
+px-conf.perimetrix.net
 permutive.app
 permutive.com
 peakgames.helpshift.com
@@ -3357,6 +3364,7 @@ report.adview.pl
 reporting.qualtrics.com
 reportingapi.qualtrics.com
 reporting.api.kochava.com
+riskified.com
 rollout.ada.support
 rotator.beginads.com
 rotation.linuxnewmedia.de
@@ -3479,6 +3487,7 @@ stat4.github.com
 stats.independent.co.uk
 stats.independent.ie
 stat.kbs.co.kr
+stats.lineageos.org
 stats.wordpress.com
 stats.wp.com
 stats.nevercodealone.de
@@ -3571,6 +3580,7 @@ static2.chartbeat.com
 static.cleverpush.com
 static.clevertap.com
 static.clickyab.com
+static.cloudflareinsights.com
 static.criteo.com
 static.criteo.net
 static.eu.criteo.net
@@ -3628,6 +3638,7 @@ telemetry.dropbox.com
 telemetry.v.dropbox.com
 telemetry.sdk.inmobi.com
 telemetry.mozilla.org
+telemetry.gfe.nvidia.com
 terraclicks.com
 tax-refund-hmrc.com # HMRC phishing scam
 tags.bluekai.com
