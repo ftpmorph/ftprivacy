@@ -26,13 +26,13 @@
 
 @@||msecnd.net^$important
 
+# Another fix for incorrect blocking of innocent sites hosted on Azure CDN
+
+@@||azureedge.net^$important
+
 # Makes sure VS Code lets you install extensions
 
 @@||vsassets.io^$important
-
-# Fixes incorrect blocking of innocent sites hosted on Azure CDN
-
-@@||azureedge.net^$important
 
 # Netflix
 
@@ -94,6 +94,10 @@
 
 @@||api-glb-euw*b.smoot.apple.com^$important
 @@||cdn*.smoot.apple.com^$important
+
+# Makes sure Apple Music works
+
+@@||is*-ssl.mzstatic.com^$important
 
 # Required for Apple software updates (iOS and macOS)
 
