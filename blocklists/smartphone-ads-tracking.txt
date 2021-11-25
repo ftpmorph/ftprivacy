@@ -3206,6 +3206,7 @@ mixpanel.com
 moatads.com
 moatpixel.com
 mobile.launchdarkly.com
+mobiletelemetry.ebay.com
 monitor.kochava.com
 mon.sgsnssdk.com
 newrelic.com
