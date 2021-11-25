@@ -1832,6 +1832,7 @@ $removeparam=gclid|yclid|fbclid
 ||monitoringservice.co^
 ||monotel.xyz^
 ||mopub.com^
+||mobiletelemetry.ebay.com^
 ||movad.net^
 ||mpstat.us^
 ||msmetrics.ws.sonos.com^
