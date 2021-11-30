@@ -67,7 +67,9 @@
 ||admobsphere.com^
 ||adsense.google.com^
 ||adservice.google.*^
+||ad.youtube.com^
 ||ads.youtube.com^
+||analytic-google.com^
 ||analytics.google.com^
 ||clientmetrics-pa.googleapis.com^
 ||crashlytics.com^
@@ -97,6 +99,7 @@
 ||pagead-googlehosted.l.google.com^
 ||semanticlocation-pa.googleapis.com^
 ||stats.blogger.com^
+||stats.g.doubleclick.net^
 ||supl.google.com^
 ||userlocation.googleapis.com^
 ||video-stats.l.google.com^
@@ -788,6 +791,7 @@ $removeparam=gclid|yclid|fbclid
 ||activity.api.bbc.co.uk^
 ||activity.api.bbc.com^
 ||acuityplatform.com^
+||acquisition-tracker.wix.com^
 ||adaaware.com^
 ||adadvisor.net^
 ||adalliance.io^
@@ -1942,6 +1946,7 @@ $removeparam=gclid|yclid|fbclid
 ||rm-uk-parcel*.com^ # phishing
 ||royal-maildelivery.com^ # phishing
 ||rtclx.com^
+||rtd.tubemogul.com^
 ||rtk.io^
 ||ru4.com^
 ||rubiconproject.com^
@@ -1965,6 +1970,7 @@ $removeparam=gclid|yclid|fbclid
 ||samsungadhub.com^
 ||samsungadhub.net^
 ||sanalytics.disneyplus.com^
+||secure-ds.serving-sys.com^
 ||secure-mobile-connect.com^ # phishing
 ||securedvisit.com^
 ||segment.com^
