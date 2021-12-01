@@ -176,6 +176,7 @@
 ||fp-vp.azureedge.net^
 ||g.live.com^
 ||g.msn.com^
+||global.vortex.data.trafficmanager.net^
 ||graph.microsoft.com^
 ||graph.windows.net^
 ||h*.live.com^
@@ -1079,6 +1080,7 @@ $removeparam=gclid|yclid|fbclid
 ||aliyuncs.com^
 ||alphonso.tv^
 ||alpinehandlingsystems.com^
+||analytics-collector-*.us-east-1.elb.amazonaws.com^
 ||analytics-data.io^
 ||analytics-sm.com^
 ||analytics.247sports.com^
@@ -1282,6 +1284,7 @@ $removeparam=gclid|yclid|fbclid
 ||cashnow.ee^
 ||castoola.com^
 ||castoola.tv^
+||collector.githubapp.com^
 ||ccidnet.com^
 ||cdn1.pro^
 ||cdn4ads.com^
@@ -1635,6 +1638,7 @@ $removeparam=gclid|yclid|fbclid
 ||imicampaign.io^
 ||impact-ad.jp^
 ||impression.link^
+||improving.duckduckgo.com^
 ||imrworldwide.com^
 ||ioam.de^
 ||ip2ulocation.com^
@@ -1870,6 +1874,7 @@ $removeparam=gclid|yclid|fbclid
 ||npttech.com^
 ||nr-data.net^
 ||opentracker.net^
+||opengraph.githubassets.com^
 ||optimizely.com^
 ||oneaudience.com^
 ||onefeed.co.uk^
@@ -1899,6 +1904,7 @@ $removeparam=gclid|yclid|fbclid
 ||perimetrix.net^
 ||petametrics.com^
 ||phar.gu-web.net^
+||phicdn.net^
 ||placed.com^
 ||pingdom.net^
 ||pingstart.com^
