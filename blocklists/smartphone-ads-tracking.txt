@@ -443,6 +443,7 @@ browser.pipe.aria.microsoft.com
 browser.events.data.microsoft.com
 collection.location.live.net
 events.data.microsoft.com
+global.vortex.data.trafficmanager.net
 h-microsoft.online-metrix.net
 inference.location.live.net
 live.rads.msn.com
@@ -2292,6 +2293,7 @@ alivecor.app.link
 alivecor-alternate.app.link
 ana.biddingx.com
 ana.masky.biddingx.com
+analytics-collector-28944298.us-east-1.elb.amazonaws.com
 analytics.163.com
 analytics.ad.daum.net
 analytics.archive.org
@@ -2622,6 +2624,7 @@ collector.bughd.com
 collector.capturly.com
 collector.doordash.com
 collector.effectivemeasure.net
+collector.githubapp.com
 comscoreresearch.com
 concert.io
 connect.urbanairship.com
@@ -2722,6 +2725,7 @@ creative.demandbase.com
 criteo.com
 criteo.net
 crittercism.com
+cs9.wac.phicdn.net
 cszz.ru
 contextweb.com
 config.inmobi.com
@@ -3001,6 +3005,7 @@ imprchmp.taboola.com
 imprnjmp.taboola.com 
 imprsgmp.taboola.com
 impression.link
+improving.duckduckgo.com
 imrworldwide.com
 imp.gammaplatform.com
 imp.control.kochava.com
@@ -3261,6 +3266,7 @@ onthe.io
 otify.bugsnag.com
 optimizely.com
 optimized-by.rubiconproject.com
+opengraph.githubassets.com
 opx-winners-ap-northeast-1-rtb.adroll.com
 opx-winners-eu-west-1-rtb.adroll.com
 opx-winners-us-east-1-rtb.adroll.com
