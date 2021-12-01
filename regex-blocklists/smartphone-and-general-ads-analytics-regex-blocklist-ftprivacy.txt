@@ -313,6 +313,7 @@
 
 ||asideas.de^
 ||atlas.samsung.com^
+||capi.samsungcloud.com^
 ||diagmon-*.samsungdm.com^
 ||dqa.samsung.com^
 ||gos-gsp.io^
@@ -2132,6 +2133,7 @@ $removeparam=gclid|yclid|fbclid
 ||tom.itv.com^
 ||topblockchainsolutions.nl^
 ||track-js.link^
+||trackjs.com^
 ||trackad*.com^
 ||trackedweb.net^
 ||tracking202.com^
