@@ -2105,6 +2105,7 @@ ads234.com
 ads345.com
 adbox.lt
 adclick.lt
+adingo.jp
 adlightning.com
 adobe.co1.qualtrics.com
 ad-sys.com
@@ -2597,6 +2598,7 @@ campaigns.bugsnag.com
 campaign.luminati.io
 canterbury.qualtrics.com
 cardiff.qualtrics.com
+capi.samsungcloud.com
 capturly.com
 cas.criteo.com
 cas.as.criteo.com
@@ -2630,6 +2632,7 @@ coremetrics.carrier.com
 counter.kingsoft.com
 c.deployads.com
 c.riskified.com
+cc.adingo.jp
 cdn.3lift.com
 cdn.adacado.com
 cdn.adbro.me
@@ -2647,6 +2650,7 @@ cdn.concert.io
 cdn.flurry.com
 cdn.getblueshift.com
 cdn.gumgum.com
+cdn.heapanalytics.com
 cdn1.hola.org
 cdn2.hola.org
 cdn3.hola.org
