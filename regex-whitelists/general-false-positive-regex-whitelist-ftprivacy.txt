@@ -41,6 +41,14 @@
 @@||appboot.netflix.com^$important
 @@||api-global.netflix.com^$important
 
+# Reddit
+
+# For some reason some lists just blanket block all Reddit domains, so let's fix that...
+
+@@||www.reddit.com^$important
+@@||old.reddit.com^$important
+@@||static.reddit.com^$important
+
 # Amazon
 
 # Required for firmware updates
