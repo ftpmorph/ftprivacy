@@ -1904,7 +1904,7 @@ $removeparam=gclid|yclid|fbclid
 ||perimetrix.net^
 ||petametrics.com^
 ||phar.gu-web.net^
-||phicdn.net^
+# ||phicdn.net^ disabled: https://github.com/ftpmorph/ftprivacy/issues/12
 ||placed.com^
 ||pingdom.net^
 ||pingstart.com^
