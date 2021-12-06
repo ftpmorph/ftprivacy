@@ -2725,7 +2725,7 @@ creative.demandbase.com
 criteo.com
 criteo.net
 crittercism.com
-cs9.wac.phicdn.net
+# cs9.wac.phicdn.net disabled: https://github.com/ftpmorph/ftprivacy/issues/12
 cszz.ru
 contextweb.com
 config.inmobi.com
