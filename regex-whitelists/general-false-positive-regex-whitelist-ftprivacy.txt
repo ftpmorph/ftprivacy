@@ -107,6 +107,18 @@
 
 @@||is*-ssl.mzstatic.com^$important
 
+# Apple iCloud Private Relay
+# Good to keep this on as it's a privacy feature
+# If you don't trust routing your traffic through Apple servers,
+# go into iCloud settings and disable Private Relay on all Macs and iOS devices
+
+@@||mask.apple-dns.net^$important
+@@||mask-api.fe.apple-dns.net^$important
+@@||mask-t.apple-dns.net^$important
+@@||mask-api.icloud.com^$important
+@@||mask.icloud.com^$important
+@@||mask-h2.icloud.com^$important
+
 # Required for Apple software updates (iOS and macOS)
 
 @@||appldnld.apple.com^$important
