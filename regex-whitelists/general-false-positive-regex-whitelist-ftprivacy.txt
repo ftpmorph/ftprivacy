@@ -51,6 +51,12 @@
 
 # Amazon
 
+# Amazon Prime Video CDN domains
+# Required for streaming
+
+@@||aiv-cdn.net^$important
+@@||aiv-delivery.net^$important
+
 # Required for firmware updates
 
 @@||softwareupdates.amazon.com^$important
