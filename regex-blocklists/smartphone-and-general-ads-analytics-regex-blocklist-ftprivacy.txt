@@ -1072,8 +1072,8 @@ $removeparam=gclid|yclid|fbclid
 ||aimatch.com^
 ||aimatch.net^
 ||aistat.net^
-||aiv-cdn.net^
-||aiv-delivery.net^
+# aiv-cdn.net^ # not malicious, domain required for Amazon Prime Video streaming
+# aiv-delivery.net^ # as above 
 ||akstat.io^
 ||alcmpn.com^
 ||alephd.com^
