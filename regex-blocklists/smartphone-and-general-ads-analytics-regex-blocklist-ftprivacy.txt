@@ -96,6 +96,7 @@
 ||mail-ads.google.com^
 ||metric.gstatic.com^
 ||mobile-displayads.l.doubleclick.net^
+||logsink.devices.nest.com^
 ||pagead-googlehosted.l.google.com^
 ||semanticlocation-pa.googleapis.com^
 ||stats.blogger.com^
