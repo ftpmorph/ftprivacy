@@ -323,6 +323,7 @@ k.admob.com
 kits.crashlytics.com
 l.admob.com
 l.doubleclick.net
+logsink.devices.nest.com
 m.doubleclick.net
 m.admob.com
 mm.admob.com
