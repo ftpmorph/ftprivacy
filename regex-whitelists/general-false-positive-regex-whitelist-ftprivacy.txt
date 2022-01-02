@@ -203,6 +203,7 @@
 @@||ports.ubuntu.com^$important
 @@||ppa.launchpad.net^$important
 @@||release.debian.org^$important
+@@||repo.ivpn.net^$important
 @@||repo.nxos.org^$important
 @@||repository.spotify.com^$important
 @@||repo.vivaldi.com^$important
