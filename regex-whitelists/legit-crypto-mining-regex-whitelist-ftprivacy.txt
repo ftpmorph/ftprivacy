@@ -65,6 +65,8 @@
 @@||acidpools.com^
 @@||adacoin.hu^
 @@||adahq.com^
+@@||adapulse.io^
+@@||adaspace.xyz^
 @@||adastack.net^
 @@||cardano24.net^
 @@||cardano.amsterdam^
@@ -73,6 +75,7 @@
 @@||edgepools.org^
 @@||fairpool.eu^
 @@||lambdastake.com^
+@@||luminapool.io^
 @@||main-hamburger-pool.chickenkiller.com^$important
 @@||outerspace.money^
 @@||paris-pool-uranus.ddns.net^$important
@@ -85,6 +88,7 @@
 @@||terostakepool.com^
 @@||veganpool.org^
 @@||wavespool.io^
+@@||zodpool.com^
 
 # Some blocklists even go as far as to block legit crypto exchanges, wallets, blockchain explorers, etc
 # For obvious reasons it's impossible for me to whitelist every single one so feel free to add a PR
