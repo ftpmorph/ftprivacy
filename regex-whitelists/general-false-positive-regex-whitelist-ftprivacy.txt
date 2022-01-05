@@ -187,30 +187,51 @@
 @@||extras.ubuntu.com^$important
 @@||fedoraproject.org^$important
 @@||flathub.org^$important
+@@||flatpak.elementary.io^$important
 @@||getfedora.org^$important
 @@||nmcheck.gnome.org^$important
 @@||mirrorlist.centos.org^$important
+@@||mirrorservice.org^$important
+@@||mirror.bytemark.co.uk^$important
+@@||mirrors.clouvider.net^$important
+@@||mirrors.coreix.net^$important
 @@||mirror.cyberhost.uk^$important
 @@||mirrors.evowise.com^$important # Arch worldwide mirror
+@@||mirror.freethought-internet.co.uk^$important
+@@||mirrors.gethosted.online^$important
+@@||mirror.*.kamatera.com^$important
+@@||mirror.mythic-beasts.com^$important
+@@||mirror.nsec.pt^$important
+@@||mirror.ox.ac.uk^$important
+@@||mirror.pulsant.com^$important
 @@||mirror.rackspace.com^$important # Arch worldwide mirror
+@@||mirror.*.*.goscomb.net^$important
+@@||mirrors.ubuntu.com^$important
+@@||mirror.vorboss.net^$important
+@@||mkvtoolnix.download^$important
 @@||packages.debian.org^$important
 @@||packages.elementary.io^$important
 @@||packages.linuxmint.com^$important
+@@||packages.microsoft.com^$important
 @@||packages.riot.im^$important
 @@||packages.zorinos.com^$important
 @@||ping.manjaro.org^$important
 @@||ports.debian.org^$important
 @@||ports.ubuntu.com^$important
 @@||ppa.launchpad.net^$important
+@@||prerelease.keybase.io^$important
 @@||release.debian.org^$important
 @@||repo.ivpn.net^$important
 @@||repo.nxos.org^$important
+@@||repo.vivaldi.netdna-cdn.com^$important
 @@||repository.spotify.com^$important
 @@||repo.vivaldi.com^$important
 @@||security.debian.org^$important
 @@||security-master.debian.org^$important
 @@||security.ubuntu.com^$important
 @@||sources.debian.net^$important
+@@||ubuntu.mirrors.uk2.net^$important
+@@||ubuntu.positive-internet.com^$important
 @@||updates.signal.org^$important
 @@||www.virtualbox.org^$important
 
@@ -240,3 +261,14 @@
 
 @@||msftncsi.com^$important
 @@||msftconnecttest.com^$important
+
+# Encrypted DNS domains
+
+@@||dns.aa.net.uk^$important # DoH + DoT
+@@||dns.adguard.com^$important # DoH + DoT + DoQ
+@@||dns.cloudflare-dns.com^$important # DoH 
+@@||dns.quad9.net^$important # DoT
+@@||dns9.quad9.net^$important # DoH
+@@||odns.cloudflare-dns.com^$important # DoH
+@@||one.one.one.one^$important # DoT
+@@||security.cloudflare-dns.com^$important # DoH + DoT
