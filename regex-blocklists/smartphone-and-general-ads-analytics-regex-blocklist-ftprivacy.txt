@@ -54,6 +54,7 @@
 ||ads-bidder-api.twitter.com^
 ||ads-twitter.com^
 ||crashlytics.twimg.com^
+||probe.twitter.com^
 ||twitter.com^$third-party,cookie
 ||twitter.com^$third-party,script
 ||twimg.com^$third-party,cookie
@@ -411,6 +412,14 @@
 ||sc-analytics.appspot.com^
 ||tr.snapchat.com^
 ||snapads.com^
+
+# Kik
+
+||agora.io^
+||clientmetrics-*.kik.com^
+||clientmetrics.kik.com^
+||kik-live.com^
+||talent.meetme.com^
 
 # TikTok
 
@@ -1344,8 +1353,6 @@ $removeparam=gclid|yclid|fbclid
 ||clkrev.com^
 ||clksecure.com^
 ||clksite.com^
-||clientmetrics-*.kik.com^
-||clientmetrics.kik.com^
 ||clmbtech.com^
 ||cloudflareinsights.com^
 ||cloudmobi.net^
