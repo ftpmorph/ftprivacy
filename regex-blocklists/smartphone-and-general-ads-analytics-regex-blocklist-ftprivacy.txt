@@ -417,7 +417,6 @@
 # Mostly to block the stupid list of distracting video feeds at the top
 # Tested as of Jan 2022 and messaging via Kik still works 100% with these blocked
 
-||agora.io^
 ||clientmetrics-*.kik.com^
 ||clientmetrics.kik.com^
 ||kik-live.com^
