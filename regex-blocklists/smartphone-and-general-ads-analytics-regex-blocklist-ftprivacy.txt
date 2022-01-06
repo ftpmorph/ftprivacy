@@ -331,6 +331,7 @@
 ||pushmessage.samsung.com^
 ||samsunggeopush.com^
 ||sbixby.com^
+||shealth-analytics-api.samsunghealth.com^
 ||ssp.samsung.com^
 ||sspapi-prd.samsungrs.com^
 ||syncplusconfig.s3.amazonaws.com^
