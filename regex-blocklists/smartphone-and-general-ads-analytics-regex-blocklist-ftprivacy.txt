@@ -298,11 +298,16 @@
 ||stocks-analytics-events.apple.com^
 ||supportmetrics.apple.com^
 ||supportmetrics-uat.apple.com^
-||openthread.thread.home.arpa^ # this should stay within LAN but is being leaked to WAN: https://old.reddit.com/r/HomePod/comments/rrepay/homepods_calling_out_to_openthreadthreadhomearpa/
 ||trace.apple.com^
 ||tracker.apple.com^
 ||qwapi.apple.com^
 ||weather-analytics-events.apple.com^
+
+# Apple Thread DNS requests leaking from LAN
+# https://old.reddit.com/r/HomePod/comments/rrepay/homepods_calling_out_to_openthreadthreadhomearpa/
+
+||openthread.thread.home.arpa^
+||*.openthread.thread.home.arpa^
 
 # Ubuntu
 
