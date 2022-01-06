@@ -3472,6 +3472,7 @@ sdk.stats-locations.com
 sdks.stats-locations.com
 sdk.vl1.mobi
 sdkm.w.inmobi.com
+shealth-analytics-api.samsunghealth.com
 sparkle.locationlabs.com
 spixel.adsafeprotected.com
 star.originus.qualtrics.com
