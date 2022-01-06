@@ -414,12 +414,18 @@
 ||snapads.com^
 
 # Kik
+# Mostly to block the stupid list of distracting video feeds at the top
+# Tested as of Jan 2022 and messaging via Kik still works 100% with these blocked
 
 ||agora.io^
 ||clientmetrics-*.kik.com^
 ||clientmetrics.kik.com^
 ||kik-live.com^
 ||talent.meetme.com^
+
+# Wickr
+
+||countly.wickr.com^
 
 # TikTok
 
@@ -1392,7 +1398,6 @@ $removeparam=gclid|yclid|fbclid
 ||coremetrics.com^
 ||counter.dreamhost.com^
 ||counter.yadro.ru^
-||countly.wickr.com^
 ||cpx.to^
 ||crazyegg.com^
 ||crazypopups.com^
@@ -1686,6 +1691,7 @@ $removeparam=gclid|yclid|fbclid
 ||kissmetricshq.com^
 ||kissmetrics.com^
 ||kismetrics.io^
+||klaviyo.com^
 ||klclick.com^
 ||kochava.com^
 ||komoona.com^
@@ -1941,6 +1947,7 @@ $removeparam=gclid|yclid|fbclid
 ||pure360.com^
 ||purpleads.io^
 ||putrr*.com^
+||radar.cedexis.com^
 ||ravenjs.com^
 ||r-ad.ne.jp^
 ||rapleaf.com^
