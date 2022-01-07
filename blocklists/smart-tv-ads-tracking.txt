@@ -160,7 +160,7 @@ targeted-config-test.samsungacr.com
 upu.samsungelectronics.com
 us-api.samsungyosemite.com
 uk-api.samsungyosemite.com
-vas.samsungapps.com
+#vas.samsungapps.com - breaks Good Lock on Samsung smartphones in Android 12+
 vd.contents.prod.eu.s3.amazonaws.com
 vd.emp.prd.s3.amazonaws.com
 vdterms.samsungcloudsolution.com
