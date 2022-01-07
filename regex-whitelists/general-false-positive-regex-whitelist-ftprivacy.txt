@@ -73,6 +73,12 @@
 @@||poll.samsung-omc.com^$important
 @@||secak-fota-dn.samsungdm.com^$important
 
+# Samsung domain blocked by many Smart TV lists but required for Samsung apps to work
+# on their smartphones (specifically I noticed GoodLock stopped working with these blocked)
+
+@@||img.samsungapps.com^$important
+@@||vas.samsungapps.com^$important
+
 # Required to allow OTAs on Huawei Android smartphones
 
 @@||query.hicloud.com^$important
@@ -272,3 +278,12 @@
 @@||odns.cloudflare-dns.com^$important # DoH
 @@||one.one.one.one^$important # DoT
 @@||security.cloudflare-dns.com^$important # DoH + DoT
+
+# Signal
+
+@@||chat.signal.org^$important
+@@||textsecure-service.whispersystems.org^$important
+
+# Keybase
+
+@@||keybaseapi.com^$important
