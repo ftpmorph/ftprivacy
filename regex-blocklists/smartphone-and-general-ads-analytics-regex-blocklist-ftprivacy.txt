@@ -2297,6 +2297,7 @@ $removeparam=gclid|yclid|fbclid
 ||your0rder.com^
 ||youradexchange.com^
 ||yourcommonfeed.com^
+||your-digital-pass.com^ # phishing
 ||yourquickads.com^
 ||youvisit.com^
 ||yuhuads.com^
