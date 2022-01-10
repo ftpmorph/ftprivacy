@@ -3251,6 +3251,7 @@ news_uk.amp.permutive.com
 nextdoor.app.link
 nextdoor-alternate.app.link
 nexus.ensighten.com
+nhs.your-digital-pass.com # phishing
 nimp.org
 notify.bugsnag.com
 notify.adleadevent.com
@@ -3866,6 +3867,7 @@ yield-manager.browsiprod.com
 yieldmo.com
 yieldoptimizer.com
 yieldtraffic.com
+your-digital-pass.com # phishing
 youvisit.com
 yuhuads.com
 yuppyads.com
