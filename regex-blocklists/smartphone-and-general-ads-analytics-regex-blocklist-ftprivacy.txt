@@ -1904,6 +1904,7 @@ $removeparam=gclid|yclid|fbclid
 ||onetag.com^
 ||online-metrix.net^
 ||onthe.io^
+||ometria.email^
 ||omnitagjs.com^
 ||oms.fido.ca^
 ||omtrdc.net^
@@ -1940,6 +1941,7 @@ $removeparam=gclid|yclid|fbclid
 ||popunder.ru^
 ||popunders.bid^
 ||postrelease.com^
+||posttagmapapi.com^
 ||powerad.ai^
 ||powerinboxedge.com^
 ||prfct.co^
@@ -2200,6 +2202,7 @@ $removeparam=gclid|yclid|fbclid
 ||undertone.com^
 ||unityads.unity3d.com^
 ||unityads.unitychina.cn^
+||uniqodo.com^
 ||unknownads.com^
 ||urbanairship.com^
 ||usabilla.com^
