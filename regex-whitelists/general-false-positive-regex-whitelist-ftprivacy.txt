@@ -73,10 +73,12 @@
 @@||poll.samsung-omc.com^$important
 @@||secak-fota-dn.samsungdm.com^$important
 
-# Samsung domain blocked by many Smart TV lists but required for Samsung apps to work
-# on their smartphones (specifically I noticed GoodLock stopped working with these blocked)
+# Samsung domains blocked by many Smart TV lists but required for their smartphone apps to work
 
+@@||api.weather.com^$important
 @@||img.samsungapps.com^$important
+@@||rc.samsungweather.com^$important
+@@||samsungnewsapi.picks.my^$important
 @@||vas.samsungapps.com^$important
 
 # Required to allow OTAs on Huawei Android smartphones
@@ -117,7 +119,12 @@
 
 # Makes sure Apple Music works
 
+@@||init.itunes.apple.com^$important
 @@||is*-ssl.mzstatic.com^$important
+@@||music.apple.com^$important
+@@||musicstatus.itunes.apple.com^$important
+@@||play.itunes.apple.com^$important
+@@||radio.itunes.apple.com^$important
 
 # Apple iCloud Private Relay
 # Good to keep this on as it's a privacy feature
@@ -137,8 +144,10 @@
 @@||apps.mzstatic.com^$important
 @@||gdmf.apple.com^$important
 @@||gdmf.apple.com.akadns.net^$important
+@@||gdmf.v.aaplimg.com^$important
 @@||gg.apple.com^$important
 @@||gs.apple.com^$important
+@@||gs.apple.com.v.aaplimg.com^$important
 @@||mesu.apple.com^$important
 @@||mesu-cdn.origin-apple.com.akadns.net^$important
 @@||ns.itunes.apple.com^$important
@@ -176,11 +185,13 @@
 @@||brave-browser-*-beta.s3.brave.com^$important
 @@||brave-browser-*-release.s3.brave.com^$important
 @@||cdn.snapcraft.io^$important
+@@||cdn.snapcraftcontent.com^$important
 @@||centos.melbourneitmirror.net^$important
 @@||centos.mirror.colo-serv.net^$important
 @@||centos.mirror.garr.it^$important
 @@||centos.mirror.liquidtelecom.com^$important
 @@||changelogs.ubuntu.com^$important
+@@||connectivitycheck.grapheneos.network^$important
 @@||connectivity-check.ubuntu.com^$important
 @@||connectivity.zorin-os.com^$important
 @@||deb.devuan.org^$important
@@ -268,6 +279,19 @@
 @@||msftncsi.com^$important
 @@||msftconnecttest.com^$important
 
+# Time (NTP) domains for various OS's, apps, etc.
+
+@@||android.pool.ntp.org^$important
+@@||ntp-fireos.com^$important
+@@||pool.ntp.org^$important
+@@||time.*.apple.com^$important
+@@||time.apple.com^$important
+@@||time-osx.g.aaplimg.com^$important
+@@||time.google.com^$important
+@@||time*.google.com^$important
+@@||time.grapheneos.org^$important
+@@||time.nest.com^$important
+
 # Encrypted DNS domains
 
 @@||dns.aa.net.uk^$important # DoH + DoT
@@ -283,6 +307,10 @@
 
 @@||chat.signal.org^$important
 @@||textsecure-service.whispersystems.org^$important
+
+# Telegram
+
+@@||api.telegram.org^$important
 
 # Keybase
 
