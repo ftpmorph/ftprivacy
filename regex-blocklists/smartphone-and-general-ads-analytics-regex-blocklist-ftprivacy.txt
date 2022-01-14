@@ -1507,6 +1507,7 @@ $removeparam=gclid|yclid|fbclid
 ||fabric.io^
 ||factual.com^
 ||fastclick.net^
+||fathomdns.com^
 ||fattymadmanquestions.com^
 ||fc.yahoo.com^
 ||federatedmedia.net^
@@ -1825,6 +1826,7 @@ $removeparam=gclid|yclid|fbclid
 ||metrics.thedailybeast.com^
 ||metrics.uber.com^
 ||metrics.washingtonpost.com^
+||metrics*.wbx*.com^
 ||metrics.windowsitpro.com^
 ||metricfast.com^
 ||mfadsrvr.com^
