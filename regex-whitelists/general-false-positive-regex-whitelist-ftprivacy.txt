@@ -305,8 +305,10 @@
 
 # Signal
 
+@@||cdn*.signal.org^$important
 @@||chat.signal.org^$important
 @@||textsecure-service.whispersystems.org^$important
+@@||updates*.signal.org^$important
 
 # Telegram
 
