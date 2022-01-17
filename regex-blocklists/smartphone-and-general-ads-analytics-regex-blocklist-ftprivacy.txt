@@ -259,6 +259,7 @@
 ||cstat-*.apple.com^
 ||cstat.*.apple.com^
 ||devstats.apple.com^
+||dzc-metrics.mzstatic.com^
 ||edmarketing.apple.com^
 ||feedback.apple.com^
 ||feedback.push.apple.com^
@@ -1956,6 +1957,7 @@ $removeparam=gclid|yclid|fbclid
 ||pulseinsights.com^
 ||pure360.com^
 ||purpleads.io^
+||pushmaster-*.xyz^
 ||putrr*.com^
 ||radar.cedexis.com^
 ||ravenjs.com^
@@ -2212,6 +2214,7 @@ $removeparam=gclid|yclid|fbclid
 ||usergrid.com^
 ||userreport.com^
 ||w3counter.com^
+||vdo.ai^
 ||vendo.cointelegraph.com^
 ||ventanasyaluminios.com.mx^
 ||veoxa.com^
@@ -2246,6 +2249,7 @@ $removeparam=gclid|yclid|fbclid
 ||webtrendslive.com^
 ||webtrends.telegraph.co.uk^
 ||webvisor.com^
+||widget.sellwild.com^
 ||widget.weibo.com^
 ||wigetmedia.com^
 ||wikia-ads.wikia.com^
