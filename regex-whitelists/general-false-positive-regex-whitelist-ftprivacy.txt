@@ -36,10 +36,62 @@
 
 # Netflix
 
-# AdGuard Home sometimes blocks these mistakenly because they share an IP with the Netflix telemetry domains
+# Sometimes these are blocked mistakenly because they share an IP with telemetry domains
 
+@@||account.netflix.com^$important
+@@||android-appboot.netflix.com^$important
+@@||android.prod.cloud.netflix.com^$important
+@@||android.prod.ftl.netflix.com^$important
 @@||appboot.netflix.com^$important
 @@||api-global.netflix.com^$important
+@@||ios.prod.http1.netflix.com^$important
+@@||prod.http1.dradis.netflix.com^$important
+
+# Amazon Prime Video
+
+@@||aiv-cdn.net^$important
+@@||aiv-delivery.net^$important
+@@||api.amazonvideo.com^$important
+
+# Disney Plus
+
+@@||a1801.dscv.akamai.net^$important
+@@||appconfigs.disney-plus.net^$important
+@@||cdn.registerdisney.go.com^$important
+@@||d1exoz4a9gw1rj.cloudfront.net^$important
+@@||d1sk2r3ckl1nk.cloudfront.net^$important
+@@||d16tf39cmx7ftb.cloudfront.net^$important
+@@||d291fr3eiz7w0m.cloudfront.net^$important
+@@||d2v6pk9g6xon0p.cloudfront.net^$important
+@@||d36k2m5os1ufbx.cloudfront.net^$important
+@@||ddzjru7vzfsxo.cloudfront.net^$important
+@@||disney.api.edge.bamgrid.com^$important
+@@||disney.connections.edge.bamgrid.com^$important
+@@||disney.content.edge.bamgrid.com^$important
+@@||disney.playback.edge.bamgrid.com^$important
+@@||dualstack.dss-*.map.fastly.net^$important
+@@||e11276.dscg.akamaiedge.net^$important
+@@||global.edge.bamgrid.com^$important
+@@||media.dssott.com^$important
+@@||playback-certs.bamgrid.com^$important
+@@||prod-ripcut-delivery.disney-plus.net^$important
+
+# BBC iPlayer
+
+@@||a.files.bbci.co.uk^$important
+@@||bbcfmt.fcod.llnwd.net^$important
+@@||emp.bbci.co.uk^$important
+@@||ichef.bbci.co.uk^$important
+@@||iplayer.api.bbc.co.uk^$important
+@@||iplayertokfs.fplive.net^$important
+@@||open.live.bbc.co.uk^$important
+@@||pri.bbc.co.uk^$important
+@@||secure.iplayer.bbc.co.uk^$important
+@@||vod-*-uk-live.akamaized.net^$important
+@@||vod-*-uk.live.cf.md.bbci.co.uk^$important
+@@||vod-*-uk-live.edgesuite.net^$important
+@@||vs-*-push-uk-live.akamaized.net^$important
+@@||vs-*-uk-live.bbcfmt.vo.llnwd.net^$important
 
 # Reddit
 
@@ -123,8 +175,10 @@
 @@||is*-ssl.mzstatic.com^$important
 @@||music.apple.com^$important
 @@||musicstatus.itunes.apple.com^$important
+@@||musicstatus-*.itunes-apple.com.akadns.net^$important
 @@||play.itunes.apple.com^$important
 @@||radio.itunes.apple.com^$important
+@@||radio-services.itunes.apple.com^$important
 
 # Apple iCloud Private Relay
 # Good to keep this on as it's a privacy feature
@@ -249,6 +303,7 @@
 @@||sources.debian.net^$important
 @@||ubuntu.mirrors.uk2.net^$important
 @@||ubuntu.positive-internet.com^$important
+@@||unpkg.com^$important
 @@||updates.signal.org^$important
 @@||www.virtualbox.org^$important
 
