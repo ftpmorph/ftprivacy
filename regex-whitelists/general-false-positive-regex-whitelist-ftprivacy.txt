@@ -42,9 +42,11 @@
 @@||android-appboot.netflix.com^$important
 @@||android.prod.cloud.netflix.com^$important
 @@||android.prod.ftl.netflix.com^$important
+@@||appboot.*.origin.prodaa.netflix.com^$important
 @@||appboot.netflix.com^$important
 @@||api-global.netflix.com^$important
 @@||ios.prod.http1.netflix.com^$important
+@@||nflxso.net^$important
 @@||prod.http1.dradis.netflix.com^$important
 
 # Amazon Prime Video
@@ -347,6 +349,18 @@
 @@||time.grapheneos.org^$important
 @@||time.nest.com^$important
 
+# Captive portal domains
+
+@@||captive.apple.com^$important
+@@||captive-cidr.origin-apple.com.akadns.net^$important
+@@||captive.g.aaplimg.com^$important
+@@||connectivitycheck.android.com^$important
+@@||d2uzsrnmmf6tds.cloudfront.net^$important
+@@||detectportal.firefox.com^$important
+@@||fireoscaptiveportal.com^$important
+@@||firetvcaptiveportal.com^$important
+@@||spectrum.s3.amazonaws.com^$important
+
 # Encrypted DNS domains
 
 @@||dns.aa.net.uk^$important # DoH + DoT
@@ -354,6 +368,7 @@
 @@||dns.cloudflare-dns.com^$important # DoH 
 @@||dns.quad9.net^$important # DoT
 @@||dns9.quad9.net^$important # DoH
+@@||freedns.controld.com^$important # DoH + DoT
 @@||odns.cloudflare-dns.com^$important # DoH
 @@||one.one.one.one^$important # DoT
 @@||security.cloudflare-dns.com^$important # DoH + DoT
@@ -362,6 +377,7 @@
 
 @@||cdn*.signal.org^$important
 @@||chat.signal.org^$important
+@@||contentproxy.signal.org^$important
 @@||textsecure-service.whispersystems.org^$important
 @@||updates*.signal.org^$important
 
