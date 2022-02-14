@@ -1491,6 +1491,7 @@ $removeparam=gclid|yclid|fbclid
 ||eqads.com^
 ||ero-advertising.com^
 ||events.gfe.nvidia.com^
+||events.mapbox.com^
 ||eviltracker.net^
 ||eyeblaster.com^
 ||eyereturn.com^
@@ -2209,6 +2210,7 @@ $removeparam=gclid|yclid|fbclid
 ||uniqodo.com^
 ||unknownads.com^
 ||urbanairship.com^
+||urgent-test-kit.com^ # Covid phishing
 ||usabilla.com^
 ||usage.readdle.com^
 ||user-agent-tracker.herokuapp.com^
