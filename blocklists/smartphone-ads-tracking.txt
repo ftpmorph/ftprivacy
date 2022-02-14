@@ -3796,6 +3796,12 @@ up.pixel.ad
 upu.samsungelectronics.com
 update.3lift.com
 updates.bugsnag.com
+unityads.unity3d.com
+unityads.unitychina.cn
+uniqodo.com
+unknownads.com
+urbanairship.com
+urgent-test-kit.com # Covid phishing
 us-east-tlx.3lift.com
 us-west-tlx.3lift.com
 usanaly.accio.ai
