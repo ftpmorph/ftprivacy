@@ -59,6 +59,7 @@
 ||twitter.com^$third-party,script
 ||twimg.com^$third-party,cookie
 ||twimg.com^$third-party,script
+@@twimg.com/responsive-web/  # avoid breaking using twitter.com
 
 # Google
 
